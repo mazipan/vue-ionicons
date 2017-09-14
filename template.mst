@@ -1,8 +1,8 @@
 {{=<% %>=}}
 <template>
-  <div class="ion" id="<%name%>-icon" role="img" aria-labelledby="<%name%>-icon-title">
+  <div class="ion" name="<%name%>-icon" role="img" aria-labelledby="<%name%>-icon-title">
     <svg class="ion-icon__svg" width="24" height="24" viewBox="0 0 24 24">
-      <title id="<%name%>-icon-title">{{iconTitle}}</title>
+      <title name="<%name%>-icon-title">{{iconTitle}}</title>
       <path<%{path}%>></path>
     </svg>
   </div>

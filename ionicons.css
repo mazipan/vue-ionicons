@@ -1,11 +1,11 @@
-.material-design-icon {
+.ion {
   display: inline-flex;
   align-self: center;
   position: relative;
   height: 1em;
   width: 1em;
 
-  > .material-design-icon__svg {
+  > .ion-icon__svg {
     height: 1em;
     width: 1em;
     fill: currentColor;
