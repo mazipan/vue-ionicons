@@ -17,7 +17,6 @@ spinner.start()
 
 shell.config.silent = false
 shell.rm('-rf', dist)
-shell.mkdir('-p', dist)
 
 const getPath = (svg) => {
   const matches = /\sd="(.*)"/.exec(fs.readFileSync(path.join(svgPath, svg), {
@@ -44,21 +43,23 @@ let templateData = svgs.map(svg => {
   } 
 })
 
-let componentFile = fs.readFileSync(template, { encoding: 'utf8'})
-
-if (!fs.existsSync(dist)) {
-  fs.mkdirSync(dist)
-}
-
-for (data of templateData) {
-  let component = mustache.render(componentFile, data)
-  let filename = data.name + ".vue"
-  fs.writeFileSync(path.resolve(dist, filename), component)
-}
-
-shell.cp('-R', 'ionicons.css', dist)
-shell.cp('-R', 'package.json', dist)
-shell.cp('-R', 'README.md', dist)
-
-spinner.stop()
-console.log(chalk.green('Build completed...'))
+setTimeout(function() {
+  let componentFile = fs.readFileSync(template, { encoding: 'utf8'})
+  
+  if (!fs.existsSync(dist)) {
+    fs.mkdirSync(dist)
+  }
+  
+  for (data of templateData) {
+    let component = mustache.render(componentFile, data)
+    let filename = data.name + ".vue"
+    fs.writeFileSync(path.resolve(dist, filename), component)
+  }
+  
+  shell.cp('-R', 'ionicons.css', dist)
+  shell.cp('-R', 'package.json', dist)
+  shell.cp('-R', 'README.md', dist)
+  
+  spinner.stop()
+  console.log(chalk.green('Build completed...'))
+}, 2000)
