@@ -1,0 +1,26 @@
+{
+  "name": "vue-ionicons",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Irfan Maulana (https://github.com/mazipan/)",
+  "description": "Vue Icon Set Components from Ionic Team",
+  "files": "dist",
+  "keywords": [],
+  "devDependencies": {
+    "mustache": "^2.3.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mazipan/vue-ionicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mazipan/vue-ionicons/issues"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  },
+  "scripts": {
+    "build": "node build.js"
+  }
+}
