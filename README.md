@@ -1,5 +1,5 @@
 # vue-ionicons
-Vue Icon Set Components from Ionic Team
+:snowman: Vue Icon Set Components from Ionic Team
 
 Design Icons, sourced from the
 [Ionicons](https://github.com/ionic-team/ionicons) project.
