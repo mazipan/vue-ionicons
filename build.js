@@ -18,28 +18,40 @@ spinner.start()
 shell.config.silent = false
 shell.rm('-rf', dist)
 
-const getPath = (svg) => {
-  const matches = /\sd="(.*)"/.exec(fs.readFileSync(path.join(svgPath, svg), {
-    encoding: 'utf8'
-  }))
+const sanitizeSVG = (stream) => {
+  let newStream = stream
+  newStream = newStream.replace('<?xml version="1.0" encoding="utf-8"?>', '')
+  newStream = newStream.replace('<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">', '')
+  newStream = newStream.replace('<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->">', '')
+  newStream = newStream.replace('version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"', '')
+  newStream = newStream.replace('width="512px" height="512px" viewBox="0 0 512 512" style="enable-background:new 0 0 512 512;" xml:space="preserve"', '')
+  newStream = newStream.replace('width="512px" height="512px" viewBox="0 0 512 512" enable-background="new 0 0 512 512" xml:space="preserve"', '')
 
-  if (matches) {
-    return matches[0]
-  }
+  return newStream
+}
+const getSVGString = (svg) => {
+  let stream = fs.readFileSync(path.join(svgPath, svg), {
+    encoding: 'utf8'
+  });
+  stream = sanitizeSVG(stream)
+
+  return stream;
 }
 
 const makeHumanReadable = (name) => {
-  let spacedName = name.split('-').join(' ')
-  humanReadableName = spacedName.charAt(0).toUpperCase() + spacedName.slice(1)
-  return humanReadableName
+  let array = name.split('-')
+  let tempArray = array.map(elm => {
+    return elm.charAt(0).toUpperCase() + elm.slice(1)    
+  })
+  return tempArray.join(' ')
 }
 
-let templateData = svgs.map(svg => {
-  let name = svg.slice(0, -4)
+let templateData = svgs.map(svgPath => {
+  let name = svgPath.slice(0, -4)
   return {
     name: name,
     readableName: makeHumanReadable(name),
-    path: getPath(svg)
+    svg: getSVGString(svgPath)
   } 
 })
 

@@ -1,10 +1,7 @@
 {{=<% %>=}}
 <template>
-  <div class="ion" name="<%name%>-icon" role="img" aria-labelledby="<%name%>-icon-title">
-    <svg class="ion-icon__svg" width="24" height="24" viewBox="0 0 24 24">
-      <title name="<%name%>-icon-title">{{iconTitle}}</title>
-      <path<%{path}%>></path>
-    </svg>
+  <div class="ion <%name%>-icon" name="<%name%>-icon" aria-labelledby="<%name%>-icon-title">
+    <%{svg}%>
   </div>
 </template>
 
@@ -12,15 +9,15 @@
   export default {
     name: "<%name%>-icon",
     data () {
-      let iconTitle = this.title ? this.title : "<%readableName%> icon"
-
+      let iconTitle = this.title ? this.title : "<%readableName%> Icon"
       return {
         iconTitle: iconTitle
       }
     },
     props: {
       title: {
-        type: String
+        type: String,
+        default: ""
       }
     }
   }
