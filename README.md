@@ -22,7 +22,7 @@ Design Icons, sourced from the
    file, usually `index.js` or `main.js`:
 
     ```javascript
-    import 'vue-ionicons/styles.css'
+    import 'vue-ionicons/ionicons.css'
     ```
 
 3. Import the icon, and declare it as a local component:
