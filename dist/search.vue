@@ -1,0 +1,33 @@
+<template>
+  <div class="ion search-icon" name="search-icon" aria-labelledby="search-icon-title">
+    
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg 
+	 >
+<path d="M445,386.7l-84.8-85.9c13.8-24.1,21-50.9,21-77.9c0-87.6-71.2-158.9-158.6-158.9C135.2,64,64,135.3,64,222.9
+	c0,87.6,71.2,158.9,158.6,158.9c27.9,0,55.5-7.7,80.1-22.4l84.4,85.6c1.9,1.9,4.6,3.1,7.3,3.1c2.7,0,5.4-1.1,7.3-3.1l43.3-43.8
+	C449,397.1,449,390.7,445,386.7z M222.6,125.9c53.4,0,96.8,43.5,96.8,97c0,53.5-43.4,97-96.8,97c-53.4,0-96.8-43.5-96.8-97
+	C125.8,169.4,169.2,125.9,222.6,125.9z"/>
+</svg>
+
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "search-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Search Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      }
+    }
+  }
+</script>

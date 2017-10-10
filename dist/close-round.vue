@@ -1,0 +1,32 @@
+<template>
+  <div class="ion close-round-icon" name="close-round-icon" aria-labelledby="close-round-icon-title">
+    
+<!-- Generator: Adobe Illustrator 16.2.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+
+<svg 
+	 >
+<path d="M437.5,386.6L306.9,256l130.6-130.6c14.1-14.1,14.1-36.8,0-50.9c-14.1-14.1-36.8-14.1-50.9,0L256,205.1L125.4,74.5
+	c-14.1-14.1-36.8-14.1-50.9,0c-14.1,14.1-14.1,36.8,0,50.9L205.1,256L74.5,386.6c-14.1,14.1-14.1,36.8,0,50.9
+	c14.1,14.1,36.8,14.1,50.9,0L256,306.9l130.6,130.6c14.1,14.1,36.8,14.1,50.9,0C451.5,423.4,451.5,400.6,437.5,386.6z"/>
+</svg>
+
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "close-round-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Close Round Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      }
+    }
+  }
+</script>
