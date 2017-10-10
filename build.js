@@ -6,13 +6,12 @@ const chalk = require('chalk')
 const ora = require('ora')
 
 const dist = path.resolve(__dirname, 'dist')
-const template = path.resolve(__dirname, 'template.mst')
 const svgPath = path.resolve(__dirname, 'ionicons/src')
 
 const svgs = fs.readdirSync(svgPath)
 
 console.log(chalk.green('Build starting...'))
-var spinner = ora('generating file Vue...')
+var spinner = ora('generating file in progress...')
 spinner.start()
 
 shell.config.silent = false
@@ -48,25 +47,37 @@ const makeHumanReadable = (name) => {
 
 let templateData = svgs.map(svgPath => {
   let name = svgPath.slice(0, -4)
+  let readableName = makeHumanReadable(name)
+  let libraryName = readableName.split(' ').join('')
+
   return {
     name: name,
-    readableName: makeHumanReadable(name),
+    readableName: readableName,
+    libraryName: libraryName + 'Icon',
     svg: getSVGString(svgPath)
   } 
 })
 
-setTimeout(function() {
+const generateBuildFile = (template, extension) => {
   let componentFile = fs.readFileSync(template, { encoding: 'utf8'})
-  
+
   if (!fs.existsSync(dist)) {
     fs.mkdirSync(dist)
   }
   
   for (data of templateData) {
     let component = mustache.render(componentFile, data)
-    let filename = data.name + ".vue"
+    let filename = data.name + "." + extension
     fs.writeFileSync(path.resolve(dist, filename), component)
   }
+}
+
+const templateVue = path.resolve(__dirname, 'template-vue.mst')
+const templateJS = path.resolve(__dirname, 'template-js.mst')
+
+setTimeout(function() {
+  generateBuildFile(templateVue, 'vue')
+  generateBuildFile(templateJS, 'js')
   
   shell.cp('-R', 'ionicons.css', dist)
   shell.cp('-R', 'package.json', dist)

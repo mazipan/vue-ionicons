@@ -1,0 +1,12 @@
+{{=<% %>=}}
+import <%libraryName%> from './<%name%>.vue'
+
+const plugin = {
+  install: Vue => {
+    Vue.component(<%libraryName%>.name, <%libraryName%>)
+  }
+}
+<%libraryName%>.install = plugin.install
+
+export default <%libraryName%>
+<%={{ }}=%>
