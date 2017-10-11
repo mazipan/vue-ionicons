@@ -4,6 +4,11 @@
 Design Icons, sourced from the
 [Ionicons](https://github.com/ionic-team/ionicons) project.
 
+
+## Demo
+https://mazipan.github.io/vue-ionicons (under development)
+
+
 ## Getting started
 
 1. Install the package
@@ -18,14 +23,7 @@ Design Icons, sourced from the
     $ yarn add vue-ionicons
     ```
 
-2. **Optional, but recommended** Add the included stylesheet to your root JS
-   file, usually `index.js` or `main.js`:
-
-    ```javascript
-    import 'vue-ionicons/ionicons.css'
-    ```
-
-3. Import the icon, and declare it as a local component:
+2. Import the icon, and declare it as a local component:
 
     ```javascript
     import AlertIcon from 'vue-ionicons/alert.vue'
@@ -48,7 +46,7 @@ Design Icons, sourced from the
     > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`, and
     > their default name has `-icon` appended e.g. `alert-circle-icon`.
 
-4. Then use it in your template code!
+3. Then use it in your template code!
 
     ```html
     <menu-icon />
