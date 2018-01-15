@@ -1,0 +1,30 @@
+<template>
+  <div class="ion ios-cart-outline-icon" name="ios-cart-outline-icon" aria-labelledby="ios-cart-outline-icon-title">
+    <svg width="1em" height="1em" viewBox="0 0 512 512"><path d="M160 400c-13.248 0-24 10.752-24 24s10.752 24 24 24 24-10.752 24-24-10.752-24-24-24zm0 32c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zM384.5 400c-13.248 0-24 10.752-24 24s10.752 24 24 24 24-10.752 24-24-10.752-24-24-24zm0 32c-4.411 0-8-3.589-8-8s3.589-8 8-8 8 3.589 8 8-3.589 8-8 8zM448 128L123.177 95.646c-1.628-6.972-4.369-14.66-11.838-20.667C102.025 67.489 86.982 64 64 64v16.001c18.614 0 31.167 2.506 37.312 7.447 4.458 3.585 5.644 8.423 7.165 15.989l-.024.004 42.052 233.638c2.413 14.422 7.194 25.209 13.291 32.986C171.043 379.312 180.533 384 192 384h240v-16H192c-4.727 0-19.136.123-25.749-33.755l-5.429-30.16L432 256l16-128zm-29.41 114.348l-260.601 45.99-31.732-176.3 303.869 30.608-11.536 99.702z"/></svg>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "ios-cart-outline-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Ios Cart Outline Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      }
+    }
+  }
+</script>
+
+<style>
+.ion{
+  display: inline-block;
+}
+</style>
+
