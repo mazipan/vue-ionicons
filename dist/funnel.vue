@@ -1,0 +1,30 @@
+<template>
+  <div class="ion funnel-icon" name="funnel-icon" aria-labelledby="funnel-icon-title">
+    <svg width="1em" height="1em" viewBox="0 0 512 512"><path d="M256.085 32c-123.79 0-224.096 35.817-224.096 80 0 8.476 3.729 16.642 10.573 24.309l-.061.008C74.408 175.213 192 313 192 352v87c0 22.688 28.891 41 64 41s64-18.312 64-41v-83.088c0-1.241.008-2.54.008-3.912C320.008 313 436 177.432 471 134.062v-.002c6-7.007 8.977-14.408 8.977-22.06 0-44.183-100.102-80-223.892-80zm.093 128c-92.058 0-176.112-22-176.112-48s83.053-48 176.112-48c93.06 0 176.111 22.413 176.111 48s-84.053 48-176.111 48z"/></svg>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "funnel-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Funnel Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      }
+    }
+  }
+</script>
+
+<style>
+.ion{
+  display: inline-block;
+}
+</style>
+
