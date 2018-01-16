@@ -3,6 +3,9 @@ var webpack = require('webpack')
 var npm = require("./package.json")
 const CompressionPlugin = require("compression-webpack-plugin")
 const ExtractTextPlugin = require("extract-text-webpack-plugin")
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const ENV = process.env.NODE_ENV || 'development';
 
 require('es6-promise').polyfill();
 
@@ -12,14 +15,16 @@ module.exports = {
   },
   output: {
     path: path.resolve(__dirname, 'demo/dist'),
-    publicPath: '/demo/dist/',
-    filename: 'build.js'
+    publicPath: './',
+    filename: '[name].bundle.js',
+    chunkFilename: '[name].bundle.js'
   },
   module: {
     rules: [
       {
         test: /\.vue$/,
         loader: 'vue-loader',
+        exclude: /node_modules/,
         options: {
           loaders: {
             css: ExtractTextPlugin.extract({
@@ -37,7 +42,8 @@ module.exports = {
       },
       {
         test: /\.css$/,
-        loader: 'css-loader'
+        loader: 'css-loader',
+        exclude: /node_modules/
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -60,23 +66,46 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#source-map',
+	devtool: ENV === 'production' ? 'source-map' : 'cheap-module-eval-source-map',
   plugins: [
-    new webpack.DefinePlugin({
-      'process.env': {
-        'NODE_ENV': '"production"'
-      }
-    }),
+		new webpack.NoEmitOnErrorsPlugin(),
     new webpack.BannerPlugin({
       banner: `vue-ionicons v.${npm.version}`
     }),
-    new ExtractTextPlugin("build.css"),
+    new ExtractTextPlugin("[name].bundle.css"),
     new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      sourceMap: false
-    }),
+			output: {
+				comments: false
+			},
+			compress: {
+				unsafe_comps: true,
+				properties: true,
+				keep_fargs: false,
+				pure_getters: true,
+				collapse_vars: true,
+				unsafe: true,
+				warnings: false,
+				screw_ie8: true,
+				sequences: true,
+				dead_code: true,
+				drop_debugger: true,
+				comparisons: true,
+				conditionals: true,
+				evaluate: true,
+				booleans: true,
+				loops: true,
+				unused: true,
+				hoist_funs: true,
+				if_return: true,
+				join_vars: true,
+				cascade: true,
+				drop_console: true
+			}
+		}),
+		new HtmlWebpackPlugin({
+			template: './index.ejs',
+			minify: { collapseWhitespace: true }
+		}),
     new CompressionPlugin({
       algorithm: 'gzip'
     })

@@ -12,27 +12,20 @@ const svgPath = path.resolve(__dirname, 'ionicons/src')
 const svgs = fs.readdirSync(svgPath)
 const svgo = new SVGO()
 
-console.log(chalk.green('Build starting...'))
-var spinner = ora('generating file in progress...')
+console.log(chalk.yellow('Build starting...'))
+var spinner = ora('building...')
 spinner.start()
 
 shell.config.silent = false
 shell.rm('-rf', dist)
 
-const sanitizeSVG = (stream) => {
-  let newStream = stream
-  newStream = newStream.replace(' xmlns="http://www.w3.org/2000/svg"', '')
-  newStream = newStream.replace('width="512px" height="512px"', ':width="width" :height="height"')
-
-  return newStream
-}
 const getSVGString = (svg) => {
   return new Promise((resolve, reject) => {
     let filepath = path.join(svgPath, svg)
     fs.readFile(filepath, { encoding: 'utf8'}, (err, stream) => {
-      stream = sanitizeSVG(stream)
-      svgo.optimize(stream, { path: filepath }).then(function(result) {
-        resolve(result.data);
+      svgo.optimize(stream, { path: filepath })
+        .then(function(result) {
+          resolve(result.data);
       })
     })
   })
@@ -44,6 +37,17 @@ const makeHumanReadable = (name) => {
     return elm.charAt(0).toUpperCase() + elm.slice(1)
   })
   return tempArray.join(' ')
+}
+
+const sanitizeSVG = (stream) => {
+  let newStream = stream
+    .replace(' xmlns="http://www.w3.org/2000/svg"', '')
+    .replace('width=', ':width=')
+    .replace('height=', ':height=')
+    .replace('512', 'w')
+    .replace('512', 'h')
+
+  return newStream
 }
 
 const generateTemplateData = () => {
@@ -59,7 +63,7 @@ const generateTemplateData = () => {
           name: name,
           readableName: readableName,
           libraryName: libraryName + 'Icon',
-          svg: result
+          svg: sanitizeSVG(result)
         })
         resolve(templateData);
       })
@@ -90,9 +94,34 @@ const generateBuildFile = (template, extension, templateData) => {
   });
 }
 
+const generatePluginFile = (template, templateData) => {
+  return new Promise((resolve, reject) => {
+    spinner.stop()
+    console.log(chalk.yellow('Generating plugin file...'))
+    spinner.start()
+    fs.readFile(template, { encoding: 'utf8'}, (err, componentFile) => {
+      let data = {
+        data: []
+      };
+      data.data = templateData
+
+      let component = mustache.render(componentFile, data)
+      let filename = "ionicons.js"
+      fs.writeFile(path.resolve(dist, filename), component, (err) => {
+        if(err) {
+          reject(err)
+        }
+        spinner.stop()
+        console.log(chalk.green('Plugin file generated, filename: ' + filename))
+        spinner.start()
+        resolve()
+      })
+    })
+  });
+}
+
 const templateVue = path.resolve(__dirname, 'template-vue.mst')
 const templateJS = path.resolve(__dirname, 'template-js.mst')
-
 
 generateTemplateData().then((templateData) => {
   if (fs.existsSync(dist)) {
@@ -101,13 +130,13 @@ generateTemplateData().then((templateData) => {
   fs.mkdirSync(dist)
   Promise.all([
     generateBuildFile(templateVue, 'vue', templateData),
-    generateBuildFile(templateJS, 'js', templateData)
+    generatePluginFile(templateJS, templateData)
   ]).then(() => {
     shell.cp('ionicons.css', 'dist/')
     shell.cp('package.json', 'dist/')
     shell.cp('README.md', 'dist/')
 
     spinner.stop()
-    console.log(chalk.green('Build completed...'))
+    console.log(chalk.green('Build completed'))
   })
 })

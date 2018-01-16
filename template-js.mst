@@ -1,12 +1,23 @@
-{{=<% %>=}}
-import <%libraryName%> from './<%name%>.vue'
+{{#data}}
+// import {{libraryName}} from './{{name}}.vue'
+const {{libraryName}}  = () => import('./{{name}}.vue')
+{{/data}}
 
-const plugin = {
+// function for generate install plugin
+const plugin = (component) => {
   install: Vue => {
-    Vue.component(<%libraryName%>.name, <%libraryName%>)
+    Vue.component(component.name, component)
   }
 }
-<%libraryName%>.install = plugin.install
 
-export default <%libraryName%>
-<%={{ }}=%>
+{{#data}}
+{{libraryName}}.install = plugin({{libraryName}})
+{{/data}}
+
+let ioniconsPlugin = {}
+{{#data}}
+ioniconsPlugin.{{libraryName}} = {{libraryName}}
+{{/data}}
+
+// expose to public
+export default ioniconsPlugin

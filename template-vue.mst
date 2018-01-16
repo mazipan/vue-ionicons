@@ -24,11 +24,11 @@
         type: String,
         default: ""
       },
-      width: {
+      w: {
         type: String,
         default: "14px"
       },
-      height: {
+      h: {
         type: String,
         default: "14px"
       }
