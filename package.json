@@ -1,6 +1,6 @@
 {
   "name": "vue-ionicons",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "description": "Vue Icon Set Components from Ionic Team",
@@ -53,6 +53,6 @@
     "dev": "cross-env NODE_ENV=development webpack-dev-server --hot --color --open",
     "build": "npm run dist && cross-env NODE_ENV=production webpack --progress --hide-modules",
     "dist": "node dist.js",
-    "publish": "node ./gh-publish.js"
+    "deploy": "node ./gh-publish.js"
   }
 }
