@@ -2,6 +2,8 @@
 
 :snowman: Vue Icon Set Components from Ionic Team
 
+[![License](https://img.shields.io/github/license/mazipan/vue-ionicons.svg?maxAge=3600)](https://github.com/mazipan/vue-ionicons) [![version](https://img.shields.io/npm/v/vue-ionicons.svg?maxAge=60)](https://www.npmjs.com/package/vue-ionicons) ![downloads](https://img.shields.io/npm/dt/vue-ionicons.svg?maxAge=3600)
+
 Design Icons, sourced from the
 [Ionicons](https://github.com/ionic-team/ionicons) project.
 
