@@ -1,10 +1,17 @@
 var path = require('path')
 var webpack = require('webpack')
+var npm = require("./package.json")
+const CompressionPlugin = require("compression-webpack-plugin")
+const ExtractTextPlugin = require("extract-text-webpack-plugin")
+
+require('es6-promise').polyfill();
 
 module.exports = {
-  entry: './demo/main.js',
+  entry: {
+    app: './demo/main.js'
+  },
   output: {
-    path: path.resolve(__dirname, './demo/dist'),
+    path: path.resolve(__dirname, 'demo/dist'),
     publicPath: '/demo/dist/',
     filename: 'build.js'
   },
@@ -15,9 +22,10 @@ module.exports = {
         loader: 'vue-loader',
         options: {
           loaders: {
-            'css': 'vue-style-loader!css-loader',
-            'scss': 'vue-style-loader!css-loader!sass-loader',
-            'sass': 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
+            css: ExtractTextPlugin.extract({
+              use: 'css-loader',
+              fallback: 'vue-style-loader'
+            })
           }
           // other vue-loader options go here
         }
@@ -26,6 +34,10 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        loader: 'css-loader'
       },
       {
         test: /\.(png|jpg|gif|svg)$/,
@@ -48,26 +60,25 @@ module.exports = {
   performance: {
     hints: false
   },
-  devtool: '#eval-source-map'
-}
-
-if (process.env.NODE_ENV === 'production') {
-  module.exports.devtool = '#source-map'
-  // http://vue-loader.vuejs.org/en/workflow/production.html
-  module.exports.plugins = (module.exports.plugins || []).concat([
+  devtool: '#source-map',
+  plugins: [
     new webpack.DefinePlugin({
       'process.env': {
-        NODE_ENV: '"production"'
+        'NODE_ENV': '"production"'
       }
     }),
+    new webpack.BannerPlugin({
+      banner: `vue-ionicons v.${npm.version}`
+    }),
+    new ExtractTextPlugin("build.css"),
     new webpack.optimize.UglifyJsPlugin({
-      sourceMap: true,
       compress: {
         warnings: false
-      }
+      },
+      sourceMap: false
     }),
-    new webpack.LoaderOptionsPlugin({
-      minimize: true
+    new CompressionPlugin({
+      algorithm: 'gzip'
     })
-  ])
+  ]
 }

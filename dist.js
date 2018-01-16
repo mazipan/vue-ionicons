@@ -22,7 +22,7 @@ shell.rm('-rf', dist)
 const sanitizeSVG = (stream) => {
   let newStream = stream
   newStream = newStream.replace(' xmlns="http://www.w3.org/2000/svg"', '')
-  newStream = newStream.replace('width="512px" height="512px"', 'width="1em" height="1em"')
+  newStream = newStream.replace('width="512px" height="512px"', ':width="width" :height="height"')
 
   return newStream
 }
