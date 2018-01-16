@@ -9,6 +9,7 @@ const ENV = process.env.NODE_ENV || 'development';
 
 require('es6-promise').polyfill();
 const SRC = path.resolve(__dirname, "demo");
+const DIST = path.resolve(__dirname, "dist");
 
 module.exports = {
 	context: SRC,
@@ -16,7 +17,7 @@ module.exports = {
     app: './main.js'
   },
   output: {
-    path: path.resolve(__dirname, 'dist'),
+    path: path.resolve(__dirname, 'demo/dist'),
 		publicPath: '/vue-ionicons/',
     filename: '[name].bundle.js',
     chunkFilename: '[name].bundle.js'
@@ -58,7 +59,9 @@ module.exports = {
   },
   resolve: {
     alias: {
-      'vue$': 'vue/dist/vue.esm.js'
+      'vue$': 'vue/dist/vue.esm.js',
+      '@': SRC,
+			dist: DIST
     }
   },
   devServer: {

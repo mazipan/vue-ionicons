@@ -49,6 +49,7 @@ const sanitizeSVG = (stream) => {
     .replace('<style>.st0{fill:#010101}</style>', '')
     .replace('<style>', '<data-style>')
     .replace('</style>', '</data-style>')
+    .replace('<svg', '<svg viewBox="0 0 512 512" ')
 
   return newStream
 }

@@ -1,10 +1,10 @@
+// import libraryName from './name.vue'
+
 {{#data}}
-// import {{libraryName}} from './{{name}}.vue'
-const {{libraryName}}  = () => import('./{{name}}.vue')
+let {{libraryName}}  = () => import('./{{name}}.vue')
 {{/data}}
 
-// function for generate install plugin
-const plugin = (component) => {
+const plugin = component => {
   install: Vue => {
     Vue.component(component.name, component)
   }
@@ -19,5 +19,4 @@ let ioniconsPlugin = {}
 ioniconsPlugin.{{libraryName}} = {{libraryName}}
 {{/data}}
 
-// expose to public
 export default ioniconsPlugin

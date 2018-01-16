@@ -40,7 +40,7 @@ https://mazipan.github.io/vue-ionicons (under development)
     ```javascript
     import AlertIcon from 'vue-ionicons/alert.vue'
 
-    Vue.component('menu-icon', AlertIcon)
+    Vue.component('alert-icon', AlertIcon)
     ```
 
     > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`, and
@@ -49,7 +49,7 @@ https://mazipan.github.io/vue-ionicons (under development)
 1. Then use it in your template code!
 
     ```html
-    <menu-icon />
+    <alert-icon />
     ```
 
 ## Development
@@ -79,10 +79,6 @@ Build new distribute icon
 ```bash
 npm run dist
 ```
-
-## Icons
-
-A list of the icons can be found at the [Ionicons Repository](https://github.com/ionic-team/ionicons)
 
 ## Tips
 
