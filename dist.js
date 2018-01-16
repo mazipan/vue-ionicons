@@ -46,6 +46,9 @@ const sanitizeSVG = (stream) => {
     .replace('height=', ':height=')
     .replace('512', 'w')
     .replace('512', 'h')
+    .replace('<style>.st0{fill:#010101}</style>', '')
+    .replace('<style>', '<data-style>')
+    .replace('</style>', '</data-style>')
 
   return newStream
 }

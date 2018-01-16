@@ -8,14 +8,16 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ENV = process.env.NODE_ENV || 'development';
 
 require('es6-promise').polyfill();
+const SRC = path.resolve(__dirname, "demo");
 
 module.exports = {
+	context: SRC,
   entry: {
-    app: './demo/main.js'
+    app: './main.js'
   },
   output: {
-    path: path.resolve(__dirname, 'demo/dist'),
-    publicPath: './',
+    path: path.resolve(__dirname, 'dist'),
+		publicPath: '/vue-ionicons/',
     filename: '[name].bundle.js',
     chunkFilename: '[name].bundle.js'
   },
@@ -60,8 +62,22 @@ module.exports = {
     }
   },
   devServer: {
-    historyApiFallback: true,
-    noInfo: true
+		port: process.env.PORT || 8089,
+		host: 'localhost',
+		publicPath: '/vue-ionicons/',
+		contentBase: './demo',
+		historyApiFallback: true,
+		open: true,
+		openPage: 'vue-ionicons/',
+		proxy: {
+			'/vue-ionicons': {
+				target: "http://localhost:8089",
+				bypass: (req) => {
+					let view = req.url.replace('/vue-ionicons', '');
+					return view;
+				}
+			}
+		}
   },
   performance: {
     hints: false
