@@ -9,7 +9,7 @@ Design Icons, sourced from the
 
 ## Demo
 
-https://mazipan.github.io/vue-ionicons (under development)
+https://mazipan.github.io/vue-ionicons
 
 ## Getting started
 
