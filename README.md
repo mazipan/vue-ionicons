@@ -1,6 +1,6 @@
-# vue-ionicons
+# :snowman: Vue Ionicons
 
-:snowman: Vue Icon Set Components from Ionic Team
+> Vue Icon Set Components from Ionic Team
 
 [![License](https://img.shields.io/github/license/mazipan/vue-ionicons.svg?maxAge=3600)](https://github.com/mazipan/vue-ionicons) [![version](https://img.shields.io/npm/v/vue-ionicons.svg?maxAge=60)](https://www.npmjs.com/package/vue-ionicons) ![downloads](https://img.shields.io/npm/dt/vue-ionicons.svg?maxAge=3600)
 
@@ -45,14 +45,21 @@ https://mazipan.github.io/vue-ionicons (under development)
     Vue.component('alert-icon', AlertIcon)
     ```
 
-    > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`, and
-    > their default name has `-icon` appended e.g. `alert-circle-icon`.
+    > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`.
 
 1. Then use it in your template code!
 
     ```html
     <alert-icon />
     ```
+
+1. You can add props for height and width icon
+
+  ```html
+  <alert-icon w="30px" h="30px"/>
+  ```
+
+   > **Note** Default value for height and width is `14px`.
 
 ## Development
 
