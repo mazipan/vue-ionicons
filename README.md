@@ -16,12 +16,10 @@ https://mazipan.github.io/vue-ionicons (under development)
 1. Install the package
 
     ```bash
+    # NPM
     npm install --save vue-ionicons
-    ```
 
-    OR
-
-    ```bash
+    # Yarn
     yarn add vue-ionicons
     ```
 
@@ -45,21 +43,21 @@ https://mazipan.github.io/vue-ionicons (under development)
     Vue.component('alert-icon', AlertIcon)
     ```
 
-    > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`.
+    > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`. All icon generated can be see in [dist](https://github.com/mazipan/vue-ionicons/tree/master/dist) folder.
 
 1. Then use it in your template code!
 
     ```html
-    <alert-icon />
+    <AlertIcon />
     ```
 
 1. You can add props for height and width icon
 
-  ```html
-  <alert-icon w="30px" h="30px"/>
-  ```
+    ```html
+    <AlertIcon w="30px" h="30px"/>
+    ```
 
-   > **Note** Default value for height and width is `14px`.
+    > **Note** Default value for height and width is `14px`.
 
 ## Development
 
