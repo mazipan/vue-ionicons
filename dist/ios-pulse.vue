@@ -1,0 +1,43 @@
+<template>
+  <div
+    class="ion ios-pulse-icon"
+    name="ios-pulse-icon"
+    aria-labelledby="ios-pulse-icon-title">
+
+    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M448 288c-15.268 0-28.029 10.695-31.223 25h-59.004l-30.181-90.896a8.006 8.006 0 0 0-7.759-5.478 7.996 7.996 0 0 0-7.524 5.795L258.067 411.74 199.892 62.685a8.003 8.003 0 0 0-7.576-6.679 7.996 7.996 0 0 0-8.078 6.061L121.748 313H32v16h96a8 8 0 0 0 7.763-6.066l54.685-219.591 57.661 345.973a8.002 8.002 0 0 0 15.583.888l56.872-198.496 23.845 71.813a8.002 8.002 0 0 0 7.593 5.479h65.292c3.89 13.289 16.161 23 30.708 23 17.674 0 32-14.327 32-32S465.674 288 448 288z"/></svg>
+
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "ios-pulse-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Ios Pulse Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      },
+      w: {
+        type: String,
+        default: "14px"
+      },
+      h: {
+        type: String,
+        default: "14px"
+      }
+    }
+  }
+</script>
+
+<style>
+.ion{
+  display: inline-block;
+}
+</style>
+

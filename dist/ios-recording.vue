@@ -1,0 +1,43 @@
+<template>
+  <div
+    class="ion ios-recording-icon"
+    name="ios-recording-icon"
+    aria-labelledby="ios-recording-icon-title">
+
+    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M386.2 144c-60.6 0-109.8 49.9-109.8 111.8 0 40.4 21 76.2 52.5 95.2H183.1c31.5-19 52.5-54.8 52.5-95.2 0-61.9-49.2-111.9-109.8-111.9-60.6 0-109.8 50.2-109.8 112C16 317.8 65.2 368 125.8 368h260.4c60.6 0 109.8-50.1 109.8-112s-49.2-112-109.8-112zM128 320c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64zm256 0c-35.3 0-64-28.7-64-64s28.7-64 64-64 64 28.7 64 64-28.7 64-64 64z"/><path d="M384 208c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48zM128 208c-26.5 0-48 21.5-48 48s21.5 48 48 48 48-21.5 48-48-21.5-48-48-48z"/></svg>
+
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "ios-recording-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Ios Recording Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      },
+      w: {
+        type: String,
+        default: "14px"
+      },
+      h: {
+        type: String,
+        default: "14px"
+      }
+    }
+  }
+</script>
+
+<style>
+.ion{
+  display: inline-block;
+}
+</style>
+

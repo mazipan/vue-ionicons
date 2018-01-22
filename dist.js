@@ -124,8 +124,35 @@ const generatePluginFile = (template, templateData) => {
   });
 }
 
+const generateDemoAppFile = (template, templateData) => {
+  return new Promise((resolve, reject) => {
+    spinner.stop()
+    console.log(chalk.yellow('Generating demo App.vue file...'))
+    spinner.start()
+    fs.readFile(template, { encoding: 'utf8'}, (err, componentFile) => {
+      let data = {
+        data: []
+      };
+      data.data = templateData
+
+      let component = mustache.render(componentFile, data)
+      let filename = "App.vue"
+      fs.writeFile(path.resolve('demo', filename), component, (err) => {
+        if(err) {
+          reject(err)
+        }
+        spinner.stop()
+        console.log(chalk.green('App.vue demo file generated'))
+        spinner.start()
+        resolve()
+      })
+    })
+  });
+}
+
 const templateVue = path.resolve(__dirname, 'template-vue.mst')
 const templateJS = path.resolve(__dirname, 'template-js.mst')
+const templateAppVue = path.resolve(__dirname, 'template-app-vue.mst')
 
 generateTemplateData().then((templateData) => {
   if (fs.existsSync(dist)) {
@@ -134,7 +161,8 @@ generateTemplateData().then((templateData) => {
   fs.mkdirSync(dist)
   Promise.all([
     generateBuildFile(templateVue, 'vue', templateData),
-    generatePluginFile(templateJS, templateData)
+    generatePluginFile(templateJS, templateData),
+    generateDemoAppFile(templateAppVue, templateData)
   ]).then(() => {
     shell.cp('ionicons.css', 'dist/')
     shell.cp('package.json', 'dist/')
