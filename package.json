@@ -1,6 +1,6 @@
 {
   "name": "vue-ionicons",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "description": "Vue Icon Set Components from Ionic Team",
@@ -11,9 +11,14 @@
     "deploy": "node ./gh-publish.js"
   },
   "files": [
-    "dist/"
+    "dist"
   ],
-  "keywords": [],
+  "keywords": [
+    "vue ionicons",
+    "vue icon",
+    "vue font icon",
+    "ionicons"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
