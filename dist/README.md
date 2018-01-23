@@ -26,7 +26,7 @@ https://mazipan.github.io/vue-ionicons
 1. Import the icon, and declare it as a local component:
 
     ```javascript
-    import AlertIcon from 'vue-ionicons/alert.vue'
+    import AlertIcon from 'vue-ionicons/dist/alert.vue'
 
     components: {
       AlertIcon
@@ -38,7 +38,7 @@ https://mazipan.github.io/vue-ionicons
     Declare it as a global component:
 
     ```javascript
-    import AlertIcon from 'vue-ionicons/alert.vue'
+    import AlertIcon from 'vue-ionicons/dist/alert.vue'
 
     Vue.component('alert-icon', AlertIcon)
     ```
@@ -94,14 +94,14 @@ npm run dist
   ```javascript
   resolve: {
     alias : {
-      "icons": path.resolve(__dirname, "node_modules/vue-ionicons")
+      "icons": path.resolve(__dirname, "node_modules/vue-ionicons/dist")
     }
   }
   ```
 
   This will give you much shorter and more readable imports, like
   `import Android from 'icons/android'`, rather than
-  `import Android from 'vue-ionicons/android.vue'`. Much better!
+  `import Android from 'vue-ionicons/dist/android.vue'`. Much better!
 
 ## 💵 Credits
 

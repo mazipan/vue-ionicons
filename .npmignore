@@ -3,9 +3,11 @@ demo/
 ionicons/
 dist.js
 gh-publish.js
+.gitmodules
 .prettierrc
 template-app-vue.mst
 template-js.mst
 template-vue.mst
 webpack.config.js
+yarn.lock
 

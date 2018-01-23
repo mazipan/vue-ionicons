@@ -23,17 +23,10 @@
 
       <div class="grid__row">
           <div class="box">
-            <AndroidAddCircleIcon :w="w" :h="h"/>
+            <AndroidAddIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidAddCircleIcon
-            </div>
-          </div>
-          <div class="box">
-            <AlertCircledIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AlertCircledIcon
+              AndroidAddIcon
             </div>
           </div>
           <div class="box">
@@ -44,10 +37,17 @@
             </div>
           </div>
           <div class="box">
-            <AndroidAddIcon :w="w" :h="h"/>
+            <AlertCircledIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidAddIcon
+              AlertCircledIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidAddCircleIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidAddCircleIcon
             </div>
           </div>
           <div class="box">
@@ -55,6 +55,13 @@
 
             <div class="box-content">
               AndroidAlarmClockIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidArchiveIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidArchiveIcon
             </div>
           </div>
           <div class="box">
@@ -72,31 +79,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidArchiveIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidArchiveIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidArrowBackIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidArrowBackIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidArrowDownIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidArrowDownIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidArrowDropdownCircleIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidArrowDropdownCircleIcon
             </div>
           </div>
           <div class="box">
@@ -118,6 +104,20 @@
 
             <div class="box-content">
               AndroidArrowDropleftIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidArrowDropdownCircleIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidArrowDropdownCircleIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidArrowBackIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidArrowBackIcon
             </div>
           </div>
           <div class="box">
@@ -170,6 +170,13 @@
             </div>
           </div>
           <div class="box">
+            <AndroidBarIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidBarIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidBoatIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -184,24 +191,17 @@
             </div>
           </div>
           <div class="box">
-            <AndroidBarIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidBarIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidBusIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidBusIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidBookmarkIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidBookmarkIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidBulbIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidBulbIcon
             </div>
           </div>
           <div class="box">
@@ -226,24 +226,17 @@
             </div>
           </div>
           <div class="box">
+            <AndroidBusIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidBusIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidCancelIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidCancelIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidBulbIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidBulbIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidCarIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidCarIcon
             </div>
           </div>
           <div class="box">
@@ -268,6 +261,13 @@
             </div>
           </div>
           <div class="box">
+            <AndroidCarIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidCarIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidCheckboxOutlineBlankIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -289,13 +289,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidCheckmarkCircleIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidCheckmarkCircleIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidClipboardIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -303,10 +296,24 @@
             </div>
           </div>
           <div class="box">
+            <AndroidCheckmarkCircleIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidCheckmarkCircleIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidCloseIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidCloseIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidCloudCircleIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidCloudCircleIcon
             </div>
           </div>
           <div class="box">
@@ -324,20 +331,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidCloudDoneIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidCloudDoneIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidCloudCircleIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidCloudCircleIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidColorPaletteIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -352,10 +345,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidContactsIcon :w="w" :h="h"/>
+            <AndroidCloudDoneIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidContactsIcon
+              AndroidCloudDoneIcon
             </div>
           </div>
           <div class="box">
@@ -366,17 +359,17 @@
             </div>
           </div>
           <div class="box">
+            <AndroidContactsIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidContactsIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidContractIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidContractIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidCreateIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidCreateIcon
             </div>
           </div>
           <div class="box">
@@ -387,17 +380,17 @@
             </div>
           </div>
           <div class="box">
+            <AndroidCreateIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidCreateIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidDesktopIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidDesktopIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidDoneIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidDoneIcon
             </div>
           </div>
           <div class="box">
@@ -415,6 +408,27 @@
             </div>
           </div>
           <div class="box">
+            <AndroidDoneIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidDoneIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidDownloadIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidDownloadIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidDraftsIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidDraftsIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidExpandIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -429,31 +443,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidDownloadIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidDownloadIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidFilmIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidFilmIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidFavoriteOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidFavoriteOutlineIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidDraftsIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidDraftsIcon
             </div>
           </div>
           <div class="box">
@@ -471,24 +464,17 @@
             </div>
           </div>
           <div class="box">
+            <AndroidFilmIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidFilmIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidFolderIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidFolderIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidGlobeIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidGlobeIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidHandIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidHandIcon
             </div>
           </div>
           <div class="box">
@@ -499,10 +485,24 @@
             </div>
           </div>
           <div class="box">
+            <AndroidHandIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidHandIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidHangoutIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidHangoutIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidGlobeIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidGlobeIcon
             </div>
           </div>
           <div class="box">
@@ -541,13 +541,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidLocateIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidLocateIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidLockIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -555,17 +548,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidMailIcon :w="w" :h="h"/>
+            <AndroidLocateIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidMailIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidMenuIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidMenuIcon
+              AndroidLocateIcon
             </div>
           </div>
           <div class="box">
@@ -576,17 +562,24 @@
             </div>
           </div>
           <div class="box">
+            <AndroidMenuIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidMenuIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidMailIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidMailIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidMicrophoneOffIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidMicrophoneOffIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidMicrophoneIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidMicrophoneIcon
             </div>
           </div>
           <div class="box">
@@ -604,6 +597,13 @@
             </div>
           </div>
           <div class="box">
+            <AndroidMicrophoneIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidMicrophoneIcon
+            </div>
+          </div>
+          <div class="box">
             <AndroidMoreVerticalIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -618,17 +618,17 @@
             </div>
           </div>
           <div class="box">
-            <AndroidNotificationsIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidNotificationsIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidNotificationsOffIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidNotificationsOffIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidNotificationsIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidNotificationsIcon
             </div>
           </div>
           <div class="box">
@@ -646,13 +646,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidPersonIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidPersonIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidPeopleIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -667,24 +660,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidPhonePortraitIcon :w="w" :h="h"/>
+            <AndroidPersonIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidPhonePortraitIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidPinIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidPinIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidPhoneLandscapeIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidPhoneLandscapeIcon
+              AndroidPersonIcon
             </div>
           </div>
           <div class="box">
@@ -695,10 +674,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidPlaystoreIcon :w="w" :h="h"/>
+            <AndroidPhonePortraitIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidPlaystoreIcon
+              AndroidPhonePortraitIcon
             </div>
           </div>
           <div class="box">
@@ -706,6 +685,27 @@
 
             <div class="box-content">
               AndroidPrintIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidPhoneLandscapeIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidPhoneLandscapeIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidPinIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidPinIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidPlaystoreIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidPlaystoreIcon
             </div>
           </div>
           <div class="box">
@@ -744,13 +744,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidSendIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidSendIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidRestaurantIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -769,6 +762,13 @@
 
             <div class="box-content">
               AndroidSearchIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidSendIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidSendIcon
             </div>
           </div>
           <div class="box">
@@ -793,20 +793,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidStarHalfIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidStarHalfIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidStarIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidStarIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidStarOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -814,10 +800,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidSunnyIcon :w="w" :h="h"/>
+            <AndroidStarHalfIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidSunnyIcon
+              AndroidStarHalfIcon
             </div>
           </div>
           <div class="box">
@@ -828,24 +814,10 @@
             </div>
           </div>
           <div class="box">
-            <AndroidSyncIcon :w="w" :h="h"/>
+            <AndroidStarIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidSyncIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidTrainIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidTrainIcon
-            </div>
-          </div>
-          <div class="box">
-            <AndroidTimeIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidTimeIcon
+              AndroidStarIcon
             </div>
           </div>
           <div class="box">
@@ -856,10 +828,17 @@
             </div>
           </div>
           <div class="box">
-            <AndroidUnlockIcon :w="w" :h="h"/>
+            <AndroidSunnyIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              AndroidUnlockIcon
+              AndroidSunnyIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidSyncIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidSyncIcon
             </div>
           </div>
           <div class="box">
@@ -867,6 +846,27 @@
 
             <div class="box-content">
               AndroidTextsmsIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidTimeIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidTimeIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidTrainIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidTrainIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidUnlockIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidUnlockIcon
             </div>
           </div>
           <div class="box">
@@ -891,17 +891,17 @@
             </div>
           </div>
           <div class="box">
-            <AndroidVolumeUpIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidVolumeUpIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidVolumeOffIcon :w="w" :h="h"/>
 
             <div class="box-content">
               AndroidVolumeOffIcon
+            </div>
+          </div>
+          <div class="box">
+            <AndroidVolumeUpIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidVolumeUpIcon
             </div>
           </div>
           <div class="box">
@@ -919,13 +919,6 @@
             </div>
           </div>
           <div class="box">
-            <AndroidWifiIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AndroidWifiIcon
-            </div>
-          </div>
-          <div class="box">
             <AndroidWatchIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -940,10 +933,24 @@
             </div>
           </div>
           <div class="box">
+            <AndroidWifiIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AndroidWifiIcon
+            </div>
+          </div>
+          <div class="box">
             <ArchiveIcon :w="w" :h="h"/>
 
             <div class="box-content">
               ArchiveIcon
+            </div>
+          </div>
+          <div class="box">
+            <ArrowExpandIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ArrowExpandIcon
             </div>
           </div>
           <div class="box">
@@ -968,17 +975,10 @@
             </div>
           </div>
           <div class="box">
-            <ArrowExpandIcon :w="w" :h="h"/>
+            <ArrowGraphUpLeftIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              ArrowExpandIcon
-            </div>
-          </div>
-          <div class="box">
-            <ArrowGraphDownLeftIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ArrowGraphDownLeftIcon
+              ArrowGraphUpLeftIcon
             </div>
           </div>
           <div class="box">
@@ -989,17 +989,24 @@
             </div>
           </div>
           <div class="box">
-            <ArrowLeftAIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ArrowLeftAIcon
-            </div>
-          </div>
-          <div class="box">
             <ArrowGraphUpRightIcon :w="w" :h="h"/>
 
             <div class="box-content">
               ArrowGraphUpRightIcon
+            </div>
+          </div>
+          <div class="box">
+            <ArrowGraphDownLeftIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ArrowGraphDownLeftIcon
+            </div>
+          </div>
+          <div class="box">
+            <ArrowLeftAIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ArrowLeftAIcon
             </div>
           </div>
           <div class="box">
@@ -1010,10 +1017,10 @@
             </div>
           </div>
           <div class="box">
-            <ArrowLeftCIcon :w="w" :h="h"/>
+            <ArrowMoveIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              ArrowLeftCIcon
+              ArrowMoveIcon
             </div>
           </div>
           <div class="box">
@@ -1024,17 +1031,10 @@
             </div>
           </div>
           <div class="box">
-            <ArrowGraphUpLeftIcon :w="w" :h="h"/>
+            <ArrowLeftCIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              ArrowGraphUpLeftIcon
-            </div>
-          </div>
-          <div class="box">
-            <ArrowMoveIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ArrowMoveIcon
+              ArrowLeftCIcon
             </div>
           </div>
           <div class="box">
@@ -1042,6 +1042,13 @@
 
             <div class="box-content">
               ArrowReturnLeftIcon
+            </div>
+          </div>
+          <div class="box">
+            <ArrowRightBIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ArrowRightBIcon
             </div>
           </div>
           <div class="box">
@@ -1056,13 +1063,6 @@
 
             <div class="box-content">
               ArrowRightAIcon
-            </div>
-          </div>
-          <div class="box">
-            <ArrowRightBIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ArrowRightBIcon
             </div>
           </div>
           <div class="box">
@@ -1087,17 +1087,17 @@
             </div>
           </div>
           <div class="box">
-            <ArrowUpAIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ArrowUpAIcon
-            </div>
-          </div>
-          <div class="box">
             <ArrowUpBIcon :w="w" :h="h"/>
 
             <div class="box-content">
               ArrowUpBIcon
+            </div>
+          </div>
+          <div class="box">
+            <ArrowUpAIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ArrowUpAIcon
             </div>
           </div>
           <div class="box">
@@ -1115,17 +1115,17 @@
             </div>
           </div>
           <div class="box">
-            <AtIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              AtIcon
-            </div>
-          </div>
-          <div class="box">
             <BackspaceOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               BackspaceOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <AtIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              AtIcon
             </div>
           </div>
           <div class="box">
@@ -1143,6 +1143,13 @@
             </div>
           </div>
           <div class="box">
+            <BatteryFullIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              BatteryFullIcon
+            </div>
+          </div>
+          <div class="box">
             <BatteryChargingIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -1157,31 +1164,10 @@
             </div>
           </div>
           <div class="box">
-            <BatteryFullIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              BatteryFullIcon
-            </div>
-          </div>
-          <div class="box">
             <BatteryHalfIcon :w="w" :h="h"/>
 
             <div class="box-content">
               BatteryHalfIcon
-            </div>
-          </div>
-          <div class="box">
-            <BatteryLowIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              BatteryLowIcon
-            </div>
-          </div>
-          <div class="box">
-            <BeakerIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              BeakerIcon
             </div>
           </div>
           <div class="box">
@@ -1192,10 +1178,24 @@
             </div>
           </div>
           <div class="box">
+            <BatteryLowIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              BatteryLowIcon
+            </div>
+          </div>
+          <div class="box">
             <BluetoothIcon :w="w" :h="h"/>
 
             <div class="box-content">
               BluetoothIcon
+            </div>
+          </div>
+          <div class="box">
+            <BeakerIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              BeakerIcon
             </div>
           </div>
           <div class="box">
@@ -1227,17 +1227,17 @@
             </div>
           </div>
           <div class="box">
-            <BugIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              BugIcon
-            </div>
-          </div>
-          <div class="box">
             <CalculatorIcon :w="w" :h="h"/>
 
             <div class="box-content">
               CalculatorIcon
+            </div>
+          </div>
+          <div class="box">
+            <BugIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              BugIcon
             </div>
           </div>
           <div class="box">
@@ -1262,13 +1262,6 @@
             </div>
           </div>
           <div class="box">
-            <CashIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              CashIcon
-            </div>
-          </div>
-          <div class="box">
             <ChatboxWorkingIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -1283,6 +1276,13 @@
             </div>
           </div>
           <div class="box">
+            <CashIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              CashIcon
+            </div>
+          </div>
+          <div class="box">
             <ChatboxesIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -1290,17 +1290,17 @@
             </div>
           </div>
           <div class="box">
-            <ChatbubbleWorkingIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ChatbubbleWorkingIcon
-            </div>
-          </div>
-          <div class="box">
             <ChatbubbleIcon :w="w" :h="h"/>
 
             <div class="box-content">
               ChatbubbleIcon
+            </div>
+          </div>
+          <div class="box">
+            <ChatbubbleWorkingIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ChatbubbleWorkingIcon
             </div>
           </div>
           <div class="box">
@@ -1367,17 +1367,17 @@
             </div>
           </div>
           <div class="box">
-            <ClockIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ClockIcon
-            </div>
-          </div>
-          <div class="box">
             <CloseCircledIcon :w="w" :h="h"/>
 
             <div class="box-content">
               CloseCircledIcon
+            </div>
+          </div>
+          <div class="box">
+            <ClockIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ClockIcon
             </div>
           </div>
           <div class="box">
@@ -1514,17 +1514,17 @@
             </div>
           </div>
           <div class="box">
-            <EditIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              EditIcon
-            </div>
-          </div>
-          <div class="box">
             <EaselIcon :w="w" :h="h"/>
 
             <div class="box-content">
               EaselIcon
+            </div>
+          </div>
+          <div class="box">
+            <EditIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              EditIcon
             </div>
           </div>
           <div class="box">
@@ -1535,17 +1535,17 @@
             </div>
           </div>
           <div class="box">
-            <EmailUnreadIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              EmailUnreadIcon
-            </div>
-          </div>
-          <div class="box">
             <EjectIcon :w="w" :h="h"/>
 
             <div class="box-content">
               EjectIcon
+            </div>
+          </div>
+          <div class="box">
+            <EmailUnreadIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              EmailUnreadIcon
             </div>
           </div>
           <div class="box">
@@ -1710,17 +1710,17 @@
             </div>
           </div>
           <div class="box">
-            <HeadphoneIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              HeadphoneIcon
-            </div>
-          </div>
-          <div class="box">
             <HappyIcon :w="w" :h="h"/>
 
             <div class="box-content">
               HappyIcon
+            </div>
+          </div>
+          <div class="box">
+            <HeadphoneIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              HeadphoneIcon
             </div>
           </div>
           <div class="box">
@@ -2011,17 +2011,17 @@
             </div>
           </div>
           <div class="box">
-            <IosBodyIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosBodyIcon
-            </div>
-          </div>
-          <div class="box">
             <IosBoltOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosBoltOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosBodyIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosBodyIcon
             </div>
           </div>
           <div class="box">
@@ -2144,17 +2144,17 @@
             </div>
           </div>
           <div class="box">
-            <IosCartOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosCartOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosCartIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosCartIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosCartOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosCartOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -2263,17 +2263,17 @@
             </div>
           </div>
           <div class="box">
-            <IosCloudDownloadIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosCloudDownloadIcon
-            </div>
-          </div>
-          <div class="box">
             <IosCloudOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosCloudOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosCloudDownloadIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosCloudDownloadIcon
             </div>
           </div>
           <div class="box">
@@ -2319,17 +2319,17 @@
             </div>
           </div>
           <div class="box">
-            <IosCloudyIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosCloudyIcon
-            </div>
-          </div>
-          <div class="box">
             <IosCogOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosCogOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosCloudyIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosCloudyIcon
             </div>
           </div>
           <div class="box">
@@ -2473,17 +2473,17 @@
             </div>
           </div>
           <div class="box">
-            <IosFastforwardOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosFastforwardOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosFastforwardIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosFastforwardIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosFastforwardOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosFastforwardOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -2508,17 +2508,17 @@
             </div>
           </div>
           <div class="box">
-            <IosFilmIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosFilmIcon
-            </div>
-          </div>
-          <div class="box">
             <IosFlagOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosFlagOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosFilmIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosFilmIcon
             </div>
           </div>
           <div class="box">
@@ -2543,13 +2543,6 @@
             </div>
           </div>
           <div class="box">
-            <IosFlaskOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosFlaskOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosFlaskIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -2557,10 +2550,10 @@
             </div>
           </div>
           <div class="box">
-            <IosFlowerOutlineIcon :w="w" :h="h"/>
+            <IosFlaskOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosFlowerOutlineIcon
+              IosFlaskOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -2568,6 +2561,13 @@
 
             <div class="box-content">
               IosFlowerIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosFlowerOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosFlowerOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -2613,17 +2613,17 @@
             </div>
           </div>
           <div class="box">
-            <IosGameControllerBOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosGameControllerBOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosGameControllerBIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosGameControllerBIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosGameControllerBOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosGameControllerBOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -2788,17 +2788,17 @@
             </div>
           </div>
           <div class="box">
-            <IosListOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosListOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosListIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosListIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosListOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosListOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -2893,17 +2893,17 @@
             </div>
           </div>
           <div class="box">
-            <IosMinusEmptyIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosMinusEmptyIcon
-            </div>
-          </div>
-          <div class="box">
             <IosMinusOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosMinusOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosMinusEmptyIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosMinusEmptyIcon
             </div>
           </div>
           <div class="box">
@@ -2977,17 +2977,17 @@
             </div>
           </div>
           <div class="box">
-            <IosNutritionOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosNutritionOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosNavigateIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosNavigateIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosNutritionOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosNutritionOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -3019,6 +3019,13 @@
             </div>
           </div>
           <div class="box">
+            <IosPaperplaneIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosPaperplaneIcon
+            </div>
+          </div>
+          <div class="box">
             <IosPartlysunnyOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3040,13 +3047,6 @@
             </div>
           </div>
           <div class="box">
-            <IosPauseIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosPauseIcon
-            </div>
-          </div>
-          <div class="box">
             <IosPawOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3061,13 +3061,6 @@
             </div>
           </div>
           <div class="box">
-            <IosPaperplaneIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosPaperplaneIcon
-            </div>
-          </div>
-          <div class="box">
             <IosPeopleOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3075,10 +3068,10 @@
             </div>
           </div>
           <div class="box">
-            <IosPeopleIcon :w="w" :h="h"/>
+            <IosPauseIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosPeopleIcon
+              IosPauseIcon
             </div>
           </div>
           <div class="box">
@@ -3096,10 +3089,10 @@
             </div>
           </div>
           <div class="box">
-            <IosPersonaddIcon :w="w" :h="h"/>
+            <IosPeopleIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosPersonaddIcon
+              IosPeopleIcon
             </div>
           </div>
           <div class="box">
@@ -3110,17 +3103,17 @@
             </div>
           </div>
           <div class="box">
+            <IosPersonaddIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosPersonaddIcon
+            </div>
+          </div>
+          <div class="box">
             <IosPhotosOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosPhotosOutlineIcon
-            </div>
-          </div>
-          <div class="box">
-            <IosPieOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosPieOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -3145,10 +3138,10 @@
             </div>
           </div>
           <div class="box">
-            <IosPintIcon :w="w" :h="h"/>
+            <IosPieOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosPintIcon
+              IosPieOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -3156,6 +3149,13 @@
 
             <div class="box-content">
               IosPlayOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosPintIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosPintIcon
             </div>
           </div>
           <div class="box">
@@ -3208,13 +3208,6 @@
             </div>
           </div>
           <div class="box">
-            <IosPricetagsIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosPricetagsIcon
-            </div>
-          </div>
-          <div class="box">
             <IosPrinterOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3222,10 +3215,10 @@
             </div>
           </div>
           <div class="box">
-            <IosPrinterIcon :w="w" :h="h"/>
+            <IosPricetagsIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosPrinterIcon
+              IosPricetagsIcon
             </div>
           </div>
           <div class="box">
@@ -3236,10 +3229,10 @@
             </div>
           </div>
           <div class="box">
-            <IosPulseIcon :w="w" :h="h"/>
+            <IosPrinterIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosPulseIcon
+              IosPrinterIcon
             </div>
           </div>
           <div class="box">
@@ -3250,10 +3243,10 @@
             </div>
           </div>
           <div class="box">
-            <IosRecordingOutlineIcon :w="w" :h="h"/>
+            <IosPulseIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosRecordingOutlineIcon
+              IosPulseIcon
             </div>
           </div>
           <div class="box">
@@ -3264,10 +3257,10 @@
             </div>
           </div>
           <div class="box">
-            <IosRecordingIcon :w="w" :h="h"/>
+            <IosRecordingOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosRecordingIcon
+              IosRecordingOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -3296,6 +3289,13 @@
 
             <div class="box-content">
               IosRefreshOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosRecordingIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosRecordingIcon
             </div>
           </div>
           <div class="box">
@@ -3362,6 +3362,13 @@
             </div>
           </div>
           <div class="box">
+            <IosSearchIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosSearchIcon
+            </div>
+          </div>
+          <div class="box">
             <IosSettingsStrongIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3383,13 +3390,6 @@
             </div>
           </div>
           <div class="box">
-            <IosSearchIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosSearchIcon
-            </div>
-          </div>
-          <div class="box">
             <IosShuffleIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3397,17 +3397,17 @@
             </div>
           </div>
           <div class="box">
-            <IosSkipbackwardOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosSkipbackwardOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosSkipbackwardIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosSkipbackwardIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosSkipbackwardOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosSkipbackwardOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -3432,13 +3432,6 @@
             </div>
           </div>
           <div class="box">
-            <IosSpeedometerOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosSpeedometerOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosSpeedometerIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3460,6 +3453,13 @@
             </div>
           </div>
           <div class="box">
+            <IosSpeedometerOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosSpeedometerOutlineIcon
+            </div>
+          </div>
+          <div class="box">
             <IosStarIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3474,10 +3474,10 @@
             </div>
           </div>
           <div class="box">
-            <IosStopwatchIcon :w="w" :h="h"/>
+            <IosSunnyIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosStopwatchIcon
+              IosSunnyIcon
             </div>
           </div>
           <div class="box">
@@ -3488,10 +3488,10 @@
             </div>
           </div>
           <div class="box">
-            <IosSunnyIcon :w="w" :h="h"/>
+            <IosStopwatchIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosSunnyIcon
+              IosStopwatchIcon
             </div>
           </div>
           <div class="box">
@@ -3537,13 +3537,6 @@
             </div>
           </div>
           <div class="box">
-            <IosTimeOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosTimeOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <IosTimeIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3572,6 +3565,13 @@
             </div>
           </div>
           <div class="box">
+            <IosTimeOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosTimeOutlineIcon
+            </div>
+          </div>
+          <div class="box">
             <IosToggleIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3590,13 +3590,6 @@
 
             <div class="box-content">
               IosTrashIcon
-            </div>
-          </div>
-          <div class="box">
-            <IosUndoOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosUndoOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -3635,17 +3628,17 @@
             </div>
           </div>
           <div class="box">
+            <IosUndoOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosUndoOutlineIcon
+            </div>
+          </div>
+          <div class="box">
             <IosVideocamOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IosVideocamOutlineIcon
-            </div>
-          </div>
-          <div class="box">
-            <IosVideocamIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosVideocamIcon
             </div>
           </div>
           <div class="box">
@@ -3656,10 +3649,10 @@
             </div>
           </div>
           <div class="box">
-            <IosVolumeLowIcon :w="w" :h="h"/>
+            <IosVideocamIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              IosVolumeLowIcon
+              IosVideocamIcon
             </div>
           </div>
           <div class="box">
@@ -3667,6 +3660,13 @@
 
             <div class="box-content">
               IosWineglassOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosVolumeLowIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosVolumeLowIcon
             </div>
           </div>
           <div class="box">
@@ -3684,17 +3684,17 @@
             </div>
           </div>
           <div class="box">
-            <IosWorldIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              IosWorldIcon
-            </div>
-          </div>
-          <div class="box">
             <IpadIcon :w="w" :h="h"/>
 
             <div class="box-content">
               IpadIcon
+            </div>
+          </div>
+          <div class="box">
+            <IosWorldIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              IosWorldIcon
             </div>
           </div>
           <div class="box">
@@ -3726,24 +3726,10 @@
             </div>
           </div>
           <div class="box">
-            <KnifeIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              KnifeIcon
-            </div>
-          </div>
-          <div class="box">
             <LaptopIcon :w="w" :h="h"/>
 
             <div class="box-content">
               LaptopIcon
-            </div>
-          </div>
-          <div class="box">
-            <LeafIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              LeafIcon
             </div>
           </div>
           <div class="box">
@@ -3754,10 +3740,10 @@
             </div>
           </div>
           <div class="box">
-            <LightbulbIcon :w="w" :h="h"/>
+            <LeafIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              LightbulbIcon
+              LeafIcon
             </div>
           </div>
           <div class="box">
@@ -3775,10 +3761,17 @@
             </div>
           </div>
           <div class="box">
-            <LoadBIcon :w="w" :h="h"/>
+            <KnifeIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              LoadBIcon
+              KnifeIcon
+            </div>
+          </div>
+          <div class="box">
+            <LightbulbIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              LightbulbIcon
             </div>
           </div>
           <div class="box">
@@ -3786,6 +3779,13 @@
 
             <div class="box-content">
               LoadCIcon
+            </div>
+          </div>
+          <div class="box">
+            <LoadBIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              LoadBIcon
             </div>
           </div>
           <div class="box">
@@ -3810,17 +3810,17 @@
             </div>
           </div>
           <div class="box">
-            <LogInIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              LogInIcon
-            </div>
-          </div>
-          <div class="box">
             <LockedIcon :w="w" :h="h"/>
 
             <div class="box-content">
               LockedIcon
+            </div>
+          </div>
+          <div class="box">
+            <LogInIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              LogInIcon
             </div>
           </div>
           <div class="box">
@@ -3880,6 +3880,13 @@
             </div>
           </div>
           <div class="box">
+            <MicAIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              MicAIcon
+            </div>
+          </div>
+          <div class="box">
             <MicBIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3887,10 +3894,10 @@
             </div>
           </div>
           <div class="box">
-            <MicAIcon :w="w" :h="h"/>
+            <MicCIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              MicAIcon
+              MicCIcon
             </div>
           </div>
           <div class="box">
@@ -3912,13 +3919,6 @@
 
             <div class="box-content">
               MinusIcon
-            </div>
-          </div>
-          <div class="box">
-            <MicCIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              MicCIcon
             </div>
           </div>
           <div class="box">
@@ -3971,6 +3971,13 @@
             </div>
           </div>
           <div class="box">
+            <NavigateIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              NavigateIcon
+            </div>
+          </div>
+          <div class="box">
             <NetworkIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -3982,13 +3989,6 @@
 
             <div class="box-content">
               NoSmokingIcon
-            </div>
-          </div>
-          <div class="box">
-            <NavigateIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              NavigateIcon
             </div>
           </div>
           <div class="box">
@@ -4034,17 +4034,17 @@
             </div>
           </div>
           <div class="box">
-            <PersonAddIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              PersonAddIcon
-            </div>
-          </div>
-          <div class="box">
             <PauseIcon :w="w" :h="h"/>
 
             <div class="box-content">
               PauseIcon
+            </div>
+          </div>
+          <div class="box">
+            <PersonAddIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              PersonAddIcon
             </div>
           </div>
           <div class="box">
@@ -4405,13 +4405,6 @@
             </div>
           </div>
           <div class="box">
-            <SocialCss3OutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialCss3OutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialCodepenIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -4419,10 +4412,10 @@
             </div>
           </div>
           <div class="box">
-            <SocialDesignernewsOutlineIcon :w="w" :h="h"/>
+            <SocialCss3OutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              SocialDesignernewsOutlineIcon
+              SocialCss3OutlineIcon
             </div>
           </div>
           <div class="box">
@@ -4430,6 +4423,13 @@
 
             <div class="box-content">
               SocialCss3Icon
+            </div>
+          </div>
+          <div class="box">
+            <SocialDesignernewsOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialDesignernewsOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -4503,17 +4503,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialFreebsdDevilIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialFreebsdDevilIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialFoursquareIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialFoursquareIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialFreebsdDevilIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialFreebsdDevilIcon
             </div>
           </div>
           <div class="box">
@@ -4524,17 +4524,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialGithubIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialGithubIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialGoogleOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialGoogleOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialGithubIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialGithubIcon
             </div>
           </div>
           <div class="box">
@@ -4629,17 +4629,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialMarkdownIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialMarkdownIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialNodejsIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialNodejsIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialMarkdownIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialMarkdownIcon
             </div>
           </div>
           <div class="box">
@@ -4692,17 +4692,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialRssIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialRssIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialSassIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialSassIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialRssIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialRssIcon
             </div>
           </div>
           <div class="box">
@@ -4727,13 +4727,6 @@
             </div>
           </div>
           <div class="box">
-            <SocialTumblrIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialTumblrIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialSnapchatIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -4748,10 +4741,10 @@
             </div>
           </div>
           <div class="box">
-            <SocialTuxIcon :w="w" :h="h"/>
+            <SocialTumblrIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              SocialTuxIcon
+              SocialTumblrIcon
             </div>
           </div>
           <div class="box">
@@ -4762,17 +4755,17 @@
             </div>
           </div>
           <div class="box">
+            <SocialTuxIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialTuxIcon
+            </div>
+          </div>
+          <div class="box">
             <SocialTwitchIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialTwitchIcon
-            </div>
-          </div>
-          <div class="box">
-            <SocialTwitterOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialTwitterOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -4783,20 +4776,6 @@
             </div>
           </div>
           <div class="box">
-            <SocialUsdOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialUsdOutlineIcon
-            </div>
-          </div>
-          <div class="box">
-            <SocialVimeoOutlineIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialVimeoOutlineIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialUsdIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -4804,10 +4783,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialVimeoIcon :w="w" :h="h"/>
+            <SocialTwitterOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              SocialVimeoIcon
+              SocialTwitterOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialUsdOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialUsdOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -4818,17 +4804,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialWindowsOutlineIcon :w="w" :h="h"/>
+            <SocialVimeoIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              SocialWindowsOutlineIcon
+              SocialVimeoIcon
             </div>
           </div>
           <div class="box">
-            <SocialWindowsIcon :w="w" :h="h"/>
+            <SocialVimeoOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              SocialWindowsIcon
+              SocialVimeoOutlineIcon
             </div>
           </div>
           <div class="box">
@@ -4839,10 +4825,24 @@
             </div>
           </div>
           <div class="box">
+            <SocialWindowsOutlineIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialWindowsOutlineIcon
+            </div>
+          </div>
+          <div class="box">
             <SocialWordpressOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialWordpressOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialWindowsIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialWindowsIcon
             </div>
           </div>
           <div class="box">
@@ -4867,17 +4867,17 @@
             </div>
           </div>
           <div class="box">
-            <SocialYenIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              SocialYenIcon
-            </div>
-          </div>
-          <div class="box">
             <SocialYenOutlineIcon :w="w" :h="h"/>
 
             <div class="box-content">
               SocialYenOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <SocialYenIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              SocialYenIcon
             </div>
           </div>
           <div class="box">
@@ -4930,13 +4930,6 @@
             </div>
           </div>
           <div class="box">
-            <StarIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              StarIcon
-            </div>
-          </div>
-          <div class="box">
             <StatsBarsIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -4944,10 +4937,10 @@
             </div>
           </div>
           <div class="box">
-            <StopIcon :w="w" :h="h"/>
+            <StarIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              StopIcon
+              StarIcon
             </div>
           </div>
           <div class="box">
@@ -4965,17 +4958,17 @@
             </div>
           </div>
           <div class="box">
+            <StopIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              StopIcon
+            </div>
+          </div>
+          <div class="box">
             <ThumbsdownIcon :w="w" :h="h"/>
 
             <div class="box-content">
               ThumbsdownIcon
-            </div>
-          </div>
-          <div class="box">
-            <ThumbsupIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              ThumbsupIcon
             </div>
           </div>
           <div class="box">
@@ -5000,17 +4993,17 @@
             </div>
           </div>
           <div class="box">
+            <ThumbsupIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              ThumbsupIcon
+            </div>
+          </div>
+          <div class="box">
             <TrashAIcon :w="w" :h="h"/>
 
             <div class="box-content">
               TrashAIcon
-            </div>
-          </div>
-          <div class="box">
-            <TrashBIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              TrashBIcon
             </div>
           </div>
           <div class="box">
@@ -5025,6 +5018,20 @@
 
             <div class="box-content">
               TshirtOutlineIcon
+            </div>
+          </div>
+          <div class="box">
+            <TrashBIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              TrashBIcon
+            </div>
+          </div>
+          <div class="box">
+            <TshirtIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              TshirtIcon
             </div>
           </div>
           <div class="box">
@@ -5056,13 +5063,6 @@
             </div>
           </div>
           <div class="box">
-            <TshirtIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              TshirtIcon
-            </div>
-          </div>
-          <div class="box">
             <UsbIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -5091,13 +5091,6 @@
             </div>
           </div>
           <div class="box">
-            <VolumeMuteIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              VolumeMuteIcon
-            </div>
-          </div>
-          <div class="box">
             <VolumeMediumIcon :w="w" :h="h"/>
 
             <div class="box-content">
@@ -5112,10 +5105,10 @@
             </div>
           </div>
           <div class="box">
-            <WifiIcon :w="w" :h="h"/>
+            <VolumeMuteIcon :w="w" :h="h"/>
 
             <div class="box-content">
-              WifiIcon
+              VolumeMuteIcon
             </div>
           </div>
           <div class="box">
@@ -5126,17 +5119,17 @@
             </div>
           </div>
           <div class="box">
+            <WifiIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              WifiIcon
+            </div>
+          </div>
+          <div class="box">
             <WineglassIcon :w="w" :h="h"/>
 
             <div class="box-content">
               WineglassIcon
-            </div>
-          </div>
-          <div class="box">
-            <WomanIcon :w="w" :h="h"/>
-
-            <div class="box-content">
-              WomanIcon
             </div>
           </div>
           <div class="box">
@@ -5153,6 +5146,13 @@
               XboxIcon
             </div>
           </div>
+          <div class="box">
+            <WomanIcon :w="w" :h="h"/>
+
+            <div class="box-content">
+              WomanIcon
+            </div>
+          </div>
       </div>
 
     </div>
@@ -5162,20 +5162,20 @@
 </template>
 
 <script>
-import AndroidAddCircleIcon  from 'dist/android-add-circle.vue'
-import AlertCircledIcon  from 'dist/alert-circled.vue'
-import AlertIcon  from 'dist/alert.vue'
 import AndroidAddIcon  from 'dist/android-add.vue'
+import AlertIcon  from 'dist/alert.vue'
+import AlertCircledIcon  from 'dist/alert-circled.vue'
+import AndroidAddCircleIcon  from 'dist/android-add-circle.vue'
 import AndroidAlarmClockIcon  from 'dist/android-alarm-clock.vue'
+import AndroidArchiveIcon  from 'dist/android-archive.vue'
 import AndroidAlertIcon  from 'dist/android-alert.vue'
 import AndroidAppsIcon  from 'dist/android-apps.vue'
-import AndroidArchiveIcon  from 'dist/android-archive.vue'
-import AndroidArrowBackIcon  from 'dist/android-arrow-back.vue'
 import AndroidArrowDownIcon  from 'dist/android-arrow-down.vue'
-import AndroidArrowDropdownCircleIcon  from 'dist/android-arrow-dropdown-circle.vue'
 import AndroidArrowDropdownIcon  from 'dist/android-arrow-dropdown.vue'
 import AndroidArrowDropleftCircleIcon  from 'dist/android-arrow-dropleft-circle.vue'
 import AndroidArrowDropleftIcon  from 'dist/android-arrow-dropleft.vue'
+import AndroidArrowDropdownCircleIcon  from 'dist/android-arrow-dropdown-circle.vue'
+import AndroidArrowBackIcon  from 'dist/android-arrow-back.vue'
 import AndroidArrowDroprightCircleIcon  from 'dist/android-arrow-dropright-circle.vue'
 import AndroidArrowDroprightIcon  from 'dist/android-arrow-dropright.vue'
 import AndroidArrowDropupCircleIcon  from 'dist/android-arrow-dropup-circle.vue'
@@ -5183,168 +5183,168 @@ import AndroidArrowDropupIcon  from 'dist/android-arrow-dropup.vue'
 import AndroidArrowForwardIcon  from 'dist/android-arrow-forward.vue'
 import AndroidArrowUpIcon  from 'dist/android-arrow-up.vue'
 import AndroidAttachIcon  from 'dist/android-attach.vue'
+import AndroidBarIcon  from 'dist/android-bar.vue'
 import AndroidBoatIcon  from 'dist/android-boat.vue'
 import AndroidBicycleIcon  from 'dist/android-bicycle.vue'
-import AndroidBarIcon  from 'dist/android-bar.vue'
-import AndroidBusIcon  from 'dist/android-bus.vue'
 import AndroidBookmarkIcon  from 'dist/android-bookmark.vue'
+import AndroidBulbIcon  from 'dist/android-bulb.vue'
 import AndroidCalendarIcon  from 'dist/android-calendar.vue'
 import AndroidCallIcon  from 'dist/android-call.vue'
 import AndroidCameraIcon  from 'dist/android-camera.vue'
+import AndroidBusIcon  from 'dist/android-bus.vue'
 import AndroidCancelIcon  from 'dist/android-cancel.vue'
-import AndroidBulbIcon  from 'dist/android-bulb.vue'
-import AndroidCarIcon  from 'dist/android-car.vue'
 import AndroidCartIcon  from 'dist/android-cart.vue'
 import AndroidChatIcon  from 'dist/android-chat.vue'
 import AndroidCheckboxBlankIcon  from 'dist/android-checkbox-blank.vue'
+import AndroidCarIcon  from 'dist/android-car.vue'
 import AndroidCheckboxOutlineBlankIcon  from 'dist/android-checkbox-outline-blank.vue'
 import AndroidCheckboxOutlineIcon  from 'dist/android-checkbox-outline.vue'
 import AndroidCheckboxIcon  from 'dist/android-checkbox.vue'
-import AndroidCheckmarkCircleIcon  from 'dist/android-checkmark-circle.vue'
 import AndroidClipboardIcon  from 'dist/android-clipboard.vue'
+import AndroidCheckmarkCircleIcon  from 'dist/android-checkmark-circle.vue'
 import AndroidCloseIcon  from 'dist/android-close.vue'
+import AndroidCloudCircleIcon  from 'dist/android-cloud-circle.vue'
 import AndroidCloudOutlineIcon  from 'dist/android-cloud-outline.vue'
 import AndroidCloudIcon  from 'dist/android-cloud.vue'
-import AndroidCloudDoneIcon  from 'dist/android-cloud-done.vue'
-import AndroidCloudCircleIcon  from 'dist/android-cloud-circle.vue'
 import AndroidColorPaletteIcon  from 'dist/android-color-palette.vue'
 import AndroidCompassIcon  from 'dist/android-compass.vue'
-import AndroidContactsIcon  from 'dist/android-contacts.vue'
+import AndroidCloudDoneIcon  from 'dist/android-cloud-done.vue'
 import AndroidContactIcon  from 'dist/android-contact.vue'
+import AndroidContactsIcon  from 'dist/android-contacts.vue'
 import AndroidContractIcon  from 'dist/android-contract.vue'
-import AndroidCreateIcon  from 'dist/android-create.vue'
 import AndroidDeleteIcon  from 'dist/android-delete.vue'
+import AndroidCreateIcon  from 'dist/android-create.vue'
 import AndroidDesktopIcon  from 'dist/android-desktop.vue'
-import AndroidDoneIcon  from 'dist/android-done.vue'
 import AndroidDocumentIcon  from 'dist/android-document.vue'
 import AndroidDoneAllIcon  from 'dist/android-done-all.vue'
+import AndroidDoneIcon  from 'dist/android-done.vue'
+import AndroidDownloadIcon  from 'dist/android-download.vue'
+import AndroidDraftsIcon  from 'dist/android-drafts.vue'
 import AndroidExpandIcon  from 'dist/android-expand.vue'
 import AndroidExitIcon  from 'dist/android-exit.vue'
-import AndroidDownloadIcon  from 'dist/android-download.vue'
-import AndroidFilmIcon  from 'dist/android-film.vue'
 import AndroidFavoriteOutlineIcon  from 'dist/android-favorite-outline.vue'
-import AndroidDraftsIcon  from 'dist/android-drafts.vue'
 import AndroidFavoriteIcon  from 'dist/android-favorite.vue'
 import AndroidFolderOpenIcon  from 'dist/android-folder-open.vue'
+import AndroidFilmIcon  from 'dist/android-film.vue'
 import AndroidFolderIcon  from 'dist/android-folder.vue'
-import AndroidGlobeIcon  from 'dist/android-globe.vue'
-import AndroidHandIcon  from 'dist/android-hand.vue'
 import AndroidFunnelIcon  from 'dist/android-funnel.vue'
+import AndroidHandIcon  from 'dist/android-hand.vue'
 import AndroidHangoutIcon  from 'dist/android-hangout.vue'
+import AndroidGlobeIcon  from 'dist/android-globe.vue'
 import AndroidHappyIcon  from 'dist/android-happy.vue'
 import AndroidHomeIcon  from 'dist/android-home.vue'
 import AndroidImageIcon  from 'dist/android-image.vue'
 import AndroidLaptopIcon  from 'dist/android-laptop.vue'
 import AndroidListIcon  from 'dist/android-list.vue'
-import AndroidLocateIcon  from 'dist/android-locate.vue'
 import AndroidLockIcon  from 'dist/android-lock.vue'
-import AndroidMailIcon  from 'dist/android-mail.vue'
-import AndroidMenuIcon  from 'dist/android-menu.vue'
+import AndroidLocateIcon  from 'dist/android-locate.vue'
 import AndroidMapIcon  from 'dist/android-map.vue'
+import AndroidMenuIcon  from 'dist/android-menu.vue'
+import AndroidMailIcon  from 'dist/android-mail.vue'
 import AndroidMicrophoneOffIcon  from 'dist/android-microphone-off.vue'
-import AndroidMicrophoneIcon  from 'dist/android-microphone.vue'
 import AndroidMoreHorizontalIcon  from 'dist/android-more-horizontal.vue'
 import AndroidNavigateIcon  from 'dist/android-navigate.vue'
+import AndroidMicrophoneIcon  from 'dist/android-microphone.vue'
 import AndroidMoreVerticalIcon  from 'dist/android-more-vertical.vue'
 import AndroidNotificationsNoneIcon  from 'dist/android-notifications-none.vue'
-import AndroidNotificationsIcon  from 'dist/android-notifications.vue'
 import AndroidNotificationsOffIcon  from 'dist/android-notifications-off.vue'
+import AndroidNotificationsIcon  from 'dist/android-notifications.vue'
 import AndroidOpenIcon  from 'dist/android-open.vue'
 import AndroidOptionsIcon  from 'dist/android-options.vue'
-import AndroidPersonIcon  from 'dist/android-person.vue'
 import AndroidPeopleIcon  from 'dist/android-people.vue'
 import AndroidPersonAddIcon  from 'dist/android-person-add.vue'
-import AndroidPhonePortraitIcon  from 'dist/android-phone-portrait.vue'
-import AndroidPinIcon  from 'dist/android-pin.vue'
-import AndroidPhoneLandscapeIcon  from 'dist/android-phone-landscape.vue'
+import AndroidPersonIcon  from 'dist/android-person.vue'
 import AndroidPlaneIcon  from 'dist/android-plane.vue'
-import AndroidPlaystoreIcon  from 'dist/android-playstore.vue'
+import AndroidPhonePortraitIcon  from 'dist/android-phone-portrait.vue'
 import AndroidPrintIcon  from 'dist/android-print.vue'
+import AndroidPhoneLandscapeIcon  from 'dist/android-phone-landscape.vue'
+import AndroidPinIcon  from 'dist/android-pin.vue'
+import AndroidPlaystoreIcon  from 'dist/android-playstore.vue'
 import AndroidRadioButtonOffIcon  from 'dist/android-radio-button-off.vue'
 import AndroidRadioButtonOnIcon  from 'dist/android-radio-button-on.vue'
 import AndroidRefreshIcon  from 'dist/android-refresh.vue'
 import AndroidRemoveCircleIcon  from 'dist/android-remove-circle.vue'
 import AndroidRemoveIcon  from 'dist/android-remove.vue'
-import AndroidSendIcon  from 'dist/android-send.vue'
 import AndroidRestaurantIcon  from 'dist/android-restaurant.vue'
 import AndroidSadIcon  from 'dist/android-sad.vue'
 import AndroidSearchIcon  from 'dist/android-search.vue'
+import AndroidSendIcon  from 'dist/android-send.vue'
 import AndroidSettingsIcon  from 'dist/android-settings.vue'
 import AndroidShareAltIcon  from 'dist/android-share-alt.vue'
 import AndroidShareIcon  from 'dist/android-share.vue'
-import AndroidStarHalfIcon  from 'dist/android-star-half.vue'
-import AndroidStarIcon  from 'dist/android-star.vue'
 import AndroidStarOutlineIcon  from 'dist/android-star-outline.vue'
-import AndroidSunnyIcon  from 'dist/android-sunny.vue'
+import AndroidStarHalfIcon  from 'dist/android-star-half.vue'
 import AndroidStopwatchIcon  from 'dist/android-stopwatch.vue'
-import AndroidSyncIcon  from 'dist/android-sync.vue'
-import AndroidTrainIcon  from 'dist/android-train.vue'
-import AndroidTimeIcon  from 'dist/android-time.vue'
+import AndroidStarIcon  from 'dist/android-star.vue'
 import AndroidSubwayIcon  from 'dist/android-subway.vue'
-import AndroidUnlockIcon  from 'dist/android-unlock.vue'
+import AndroidSunnyIcon  from 'dist/android-sunny.vue'
+import AndroidSyncIcon  from 'dist/android-sync.vue'
 import AndroidTextsmsIcon  from 'dist/android-textsms.vue'
+import AndroidTimeIcon  from 'dist/android-time.vue'
+import AndroidTrainIcon  from 'dist/android-train.vue'
+import AndroidUnlockIcon  from 'dist/android-unlock.vue'
 import AndroidUploadIcon  from 'dist/android-upload.vue'
 import AndroidVolumeDownIcon  from 'dist/android-volume-down.vue'
 import AndroidVolumeMuteIcon  from 'dist/android-volume-mute.vue'
-import AndroidVolumeUpIcon  from 'dist/android-volume-up.vue'
 import AndroidVolumeOffIcon  from 'dist/android-volume-off.vue'
+import AndroidVolumeUpIcon  from 'dist/android-volume-up.vue'
 import AndroidWalkIcon  from 'dist/android-walk.vue'
 import AndroidWarningIcon  from 'dist/android-warning.vue'
-import AndroidWifiIcon  from 'dist/android-wifi.vue'
 import AndroidWatchIcon  from 'dist/android-watch.vue'
 import ApertureIcon  from 'dist/aperture.vue'
+import AndroidWifiIcon  from 'dist/android-wifi.vue'
 import ArchiveIcon  from 'dist/archive.vue'
+import ArrowExpandIcon  from 'dist/arrow-expand.vue'
 import ArrowDownAIcon  from 'dist/arrow-down-a.vue'
 import ArrowDownBIcon  from 'dist/arrow-down-b.vue'
 import ArrowDownCIcon  from 'dist/arrow-down-c.vue'
-import ArrowExpandIcon  from 'dist/arrow-expand.vue'
-import ArrowGraphDownLeftIcon  from 'dist/arrow-graph-down-left.vue'
-import ArrowGraphDownRightIcon  from 'dist/arrow-graph-down-right.vue'
-import ArrowLeftAIcon  from 'dist/arrow-left-a.vue'
-import ArrowGraphUpRightIcon  from 'dist/arrow-graph-up-right.vue'
-import ArrowLeftBIcon  from 'dist/arrow-left-b.vue'
-import ArrowLeftCIcon  from 'dist/arrow-left-c.vue'
-import ArrowResizeIcon  from 'dist/arrow-resize.vue'
 import ArrowGraphUpLeftIcon  from 'dist/arrow-graph-up-left.vue'
+import ArrowGraphDownRightIcon  from 'dist/arrow-graph-down-right.vue'
+import ArrowGraphUpRightIcon  from 'dist/arrow-graph-up-right.vue'
+import ArrowGraphDownLeftIcon  from 'dist/arrow-graph-down-left.vue'
+import ArrowLeftAIcon  from 'dist/arrow-left-a.vue'
+import ArrowLeftBIcon  from 'dist/arrow-left-b.vue'
 import ArrowMoveIcon  from 'dist/arrow-move.vue'
+import ArrowResizeIcon  from 'dist/arrow-resize.vue'
+import ArrowLeftCIcon  from 'dist/arrow-left-c.vue'
 import ArrowReturnLeftIcon  from 'dist/arrow-return-left.vue'
+import ArrowRightBIcon  from 'dist/arrow-right-b.vue'
 import ArrowReturnRightIcon  from 'dist/arrow-return-right.vue'
 import ArrowRightAIcon  from 'dist/arrow-right-a.vue'
-import ArrowRightBIcon  from 'dist/arrow-right-b.vue'
 import ArrowRightCIcon  from 'dist/arrow-right-c.vue'
 import ArrowShrinkIcon  from 'dist/arrow-shrink.vue'
 import ArrowSwapIcon  from 'dist/arrow-swap.vue'
-import ArrowUpAIcon  from 'dist/arrow-up-a.vue'
 import ArrowUpBIcon  from 'dist/arrow-up-b.vue'
+import ArrowUpAIcon  from 'dist/arrow-up-a.vue'
 import ArrowUpCIcon  from 'dist/arrow-up-c.vue'
 import AsteriskIcon  from 'dist/asterisk.vue'
-import AtIcon  from 'dist/at.vue'
 import BackspaceOutlineIcon  from 'dist/backspace-outline.vue'
+import AtIcon  from 'dist/at.vue'
 import BackspaceIcon  from 'dist/backspace.vue'
 import BagIcon  from 'dist/bag.vue'
+import BatteryFullIcon  from 'dist/battery-full.vue'
 import BatteryChargingIcon  from 'dist/battery-charging.vue'
 import BatteryEmptyIcon  from 'dist/battery-empty.vue'
-import BatteryFullIcon  from 'dist/battery-full.vue'
 import BatteryHalfIcon  from 'dist/battery-half.vue'
-import BatteryLowIcon  from 'dist/battery-low.vue'
-import BeakerIcon  from 'dist/beaker.vue'
 import BeerIcon  from 'dist/beer.vue'
+import BatteryLowIcon  from 'dist/battery-low.vue'
 import BluetoothIcon  from 'dist/bluetooth.vue'
+import BeakerIcon  from 'dist/beaker.vue'
 import BonfireIcon  from 'dist/bonfire.vue'
 import BookmarkIcon  from 'dist/bookmark.vue'
 import BowtieIcon  from 'dist/bowtie.vue'
 import BriefcaseIcon  from 'dist/briefcase.vue'
-import BugIcon  from 'dist/bug.vue'
 import CalculatorIcon  from 'dist/calculator.vue'
+import BugIcon  from 'dist/bug.vue'
 import CalendarIcon  from 'dist/calendar.vue'
 import CameraIcon  from 'dist/camera.vue'
 import CardIcon  from 'dist/card.vue'
-import CashIcon  from 'dist/cash.vue'
 import ChatboxWorkingIcon  from 'dist/chatbox-working.vue'
 import ChatboxIcon  from 'dist/chatbox.vue'
+import CashIcon  from 'dist/cash.vue'
 import ChatboxesIcon  from 'dist/chatboxes.vue'
-import ChatbubbleWorkingIcon  from 'dist/chatbubble-working.vue'
 import ChatbubbleIcon  from 'dist/chatbubble.vue'
+import ChatbubbleWorkingIcon  from 'dist/chatbubble-working.vue'
 import ChatbubblesIcon  from 'dist/chatbubbles.vue'
 import CheckmarkCircledIcon  from 'dist/checkmark-circled.vue'
 import CheckmarkRoundIcon  from 'dist/checkmark-round.vue'
@@ -5354,8 +5354,8 @@ import ChevronLeftIcon  from 'dist/chevron-left.vue'
 import ChevronRightIcon  from 'dist/chevron-right.vue'
 import ChevronUpIcon  from 'dist/chevron-up.vue'
 import ClipboardIcon  from 'dist/clipboard.vue'
-import ClockIcon  from 'dist/clock.vue'
 import CloseCircledIcon  from 'dist/close-circled.vue'
+import ClockIcon  from 'dist/clock.vue'
 import CloseRoundIcon  from 'dist/close-round.vue'
 import CloseIcon  from 'dist/close.vue'
 import ClosedCaptioningIcon  from 'dist/closed-captioning.vue'
@@ -5375,11 +5375,11 @@ import DocumentTextIcon  from 'dist/document-text.vue'
 import DocumentIcon  from 'dist/document.vue'
 import DragIcon  from 'dist/drag.vue'
 import EarthIcon  from 'dist/earth.vue'
-import EditIcon  from 'dist/edit.vue'
 import EaselIcon  from 'dist/easel.vue'
+import EditIcon  from 'dist/edit.vue'
 import EggIcon  from 'dist/egg.vue'
-import EmailUnreadIcon  from 'dist/email-unread.vue'
 import EjectIcon  from 'dist/eject.vue'
+import EmailUnreadIcon  from 'dist/email-unread.vue'
 import EmailIcon  from 'dist/email.vue'
 import ErlenmeyerFlaskBubblesIcon  from 'dist/erlenmeyer-flask-bubbles.vue'
 import ErlenmeyerFlaskIcon  from 'dist/erlenmeyer-flask.vue'
@@ -5403,8 +5403,8 @@ import GearBIcon  from 'dist/gear-b.vue'
 import GridIcon  from 'dist/grid.vue'
 import HammerIcon  from 'dist/hammer.vue'
 import HappyOutlineIcon  from 'dist/happy-outline.vue'
-import HeadphoneIcon  from 'dist/headphone.vue'
 import HappyIcon  from 'dist/happy.vue'
+import HeadphoneIcon  from 'dist/headphone.vue'
 import HeartBrokenIcon  from 'dist/heart-broken.vue'
 import HeartIcon  from 'dist/heart.vue'
 import HelpBuoyIcon  from 'dist/help-buoy.vue'
@@ -5446,8 +5446,8 @@ import IosBasketballIcon  from 'dist/ios-basketball.vue'
 import IosBellOutlineIcon  from 'dist/ios-bell-outline.vue'
 import IosBellIcon  from 'dist/ios-bell.vue'
 import IosBodyOutlineIcon  from 'dist/ios-body-outline.vue'
-import IosBodyIcon  from 'dist/ios-body.vue'
 import IosBoltOutlineIcon  from 'dist/ios-bolt-outline.vue'
+import IosBodyIcon  from 'dist/ios-body.vue'
 import IosBoltIcon  from 'dist/ios-bolt.vue'
 import IosBookOutlineIcon  from 'dist/ios-book-outline.vue'
 import IosBookIcon  from 'dist/ios-book.vue'
@@ -5465,8 +5465,8 @@ import IosCalendarOutlineIcon  from 'dist/ios-calendar-outline.vue'
 import IosCalendarIcon  from 'dist/ios-calendar.vue'
 import IosCameraOutlineIcon  from 'dist/ios-camera-outline.vue'
 import IosCameraIcon  from 'dist/ios-camera.vue'
-import IosCartOutlineIcon  from 'dist/ios-cart-outline.vue'
 import IosCartIcon  from 'dist/ios-cart.vue'
+import IosCartOutlineIcon  from 'dist/ios-cart-outline.vue'
 import IosChatboxesOutlineIcon  from 'dist/ios-chatboxes-outline.vue'
 import IosChatboxesIcon  from 'dist/ios-chatboxes.vue'
 import IosChatbubbleOutlineIcon  from 'dist/ios-chatbubble-outline.vue'
@@ -5482,16 +5482,16 @@ import IosCloseEmptyIcon  from 'dist/ios-close-empty.vue'
 import IosCloseOutlineIcon  from 'dist/ios-close-outline.vue'
 import IosCloseIcon  from 'dist/ios-close.vue'
 import IosCloudDownloadOutlineIcon  from 'dist/ios-cloud-download-outline.vue'
-import IosCloudDownloadIcon  from 'dist/ios-cloud-download.vue'
 import IosCloudOutlineIcon  from 'dist/ios-cloud-outline.vue'
+import IosCloudDownloadIcon  from 'dist/ios-cloud-download.vue'
 import IosCloudUploadOutlineIcon  from 'dist/ios-cloud-upload-outline.vue'
 import IosCloudUploadIcon  from 'dist/ios-cloud-upload.vue'
 import IosCloudIcon  from 'dist/ios-cloud.vue'
 import IosCloudyNightOutlineIcon  from 'dist/ios-cloudy-night-outline.vue'
 import IosCloudyNightIcon  from 'dist/ios-cloudy-night.vue'
 import IosCloudyOutlineIcon  from 'dist/ios-cloudy-outline.vue'
-import IosCloudyIcon  from 'dist/ios-cloudy.vue'
 import IosCogOutlineIcon  from 'dist/ios-cog-outline.vue'
+import IosCloudyIcon  from 'dist/ios-cloudy.vue'
 import IosCogIcon  from 'dist/ios-cog.vue'
 import IosColorFilterOutlineIcon  from 'dist/ios-color-filter-outline.vue'
 import IosColorFilterIcon  from 'dist/ios-color-filter.vue'
@@ -5512,28 +5512,28 @@ import IosEmailOutlineIcon  from 'dist/ios-email-outline.vue'
 import IosEmailIcon  from 'dist/ios-email.vue'
 import IosEyeOutlineIcon  from 'dist/ios-eye-outline.vue'
 import IosEyeIcon  from 'dist/ios-eye.vue'
-import IosFastforwardOutlineIcon  from 'dist/ios-fastforward-outline.vue'
 import IosFastforwardIcon  from 'dist/ios-fastforward.vue'
+import IosFastforwardOutlineIcon  from 'dist/ios-fastforward-outline.vue'
 import IosFilingOutlineIcon  from 'dist/ios-filing-outline.vue'
 import IosFilingIcon  from 'dist/ios-filing.vue'
 import IosFilmOutlineIcon  from 'dist/ios-film-outline.vue'
-import IosFilmIcon  from 'dist/ios-film.vue'
 import IosFlagOutlineIcon  from 'dist/ios-flag-outline.vue'
+import IosFilmIcon  from 'dist/ios-film.vue'
 import IosFlagIcon  from 'dist/ios-flag.vue'
 import IosFlameOutlineIcon  from 'dist/ios-flame-outline.vue'
 import IosFlameIcon  from 'dist/ios-flame.vue'
-import IosFlaskOutlineIcon  from 'dist/ios-flask-outline.vue'
 import IosFlaskIcon  from 'dist/ios-flask.vue'
-import IosFlowerOutlineIcon  from 'dist/ios-flower-outline.vue'
+import IosFlaskOutlineIcon  from 'dist/ios-flask-outline.vue'
 import IosFlowerIcon  from 'dist/ios-flower.vue'
+import IosFlowerOutlineIcon  from 'dist/ios-flower-outline.vue'
 import IosFolderOutlineIcon  from 'dist/ios-folder-outline.vue'
 import IosFolderIcon  from 'dist/ios-folder.vue'
 import IosFootballOutlineIcon  from 'dist/ios-football-outline.vue'
 import IosFootballIcon  from 'dist/ios-football.vue'
 import IosGameControllerAOutlineIcon  from 'dist/ios-game-controller-a-outline.vue'
 import IosGameControllerAIcon  from 'dist/ios-game-controller-a.vue'
-import IosGameControllerBOutlineIcon  from 'dist/ios-game-controller-b-outline.vue'
 import IosGameControllerBIcon  from 'dist/ios-game-controller-b.vue'
+import IosGameControllerBOutlineIcon  from 'dist/ios-game-controller-b-outline.vue'
 import IosGearOutlineIcon  from 'dist/ios-gear-outline.vue'
 import IosGearIcon  from 'dist/ios-gear.vue'
 import IosGlassesOutlineIcon  from 'dist/ios-glasses-outline.vue'
@@ -5557,8 +5557,8 @@ import IosKeypadOutlineIcon  from 'dist/ios-keypad-outline.vue'
 import IosKeypadIcon  from 'dist/ios-keypad.vue'
 import IosLightbulbOutlineIcon  from 'dist/ios-lightbulb-outline.vue'
 import IosLightbulbIcon  from 'dist/ios-lightbulb.vue'
-import IosListOutlineIcon  from 'dist/ios-list-outline.vue'
 import IosListIcon  from 'dist/ios-list.vue'
+import IosListOutlineIcon  from 'dist/ios-list-outline.vue'
 import IosLocationOutlineIcon  from 'dist/ios-location-outline.vue'
 import IosLocationIcon  from 'dist/ios-location.vue'
 import IosLockedOutlineIcon  from 'dist/ios-locked-outline.vue'
@@ -5572,8 +5572,8 @@ import IosMedkitIcon  from 'dist/ios-medkit.vue'
 import IosMicOffIcon  from 'dist/ios-mic-off.vue'
 import IosMicOutlineIcon  from 'dist/ios-mic-outline.vue'
 import IosMicIcon  from 'dist/ios-mic.vue'
-import IosMinusEmptyIcon  from 'dist/ios-minus-empty.vue'
 import IosMinusOutlineIcon  from 'dist/ios-minus-outline.vue'
+import IosMinusEmptyIcon  from 'dist/ios-minus-empty.vue'
 import IosMinusIcon  from 'dist/ios-minus.vue'
 import IosMonitorOutlineIcon  from 'dist/ios-monitor-outline.vue'
 import IosMonitorIcon  from 'dist/ios-monitor.vue'
@@ -5584,32 +5584,32 @@ import IosMoreIcon  from 'dist/ios-more.vue'
 import IosMusicalNoteIcon  from 'dist/ios-musical-note.vue'
 import IosMusicalNotesIcon  from 'dist/ios-musical-notes.vue'
 import IosNavigateOutlineIcon  from 'dist/ios-navigate-outline.vue'
-import IosNutritionOutlineIcon  from 'dist/ios-nutrition-outline.vue'
 import IosNavigateIcon  from 'dist/ios-navigate.vue'
+import IosNutritionOutlineIcon  from 'dist/ios-nutrition-outline.vue'
 import IosNutritionIcon  from 'dist/ios-nutrition.vue'
 import IosPaperOutlineIcon  from 'dist/ios-paper-outline.vue'
 import IosPaperIcon  from 'dist/ios-paper.vue'
 import IosPaperplaneOutlineIcon  from 'dist/ios-paperplane-outline.vue'
+import IosPaperplaneIcon  from 'dist/ios-paperplane.vue'
 import IosPartlysunnyOutlineIcon  from 'dist/ios-partlysunny-outline.vue'
 import IosPartlysunnyIcon  from 'dist/ios-partlysunny.vue'
 import IosPauseOutlineIcon  from 'dist/ios-pause-outline.vue'
-import IosPauseIcon  from 'dist/ios-pause.vue'
 import IosPawOutlineIcon  from 'dist/ios-paw-outline.vue'
 import IosPawIcon  from 'dist/ios-paw.vue'
-import IosPaperplaneIcon  from 'dist/ios-paperplane.vue'
 import IosPeopleOutlineIcon  from 'dist/ios-people-outline.vue'
-import IosPeopleIcon  from 'dist/ios-people.vue'
+import IosPauseIcon  from 'dist/ios-pause.vue'
 import IosPersonOutlineIcon  from 'dist/ios-person-outline.vue'
 import IosPersonIcon  from 'dist/ios-person.vue'
-import IosPersonaddIcon  from 'dist/ios-personadd.vue'
+import IosPeopleIcon  from 'dist/ios-people.vue'
 import IosPersonaddOutlineIcon  from 'dist/ios-personadd-outline.vue'
+import IosPersonaddIcon  from 'dist/ios-personadd.vue'
 import IosPhotosOutlineIcon  from 'dist/ios-photos-outline.vue'
-import IosPieOutlineIcon  from 'dist/ios-pie-outline.vue'
 import IosPhotosIcon  from 'dist/ios-photos.vue'
 import IosPieIcon  from 'dist/ios-pie.vue'
 import IosPintOutlineIcon  from 'dist/ios-pint-outline.vue'
-import IosPintIcon  from 'dist/ios-pint.vue'
+import IosPieOutlineIcon  from 'dist/ios-pie-outline.vue'
 import IosPlayOutlineIcon  from 'dist/ios-play-outline.vue'
+import IosPintIcon  from 'dist/ios-pint.vue'
 import IosPlayIcon  from 'dist/ios-play.vue'
 import IosPlusEmptyIcon  from 'dist/ios-plus-empty.vue'
 import IosPlusOutlineIcon  from 'dist/ios-plus-outline.vue'
@@ -5617,19 +5617,19 @@ import IosPlusIcon  from 'dist/ios-plus.vue'
 import IosPricetagOutlineIcon  from 'dist/ios-pricetag-outline.vue'
 import IosPricetagIcon  from 'dist/ios-pricetag.vue'
 import IosPricetagsOutlineIcon  from 'dist/ios-pricetags-outline.vue'
-import IosPricetagsIcon  from 'dist/ios-pricetags.vue'
 import IosPrinterOutlineIcon  from 'dist/ios-printer-outline.vue'
-import IosPrinterIcon  from 'dist/ios-printer.vue'
+import IosPricetagsIcon  from 'dist/ios-pricetags.vue'
 import IosPulseStrongIcon  from 'dist/ios-pulse-strong.vue'
-import IosPulseIcon  from 'dist/ios-pulse.vue'
+import IosPrinterIcon  from 'dist/ios-printer.vue'
 import IosRainyOutlineIcon  from 'dist/ios-rainy-outline.vue'
-import IosRecordingOutlineIcon  from 'dist/ios-recording-outline.vue'
+import IosPulseIcon  from 'dist/ios-pulse.vue'
 import IosRainyIcon  from 'dist/ios-rainy.vue'
-import IosRecordingIcon  from 'dist/ios-recording.vue'
+import IosRecordingOutlineIcon  from 'dist/ios-recording-outline.vue'
 import IosRedoOutlineIcon  from 'dist/ios-redo-outline.vue'
 import IosRedoIcon  from 'dist/ios-redo.vue'
 import IosRefreshEmptyIcon  from 'dist/ios-refresh-empty.vue'
 import IosRefreshOutlineIcon  from 'dist/ios-refresh-outline.vue'
+import IosRecordingIcon  from 'dist/ios-recording.vue'
 import IosRefreshIcon  from 'dist/ios-refresh.vue'
 import IosReloadIcon  from 'dist/ios-reload.vue'
 import IosReverseCameraOutlineIcon  from 'dist/ios-reverse-camera-outline.vue'
@@ -5639,72 +5639,72 @@ import IosRewindIcon  from 'dist/ios-rewind.vue'
 import IosRoseOutlineIcon  from 'dist/ios-rose-outline.vue'
 import IosRoseIcon  from 'dist/ios-rose.vue'
 import IosSearchStrongIcon  from 'dist/ios-search-strong.vue'
+import IosSearchIcon  from 'dist/ios-search.vue'
 import IosSettingsStrongIcon  from 'dist/ios-settings-strong.vue'
 import IosSettingsIcon  from 'dist/ios-settings.vue'
 import IosShuffleStrongIcon  from 'dist/ios-shuffle-strong.vue'
-import IosSearchIcon  from 'dist/ios-search.vue'
 import IosShuffleIcon  from 'dist/ios-shuffle.vue'
-import IosSkipbackwardOutlineIcon  from 'dist/ios-skipbackward-outline.vue'
 import IosSkipbackwardIcon  from 'dist/ios-skipbackward.vue'
+import IosSkipbackwardOutlineIcon  from 'dist/ios-skipbackward-outline.vue'
 import IosSkipforwardOutlineIcon  from 'dist/ios-skipforward-outline.vue'
 import IosSkipforwardIcon  from 'dist/ios-skipforward.vue'
 import IosSnowyIcon  from 'dist/ios-snowy.vue'
-import IosSpeedometerOutlineIcon  from 'dist/ios-speedometer-outline.vue'
 import IosSpeedometerIcon  from 'dist/ios-speedometer.vue'
 import IosStarHalfIcon  from 'dist/ios-star-half.vue'
 import IosStarOutlineIcon  from 'dist/ios-star-outline.vue'
+import IosSpeedometerOutlineIcon  from 'dist/ios-speedometer-outline.vue'
 import IosStarIcon  from 'dist/ios-star.vue'
 import IosStopwatchOutlineIcon  from 'dist/ios-stopwatch-outline.vue'
-import IosStopwatchIcon  from 'dist/ios-stopwatch.vue'
-import IosSunnyOutlineIcon  from 'dist/ios-sunny-outline.vue'
 import IosSunnyIcon  from 'dist/ios-sunny.vue'
+import IosSunnyOutlineIcon  from 'dist/ios-sunny-outline.vue'
+import IosStopwatchIcon  from 'dist/ios-stopwatch.vue'
 import IosTelephoneOutlineIcon  from 'dist/ios-telephone-outline.vue'
 import IosTelephoneIcon  from 'dist/ios-telephone.vue'
 import IosTennisballOutlineIcon  from 'dist/ios-tennisball-outline.vue'
 import IosTennisballIcon  from 'dist/ios-tennisball.vue'
 import IosThunderstormOutlineIcon  from 'dist/ios-thunderstorm-outline.vue'
 import IosThunderstormIcon  from 'dist/ios-thunderstorm.vue'
-import IosTimeOutlineIcon  from 'dist/ios-time-outline.vue'
 import IosTimeIcon  from 'dist/ios-time.vue'
 import IosTimerOutlineIcon  from 'dist/ios-timer-outline.vue'
 import IosTimerIcon  from 'dist/ios-timer.vue'
 import IosToggleOutlineIcon  from 'dist/ios-toggle-outline.vue'
+import IosTimeOutlineIcon  from 'dist/ios-time-outline.vue'
 import IosToggleIcon  from 'dist/ios-toggle.vue'
 import IosTrashOutlineIcon  from 'dist/ios-trash-outline.vue'
 import IosTrashIcon  from 'dist/ios-trash.vue'
-import IosUndoOutlineIcon  from 'dist/ios-undo-outline.vue'
 import IosUndoIcon  from 'dist/ios-undo.vue'
 import IosUnlockedOutlineIcon  from 'dist/ios-unlocked-outline.vue'
 import IosUnlockedIcon  from 'dist/ios-unlocked.vue'
 import IosUploadOutlineIcon  from 'dist/ios-upload-outline.vue'
 import IosUploadIcon  from 'dist/ios-upload.vue'
+import IosUndoOutlineIcon  from 'dist/ios-undo-outline.vue'
 import IosVideocamOutlineIcon  from 'dist/ios-videocam-outline.vue'
-import IosVideocamIcon  from 'dist/ios-videocam.vue'
 import IosVolumeHighIcon  from 'dist/ios-volume-high.vue'
-import IosVolumeLowIcon  from 'dist/ios-volume-low.vue'
+import IosVideocamIcon  from 'dist/ios-videocam.vue'
 import IosWineglassOutlineIcon  from 'dist/ios-wineglass-outline.vue'
+import IosVolumeLowIcon  from 'dist/ios-volume-low.vue'
 import IosWineglassIcon  from 'dist/ios-wineglass.vue'
 import IosWorldOutlineIcon  from 'dist/ios-world-outline.vue'
-import IosWorldIcon  from 'dist/ios-world.vue'
 import IpadIcon  from 'dist/ipad.vue'
+import IosWorldIcon  from 'dist/ios-world.vue'
 import IphoneIcon  from 'dist/iphone.vue'
 import IpodIcon  from 'dist/ipod.vue'
 import JetIcon  from 'dist/jet.vue'
 import KeyIcon  from 'dist/key.vue'
-import KnifeIcon  from 'dist/knife.vue'
 import LaptopIcon  from 'dist/laptop.vue'
-import LeafIcon  from 'dist/leaf.vue'
 import LevelsIcon  from 'dist/levels.vue'
-import LightbulbIcon  from 'dist/lightbulb.vue'
+import LeafIcon  from 'dist/leaf.vue'
 import LinkIcon  from 'dist/link.vue'
 import LoadAIcon  from 'dist/load-a.vue'
-import LoadBIcon  from 'dist/load-b.vue'
+import KnifeIcon  from 'dist/knife.vue'
+import LightbulbIcon  from 'dist/lightbulb.vue'
 import LoadCIcon  from 'dist/load-c.vue'
+import LoadBIcon  from 'dist/load-b.vue'
 import LoadDIcon  from 'dist/load-d.vue'
 import LocationIcon  from 'dist/location.vue'
 import LockCombinationIcon  from 'dist/lock-combination.vue'
-import LogInIcon  from 'dist/log-in.vue'
 import LockedIcon  from 'dist/locked.vue'
+import LogInIcon  from 'dist/log-in.vue'
 import LogOutIcon  from 'dist/log-out.vue'
 import LoopIcon  from 'dist/loop.vue'
 import MagnetIcon  from 'dist/magnet.vue'
@@ -5713,12 +5713,12 @@ import ManIcon  from 'dist/man.vue'
 import MapIcon  from 'dist/map.vue'
 import MedkitIcon  from 'dist/medkit.vue'
 import MergeIcon  from 'dist/merge.vue'
-import MicBIcon  from 'dist/mic-b.vue'
 import MicAIcon  from 'dist/mic-a.vue'
+import MicBIcon  from 'dist/mic-b.vue'
+import MicCIcon  from 'dist/mic-c.vue'
 import MinusCircledIcon  from 'dist/minus-circled.vue'
 import MinusRoundIcon  from 'dist/minus-round.vue'
 import MinusIcon  from 'dist/minus.vue'
-import MicCIcon  from 'dist/mic-c.vue'
 import ModelSIcon  from 'dist/model-s.vue'
 import MonitorIcon  from 'dist/monitor.vue'
 import MoreIcon  from 'dist/more.vue'
@@ -5726,17 +5726,17 @@ import MouseIcon  from 'dist/mouse.vue'
 import MusicNoteIcon  from 'dist/music-note.vue'
 import NaviconRoundIcon  from 'dist/navicon-round.vue'
 import NaviconIcon  from 'dist/navicon.vue'
+import NavigateIcon  from 'dist/navigate.vue'
 import NetworkIcon  from 'dist/network.vue'
 import NoSmokingIcon  from 'dist/no-smoking.vue'
-import NavigateIcon  from 'dist/navigate.vue'
 import NuclearIcon  from 'dist/nuclear.vue'
 import OutletIcon  from 'dist/outlet.vue'
 import PaintbrushIcon  from 'dist/paintbrush.vue'
 import PaintbucketIcon  from 'dist/paintbucket.vue'
 import PaperAirplaneIcon  from 'dist/paper-airplane.vue'
 import PaperclipIcon  from 'dist/paperclip.vue'
-import PersonAddIcon  from 'dist/person-add.vue'
 import PauseIcon  from 'dist/pause.vue'
+import PersonAddIcon  from 'dist/person-add.vue'
 import PersonStalkerIcon  from 'dist/person-stalker.vue'
 import PersonIcon  from 'dist/person.vue'
 import PieGraphIcon  from 'dist/pie-graph.vue'
@@ -5788,10 +5788,10 @@ import SocialBufferIcon  from 'dist/social-buffer.vue'
 import SocialChromeOutlineIcon  from 'dist/social-chrome-outline.vue'
 import SocialChromeIcon  from 'dist/social-chrome.vue'
 import SocialCodepenOutlineIcon  from 'dist/social-codepen-outline.vue'
-import SocialCss3OutlineIcon  from 'dist/social-css3-outline.vue'
 import SocialCodepenIcon  from 'dist/social-codepen.vue'
-import SocialDesignernewsOutlineIcon  from 'dist/social-designernews-outline.vue'
+import SocialCss3OutlineIcon  from 'dist/social-css3-outline.vue'
 import SocialCss3Icon  from 'dist/social-css3.vue'
+import SocialDesignernewsOutlineIcon  from 'dist/social-designernews-outline.vue'
 import SocialDesignernewsIcon  from 'dist/social-designernews.vue'
 import SocialDribbbleOutlineIcon  from 'dist/social-dribbble-outline.vue'
 import SocialDribbbleIcon  from 'dist/social-dribbble.vue'
@@ -5802,11 +5802,11 @@ import SocialEuroIcon  from 'dist/social-euro.vue'
 import SocialFacebookOutlineIcon  from 'dist/social-facebook-outline.vue'
 import SocialFacebookIcon  from 'dist/social-facebook.vue'
 import SocialFoursquareOutlineIcon  from 'dist/social-foursquare-outline.vue'
-import SocialFreebsdDevilIcon  from 'dist/social-freebsd-devil.vue'
 import SocialFoursquareIcon  from 'dist/social-foursquare.vue'
+import SocialFreebsdDevilIcon  from 'dist/social-freebsd-devil.vue'
 import SocialGithubOutlineIcon  from 'dist/social-github-outline.vue'
-import SocialGithubIcon  from 'dist/social-github.vue'
 import SocialGoogleOutlineIcon  from 'dist/social-google-outline.vue'
+import SocialGithubIcon  from 'dist/social-github.vue'
 import SocialGoogleIcon  from 'dist/social-google.vue'
 import SocialGoogleplusOutlineIcon  from 'dist/social-googleplus-outline.vue'
 import SocialGoogleplusIcon  from 'dist/social-googleplus.vue'
@@ -5820,8 +5820,8 @@ import SocialJavascriptOutlineIcon  from 'dist/social-javascript-outline.vue'
 import SocialJavascriptIcon  from 'dist/social-javascript.vue'
 import SocialLinkedinOutlineIcon  from 'dist/social-linkedin-outline.vue'
 import SocialLinkedinIcon  from 'dist/social-linkedin.vue'
-import SocialMarkdownIcon  from 'dist/social-markdown.vue'
 import SocialNodejsIcon  from 'dist/social-nodejs.vue'
+import SocialMarkdownIcon  from 'dist/social-markdown.vue'
 import SocialOctocatIcon  from 'dist/social-octocat.vue'
 import SocialPinterestOutlineIcon  from 'dist/social-pinterest-outline.vue'
 import SocialPinterestIcon  from 'dist/social-pinterest.vue'
@@ -5829,33 +5829,33 @@ import SocialPythonIcon  from 'dist/social-python.vue'
 import SocialRedditOutlineIcon  from 'dist/social-reddit-outline.vue'
 import SocialRedditIcon  from 'dist/social-reddit.vue'
 import SocialRssOutlineIcon  from 'dist/social-rss-outline.vue'
-import SocialRssIcon  from 'dist/social-rss.vue'
 import SocialSassIcon  from 'dist/social-sass.vue'
+import SocialRssIcon  from 'dist/social-rss.vue'
 import SocialSkypeOutlineIcon  from 'dist/social-skype-outline.vue'
 import SocialSkypeIcon  from 'dist/social-skype.vue'
 import SocialSnapchatOutlineIcon  from 'dist/social-snapchat-outline.vue'
-import SocialTumblrIcon  from 'dist/social-tumblr.vue'
 import SocialSnapchatIcon  from 'dist/social-snapchat.vue'
 import SocialTumblrOutlineIcon  from 'dist/social-tumblr-outline.vue'
-import SocialTuxIcon  from 'dist/social-tux.vue'
+import SocialTumblrIcon  from 'dist/social-tumblr.vue'
 import SocialTwitchOutlineIcon  from 'dist/social-twitch-outline.vue'
+import SocialTuxIcon  from 'dist/social-tux.vue'
 import SocialTwitchIcon  from 'dist/social-twitch.vue'
-import SocialTwitterOutlineIcon  from 'dist/social-twitter-outline.vue'
 import SocialTwitterIcon  from 'dist/social-twitter.vue'
-import SocialUsdOutlineIcon  from 'dist/social-usd-outline.vue'
-import SocialVimeoOutlineIcon  from 'dist/social-vimeo-outline.vue'
 import SocialUsdIcon  from 'dist/social-usd.vue'
-import SocialVimeoIcon  from 'dist/social-vimeo.vue'
+import SocialTwitterOutlineIcon  from 'dist/social-twitter-outline.vue'
+import SocialUsdOutlineIcon  from 'dist/social-usd-outline.vue'
 import SocialWhatsappIcon  from 'dist/social-whatsapp.vue'
-import SocialWindowsOutlineIcon  from 'dist/social-windows-outline.vue'
-import SocialWindowsIcon  from 'dist/social-windows.vue'
+import SocialVimeoIcon  from 'dist/social-vimeo.vue'
+import SocialVimeoOutlineIcon  from 'dist/social-vimeo-outline.vue'
 import SocialWhatsappOutlineIcon  from 'dist/social-whatsapp-outline.vue'
+import SocialWindowsOutlineIcon  from 'dist/social-windows-outline.vue'
 import SocialWordpressOutlineIcon  from 'dist/social-wordpress-outline.vue'
+import SocialWindowsIcon  from 'dist/social-windows.vue'
 import SocialWordpressIcon  from 'dist/social-wordpress.vue'
 import SocialYahooOutlineIcon  from 'dist/social-yahoo-outline.vue'
 import SocialYahooIcon  from 'dist/social-yahoo.vue'
-import SocialYenIcon  from 'dist/social-yen.vue'
 import SocialYenOutlineIcon  from 'dist/social-yen-outline.vue'
+import SocialYenIcon  from 'dist/social-yen.vue'
 import SocialYoutubeOutlineIcon  from 'dist/social-youtube-outline.vue'
 import SocialYoutubeIcon  from 'dist/social-youtube.vue'
 import SoupCanOutlineIcon  from 'dist/soup-can-outline.vue'
@@ -5863,56 +5863,56 @@ import SoupCanIcon  from 'dist/soup-can.vue'
 import SpeakerphoneIcon  from 'dist/speakerphone.vue'
 import SpeedometerIcon  from 'dist/speedometer.vue'
 import SpoonIcon  from 'dist/spoon.vue'
-import StarIcon  from 'dist/star.vue'
 import StatsBarsIcon  from 'dist/stats-bars.vue'
-import StopIcon  from 'dist/stop.vue'
+import StarIcon  from 'dist/star.vue'
 import SteamIcon  from 'dist/steam.vue'
 import ThermometerIcon  from 'dist/thermometer.vue'
+import StopIcon  from 'dist/stop.vue'
 import ThumbsdownIcon  from 'dist/thumbsdown.vue'
-import ThumbsupIcon  from 'dist/thumbsup.vue'
 import ToggleFilledIcon  from 'dist/toggle-filled.vue'
 import ToggleIcon  from 'dist/toggle.vue'
 import TransgenderIcon  from 'dist/transgender.vue'
+import ThumbsupIcon  from 'dist/thumbsup.vue'
 import TrashAIcon  from 'dist/trash-a.vue'
-import TrashBIcon  from 'dist/trash-b.vue'
 import TrophyIcon  from 'dist/trophy.vue'
 import TshirtOutlineIcon  from 'dist/tshirt-outline.vue'
+import TrashBIcon  from 'dist/trash-b.vue'
+import TshirtIcon  from 'dist/tshirt.vue'
 import UmbrellaIcon  from 'dist/umbrella.vue'
 import UniversityIcon  from 'dist/university.vue'
 import UnlockedIcon  from 'dist/unlocked.vue'
 import UploadIcon  from 'dist/upload.vue'
-import TshirtIcon  from 'dist/tshirt.vue'
 import UsbIcon  from 'dist/usb.vue'
 import VideocameraIcon  from 'dist/videocamera.vue'
 import VolumeHighIcon  from 'dist/volume-high.vue'
 import VolumeLowIcon  from 'dist/volume-low.vue'
-import VolumeMuteIcon  from 'dist/volume-mute.vue'
 import VolumeMediumIcon  from 'dist/volume-medium.vue'
 import WaterdropIcon  from 'dist/waterdrop.vue'
-import WifiIcon  from 'dist/wifi.vue'
+import VolumeMuteIcon  from 'dist/volume-mute.vue'
 import WandIcon  from 'dist/wand.vue'
+import WifiIcon  from 'dist/wifi.vue'
 import WineglassIcon  from 'dist/wineglass.vue'
-import WomanIcon  from 'dist/woman.vue'
 import WrenchIcon  from 'dist/wrench.vue'
 import XboxIcon  from 'dist/xbox.vue'
+import WomanIcon  from 'dist/woman.vue'
 
 export default {
   name: 'app',
   components: {
-    AndroidAddCircleIcon,
-    AlertCircledIcon,
-    AlertIcon,
     AndroidAddIcon,
+    AlertIcon,
+    AlertCircledIcon,
+    AndroidAddCircleIcon,
     AndroidAlarmClockIcon,
+    AndroidArchiveIcon,
     AndroidAlertIcon,
     AndroidAppsIcon,
-    AndroidArchiveIcon,
-    AndroidArrowBackIcon,
     AndroidArrowDownIcon,
-    AndroidArrowDropdownCircleIcon,
     AndroidArrowDropdownIcon,
     AndroidArrowDropleftCircleIcon,
     AndroidArrowDropleftIcon,
+    AndroidArrowDropdownCircleIcon,
+    AndroidArrowBackIcon,
     AndroidArrowDroprightCircleIcon,
     AndroidArrowDroprightIcon,
     AndroidArrowDropupCircleIcon,
@@ -5920,168 +5920,168 @@ export default {
     AndroidArrowForwardIcon,
     AndroidArrowUpIcon,
     AndroidAttachIcon,
+    AndroidBarIcon,
     AndroidBoatIcon,
     AndroidBicycleIcon,
-    AndroidBarIcon,
-    AndroidBusIcon,
     AndroidBookmarkIcon,
+    AndroidBulbIcon,
     AndroidCalendarIcon,
     AndroidCallIcon,
     AndroidCameraIcon,
+    AndroidBusIcon,
     AndroidCancelIcon,
-    AndroidBulbIcon,
-    AndroidCarIcon,
     AndroidCartIcon,
     AndroidChatIcon,
     AndroidCheckboxBlankIcon,
+    AndroidCarIcon,
     AndroidCheckboxOutlineBlankIcon,
     AndroidCheckboxOutlineIcon,
     AndroidCheckboxIcon,
-    AndroidCheckmarkCircleIcon,
     AndroidClipboardIcon,
+    AndroidCheckmarkCircleIcon,
     AndroidCloseIcon,
+    AndroidCloudCircleIcon,
     AndroidCloudOutlineIcon,
     AndroidCloudIcon,
-    AndroidCloudDoneIcon,
-    AndroidCloudCircleIcon,
     AndroidColorPaletteIcon,
     AndroidCompassIcon,
-    AndroidContactsIcon,
+    AndroidCloudDoneIcon,
     AndroidContactIcon,
+    AndroidContactsIcon,
     AndroidContractIcon,
-    AndroidCreateIcon,
     AndroidDeleteIcon,
+    AndroidCreateIcon,
     AndroidDesktopIcon,
-    AndroidDoneIcon,
     AndroidDocumentIcon,
     AndroidDoneAllIcon,
+    AndroidDoneIcon,
+    AndroidDownloadIcon,
+    AndroidDraftsIcon,
     AndroidExpandIcon,
     AndroidExitIcon,
-    AndroidDownloadIcon,
-    AndroidFilmIcon,
     AndroidFavoriteOutlineIcon,
-    AndroidDraftsIcon,
     AndroidFavoriteIcon,
     AndroidFolderOpenIcon,
+    AndroidFilmIcon,
     AndroidFolderIcon,
-    AndroidGlobeIcon,
-    AndroidHandIcon,
     AndroidFunnelIcon,
+    AndroidHandIcon,
     AndroidHangoutIcon,
+    AndroidGlobeIcon,
     AndroidHappyIcon,
     AndroidHomeIcon,
     AndroidImageIcon,
     AndroidLaptopIcon,
     AndroidListIcon,
-    AndroidLocateIcon,
     AndroidLockIcon,
-    AndroidMailIcon,
-    AndroidMenuIcon,
+    AndroidLocateIcon,
     AndroidMapIcon,
+    AndroidMenuIcon,
+    AndroidMailIcon,
     AndroidMicrophoneOffIcon,
-    AndroidMicrophoneIcon,
     AndroidMoreHorizontalIcon,
     AndroidNavigateIcon,
+    AndroidMicrophoneIcon,
     AndroidMoreVerticalIcon,
     AndroidNotificationsNoneIcon,
-    AndroidNotificationsIcon,
     AndroidNotificationsOffIcon,
+    AndroidNotificationsIcon,
     AndroidOpenIcon,
     AndroidOptionsIcon,
-    AndroidPersonIcon,
     AndroidPeopleIcon,
     AndroidPersonAddIcon,
-    AndroidPhonePortraitIcon,
-    AndroidPinIcon,
-    AndroidPhoneLandscapeIcon,
+    AndroidPersonIcon,
     AndroidPlaneIcon,
-    AndroidPlaystoreIcon,
+    AndroidPhonePortraitIcon,
     AndroidPrintIcon,
+    AndroidPhoneLandscapeIcon,
+    AndroidPinIcon,
+    AndroidPlaystoreIcon,
     AndroidRadioButtonOffIcon,
     AndroidRadioButtonOnIcon,
     AndroidRefreshIcon,
     AndroidRemoveCircleIcon,
     AndroidRemoveIcon,
-    AndroidSendIcon,
     AndroidRestaurantIcon,
     AndroidSadIcon,
     AndroidSearchIcon,
+    AndroidSendIcon,
     AndroidSettingsIcon,
     AndroidShareAltIcon,
     AndroidShareIcon,
-    AndroidStarHalfIcon,
-    AndroidStarIcon,
     AndroidStarOutlineIcon,
-    AndroidSunnyIcon,
+    AndroidStarHalfIcon,
     AndroidStopwatchIcon,
-    AndroidSyncIcon,
-    AndroidTrainIcon,
-    AndroidTimeIcon,
+    AndroidStarIcon,
     AndroidSubwayIcon,
-    AndroidUnlockIcon,
+    AndroidSunnyIcon,
+    AndroidSyncIcon,
     AndroidTextsmsIcon,
+    AndroidTimeIcon,
+    AndroidTrainIcon,
+    AndroidUnlockIcon,
     AndroidUploadIcon,
     AndroidVolumeDownIcon,
     AndroidVolumeMuteIcon,
-    AndroidVolumeUpIcon,
     AndroidVolumeOffIcon,
+    AndroidVolumeUpIcon,
     AndroidWalkIcon,
     AndroidWarningIcon,
-    AndroidWifiIcon,
     AndroidWatchIcon,
     ApertureIcon,
+    AndroidWifiIcon,
     ArchiveIcon,
+    ArrowExpandIcon,
     ArrowDownAIcon,
     ArrowDownBIcon,
     ArrowDownCIcon,
-    ArrowExpandIcon,
-    ArrowGraphDownLeftIcon,
-    ArrowGraphDownRightIcon,
-    ArrowLeftAIcon,
-    ArrowGraphUpRightIcon,
-    ArrowLeftBIcon,
-    ArrowLeftCIcon,
-    ArrowResizeIcon,
     ArrowGraphUpLeftIcon,
+    ArrowGraphDownRightIcon,
+    ArrowGraphUpRightIcon,
+    ArrowGraphDownLeftIcon,
+    ArrowLeftAIcon,
+    ArrowLeftBIcon,
     ArrowMoveIcon,
+    ArrowResizeIcon,
+    ArrowLeftCIcon,
     ArrowReturnLeftIcon,
+    ArrowRightBIcon,
     ArrowReturnRightIcon,
     ArrowRightAIcon,
-    ArrowRightBIcon,
     ArrowRightCIcon,
     ArrowShrinkIcon,
     ArrowSwapIcon,
-    ArrowUpAIcon,
     ArrowUpBIcon,
+    ArrowUpAIcon,
     ArrowUpCIcon,
     AsteriskIcon,
-    AtIcon,
     BackspaceOutlineIcon,
+    AtIcon,
     BackspaceIcon,
     BagIcon,
+    BatteryFullIcon,
     BatteryChargingIcon,
     BatteryEmptyIcon,
-    BatteryFullIcon,
     BatteryHalfIcon,
-    BatteryLowIcon,
-    BeakerIcon,
     BeerIcon,
+    BatteryLowIcon,
     BluetoothIcon,
+    BeakerIcon,
     BonfireIcon,
     BookmarkIcon,
     BowtieIcon,
     BriefcaseIcon,
-    BugIcon,
     CalculatorIcon,
+    BugIcon,
     CalendarIcon,
     CameraIcon,
     CardIcon,
-    CashIcon,
     ChatboxWorkingIcon,
     ChatboxIcon,
+    CashIcon,
     ChatboxesIcon,
-    ChatbubbleWorkingIcon,
     ChatbubbleIcon,
+    ChatbubbleWorkingIcon,
     ChatbubblesIcon,
     CheckmarkCircledIcon,
     CheckmarkRoundIcon,
@@ -6091,8 +6091,8 @@ export default {
     ChevronRightIcon,
     ChevronUpIcon,
     ClipboardIcon,
-    ClockIcon,
     CloseCircledIcon,
+    ClockIcon,
     CloseRoundIcon,
     CloseIcon,
     ClosedCaptioningIcon,
@@ -6112,11 +6112,11 @@ export default {
     DocumentIcon,
     DragIcon,
     EarthIcon,
-    EditIcon,
     EaselIcon,
+    EditIcon,
     EggIcon,
-    EmailUnreadIcon,
     EjectIcon,
+    EmailUnreadIcon,
     EmailIcon,
     ErlenmeyerFlaskBubblesIcon,
     ErlenmeyerFlaskIcon,
@@ -6140,8 +6140,8 @@ export default {
     GridIcon,
     HammerIcon,
     HappyOutlineIcon,
-    HeadphoneIcon,
     HappyIcon,
+    HeadphoneIcon,
     HeartBrokenIcon,
     HeartIcon,
     HelpBuoyIcon,
@@ -6183,8 +6183,8 @@ export default {
     IosBellOutlineIcon,
     IosBellIcon,
     IosBodyOutlineIcon,
-    IosBodyIcon,
     IosBoltOutlineIcon,
+    IosBodyIcon,
     IosBoltIcon,
     IosBookOutlineIcon,
     IosBookIcon,
@@ -6202,8 +6202,8 @@ export default {
     IosCalendarIcon,
     IosCameraOutlineIcon,
     IosCameraIcon,
-    IosCartOutlineIcon,
     IosCartIcon,
+    IosCartOutlineIcon,
     IosChatboxesOutlineIcon,
     IosChatboxesIcon,
     IosChatbubbleOutlineIcon,
@@ -6219,16 +6219,16 @@ export default {
     IosCloseOutlineIcon,
     IosCloseIcon,
     IosCloudDownloadOutlineIcon,
-    IosCloudDownloadIcon,
     IosCloudOutlineIcon,
+    IosCloudDownloadIcon,
     IosCloudUploadOutlineIcon,
     IosCloudUploadIcon,
     IosCloudIcon,
     IosCloudyNightOutlineIcon,
     IosCloudyNightIcon,
     IosCloudyOutlineIcon,
-    IosCloudyIcon,
     IosCogOutlineIcon,
+    IosCloudyIcon,
     IosCogIcon,
     IosColorFilterOutlineIcon,
     IosColorFilterIcon,
@@ -6249,28 +6249,28 @@ export default {
     IosEmailIcon,
     IosEyeOutlineIcon,
     IosEyeIcon,
-    IosFastforwardOutlineIcon,
     IosFastforwardIcon,
+    IosFastforwardOutlineIcon,
     IosFilingOutlineIcon,
     IosFilingIcon,
     IosFilmOutlineIcon,
-    IosFilmIcon,
     IosFlagOutlineIcon,
+    IosFilmIcon,
     IosFlagIcon,
     IosFlameOutlineIcon,
     IosFlameIcon,
-    IosFlaskOutlineIcon,
     IosFlaskIcon,
-    IosFlowerOutlineIcon,
+    IosFlaskOutlineIcon,
     IosFlowerIcon,
+    IosFlowerOutlineIcon,
     IosFolderOutlineIcon,
     IosFolderIcon,
     IosFootballOutlineIcon,
     IosFootballIcon,
     IosGameControllerAOutlineIcon,
     IosGameControllerAIcon,
-    IosGameControllerBOutlineIcon,
     IosGameControllerBIcon,
+    IosGameControllerBOutlineIcon,
     IosGearOutlineIcon,
     IosGearIcon,
     IosGlassesOutlineIcon,
@@ -6294,8 +6294,8 @@ export default {
     IosKeypadIcon,
     IosLightbulbOutlineIcon,
     IosLightbulbIcon,
-    IosListOutlineIcon,
     IosListIcon,
+    IosListOutlineIcon,
     IosLocationOutlineIcon,
     IosLocationIcon,
     IosLockedOutlineIcon,
@@ -6309,8 +6309,8 @@ export default {
     IosMicOffIcon,
     IosMicOutlineIcon,
     IosMicIcon,
-    IosMinusEmptyIcon,
     IosMinusOutlineIcon,
+    IosMinusEmptyIcon,
     IosMinusIcon,
     IosMonitorOutlineIcon,
     IosMonitorIcon,
@@ -6321,32 +6321,32 @@ export default {
     IosMusicalNoteIcon,
     IosMusicalNotesIcon,
     IosNavigateOutlineIcon,
-    IosNutritionOutlineIcon,
     IosNavigateIcon,
+    IosNutritionOutlineIcon,
     IosNutritionIcon,
     IosPaperOutlineIcon,
     IosPaperIcon,
     IosPaperplaneOutlineIcon,
+    IosPaperplaneIcon,
     IosPartlysunnyOutlineIcon,
     IosPartlysunnyIcon,
     IosPauseOutlineIcon,
-    IosPauseIcon,
     IosPawOutlineIcon,
     IosPawIcon,
-    IosPaperplaneIcon,
     IosPeopleOutlineIcon,
-    IosPeopleIcon,
+    IosPauseIcon,
     IosPersonOutlineIcon,
     IosPersonIcon,
-    IosPersonaddIcon,
+    IosPeopleIcon,
     IosPersonaddOutlineIcon,
+    IosPersonaddIcon,
     IosPhotosOutlineIcon,
-    IosPieOutlineIcon,
     IosPhotosIcon,
     IosPieIcon,
     IosPintOutlineIcon,
-    IosPintIcon,
+    IosPieOutlineIcon,
     IosPlayOutlineIcon,
+    IosPintIcon,
     IosPlayIcon,
     IosPlusEmptyIcon,
     IosPlusOutlineIcon,
@@ -6354,19 +6354,19 @@ export default {
     IosPricetagOutlineIcon,
     IosPricetagIcon,
     IosPricetagsOutlineIcon,
-    IosPricetagsIcon,
     IosPrinterOutlineIcon,
-    IosPrinterIcon,
+    IosPricetagsIcon,
     IosPulseStrongIcon,
-    IosPulseIcon,
+    IosPrinterIcon,
     IosRainyOutlineIcon,
-    IosRecordingOutlineIcon,
+    IosPulseIcon,
     IosRainyIcon,
-    IosRecordingIcon,
+    IosRecordingOutlineIcon,
     IosRedoOutlineIcon,
     IosRedoIcon,
     IosRefreshEmptyIcon,
     IosRefreshOutlineIcon,
+    IosRecordingIcon,
     IosRefreshIcon,
     IosReloadIcon,
     IosReverseCameraOutlineIcon,
@@ -6376,72 +6376,72 @@ export default {
     IosRoseOutlineIcon,
     IosRoseIcon,
     IosSearchStrongIcon,
+    IosSearchIcon,
     IosSettingsStrongIcon,
     IosSettingsIcon,
     IosShuffleStrongIcon,
-    IosSearchIcon,
     IosShuffleIcon,
-    IosSkipbackwardOutlineIcon,
     IosSkipbackwardIcon,
+    IosSkipbackwardOutlineIcon,
     IosSkipforwardOutlineIcon,
     IosSkipforwardIcon,
     IosSnowyIcon,
-    IosSpeedometerOutlineIcon,
     IosSpeedometerIcon,
     IosStarHalfIcon,
     IosStarOutlineIcon,
+    IosSpeedometerOutlineIcon,
     IosStarIcon,
     IosStopwatchOutlineIcon,
-    IosStopwatchIcon,
-    IosSunnyOutlineIcon,
     IosSunnyIcon,
+    IosSunnyOutlineIcon,
+    IosStopwatchIcon,
     IosTelephoneOutlineIcon,
     IosTelephoneIcon,
     IosTennisballOutlineIcon,
     IosTennisballIcon,
     IosThunderstormOutlineIcon,
     IosThunderstormIcon,
-    IosTimeOutlineIcon,
     IosTimeIcon,
     IosTimerOutlineIcon,
     IosTimerIcon,
     IosToggleOutlineIcon,
+    IosTimeOutlineIcon,
     IosToggleIcon,
     IosTrashOutlineIcon,
     IosTrashIcon,
-    IosUndoOutlineIcon,
     IosUndoIcon,
     IosUnlockedOutlineIcon,
     IosUnlockedIcon,
     IosUploadOutlineIcon,
     IosUploadIcon,
+    IosUndoOutlineIcon,
     IosVideocamOutlineIcon,
-    IosVideocamIcon,
     IosVolumeHighIcon,
-    IosVolumeLowIcon,
+    IosVideocamIcon,
     IosWineglassOutlineIcon,
+    IosVolumeLowIcon,
     IosWineglassIcon,
     IosWorldOutlineIcon,
-    IosWorldIcon,
     IpadIcon,
+    IosWorldIcon,
     IphoneIcon,
     IpodIcon,
     JetIcon,
     KeyIcon,
-    KnifeIcon,
     LaptopIcon,
-    LeafIcon,
     LevelsIcon,
-    LightbulbIcon,
+    LeafIcon,
     LinkIcon,
     LoadAIcon,
-    LoadBIcon,
+    KnifeIcon,
+    LightbulbIcon,
     LoadCIcon,
+    LoadBIcon,
     LoadDIcon,
     LocationIcon,
     LockCombinationIcon,
-    LogInIcon,
     LockedIcon,
+    LogInIcon,
     LogOutIcon,
     LoopIcon,
     MagnetIcon,
@@ -6450,12 +6450,12 @@ export default {
     MapIcon,
     MedkitIcon,
     MergeIcon,
-    MicBIcon,
     MicAIcon,
+    MicBIcon,
+    MicCIcon,
     MinusCircledIcon,
     MinusRoundIcon,
     MinusIcon,
-    MicCIcon,
     ModelSIcon,
     MonitorIcon,
     MoreIcon,
@@ -6463,17 +6463,17 @@ export default {
     MusicNoteIcon,
     NaviconRoundIcon,
     NaviconIcon,
+    NavigateIcon,
     NetworkIcon,
     NoSmokingIcon,
-    NavigateIcon,
     NuclearIcon,
     OutletIcon,
     PaintbrushIcon,
     PaintbucketIcon,
     PaperAirplaneIcon,
     PaperclipIcon,
-    PersonAddIcon,
     PauseIcon,
+    PersonAddIcon,
     PersonStalkerIcon,
     PersonIcon,
     PieGraphIcon,
@@ -6525,10 +6525,10 @@ export default {
     SocialChromeOutlineIcon,
     SocialChromeIcon,
     SocialCodepenOutlineIcon,
-    SocialCss3OutlineIcon,
     SocialCodepenIcon,
-    SocialDesignernewsOutlineIcon,
+    SocialCss3OutlineIcon,
     SocialCss3Icon,
+    SocialDesignernewsOutlineIcon,
     SocialDesignernewsIcon,
     SocialDribbbleOutlineIcon,
     SocialDribbbleIcon,
@@ -6539,11 +6539,11 @@ export default {
     SocialFacebookOutlineIcon,
     SocialFacebookIcon,
     SocialFoursquareOutlineIcon,
-    SocialFreebsdDevilIcon,
     SocialFoursquareIcon,
+    SocialFreebsdDevilIcon,
     SocialGithubOutlineIcon,
-    SocialGithubIcon,
     SocialGoogleOutlineIcon,
+    SocialGithubIcon,
     SocialGoogleIcon,
     SocialGoogleplusOutlineIcon,
     SocialGoogleplusIcon,
@@ -6557,8 +6557,8 @@ export default {
     SocialJavascriptIcon,
     SocialLinkedinOutlineIcon,
     SocialLinkedinIcon,
-    SocialMarkdownIcon,
     SocialNodejsIcon,
+    SocialMarkdownIcon,
     SocialOctocatIcon,
     SocialPinterestOutlineIcon,
     SocialPinterestIcon,
@@ -6566,33 +6566,33 @@ export default {
     SocialRedditOutlineIcon,
     SocialRedditIcon,
     SocialRssOutlineIcon,
-    SocialRssIcon,
     SocialSassIcon,
+    SocialRssIcon,
     SocialSkypeOutlineIcon,
     SocialSkypeIcon,
     SocialSnapchatOutlineIcon,
-    SocialTumblrIcon,
     SocialSnapchatIcon,
     SocialTumblrOutlineIcon,
-    SocialTuxIcon,
+    SocialTumblrIcon,
     SocialTwitchOutlineIcon,
+    SocialTuxIcon,
     SocialTwitchIcon,
-    SocialTwitterOutlineIcon,
     SocialTwitterIcon,
-    SocialUsdOutlineIcon,
-    SocialVimeoOutlineIcon,
     SocialUsdIcon,
-    SocialVimeoIcon,
+    SocialTwitterOutlineIcon,
+    SocialUsdOutlineIcon,
     SocialWhatsappIcon,
-    SocialWindowsOutlineIcon,
-    SocialWindowsIcon,
+    SocialVimeoIcon,
+    SocialVimeoOutlineIcon,
     SocialWhatsappOutlineIcon,
+    SocialWindowsOutlineIcon,
     SocialWordpressOutlineIcon,
+    SocialWindowsIcon,
     SocialWordpressIcon,
     SocialYahooOutlineIcon,
     SocialYahooIcon,
-    SocialYenIcon,
     SocialYenOutlineIcon,
+    SocialYenIcon,
     SocialYoutubeOutlineIcon,
     SocialYoutubeIcon,
     SoupCanOutlineIcon,
@@ -6600,38 +6600,38 @@ export default {
     SpeakerphoneIcon,
     SpeedometerIcon,
     SpoonIcon,
-    StarIcon,
     StatsBarsIcon,
-    StopIcon,
+    StarIcon,
     SteamIcon,
     ThermometerIcon,
+    StopIcon,
     ThumbsdownIcon,
-    ThumbsupIcon,
     ToggleFilledIcon,
     ToggleIcon,
     TransgenderIcon,
+    ThumbsupIcon,
     TrashAIcon,
-    TrashBIcon,
     TrophyIcon,
     TshirtOutlineIcon,
+    TrashBIcon,
+    TshirtIcon,
     UmbrellaIcon,
     UniversityIcon,
     UnlockedIcon,
     UploadIcon,
-    TshirtIcon,
     UsbIcon,
     VideocameraIcon,
     VolumeHighIcon,
     VolumeLowIcon,
-    VolumeMuteIcon,
     VolumeMediumIcon,
     WaterdropIcon,
-    WifiIcon,
+    VolumeMuteIcon,
     WandIcon,
+    WifiIcon,
     WineglassIcon,
-    WomanIcon,
     WrenchIcon,
     XboxIcon,
+    WomanIcon,
   },
   data () {
     return {
