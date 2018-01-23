@@ -13,7 +13,12 @@
   "files": [
     "dist"
   ],
-  "keywords": [],
+  "keywords": [
+    "vue ionicons",
+    "vue icon",
+    "vue font icon",
+    "ionicons"
+  ],
   "devDependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",

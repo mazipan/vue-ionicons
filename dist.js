@@ -11,6 +11,7 @@ const svgPath = path.resolve(__dirname, 'ionicons/src')
 
 const svgs = fs.readdirSync(svgPath)
 const svgo = new SVGO()
+const VERSION = process.env.npm_package_version
 
 console.log(chalk.yellow('Build starting...'))
 var spinner = ora('building...')
@@ -150,6 +151,23 @@ const generateDemoAppFile = (template, templateData) => {
   });
 }
 
+const generateVersionFile = () => {
+  spinner.stop()
+  console.log(chalk.yellow('Generating VERSION file...'))
+  spinner.start()
+  return new Promise((resolve, reject) => {
+    fs.writeFile(path.resolve('dist', `VERSION-${VERSION}`), `VERSION: ${VERSION}`, (err) => {
+      if(err) {
+        reject(err)
+      }
+      spinner.stop()
+      console.log(chalk.green('VERSION file generated'))
+      spinner.start()
+      resolve()
+    })
+  })
+}
+
 const templateVue = path.resolve(__dirname, 'template-vue.mst')
 const templateJS = path.resolve(__dirname, 'template-js.mst')
 const templateAppVue = path.resolve(__dirname, 'template-app-vue.mst')
@@ -162,7 +180,8 @@ generateTemplateData().then((templateData) => {
   Promise.all([
     generateBuildFile(templateVue, 'vue', templateData),
     generatePluginFile(templateJS, templateData),
-    generateDemoAppFile(templateAppVue, templateData)
+    generateDemoAppFile(templateAppVue, templateData),
+    generateVersionFile()
   ]).then(() => {
     shell.cp('ionicons.css', 'dist/')
     shell.cp('package.json', 'dist/')
