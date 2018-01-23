@@ -1,169 +1,169 @@
 // import libraryName from './name.vue'
 
 let AndroidAddCircleIcon  = () => import('./android-add-circle.vue')
-let AlertIcon  = () => import('./alert.vue')
 let AlertCircledIcon  = () => import('./alert-circled.vue')
+let AlertIcon  = () => import('./alert.vue')
 let AndroidAddIcon  = () => import('./android-add.vue')
+let AndroidAlarmClockIcon  = () => import('./android-alarm-clock.vue')
 let AndroidAlertIcon  = () => import('./android-alert.vue')
 let AndroidAppsIcon  = () => import('./android-apps.vue')
-let AndroidAlarmClockIcon  = () => import('./android-alarm-clock.vue')
 let AndroidArchiveIcon  = () => import('./android-archive.vue')
 let AndroidArrowBackIcon  = () => import('./android-arrow-back.vue')
 let AndroidArrowDownIcon  = () => import('./android-arrow-down.vue')
 let AndroidArrowDropdownCircleIcon  = () => import('./android-arrow-dropdown-circle.vue')
 let AndroidArrowDropdownIcon  = () => import('./android-arrow-dropdown.vue')
-let AndroidArrowDropleftIcon  = () => import('./android-arrow-dropleft.vue')
 let AndroidArrowDropleftCircleIcon  = () => import('./android-arrow-dropleft-circle.vue')
+let AndroidArrowDropleftIcon  = () => import('./android-arrow-dropleft.vue')
 let AndroidArrowDroprightCircleIcon  = () => import('./android-arrow-dropright-circle.vue')
 let AndroidArrowDroprightIcon  = () => import('./android-arrow-dropright.vue')
-let AndroidArrowForwardIcon  = () => import('./android-arrow-forward.vue')
-let AndroidArrowDropupIcon  = () => import('./android-arrow-dropup.vue')
-let AndroidArrowUpIcon  = () => import('./android-arrow-up.vue')
 let AndroidArrowDropupCircleIcon  = () => import('./android-arrow-dropup-circle.vue')
-let AndroidBarIcon  = () => import('./android-bar.vue')
-let AndroidBicycleIcon  = () => import('./android-bicycle.vue')
+let AndroidArrowDropupIcon  = () => import('./android-arrow-dropup.vue')
+let AndroidArrowForwardIcon  = () => import('./android-arrow-forward.vue')
+let AndroidArrowUpIcon  = () => import('./android-arrow-up.vue')
 let AndroidAttachIcon  = () => import('./android-attach.vue')
 let AndroidBoatIcon  = () => import('./android-boat.vue')
-let AndroidBookmarkIcon  = () => import('./android-bookmark.vue')
-let AndroidBulbIcon  = () => import('./android-bulb.vue')
-let AndroidCalendarIcon  = () => import('./android-calendar.vue')
+let AndroidBicycleIcon  = () => import('./android-bicycle.vue')
+let AndroidBarIcon  = () => import('./android-bar.vue')
 let AndroidBusIcon  = () => import('./android-bus.vue')
-let AndroidCameraIcon  = () => import('./android-camera.vue')
+let AndroidBookmarkIcon  = () => import('./android-bookmark.vue')
+let AndroidCalendarIcon  = () => import('./android-calendar.vue')
 let AndroidCallIcon  = () => import('./android-call.vue')
+let AndroidCameraIcon  = () => import('./android-camera.vue')
+let AndroidCancelIcon  = () => import('./android-cancel.vue')
+let AndroidBulbIcon  = () => import('./android-bulb.vue')
 let AndroidCarIcon  = () => import('./android-car.vue')
+let AndroidCartIcon  = () => import('./android-cart.vue')
 let AndroidChatIcon  = () => import('./android-chat.vue')
 let AndroidCheckboxBlankIcon  = () => import('./android-checkbox-blank.vue')
-let AndroidCancelIcon  = () => import('./android-cancel.vue')
-let AndroidCartIcon  = () => import('./android-cart.vue')
 let AndroidCheckboxOutlineBlankIcon  = () => import('./android-checkbox-outline-blank.vue')
 let AndroidCheckboxOutlineIcon  = () => import('./android-checkbox-outline.vue')
-let AndroidCheckmarkCircleIcon  = () => import('./android-checkmark-circle.vue')
 let AndroidCheckboxIcon  = () => import('./android-checkbox.vue')
+let AndroidCheckmarkCircleIcon  = () => import('./android-checkmark-circle.vue')
 let AndroidClipboardIcon  = () => import('./android-clipboard.vue')
 let AndroidCloseIcon  = () => import('./android-close.vue')
-let AndroidCloudCircleIcon  = () => import('./android-cloud-circle.vue')
 let AndroidCloudOutlineIcon  = () => import('./android-cloud-outline.vue')
-let AndroidCloudDoneIcon  = () => import('./android-cloud-done.vue')
 let AndroidCloudIcon  = () => import('./android-cloud.vue')
+let AndroidCloudDoneIcon  = () => import('./android-cloud-done.vue')
+let AndroidCloudCircleIcon  = () => import('./android-cloud-circle.vue')
 let AndroidColorPaletteIcon  = () => import('./android-color-palette.vue')
-let AndroidContactIcon  = () => import('./android-contact.vue')
 let AndroidCompassIcon  = () => import('./android-compass.vue')
-let AndroidContractIcon  = () => import('./android-contract.vue')
 let AndroidContactsIcon  = () => import('./android-contacts.vue')
-let AndroidDeleteIcon  = () => import('./android-delete.vue')
+let AndroidContactIcon  = () => import('./android-contact.vue')
+let AndroidContractIcon  = () => import('./android-contract.vue')
 let AndroidCreateIcon  = () => import('./android-create.vue')
+let AndroidDeleteIcon  = () => import('./android-delete.vue')
 let AndroidDesktopIcon  = () => import('./android-desktop.vue')
-let AndroidDocumentIcon  = () => import('./android-document.vue')
 let AndroidDoneIcon  = () => import('./android-done.vue')
+let AndroidDocumentIcon  = () => import('./android-document.vue')
 let AndroidDoneAllIcon  = () => import('./android-done-all.vue')
-let AndroidDownloadIcon  = () => import('./android-download.vue')
-let AndroidDraftsIcon  = () => import('./android-drafts.vue')
 let AndroidExpandIcon  = () => import('./android-expand.vue')
 let AndroidExitIcon  = () => import('./android-exit.vue')
-let AndroidFavoriteIcon  = () => import('./android-favorite.vue')
+let AndroidDownloadIcon  = () => import('./android-download.vue')
 let AndroidFilmIcon  = () => import('./android-film.vue')
-let AndroidFolderOpenIcon  = () => import('./android-folder-open.vue')
 let AndroidFavoriteOutlineIcon  = () => import('./android-favorite-outline.vue')
+let AndroidDraftsIcon  = () => import('./android-drafts.vue')
+let AndroidFavoriteIcon  = () => import('./android-favorite.vue')
+let AndroidFolderOpenIcon  = () => import('./android-folder-open.vue')
 let AndroidFolderIcon  = () => import('./android-folder.vue')
-let AndroidFunnelIcon  = () => import('./android-funnel.vue')
 let AndroidGlobeIcon  = () => import('./android-globe.vue')
 let AndroidHandIcon  = () => import('./android-hand.vue')
-let AndroidHappyIcon  = () => import('./android-happy.vue')
+let AndroidFunnelIcon  = () => import('./android-funnel.vue')
 let AndroidHangoutIcon  = () => import('./android-hangout.vue')
-let AndroidImageIcon  = () => import('./android-image.vue')
+let AndroidHappyIcon  = () => import('./android-happy.vue')
 let AndroidHomeIcon  = () => import('./android-home.vue')
+let AndroidImageIcon  = () => import('./android-image.vue')
 let AndroidLaptopIcon  = () => import('./android-laptop.vue')
+let AndroidListIcon  = () => import('./android-list.vue')
 let AndroidLocateIcon  = () => import('./android-locate.vue')
 let AndroidLockIcon  = () => import('./android-lock.vue')
-let AndroidListIcon  = () => import('./android-list.vue')
-let AndroidMenuIcon  = () => import('./android-menu.vue')
 let AndroidMailIcon  = () => import('./android-mail.vue')
+let AndroidMenuIcon  = () => import('./android-menu.vue')
 let AndroidMapIcon  = () => import('./android-map.vue')
 let AndroidMicrophoneOffIcon  = () => import('./android-microphone-off.vue')
 let AndroidMicrophoneIcon  = () => import('./android-microphone.vue')
 let AndroidMoreHorizontalIcon  = () => import('./android-more-horizontal.vue')
-let AndroidMoreVerticalIcon  = () => import('./android-more-vertical.vue')
 let AndroidNavigateIcon  = () => import('./android-navigate.vue')
+let AndroidMoreVerticalIcon  = () => import('./android-more-vertical.vue')
 let AndroidNotificationsNoneIcon  = () => import('./android-notifications-none.vue')
-let AndroidNotificationsOffIcon  = () => import('./android-notifications-off.vue')
 let AndroidNotificationsIcon  = () => import('./android-notifications.vue')
+let AndroidNotificationsOffIcon  = () => import('./android-notifications-off.vue')
 let AndroidOpenIcon  = () => import('./android-open.vue')
 let AndroidOptionsIcon  = () => import('./android-options.vue')
-let AndroidPeopleIcon  = () => import('./android-people.vue')
 let AndroidPersonIcon  = () => import('./android-person.vue')
+let AndroidPeopleIcon  = () => import('./android-people.vue')
 let AndroidPersonAddIcon  = () => import('./android-person-add.vue')
-let AndroidPhoneLandscapeIcon  = () => import('./android-phone-landscape.vue')
 let AndroidPhonePortraitIcon  = () => import('./android-phone-portrait.vue')
-let AndroidPlaneIcon  = () => import('./android-plane.vue')
 let AndroidPinIcon  = () => import('./android-pin.vue')
+let AndroidPhoneLandscapeIcon  = () => import('./android-phone-landscape.vue')
+let AndroidPlaneIcon  = () => import('./android-plane.vue')
 let AndroidPlaystoreIcon  = () => import('./android-playstore.vue')
+let AndroidPrintIcon  = () => import('./android-print.vue')
 let AndroidRadioButtonOffIcon  = () => import('./android-radio-button-off.vue')
 let AndroidRadioButtonOnIcon  = () => import('./android-radio-button-on.vue')
 let AndroidRefreshIcon  = () => import('./android-refresh.vue')
-let AndroidPrintIcon  = () => import('./android-print.vue')
+let AndroidRemoveCircleIcon  = () => import('./android-remove-circle.vue')
 let AndroidRemoveIcon  = () => import('./android-remove.vue')
+let AndroidSendIcon  = () => import('./android-send.vue')
 let AndroidRestaurantIcon  = () => import('./android-restaurant.vue')
 let AndroidSadIcon  = () => import('./android-sad.vue')
-let AndroidRemoveCircleIcon  = () => import('./android-remove-circle.vue')
 let AndroidSearchIcon  = () => import('./android-search.vue')
-let AndroidSendIcon  = () => import('./android-send.vue')
 let AndroidSettingsIcon  = () => import('./android-settings.vue')
 let AndroidShareAltIcon  = () => import('./android-share-alt.vue')
 let AndroidShareIcon  = () => import('./android-share.vue')
 let AndroidStarHalfIcon  = () => import('./android-star-half.vue')
-let AndroidStarOutlineIcon  = () => import('./android-star-outline.vue')
 let AndroidStarIcon  = () => import('./android-star.vue')
-let AndroidStopwatchIcon  = () => import('./android-stopwatch.vue')
-let AndroidSubwayIcon  = () => import('./android-subway.vue')
+let AndroidStarOutlineIcon  = () => import('./android-star-outline.vue')
 let AndroidSunnyIcon  = () => import('./android-sunny.vue')
+let AndroidStopwatchIcon  = () => import('./android-stopwatch.vue')
 let AndroidSyncIcon  = () => import('./android-sync.vue')
-let AndroidTextsmsIcon  = () => import('./android-textsms.vue')
 let AndroidTrainIcon  = () => import('./android-train.vue')
 let AndroidTimeIcon  = () => import('./android-time.vue')
-let AndroidVolumeDownIcon  = () => import('./android-volume-down.vue')
+let AndroidSubwayIcon  = () => import('./android-subway.vue')
 let AndroidUnlockIcon  = () => import('./android-unlock.vue')
+let AndroidTextsmsIcon  = () => import('./android-textsms.vue')
 let AndroidUploadIcon  = () => import('./android-upload.vue')
+let AndroidVolumeDownIcon  = () => import('./android-volume-down.vue')
 let AndroidVolumeMuteIcon  = () => import('./android-volume-mute.vue')
-let AndroidVolumeOffIcon  = () => import('./android-volume-off.vue')
-let AndroidWarningIcon  = () => import('./android-warning.vue')
 let AndroidVolumeUpIcon  = () => import('./android-volume-up.vue')
+let AndroidVolumeOffIcon  = () => import('./android-volume-off.vue')
 let AndroidWalkIcon  = () => import('./android-walk.vue')
-let ApertureIcon  = () => import('./aperture.vue')
-let AndroidWatchIcon  = () => import('./android-watch.vue')
+let AndroidWarningIcon  = () => import('./android-warning.vue')
 let AndroidWifiIcon  = () => import('./android-wifi.vue')
+let AndroidWatchIcon  = () => import('./android-watch.vue')
+let ApertureIcon  = () => import('./aperture.vue')
 let ArchiveIcon  = () => import('./archive.vue')
 let ArrowDownAIcon  = () => import('./arrow-down-a.vue')
 let ArrowDownBIcon  = () => import('./arrow-down-b.vue')
 let ArrowDownCIcon  = () => import('./arrow-down-c.vue')
 let ArrowExpandIcon  = () => import('./arrow-expand.vue')
-let ArrowGraphDownRightIcon  = () => import('./arrow-graph-down-right.vue')
 let ArrowGraphDownLeftIcon  = () => import('./arrow-graph-down-left.vue')
-let ArrowGraphUpLeftIcon  = () => import('./arrow-graph-up-left.vue')
-let ArrowGraphUpRightIcon  = () => import('./arrow-graph-up-right.vue')
+let ArrowGraphDownRightIcon  = () => import('./arrow-graph-down-right.vue')
 let ArrowLeftAIcon  = () => import('./arrow-left-a.vue')
+let ArrowGraphUpRightIcon  = () => import('./arrow-graph-up-right.vue')
 let ArrowLeftBIcon  = () => import('./arrow-left-b.vue')
 let ArrowLeftCIcon  = () => import('./arrow-left-c.vue')
+let ArrowResizeIcon  = () => import('./arrow-resize.vue')
+let ArrowGraphUpLeftIcon  = () => import('./arrow-graph-up-left.vue')
 let ArrowMoveIcon  = () => import('./arrow-move.vue')
 let ArrowReturnLeftIcon  = () => import('./arrow-return-left.vue')
 let ArrowReturnRightIcon  = () => import('./arrow-return-right.vue')
-let ArrowResizeIcon  = () => import('./arrow-resize.vue')
 let ArrowRightAIcon  = () => import('./arrow-right-a.vue')
 let ArrowRightBIcon  = () => import('./arrow-right-b.vue')
 let ArrowRightCIcon  = () => import('./arrow-right-c.vue')
 let ArrowShrinkIcon  = () => import('./arrow-shrink.vue')
 let ArrowSwapIcon  = () => import('./arrow-swap.vue')
-let ArrowUpBIcon  = () => import('./arrow-up-b.vue')
 let ArrowUpAIcon  = () => import('./arrow-up-a.vue')
+let ArrowUpBIcon  = () => import('./arrow-up-b.vue')
 let ArrowUpCIcon  = () => import('./arrow-up-c.vue')
 let AsteriskIcon  = () => import('./asterisk.vue')
 let AtIcon  = () => import('./at.vue')
-let BackspaceIcon  = () => import('./backspace.vue')
 let BackspaceOutlineIcon  = () => import('./backspace-outline.vue')
+let BackspaceIcon  = () => import('./backspace.vue')
 let BagIcon  = () => import('./bag.vue')
 let BatteryChargingIcon  = () => import('./battery-charging.vue')
 let BatteryEmptyIcon  = () => import('./battery-empty.vue')
-let BatteryHalfIcon  = () => import('./battery-half.vue')
 let BatteryFullIcon  = () => import('./battery-full.vue')
+let BatteryHalfIcon  = () => import('./battery-half.vue')
 let BatteryLowIcon  = () => import('./battery-low.vue')
 let BeakerIcon  = () => import('./beaker.vue')
 let BeerIcon  = () => import('./beer.vue')
@@ -208,16 +208,16 @@ let ConnectionBarsIcon  = () => import('./connection-bars.vue')
 let ContrastIcon  = () => import('./contrast.vue')
 let CropIcon  = () => import('./crop.vue')
 let CubeIcon  = () => import('./cube.vue')
-let DocumentTextIcon  = () => import('./document-text.vue')
 let DiscIcon  = () => import('./disc.vue')
+let DocumentTextIcon  = () => import('./document-text.vue')
 let DocumentIcon  = () => import('./document.vue')
 let DragIcon  = () => import('./drag.vue')
 let EarthIcon  = () => import('./earth.vue')
-let EaselIcon  = () => import('./easel.vue')
 let EditIcon  = () => import('./edit.vue')
+let EaselIcon  = () => import('./easel.vue')
 let EggIcon  = () => import('./egg.vue')
-let EjectIcon  = () => import('./eject.vue')
 let EmailUnreadIcon  = () => import('./email-unread.vue')
+let EjectIcon  = () => import('./eject.vue')
 let EmailIcon  = () => import('./email.vue')
 let ErlenmeyerFlaskBubblesIcon  = () => import('./erlenmeyer-flask-bubbles.vue')
 let ErlenmeyerFlaskIcon  = () => import('./erlenmeyer-flask.vue')
@@ -228,8 +228,8 @@ let FilingIcon  = () => import('./filing.vue')
 let FilmMarkerIcon  = () => import('./film-marker.vue')
 let FireballIcon  = () => import('./fireball.vue')
 let FlagIcon  = () => import('./flag.vue')
-let FlashOffIcon  = () => import('./flash-off.vue')
 let FlameIcon  = () => import('./flame.vue')
+let FlashOffIcon  = () => import('./flash-off.vue')
 let FlashIcon  = () => import('./flash.vue')
 let FolderIcon  = () => import('./folder.vue')
 let ForkRepoIcon  = () => import('./fork-repo.vue')
@@ -241,33 +241,33 @@ let GearBIcon  = () => import('./gear-b.vue')
 let GridIcon  = () => import('./grid.vue')
 let HammerIcon  = () => import('./hammer.vue')
 let HappyOutlineIcon  = () => import('./happy-outline.vue')
+let HeadphoneIcon  = () => import('./headphone.vue')
 let HappyIcon  = () => import('./happy.vue')
 let HeartBrokenIcon  = () => import('./heart-broken.vue')
-let HeadphoneIcon  = () => import('./headphone.vue')
-let HelpBuoyIcon  = () => import('./help-buoy.vue')
 let HeartIcon  = () => import('./heart.vue')
-let IcecreamIcon  = () => import('./icecream.vue')
-let HelpIcon  = () => import('./help.vue')
+let HelpBuoyIcon  = () => import('./help-buoy.vue')
 let HelpCircledIcon  = () => import('./help-circled.vue')
+let HelpIcon  = () => import('./help.vue')
 let HomeIcon  = () => import('./home.vue')
+let IcecreamIcon  = () => import('./icecream.vue')
 let ImageIcon  = () => import('./image.vue')
 let ImagesIcon  = () => import('./images.vue')
-let InformationIcon  = () => import('./information.vue')
 let InformationCircledIcon  = () => import('./information-circled.vue')
+let InformationIcon  = () => import('./information.vue')
+let IonicIcon  = () => import('./ionic.vue')
 let IosAlarmOutlineIcon  = () => import('./ios-alarm-outline.vue')
 let IosAlarmIcon  = () => import('./ios-alarm.vue')
 let IosAlbumsOutlineIcon  = () => import('./ios-albums-outline.vue')
-let IosAmericanfootballIcon  = () => import('./ios-americanfootball.vue')
-let IosAmericanfootballOutlineIcon  = () => import('./ios-americanfootball-outline.vue')
-let IonicIcon  = () => import('./ionic.vue')
 let IosAlbumsIcon  = () => import('./ios-albums.vue')
-let IosArrowDownIcon  = () => import('./ios-arrow-down.vue')
+let IosAmericanfootballOutlineIcon  = () => import('./ios-americanfootball-outline.vue')
+let IosAmericanfootballIcon  = () => import('./ios-americanfootball.vue')
 let IosAnalyticsOutlineIcon  = () => import('./ios-analytics-outline.vue')
-let IosArrowBackIcon  = () => import('./ios-arrow-back.vue')
 let IosAnalyticsIcon  = () => import('./ios-analytics.vue')
-let IosArrowRightIcon  = () => import('./ios-arrow-right.vue')
-let IosArrowLeftIcon  = () => import('./ios-arrow-left.vue')
+let IosArrowBackIcon  = () => import('./ios-arrow-back.vue')
+let IosArrowDownIcon  = () => import('./ios-arrow-down.vue')
 let IosArrowForwardIcon  = () => import('./ios-arrow-forward.vue')
+let IosArrowLeftIcon  = () => import('./ios-arrow-left.vue')
+let IosArrowRightIcon  = () => import('./ios-arrow-right.vue')
 let IosArrowThinDownIcon  = () => import('./ios-arrow-thin-down.vue')
 let IosArrowThinLeftIcon  = () => import('./ios-arrow-thin-left.vue')
 let IosArrowThinRightIcon  = () => import('./ios-arrow-thin-right.vue')
@@ -280,16 +280,16 @@ let IosBarcodeIcon  = () => import('./ios-barcode.vue')
 let IosBaseballOutlineIcon  = () => import('./ios-baseball-outline.vue')
 let IosBaseballIcon  = () => import('./ios-baseball.vue')
 let IosBasketballOutlineIcon  = () => import('./ios-basketball-outline.vue')
-let IosBellOutlineIcon  = () => import('./ios-bell-outline.vue')
 let IosBasketballIcon  = () => import('./ios-basketball.vue')
+let IosBellOutlineIcon  = () => import('./ios-bell-outline.vue')
 let IosBellIcon  = () => import('./ios-bell.vue')
 let IosBodyOutlineIcon  = () => import('./ios-body-outline.vue')
 let IosBodyIcon  = () => import('./ios-body.vue')
 let IosBoltOutlineIcon  = () => import('./ios-bolt-outline.vue')
 let IosBoltIcon  = () => import('./ios-bolt.vue')
 let IosBookOutlineIcon  = () => import('./ios-book-outline.vue')
-let IosBookmarksOutlineIcon  = () => import('./ios-bookmarks-outline.vue')
 let IosBookIcon  = () => import('./ios-book.vue')
+let IosBookmarksOutlineIcon  = () => import('./ios-bookmarks-outline.vue')
 let IosBookmarksIcon  = () => import('./ios-bookmarks.vue')
 let IosBoxOutlineIcon  = () => import('./ios-box-outline.vue')
 let IosBoxIcon  = () => import('./ios-box.vue')
@@ -303,27 +303,27 @@ let IosCalendarOutlineIcon  = () => import('./ios-calendar-outline.vue')
 let IosCalendarIcon  = () => import('./ios-calendar.vue')
 let IosCameraOutlineIcon  = () => import('./ios-camera-outline.vue')
 let IosCameraIcon  = () => import('./ios-camera.vue')
-let IosCartIcon  = () => import('./ios-cart.vue')
 let IosCartOutlineIcon  = () => import('./ios-cart-outline.vue')
+let IosCartIcon  = () => import('./ios-cart.vue')
 let IosChatboxesOutlineIcon  = () => import('./ios-chatboxes-outline.vue')
 let IosChatboxesIcon  = () => import('./ios-chatboxes.vue')
 let IosChatbubbleOutlineIcon  = () => import('./ios-chatbubble-outline.vue')
 let IosChatbubbleIcon  = () => import('./ios-chatbubble.vue')
-let IosCheckmarkOutlineIcon  = () => import('./ios-checkmark-outline.vue')
 let IosCheckmarkEmptyIcon  = () => import('./ios-checkmark-empty.vue')
+let IosCheckmarkOutlineIcon  = () => import('./ios-checkmark-outline.vue')
 let IosCheckmarkIcon  = () => import('./ios-checkmark.vue')
 let IosCircleFilledIcon  = () => import('./ios-circle-filled.vue')
 let IosCircleOutlineIcon  = () => import('./ios-circle-outline.vue')
-let IosClockIcon  = () => import('./ios-clock.vue')
 let IosClockOutlineIcon  = () => import('./ios-clock-outline.vue')
+let IosClockIcon  = () => import('./ios-clock.vue')
 let IosCloseEmptyIcon  = () => import('./ios-close-empty.vue')
 let IosCloseOutlineIcon  = () => import('./ios-close-outline.vue')
+let IosCloseIcon  = () => import('./ios-close.vue')
 let IosCloudDownloadOutlineIcon  = () => import('./ios-cloud-download-outline.vue')
 let IosCloudDownloadIcon  = () => import('./ios-cloud-download.vue')
-let IosCloseIcon  = () => import('./ios-close.vue')
 let IosCloudOutlineIcon  = () => import('./ios-cloud-outline.vue')
-let IosCloudUploadIcon  = () => import('./ios-cloud-upload.vue')
 let IosCloudUploadOutlineIcon  = () => import('./ios-cloud-upload-outline.vue')
+let IosCloudUploadIcon  = () => import('./ios-cloud-upload.vue')
 let IosCloudIcon  = () => import('./ios-cloud.vue')
 let IosCloudyNightOutlineIcon  = () => import('./ios-cloudy-night-outline.vue')
 let IosCloudyNightIcon  = () => import('./ios-cloudy-night.vue')
@@ -358,8 +358,8 @@ let IosFilmOutlineIcon  = () => import('./ios-film-outline.vue')
 let IosFilmIcon  = () => import('./ios-film.vue')
 let IosFlagOutlineIcon  = () => import('./ios-flag-outline.vue')
 let IosFlagIcon  = () => import('./ios-flag.vue')
-let IosFlameIcon  = () => import('./ios-flame.vue')
 let IosFlameOutlineIcon  = () => import('./ios-flame-outline.vue')
+let IosFlameIcon  = () => import('./ios-flame.vue')
 let IosFlaskOutlineIcon  = () => import('./ios-flask-outline.vue')
 let IosFlaskIcon  = () => import('./ios-flask.vue')
 let IosFlowerOutlineIcon  = () => import('./ios-flower-outline.vue')
@@ -382,21 +382,21 @@ let IosHeartOutlineIcon  = () => import('./ios-heart-outline.vue')
 let IosHeartIcon  = () => import('./ios-heart.vue')
 let IosHelpEmptyIcon  = () => import('./ios-help-empty.vue')
 let IosHelpOutlineIcon  = () => import('./ios-help-outline.vue')
+let IosHelpIcon  = () => import('./ios-help.vue')
 let IosHomeOutlineIcon  = () => import('./ios-home-outline.vue')
 let IosHomeIcon  = () => import('./ios-home.vue')
-let IosHelpIcon  = () => import('./ios-help.vue')
-let IosInfiniteIcon  = () => import('./ios-infinite.vue')
 let IosInfiniteOutlineIcon  = () => import('./ios-infinite-outline.vue')
+let IosInfiniteIcon  = () => import('./ios-infinite.vue')
 let IosInformationEmptyIcon  = () => import('./ios-information-empty.vue')
 let IosInformationOutlineIcon  = () => import('./ios-information-outline.vue')
-let IosIonicOutlineIcon  = () => import('./ios-ionic-outline.vue')
 let IosInformationIcon  = () => import('./ios-information.vue')
+let IosIonicOutlineIcon  = () => import('./ios-ionic-outline.vue')
 let IosKeypadOutlineIcon  = () => import('./ios-keypad-outline.vue')
 let IosKeypadIcon  = () => import('./ios-keypad.vue')
 let IosLightbulbOutlineIcon  = () => import('./ios-lightbulb-outline.vue')
 let IosLightbulbIcon  = () => import('./ios-lightbulb.vue')
-let IosListIcon  = () => import('./ios-list.vue')
 let IosListOutlineIcon  = () => import('./ios-list-outline.vue')
+let IosListIcon  = () => import('./ios-list.vue')
 let IosLocationOutlineIcon  = () => import('./ios-location-outline.vue')
 let IosLocationIcon  = () => import('./ios-location.vue')
 let IosLockedOutlineIcon  = () => import('./ios-locked-outline.vue')
@@ -410,8 +410,8 @@ let IosMedkitIcon  = () => import('./ios-medkit.vue')
 let IosMicOffIcon  = () => import('./ios-mic-off.vue')
 let IosMicOutlineIcon  = () => import('./ios-mic-outline.vue')
 let IosMicIcon  = () => import('./ios-mic.vue')
-let IosMinusOutlineIcon  = () => import('./ios-minus-outline.vue')
 let IosMinusEmptyIcon  = () => import('./ios-minus-empty.vue')
+let IosMinusOutlineIcon  = () => import('./ios-minus-outline.vue')
 let IosMinusIcon  = () => import('./ios-minus.vue')
 let IosMonitorOutlineIcon  = () => import('./ios-monitor-outline.vue')
 let IosMonitorIcon  = () => import('./ios-monitor.vue')
@@ -422,28 +422,28 @@ let IosMoreIcon  = () => import('./ios-more.vue')
 let IosMusicalNoteIcon  = () => import('./ios-musical-note.vue')
 let IosMusicalNotesIcon  = () => import('./ios-musical-notes.vue')
 let IosNavigateOutlineIcon  = () => import('./ios-navigate-outline.vue')
-let IosNavigateIcon  = () => import('./ios-navigate.vue')
 let IosNutritionOutlineIcon  = () => import('./ios-nutrition-outline.vue')
+let IosNavigateIcon  = () => import('./ios-navigate.vue')
 let IosNutritionIcon  = () => import('./ios-nutrition.vue')
 let IosPaperOutlineIcon  = () => import('./ios-paper-outline.vue')
 let IosPaperIcon  = () => import('./ios-paper.vue')
 let IosPaperplaneOutlineIcon  = () => import('./ios-paperplane-outline.vue')
 let IosPartlysunnyOutlineIcon  = () => import('./ios-partlysunny-outline.vue')
-let IosPaperplaneIcon  = () => import('./ios-paperplane.vue')
 let IosPartlysunnyIcon  = () => import('./ios-partlysunny.vue')
 let IosPauseOutlineIcon  = () => import('./ios-pause-outline.vue')
 let IosPauseIcon  = () => import('./ios-pause.vue')
 let IosPawOutlineIcon  = () => import('./ios-paw-outline.vue')
 let IosPawIcon  = () => import('./ios-paw.vue')
+let IosPaperplaneIcon  = () => import('./ios-paperplane.vue')
 let IosPeopleOutlineIcon  = () => import('./ios-people-outline.vue')
 let IosPeopleIcon  = () => import('./ios-people.vue')
 let IosPersonOutlineIcon  = () => import('./ios-person-outline.vue')
 let IosPersonIcon  = () => import('./ios-person.vue')
-let IosPersonaddOutlineIcon  = () => import('./ios-personadd-outline.vue')
 let IosPersonaddIcon  = () => import('./ios-personadd.vue')
+let IosPersonaddOutlineIcon  = () => import('./ios-personadd-outline.vue')
 let IosPhotosOutlineIcon  = () => import('./ios-photos-outline.vue')
-let IosPhotosIcon  = () => import('./ios-photos.vue')
 let IosPieOutlineIcon  = () => import('./ios-pie-outline.vue')
+let IosPhotosIcon  = () => import('./ios-photos.vue')
 let IosPieIcon  = () => import('./ios-pie.vue')
 let IosPintOutlineIcon  = () => import('./ios-pint-outline.vue')
 let IosPintIcon  = () => import('./ios-pint.vue')
@@ -454,38 +454,38 @@ let IosPlusOutlineIcon  = () => import('./ios-plus-outline.vue')
 let IosPlusIcon  = () => import('./ios-plus.vue')
 let IosPricetagOutlineIcon  = () => import('./ios-pricetag-outline.vue')
 let IosPricetagIcon  = () => import('./ios-pricetag.vue')
-let IosPricetagsIcon  = () => import('./ios-pricetags.vue')
 let IosPricetagsOutlineIcon  = () => import('./ios-pricetags-outline.vue')
+let IosPricetagsIcon  = () => import('./ios-pricetags.vue')
 let IosPrinterOutlineIcon  = () => import('./ios-printer-outline.vue')
-let IosPulseStrongIcon  = () => import('./ios-pulse-strong.vue')
 let IosPrinterIcon  = () => import('./ios-printer.vue')
+let IosPulseStrongIcon  = () => import('./ios-pulse-strong.vue')
 let IosPulseIcon  = () => import('./ios-pulse.vue')
 let IosRainyOutlineIcon  = () => import('./ios-rainy-outline.vue')
+let IosRecordingOutlineIcon  = () => import('./ios-recording-outline.vue')
 let IosRainyIcon  = () => import('./ios-rainy.vue')
 let IosRecordingIcon  = () => import('./ios-recording.vue')
-let IosRecordingOutlineIcon  = () => import('./ios-recording-outline.vue')
 let IosRedoOutlineIcon  = () => import('./ios-redo-outline.vue')
 let IosRedoIcon  = () => import('./ios-redo.vue')
 let IosRefreshEmptyIcon  = () => import('./ios-refresh-empty.vue')
 let IosRefreshOutlineIcon  = () => import('./ios-refresh-outline.vue')
 let IosRefreshIcon  = () => import('./ios-refresh.vue')
-let IosReverseCameraOutlineIcon  = () => import('./ios-reverse-camera-outline.vue')
 let IosReloadIcon  = () => import('./ios-reload.vue')
+let IosReverseCameraOutlineIcon  = () => import('./ios-reverse-camera-outline.vue')
 let IosReverseCameraIcon  = () => import('./ios-reverse-camera.vue')
 let IosRewindOutlineIcon  = () => import('./ios-rewind-outline.vue')
 let IosRewindIcon  = () => import('./ios-rewind.vue')
-let IosRoseIcon  = () => import('./ios-rose.vue')
 let IosRoseOutlineIcon  = () => import('./ios-rose-outline.vue')
+let IosRoseIcon  = () => import('./ios-rose.vue')
 let IosSearchStrongIcon  = () => import('./ios-search-strong.vue')
-let IosSearchIcon  = () => import('./ios-search.vue')
 let IosSettingsStrongIcon  = () => import('./ios-settings-strong.vue')
 let IosSettingsIcon  = () => import('./ios-settings.vue')
 let IosShuffleStrongIcon  = () => import('./ios-shuffle-strong.vue')
+let IosSearchIcon  = () => import('./ios-search.vue')
 let IosShuffleIcon  = () => import('./ios-shuffle.vue')
 let IosSkipbackwardOutlineIcon  = () => import('./ios-skipbackward-outline.vue')
 let IosSkipbackwardIcon  = () => import('./ios-skipbackward.vue')
-let IosSkipforwardIcon  = () => import('./ios-skipforward.vue')
 let IosSkipforwardOutlineIcon  = () => import('./ios-skipforward-outline.vue')
+let IosSkipforwardIcon  = () => import('./ios-skipforward.vue')
 let IosSnowyIcon  = () => import('./ios-snowy.vue')
 let IosSpeedometerOutlineIcon  = () => import('./ios-speedometer-outline.vue')
 let IosSpeedometerIcon  = () => import('./ios-speedometer.vue')
@@ -529,8 +529,8 @@ let IphoneIcon  = () => import('./iphone.vue')
 let IpodIcon  = () => import('./ipod.vue')
 let JetIcon  = () => import('./jet.vue')
 let KeyIcon  = () => import('./key.vue')
-let LaptopIcon  = () => import('./laptop.vue')
 let KnifeIcon  = () => import('./knife.vue')
+let LaptopIcon  = () => import('./laptop.vue')
 let LeafIcon  = () => import('./leaf.vue')
 let LevelsIcon  = () => import('./levels.vue')
 let LightbulbIcon  = () => import('./lightbulb.vue')
@@ -538,11 +538,11 @@ let LinkIcon  = () => import('./link.vue')
 let LoadAIcon  = () => import('./load-a.vue')
 let LoadBIcon  = () => import('./load-b.vue')
 let LoadCIcon  = () => import('./load-c.vue')
-let LocationIcon  = () => import('./location.vue')
 let LoadDIcon  = () => import('./load-d.vue')
+let LocationIcon  = () => import('./location.vue')
 let LockCombinationIcon  = () => import('./lock-combination.vue')
-let LockedIcon  = () => import('./locked.vue')
 let LogInIcon  = () => import('./log-in.vue')
+let LockedIcon  = () => import('./locked.vue')
 let LogOutIcon  = () => import('./log-out.vue')
 let LoopIcon  = () => import('./loop.vue')
 let MagnetIcon  = () => import('./magnet.vue')
@@ -550,13 +550,13 @@ let MaleIcon  = () => import('./male.vue')
 let ManIcon  = () => import('./man.vue')
 let MapIcon  = () => import('./map.vue')
 let MedkitIcon  = () => import('./medkit.vue')
-let MicAIcon  = () => import('./mic-a.vue')
 let MergeIcon  = () => import('./merge.vue')
 let MicBIcon  = () => import('./mic-b.vue')
-let MicCIcon  = () => import('./mic-c.vue')
+let MicAIcon  = () => import('./mic-a.vue')
 let MinusCircledIcon  = () => import('./minus-circled.vue')
 let MinusRoundIcon  = () => import('./minus-round.vue')
 let MinusIcon  = () => import('./minus.vue')
+let MicCIcon  = () => import('./mic-c.vue')
 let ModelSIcon  = () => import('./model-s.vue')
 let MonitorIcon  = () => import('./monitor.vue')
 let MoreIcon  = () => import('./more.vue')
@@ -564,18 +564,18 @@ let MouseIcon  = () => import('./mouse.vue')
 let MusicNoteIcon  = () => import('./music-note.vue')
 let NaviconRoundIcon  = () => import('./navicon-round.vue')
 let NaviconIcon  = () => import('./navicon.vue')
-let NavigateIcon  = () => import('./navigate.vue')
 let NetworkIcon  = () => import('./network.vue')
 let NoSmokingIcon  = () => import('./no-smoking.vue')
+let NavigateIcon  = () => import('./navigate.vue')
 let NuclearIcon  = () => import('./nuclear.vue')
 let OutletIcon  = () => import('./outlet.vue')
 let PaintbrushIcon  = () => import('./paintbrush.vue')
 let PaintbucketIcon  = () => import('./paintbucket.vue')
 let PaperAirplaneIcon  = () => import('./paper-airplane.vue')
 let PaperclipIcon  = () => import('./paperclip.vue')
+let PersonAddIcon  = () => import('./person-add.vue')
 let PauseIcon  = () => import('./pause.vue')
 let PersonStalkerIcon  = () => import('./person-stalker.vue')
-let PersonAddIcon  = () => import('./person-add.vue')
 let PersonIcon  = () => import('./person.vue')
 let PieGraphIcon  = () => import('./pie-graph.vue')
 let PinIcon  = () => import('./pin.vue')
@@ -595,8 +595,8 @@ let PricetagIcon  = () => import('./pricetag.vue')
 let PricetagsIcon  = () => import('./pricetags.vue')
 let PrinterIcon  = () => import('./printer.vue')
 let PullRequestIcon  = () => import('./pull-request.vue')
-let QuoteIcon  = () => import('./quote.vue')
 let QrScannerIcon  = () => import('./qr-scanner.vue')
+let QuoteIcon  = () => import('./quote.vue')
 let RadioWavesIcon  = () => import('./radio-waves.vue')
 let RecordIcon  = () => import('./record.vue')
 let RefreshIcon  = () => import('./refresh.vue')
@@ -616,8 +616,8 @@ let SkipForwardIcon  = () => import('./skip-forward.vue')
 let SocialAndroidOutlineIcon  = () => import('./social-android-outline.vue')
 let SocialAndroidIcon  = () => import('./social-android.vue')
 let SocialAngularOutlineIcon  = () => import('./social-angular-outline.vue')
-let SocialAppleOutlineIcon  = () => import('./social-apple-outline.vue')
 let SocialAngularIcon  = () => import('./social-angular.vue')
+let SocialAppleOutlineIcon  = () => import('./social-apple-outline.vue')
 let SocialAppleIcon  = () => import('./social-apple.vue')
 let SocialBitcoinOutlineIcon  = () => import('./social-bitcoin-outline.vue')
 let SocialBitcoinIcon  = () => import('./social-bitcoin.vue')
@@ -626,22 +626,22 @@ let SocialBufferIcon  = () => import('./social-buffer.vue')
 let SocialChromeOutlineIcon  = () => import('./social-chrome-outline.vue')
 let SocialChromeIcon  = () => import('./social-chrome.vue')
 let SocialCodepenOutlineIcon  = () => import('./social-codepen-outline.vue')
-let SocialCodepenIcon  = () => import('./social-codepen.vue')
 let SocialCss3OutlineIcon  = () => import('./social-css3-outline.vue')
-let SocialCss3Icon  = () => import('./social-css3.vue')
+let SocialCodepenIcon  = () => import('./social-codepen.vue')
 let SocialDesignernewsOutlineIcon  = () => import('./social-designernews-outline.vue')
+let SocialCss3Icon  = () => import('./social-css3.vue')
 let SocialDesignernewsIcon  = () => import('./social-designernews.vue')
 let SocialDribbbleOutlineIcon  = () => import('./social-dribbble-outline.vue')
 let SocialDribbbleIcon  = () => import('./social-dribbble.vue')
 let SocialDropboxOutlineIcon  = () => import('./social-dropbox-outline.vue')
-let SocialEuroOutlineIcon  = () => import('./social-euro-outline.vue')
 let SocialDropboxIcon  = () => import('./social-dropbox.vue')
+let SocialEuroOutlineIcon  = () => import('./social-euro-outline.vue')
 let SocialEuroIcon  = () => import('./social-euro.vue')
-let SocialFacebookIcon  = () => import('./social-facebook.vue')
 let SocialFacebookOutlineIcon  = () => import('./social-facebook-outline.vue')
+let SocialFacebookIcon  = () => import('./social-facebook.vue')
 let SocialFoursquareOutlineIcon  = () => import('./social-foursquare-outline.vue')
-let SocialFoursquareIcon  = () => import('./social-foursquare.vue')
 let SocialFreebsdDevilIcon  = () => import('./social-freebsd-devil.vue')
+let SocialFoursquareIcon  = () => import('./social-foursquare.vue')
 let SocialGithubOutlineIcon  = () => import('./social-github-outline.vue')
 let SocialGithubIcon  = () => import('./social-github.vue')
 let SocialGoogleOutlineIcon  = () => import('./social-google-outline.vue')
@@ -663,37 +663,37 @@ let SocialNodejsIcon  = () => import('./social-nodejs.vue')
 let SocialOctocatIcon  = () => import('./social-octocat.vue')
 let SocialPinterestOutlineIcon  = () => import('./social-pinterest-outline.vue')
 let SocialPinterestIcon  = () => import('./social-pinterest.vue')
-let SocialRedditOutlineIcon  = () => import('./social-reddit-outline.vue')
 let SocialPythonIcon  = () => import('./social-python.vue')
+let SocialRedditOutlineIcon  = () => import('./social-reddit-outline.vue')
 let SocialRedditIcon  = () => import('./social-reddit.vue')
 let SocialRssOutlineIcon  = () => import('./social-rss-outline.vue')
 let SocialRssIcon  = () => import('./social-rss.vue')
 let SocialSassIcon  = () => import('./social-sass.vue')
 let SocialSkypeOutlineIcon  = () => import('./social-skype-outline.vue')
 let SocialSkypeIcon  = () => import('./social-skype.vue')
-let SocialSnapchatIcon  = () => import('./social-snapchat.vue')
 let SocialSnapchatOutlineIcon  = () => import('./social-snapchat-outline.vue')
-let SocialTumblrOutlineIcon  = () => import('./social-tumblr-outline.vue')
 let SocialTumblrIcon  = () => import('./social-tumblr.vue')
+let SocialSnapchatIcon  = () => import('./social-snapchat.vue')
+let SocialTumblrOutlineIcon  = () => import('./social-tumblr-outline.vue')
 let SocialTuxIcon  = () => import('./social-tux.vue')
-let SocialTwitterOutlineIcon  = () => import('./social-twitter-outline.vue')
 let SocialTwitchOutlineIcon  = () => import('./social-twitch-outline.vue')
 let SocialTwitchIcon  = () => import('./social-twitch.vue')
-let SocialUsdOutlineIcon  = () => import('./social-usd-outline.vue')
-let SocialUsdIcon  = () => import('./social-usd.vue')
+let SocialTwitterOutlineIcon  = () => import('./social-twitter-outline.vue')
 let SocialTwitterIcon  = () => import('./social-twitter.vue')
+let SocialUsdOutlineIcon  = () => import('./social-usd-outline.vue')
 let SocialVimeoOutlineIcon  = () => import('./social-vimeo-outline.vue')
+let SocialUsdIcon  = () => import('./social-usd.vue')
 let SocialVimeoIcon  = () => import('./social-vimeo.vue')
 let SocialWhatsappIcon  = () => import('./social-whatsapp.vue')
-let SocialWhatsappOutlineIcon  = () => import('./social-whatsapp-outline.vue')
 let SocialWindowsOutlineIcon  = () => import('./social-windows-outline.vue')
 let SocialWindowsIcon  = () => import('./social-windows.vue')
+let SocialWhatsappOutlineIcon  = () => import('./social-whatsapp-outline.vue')
 let SocialWordpressOutlineIcon  = () => import('./social-wordpress-outline.vue')
 let SocialWordpressIcon  = () => import('./social-wordpress.vue')
 let SocialYahooOutlineIcon  = () => import('./social-yahoo-outline.vue')
 let SocialYahooIcon  = () => import('./social-yahoo.vue')
-let SocialYenOutlineIcon  = () => import('./social-yen-outline.vue')
 let SocialYenIcon  = () => import('./social-yen.vue')
+let SocialYenOutlineIcon  = () => import('./social-yen-outline.vue')
 let SocialYoutubeOutlineIcon  = () => import('./social-youtube-outline.vue')
 let SocialYoutubeIcon  = () => import('./social-youtube.vue')
 let SoupCanOutlineIcon  = () => import('./soup-can-outline.vue')
@@ -703,8 +703,8 @@ let SpeedometerIcon  = () => import('./speedometer.vue')
 let SpoonIcon  = () => import('./spoon.vue')
 let StarIcon  = () => import('./star.vue')
 let StatsBarsIcon  = () => import('./stats-bars.vue')
-let SteamIcon  = () => import('./steam.vue')
 let StopIcon  = () => import('./stop.vue')
+let SteamIcon  = () => import('./steam.vue')
 let ThermometerIcon  = () => import('./thermometer.vue')
 let ThumbsdownIcon  = () => import('./thumbsdown.vue')
 let ThumbsupIcon  = () => import('./thumbsup.vue')
@@ -714,21 +714,21 @@ let TransgenderIcon  = () => import('./transgender.vue')
 let TrashAIcon  = () => import('./trash-a.vue')
 let TrashBIcon  = () => import('./trash-b.vue')
 let TrophyIcon  = () => import('./trophy.vue')
+let TshirtOutlineIcon  = () => import('./tshirt-outline.vue')
 let UmbrellaIcon  = () => import('./umbrella.vue')
 let UniversityIcon  = () => import('./university.vue')
-let TshirtOutlineIcon  = () => import('./tshirt-outline.vue')
 let UnlockedIcon  = () => import('./unlocked.vue')
-let TshirtIcon  = () => import('./tshirt.vue')
 let UploadIcon  = () => import('./upload.vue')
+let TshirtIcon  = () => import('./tshirt.vue')
 let UsbIcon  = () => import('./usb.vue')
 let VideocameraIcon  = () => import('./videocamera.vue')
 let VolumeHighIcon  = () => import('./volume-high.vue')
 let VolumeLowIcon  = () => import('./volume-low.vue')
-let VolumeMediumIcon  = () => import('./volume-medium.vue')
 let VolumeMuteIcon  = () => import('./volume-mute.vue')
-let WandIcon  = () => import('./wand.vue')
+let VolumeMediumIcon  = () => import('./volume-medium.vue')
 let WaterdropIcon  = () => import('./waterdrop.vue')
 let WifiIcon  = () => import('./wifi.vue')
+let WandIcon  = () => import('./wand.vue')
 let WineglassIcon  = () => import('./wineglass.vue')
 let WomanIcon  = () => import('./woman.vue')
 let WrenchIcon  = () => import('./wrench.vue')
@@ -741,169 +741,169 @@ const plugin = component => {
 }
 
 AndroidAddCircleIcon.install = plugin(AndroidAddCircleIcon)
-AlertIcon.install = plugin(AlertIcon)
 AlertCircledIcon.install = plugin(AlertCircledIcon)
+AlertIcon.install = plugin(AlertIcon)
 AndroidAddIcon.install = plugin(AndroidAddIcon)
+AndroidAlarmClockIcon.install = plugin(AndroidAlarmClockIcon)
 AndroidAlertIcon.install = plugin(AndroidAlertIcon)
 AndroidAppsIcon.install = plugin(AndroidAppsIcon)
-AndroidAlarmClockIcon.install = plugin(AndroidAlarmClockIcon)
 AndroidArchiveIcon.install = plugin(AndroidArchiveIcon)
 AndroidArrowBackIcon.install = plugin(AndroidArrowBackIcon)
 AndroidArrowDownIcon.install = plugin(AndroidArrowDownIcon)
 AndroidArrowDropdownCircleIcon.install = plugin(AndroidArrowDropdownCircleIcon)
 AndroidArrowDropdownIcon.install = plugin(AndroidArrowDropdownIcon)
-AndroidArrowDropleftIcon.install = plugin(AndroidArrowDropleftIcon)
 AndroidArrowDropleftCircleIcon.install = plugin(AndroidArrowDropleftCircleIcon)
+AndroidArrowDropleftIcon.install = plugin(AndroidArrowDropleftIcon)
 AndroidArrowDroprightCircleIcon.install = plugin(AndroidArrowDroprightCircleIcon)
 AndroidArrowDroprightIcon.install = plugin(AndroidArrowDroprightIcon)
-AndroidArrowForwardIcon.install = plugin(AndroidArrowForwardIcon)
-AndroidArrowDropupIcon.install = plugin(AndroidArrowDropupIcon)
-AndroidArrowUpIcon.install = plugin(AndroidArrowUpIcon)
 AndroidArrowDropupCircleIcon.install = plugin(AndroidArrowDropupCircleIcon)
-AndroidBarIcon.install = plugin(AndroidBarIcon)
-AndroidBicycleIcon.install = plugin(AndroidBicycleIcon)
+AndroidArrowDropupIcon.install = plugin(AndroidArrowDropupIcon)
+AndroidArrowForwardIcon.install = plugin(AndroidArrowForwardIcon)
+AndroidArrowUpIcon.install = plugin(AndroidArrowUpIcon)
 AndroidAttachIcon.install = plugin(AndroidAttachIcon)
 AndroidBoatIcon.install = plugin(AndroidBoatIcon)
-AndroidBookmarkIcon.install = plugin(AndroidBookmarkIcon)
-AndroidBulbIcon.install = plugin(AndroidBulbIcon)
-AndroidCalendarIcon.install = plugin(AndroidCalendarIcon)
+AndroidBicycleIcon.install = plugin(AndroidBicycleIcon)
+AndroidBarIcon.install = plugin(AndroidBarIcon)
 AndroidBusIcon.install = plugin(AndroidBusIcon)
-AndroidCameraIcon.install = plugin(AndroidCameraIcon)
+AndroidBookmarkIcon.install = plugin(AndroidBookmarkIcon)
+AndroidCalendarIcon.install = plugin(AndroidCalendarIcon)
 AndroidCallIcon.install = plugin(AndroidCallIcon)
+AndroidCameraIcon.install = plugin(AndroidCameraIcon)
+AndroidCancelIcon.install = plugin(AndroidCancelIcon)
+AndroidBulbIcon.install = plugin(AndroidBulbIcon)
 AndroidCarIcon.install = plugin(AndroidCarIcon)
+AndroidCartIcon.install = plugin(AndroidCartIcon)
 AndroidChatIcon.install = plugin(AndroidChatIcon)
 AndroidCheckboxBlankIcon.install = plugin(AndroidCheckboxBlankIcon)
-AndroidCancelIcon.install = plugin(AndroidCancelIcon)
-AndroidCartIcon.install = plugin(AndroidCartIcon)
 AndroidCheckboxOutlineBlankIcon.install = plugin(AndroidCheckboxOutlineBlankIcon)
 AndroidCheckboxOutlineIcon.install = plugin(AndroidCheckboxOutlineIcon)
-AndroidCheckmarkCircleIcon.install = plugin(AndroidCheckmarkCircleIcon)
 AndroidCheckboxIcon.install = plugin(AndroidCheckboxIcon)
+AndroidCheckmarkCircleIcon.install = plugin(AndroidCheckmarkCircleIcon)
 AndroidClipboardIcon.install = plugin(AndroidClipboardIcon)
 AndroidCloseIcon.install = plugin(AndroidCloseIcon)
-AndroidCloudCircleIcon.install = plugin(AndroidCloudCircleIcon)
 AndroidCloudOutlineIcon.install = plugin(AndroidCloudOutlineIcon)
-AndroidCloudDoneIcon.install = plugin(AndroidCloudDoneIcon)
 AndroidCloudIcon.install = plugin(AndroidCloudIcon)
+AndroidCloudDoneIcon.install = plugin(AndroidCloudDoneIcon)
+AndroidCloudCircleIcon.install = plugin(AndroidCloudCircleIcon)
 AndroidColorPaletteIcon.install = plugin(AndroidColorPaletteIcon)
-AndroidContactIcon.install = plugin(AndroidContactIcon)
 AndroidCompassIcon.install = plugin(AndroidCompassIcon)
-AndroidContractIcon.install = plugin(AndroidContractIcon)
 AndroidContactsIcon.install = plugin(AndroidContactsIcon)
-AndroidDeleteIcon.install = plugin(AndroidDeleteIcon)
+AndroidContactIcon.install = plugin(AndroidContactIcon)
+AndroidContractIcon.install = plugin(AndroidContractIcon)
 AndroidCreateIcon.install = plugin(AndroidCreateIcon)
+AndroidDeleteIcon.install = plugin(AndroidDeleteIcon)
 AndroidDesktopIcon.install = plugin(AndroidDesktopIcon)
-AndroidDocumentIcon.install = plugin(AndroidDocumentIcon)
 AndroidDoneIcon.install = plugin(AndroidDoneIcon)
+AndroidDocumentIcon.install = plugin(AndroidDocumentIcon)
 AndroidDoneAllIcon.install = plugin(AndroidDoneAllIcon)
-AndroidDownloadIcon.install = plugin(AndroidDownloadIcon)
-AndroidDraftsIcon.install = plugin(AndroidDraftsIcon)
 AndroidExpandIcon.install = plugin(AndroidExpandIcon)
 AndroidExitIcon.install = plugin(AndroidExitIcon)
-AndroidFavoriteIcon.install = plugin(AndroidFavoriteIcon)
+AndroidDownloadIcon.install = plugin(AndroidDownloadIcon)
 AndroidFilmIcon.install = plugin(AndroidFilmIcon)
-AndroidFolderOpenIcon.install = plugin(AndroidFolderOpenIcon)
 AndroidFavoriteOutlineIcon.install = plugin(AndroidFavoriteOutlineIcon)
+AndroidDraftsIcon.install = plugin(AndroidDraftsIcon)
+AndroidFavoriteIcon.install = plugin(AndroidFavoriteIcon)
+AndroidFolderOpenIcon.install = plugin(AndroidFolderOpenIcon)
 AndroidFolderIcon.install = plugin(AndroidFolderIcon)
-AndroidFunnelIcon.install = plugin(AndroidFunnelIcon)
 AndroidGlobeIcon.install = plugin(AndroidGlobeIcon)
 AndroidHandIcon.install = plugin(AndroidHandIcon)
-AndroidHappyIcon.install = plugin(AndroidHappyIcon)
+AndroidFunnelIcon.install = plugin(AndroidFunnelIcon)
 AndroidHangoutIcon.install = plugin(AndroidHangoutIcon)
-AndroidImageIcon.install = plugin(AndroidImageIcon)
+AndroidHappyIcon.install = plugin(AndroidHappyIcon)
 AndroidHomeIcon.install = plugin(AndroidHomeIcon)
+AndroidImageIcon.install = plugin(AndroidImageIcon)
 AndroidLaptopIcon.install = plugin(AndroidLaptopIcon)
+AndroidListIcon.install = plugin(AndroidListIcon)
 AndroidLocateIcon.install = plugin(AndroidLocateIcon)
 AndroidLockIcon.install = plugin(AndroidLockIcon)
-AndroidListIcon.install = plugin(AndroidListIcon)
-AndroidMenuIcon.install = plugin(AndroidMenuIcon)
 AndroidMailIcon.install = plugin(AndroidMailIcon)
+AndroidMenuIcon.install = plugin(AndroidMenuIcon)
 AndroidMapIcon.install = plugin(AndroidMapIcon)
 AndroidMicrophoneOffIcon.install = plugin(AndroidMicrophoneOffIcon)
 AndroidMicrophoneIcon.install = plugin(AndroidMicrophoneIcon)
 AndroidMoreHorizontalIcon.install = plugin(AndroidMoreHorizontalIcon)
-AndroidMoreVerticalIcon.install = plugin(AndroidMoreVerticalIcon)
 AndroidNavigateIcon.install = plugin(AndroidNavigateIcon)
+AndroidMoreVerticalIcon.install = plugin(AndroidMoreVerticalIcon)
 AndroidNotificationsNoneIcon.install = plugin(AndroidNotificationsNoneIcon)
-AndroidNotificationsOffIcon.install = plugin(AndroidNotificationsOffIcon)
 AndroidNotificationsIcon.install = plugin(AndroidNotificationsIcon)
+AndroidNotificationsOffIcon.install = plugin(AndroidNotificationsOffIcon)
 AndroidOpenIcon.install = plugin(AndroidOpenIcon)
 AndroidOptionsIcon.install = plugin(AndroidOptionsIcon)
-AndroidPeopleIcon.install = plugin(AndroidPeopleIcon)
 AndroidPersonIcon.install = plugin(AndroidPersonIcon)
+AndroidPeopleIcon.install = plugin(AndroidPeopleIcon)
 AndroidPersonAddIcon.install = plugin(AndroidPersonAddIcon)
-AndroidPhoneLandscapeIcon.install = plugin(AndroidPhoneLandscapeIcon)
 AndroidPhonePortraitIcon.install = plugin(AndroidPhonePortraitIcon)
-AndroidPlaneIcon.install = plugin(AndroidPlaneIcon)
 AndroidPinIcon.install = plugin(AndroidPinIcon)
+AndroidPhoneLandscapeIcon.install = plugin(AndroidPhoneLandscapeIcon)
+AndroidPlaneIcon.install = plugin(AndroidPlaneIcon)
 AndroidPlaystoreIcon.install = plugin(AndroidPlaystoreIcon)
+AndroidPrintIcon.install = plugin(AndroidPrintIcon)
 AndroidRadioButtonOffIcon.install = plugin(AndroidRadioButtonOffIcon)
 AndroidRadioButtonOnIcon.install = plugin(AndroidRadioButtonOnIcon)
 AndroidRefreshIcon.install = plugin(AndroidRefreshIcon)
-AndroidPrintIcon.install = plugin(AndroidPrintIcon)
+AndroidRemoveCircleIcon.install = plugin(AndroidRemoveCircleIcon)
 AndroidRemoveIcon.install = plugin(AndroidRemoveIcon)
+AndroidSendIcon.install = plugin(AndroidSendIcon)
 AndroidRestaurantIcon.install = plugin(AndroidRestaurantIcon)
 AndroidSadIcon.install = plugin(AndroidSadIcon)
-AndroidRemoveCircleIcon.install = plugin(AndroidRemoveCircleIcon)
 AndroidSearchIcon.install = plugin(AndroidSearchIcon)
-AndroidSendIcon.install = plugin(AndroidSendIcon)
 AndroidSettingsIcon.install = plugin(AndroidSettingsIcon)
 AndroidShareAltIcon.install = plugin(AndroidShareAltIcon)
 AndroidShareIcon.install = plugin(AndroidShareIcon)
 AndroidStarHalfIcon.install = plugin(AndroidStarHalfIcon)
-AndroidStarOutlineIcon.install = plugin(AndroidStarOutlineIcon)
 AndroidStarIcon.install = plugin(AndroidStarIcon)
-AndroidStopwatchIcon.install = plugin(AndroidStopwatchIcon)
-AndroidSubwayIcon.install = plugin(AndroidSubwayIcon)
+AndroidStarOutlineIcon.install = plugin(AndroidStarOutlineIcon)
 AndroidSunnyIcon.install = plugin(AndroidSunnyIcon)
+AndroidStopwatchIcon.install = plugin(AndroidStopwatchIcon)
 AndroidSyncIcon.install = plugin(AndroidSyncIcon)
-AndroidTextsmsIcon.install = plugin(AndroidTextsmsIcon)
 AndroidTrainIcon.install = plugin(AndroidTrainIcon)
 AndroidTimeIcon.install = plugin(AndroidTimeIcon)
-AndroidVolumeDownIcon.install = plugin(AndroidVolumeDownIcon)
+AndroidSubwayIcon.install = plugin(AndroidSubwayIcon)
 AndroidUnlockIcon.install = plugin(AndroidUnlockIcon)
+AndroidTextsmsIcon.install = plugin(AndroidTextsmsIcon)
 AndroidUploadIcon.install = plugin(AndroidUploadIcon)
+AndroidVolumeDownIcon.install = plugin(AndroidVolumeDownIcon)
 AndroidVolumeMuteIcon.install = plugin(AndroidVolumeMuteIcon)
-AndroidVolumeOffIcon.install = plugin(AndroidVolumeOffIcon)
-AndroidWarningIcon.install = plugin(AndroidWarningIcon)
 AndroidVolumeUpIcon.install = plugin(AndroidVolumeUpIcon)
+AndroidVolumeOffIcon.install = plugin(AndroidVolumeOffIcon)
 AndroidWalkIcon.install = plugin(AndroidWalkIcon)
-ApertureIcon.install = plugin(ApertureIcon)
-AndroidWatchIcon.install = plugin(AndroidWatchIcon)
+AndroidWarningIcon.install = plugin(AndroidWarningIcon)
 AndroidWifiIcon.install = plugin(AndroidWifiIcon)
+AndroidWatchIcon.install = plugin(AndroidWatchIcon)
+ApertureIcon.install = plugin(ApertureIcon)
 ArchiveIcon.install = plugin(ArchiveIcon)
 ArrowDownAIcon.install = plugin(ArrowDownAIcon)
 ArrowDownBIcon.install = plugin(ArrowDownBIcon)
 ArrowDownCIcon.install = plugin(ArrowDownCIcon)
 ArrowExpandIcon.install = plugin(ArrowExpandIcon)
-ArrowGraphDownRightIcon.install = plugin(ArrowGraphDownRightIcon)
 ArrowGraphDownLeftIcon.install = plugin(ArrowGraphDownLeftIcon)
-ArrowGraphUpLeftIcon.install = plugin(ArrowGraphUpLeftIcon)
-ArrowGraphUpRightIcon.install = plugin(ArrowGraphUpRightIcon)
+ArrowGraphDownRightIcon.install = plugin(ArrowGraphDownRightIcon)
 ArrowLeftAIcon.install = plugin(ArrowLeftAIcon)
+ArrowGraphUpRightIcon.install = plugin(ArrowGraphUpRightIcon)
 ArrowLeftBIcon.install = plugin(ArrowLeftBIcon)
 ArrowLeftCIcon.install = plugin(ArrowLeftCIcon)
+ArrowResizeIcon.install = plugin(ArrowResizeIcon)
+ArrowGraphUpLeftIcon.install = plugin(ArrowGraphUpLeftIcon)
 ArrowMoveIcon.install = plugin(ArrowMoveIcon)
 ArrowReturnLeftIcon.install = plugin(ArrowReturnLeftIcon)
 ArrowReturnRightIcon.install = plugin(ArrowReturnRightIcon)
-ArrowResizeIcon.install = plugin(ArrowResizeIcon)
 ArrowRightAIcon.install = plugin(ArrowRightAIcon)
 ArrowRightBIcon.install = plugin(ArrowRightBIcon)
 ArrowRightCIcon.install = plugin(ArrowRightCIcon)
 ArrowShrinkIcon.install = plugin(ArrowShrinkIcon)
 ArrowSwapIcon.install = plugin(ArrowSwapIcon)
-ArrowUpBIcon.install = plugin(ArrowUpBIcon)
 ArrowUpAIcon.install = plugin(ArrowUpAIcon)
+ArrowUpBIcon.install = plugin(ArrowUpBIcon)
 ArrowUpCIcon.install = plugin(ArrowUpCIcon)
 AsteriskIcon.install = plugin(AsteriskIcon)
 AtIcon.install = plugin(AtIcon)
-BackspaceIcon.install = plugin(BackspaceIcon)
 BackspaceOutlineIcon.install = plugin(BackspaceOutlineIcon)
+BackspaceIcon.install = plugin(BackspaceIcon)
 BagIcon.install = plugin(BagIcon)
 BatteryChargingIcon.install = plugin(BatteryChargingIcon)
 BatteryEmptyIcon.install = plugin(BatteryEmptyIcon)
-BatteryHalfIcon.install = plugin(BatteryHalfIcon)
 BatteryFullIcon.install = plugin(BatteryFullIcon)
+BatteryHalfIcon.install = plugin(BatteryHalfIcon)
 BatteryLowIcon.install = plugin(BatteryLowIcon)
 BeakerIcon.install = plugin(BeakerIcon)
 BeerIcon.install = plugin(BeerIcon)
@@ -948,16 +948,16 @@ ConnectionBarsIcon.install = plugin(ConnectionBarsIcon)
 ContrastIcon.install = plugin(ContrastIcon)
 CropIcon.install = plugin(CropIcon)
 CubeIcon.install = plugin(CubeIcon)
-DocumentTextIcon.install = plugin(DocumentTextIcon)
 DiscIcon.install = plugin(DiscIcon)
+DocumentTextIcon.install = plugin(DocumentTextIcon)
 DocumentIcon.install = plugin(DocumentIcon)
 DragIcon.install = plugin(DragIcon)
 EarthIcon.install = plugin(EarthIcon)
-EaselIcon.install = plugin(EaselIcon)
 EditIcon.install = plugin(EditIcon)
+EaselIcon.install = plugin(EaselIcon)
 EggIcon.install = plugin(EggIcon)
-EjectIcon.install = plugin(EjectIcon)
 EmailUnreadIcon.install = plugin(EmailUnreadIcon)
+EjectIcon.install = plugin(EjectIcon)
 EmailIcon.install = plugin(EmailIcon)
 ErlenmeyerFlaskBubblesIcon.install = plugin(ErlenmeyerFlaskBubblesIcon)
 ErlenmeyerFlaskIcon.install = plugin(ErlenmeyerFlaskIcon)
@@ -968,8 +968,8 @@ FilingIcon.install = plugin(FilingIcon)
 FilmMarkerIcon.install = plugin(FilmMarkerIcon)
 FireballIcon.install = plugin(FireballIcon)
 FlagIcon.install = plugin(FlagIcon)
-FlashOffIcon.install = plugin(FlashOffIcon)
 FlameIcon.install = plugin(FlameIcon)
+FlashOffIcon.install = plugin(FlashOffIcon)
 FlashIcon.install = plugin(FlashIcon)
 FolderIcon.install = plugin(FolderIcon)
 ForkRepoIcon.install = plugin(ForkRepoIcon)
@@ -981,33 +981,33 @@ GearBIcon.install = plugin(GearBIcon)
 GridIcon.install = plugin(GridIcon)
 HammerIcon.install = plugin(HammerIcon)
 HappyOutlineIcon.install = plugin(HappyOutlineIcon)
+HeadphoneIcon.install = plugin(HeadphoneIcon)
 HappyIcon.install = plugin(HappyIcon)
 HeartBrokenIcon.install = plugin(HeartBrokenIcon)
-HeadphoneIcon.install = plugin(HeadphoneIcon)
-HelpBuoyIcon.install = plugin(HelpBuoyIcon)
 HeartIcon.install = plugin(HeartIcon)
-IcecreamIcon.install = plugin(IcecreamIcon)
-HelpIcon.install = plugin(HelpIcon)
+HelpBuoyIcon.install = plugin(HelpBuoyIcon)
 HelpCircledIcon.install = plugin(HelpCircledIcon)
+HelpIcon.install = plugin(HelpIcon)
 HomeIcon.install = plugin(HomeIcon)
+IcecreamIcon.install = plugin(IcecreamIcon)
 ImageIcon.install = plugin(ImageIcon)
 ImagesIcon.install = plugin(ImagesIcon)
-InformationIcon.install = plugin(InformationIcon)
 InformationCircledIcon.install = plugin(InformationCircledIcon)
+InformationIcon.install = plugin(InformationIcon)
+IonicIcon.install = plugin(IonicIcon)
 IosAlarmOutlineIcon.install = plugin(IosAlarmOutlineIcon)
 IosAlarmIcon.install = plugin(IosAlarmIcon)
 IosAlbumsOutlineIcon.install = plugin(IosAlbumsOutlineIcon)
-IosAmericanfootballIcon.install = plugin(IosAmericanfootballIcon)
-IosAmericanfootballOutlineIcon.install = plugin(IosAmericanfootballOutlineIcon)
-IonicIcon.install = plugin(IonicIcon)
 IosAlbumsIcon.install = plugin(IosAlbumsIcon)
-IosArrowDownIcon.install = plugin(IosArrowDownIcon)
+IosAmericanfootballOutlineIcon.install = plugin(IosAmericanfootballOutlineIcon)
+IosAmericanfootballIcon.install = plugin(IosAmericanfootballIcon)
 IosAnalyticsOutlineIcon.install = plugin(IosAnalyticsOutlineIcon)
-IosArrowBackIcon.install = plugin(IosArrowBackIcon)
 IosAnalyticsIcon.install = plugin(IosAnalyticsIcon)
-IosArrowRightIcon.install = plugin(IosArrowRightIcon)
-IosArrowLeftIcon.install = plugin(IosArrowLeftIcon)
+IosArrowBackIcon.install = plugin(IosArrowBackIcon)
+IosArrowDownIcon.install = plugin(IosArrowDownIcon)
 IosArrowForwardIcon.install = plugin(IosArrowForwardIcon)
+IosArrowLeftIcon.install = plugin(IosArrowLeftIcon)
+IosArrowRightIcon.install = plugin(IosArrowRightIcon)
 IosArrowThinDownIcon.install = plugin(IosArrowThinDownIcon)
 IosArrowThinLeftIcon.install = plugin(IosArrowThinLeftIcon)
 IosArrowThinRightIcon.install = plugin(IosArrowThinRightIcon)
@@ -1020,16 +1020,16 @@ IosBarcodeIcon.install = plugin(IosBarcodeIcon)
 IosBaseballOutlineIcon.install = plugin(IosBaseballOutlineIcon)
 IosBaseballIcon.install = plugin(IosBaseballIcon)
 IosBasketballOutlineIcon.install = plugin(IosBasketballOutlineIcon)
-IosBellOutlineIcon.install = plugin(IosBellOutlineIcon)
 IosBasketballIcon.install = plugin(IosBasketballIcon)
+IosBellOutlineIcon.install = plugin(IosBellOutlineIcon)
 IosBellIcon.install = plugin(IosBellIcon)
 IosBodyOutlineIcon.install = plugin(IosBodyOutlineIcon)
 IosBodyIcon.install = plugin(IosBodyIcon)
 IosBoltOutlineIcon.install = plugin(IosBoltOutlineIcon)
 IosBoltIcon.install = plugin(IosBoltIcon)
 IosBookOutlineIcon.install = plugin(IosBookOutlineIcon)
-IosBookmarksOutlineIcon.install = plugin(IosBookmarksOutlineIcon)
 IosBookIcon.install = plugin(IosBookIcon)
+IosBookmarksOutlineIcon.install = plugin(IosBookmarksOutlineIcon)
 IosBookmarksIcon.install = plugin(IosBookmarksIcon)
 IosBoxOutlineIcon.install = plugin(IosBoxOutlineIcon)
 IosBoxIcon.install = plugin(IosBoxIcon)
@@ -1043,27 +1043,27 @@ IosCalendarOutlineIcon.install = plugin(IosCalendarOutlineIcon)
 IosCalendarIcon.install = plugin(IosCalendarIcon)
 IosCameraOutlineIcon.install = plugin(IosCameraOutlineIcon)
 IosCameraIcon.install = plugin(IosCameraIcon)
-IosCartIcon.install = plugin(IosCartIcon)
 IosCartOutlineIcon.install = plugin(IosCartOutlineIcon)
+IosCartIcon.install = plugin(IosCartIcon)
 IosChatboxesOutlineIcon.install = plugin(IosChatboxesOutlineIcon)
 IosChatboxesIcon.install = plugin(IosChatboxesIcon)
 IosChatbubbleOutlineIcon.install = plugin(IosChatbubbleOutlineIcon)
 IosChatbubbleIcon.install = plugin(IosChatbubbleIcon)
-IosCheckmarkOutlineIcon.install = plugin(IosCheckmarkOutlineIcon)
 IosCheckmarkEmptyIcon.install = plugin(IosCheckmarkEmptyIcon)
+IosCheckmarkOutlineIcon.install = plugin(IosCheckmarkOutlineIcon)
 IosCheckmarkIcon.install = plugin(IosCheckmarkIcon)
 IosCircleFilledIcon.install = plugin(IosCircleFilledIcon)
 IosCircleOutlineIcon.install = plugin(IosCircleOutlineIcon)
-IosClockIcon.install = plugin(IosClockIcon)
 IosClockOutlineIcon.install = plugin(IosClockOutlineIcon)
+IosClockIcon.install = plugin(IosClockIcon)
 IosCloseEmptyIcon.install = plugin(IosCloseEmptyIcon)
 IosCloseOutlineIcon.install = plugin(IosCloseOutlineIcon)
+IosCloseIcon.install = plugin(IosCloseIcon)
 IosCloudDownloadOutlineIcon.install = plugin(IosCloudDownloadOutlineIcon)
 IosCloudDownloadIcon.install = plugin(IosCloudDownloadIcon)
-IosCloseIcon.install = plugin(IosCloseIcon)
 IosCloudOutlineIcon.install = plugin(IosCloudOutlineIcon)
-IosCloudUploadIcon.install = plugin(IosCloudUploadIcon)
 IosCloudUploadOutlineIcon.install = plugin(IosCloudUploadOutlineIcon)
+IosCloudUploadIcon.install = plugin(IosCloudUploadIcon)
 IosCloudIcon.install = plugin(IosCloudIcon)
 IosCloudyNightOutlineIcon.install = plugin(IosCloudyNightOutlineIcon)
 IosCloudyNightIcon.install = plugin(IosCloudyNightIcon)
@@ -1098,8 +1098,8 @@ IosFilmOutlineIcon.install = plugin(IosFilmOutlineIcon)
 IosFilmIcon.install = plugin(IosFilmIcon)
 IosFlagOutlineIcon.install = plugin(IosFlagOutlineIcon)
 IosFlagIcon.install = plugin(IosFlagIcon)
-IosFlameIcon.install = plugin(IosFlameIcon)
 IosFlameOutlineIcon.install = plugin(IosFlameOutlineIcon)
+IosFlameIcon.install = plugin(IosFlameIcon)
 IosFlaskOutlineIcon.install = plugin(IosFlaskOutlineIcon)
 IosFlaskIcon.install = plugin(IosFlaskIcon)
 IosFlowerOutlineIcon.install = plugin(IosFlowerOutlineIcon)
@@ -1122,21 +1122,21 @@ IosHeartOutlineIcon.install = plugin(IosHeartOutlineIcon)
 IosHeartIcon.install = plugin(IosHeartIcon)
 IosHelpEmptyIcon.install = plugin(IosHelpEmptyIcon)
 IosHelpOutlineIcon.install = plugin(IosHelpOutlineIcon)
+IosHelpIcon.install = plugin(IosHelpIcon)
 IosHomeOutlineIcon.install = plugin(IosHomeOutlineIcon)
 IosHomeIcon.install = plugin(IosHomeIcon)
-IosHelpIcon.install = plugin(IosHelpIcon)
-IosInfiniteIcon.install = plugin(IosInfiniteIcon)
 IosInfiniteOutlineIcon.install = plugin(IosInfiniteOutlineIcon)
+IosInfiniteIcon.install = plugin(IosInfiniteIcon)
 IosInformationEmptyIcon.install = plugin(IosInformationEmptyIcon)
 IosInformationOutlineIcon.install = plugin(IosInformationOutlineIcon)
-IosIonicOutlineIcon.install = plugin(IosIonicOutlineIcon)
 IosInformationIcon.install = plugin(IosInformationIcon)
+IosIonicOutlineIcon.install = plugin(IosIonicOutlineIcon)
 IosKeypadOutlineIcon.install = plugin(IosKeypadOutlineIcon)
 IosKeypadIcon.install = plugin(IosKeypadIcon)
 IosLightbulbOutlineIcon.install = plugin(IosLightbulbOutlineIcon)
 IosLightbulbIcon.install = plugin(IosLightbulbIcon)
-IosListIcon.install = plugin(IosListIcon)
 IosListOutlineIcon.install = plugin(IosListOutlineIcon)
+IosListIcon.install = plugin(IosListIcon)
 IosLocationOutlineIcon.install = plugin(IosLocationOutlineIcon)
 IosLocationIcon.install = plugin(IosLocationIcon)
 IosLockedOutlineIcon.install = plugin(IosLockedOutlineIcon)
@@ -1150,8 +1150,8 @@ IosMedkitIcon.install = plugin(IosMedkitIcon)
 IosMicOffIcon.install = plugin(IosMicOffIcon)
 IosMicOutlineIcon.install = plugin(IosMicOutlineIcon)
 IosMicIcon.install = plugin(IosMicIcon)
-IosMinusOutlineIcon.install = plugin(IosMinusOutlineIcon)
 IosMinusEmptyIcon.install = plugin(IosMinusEmptyIcon)
+IosMinusOutlineIcon.install = plugin(IosMinusOutlineIcon)
 IosMinusIcon.install = plugin(IosMinusIcon)
 IosMonitorOutlineIcon.install = plugin(IosMonitorOutlineIcon)
 IosMonitorIcon.install = plugin(IosMonitorIcon)
@@ -1162,28 +1162,28 @@ IosMoreIcon.install = plugin(IosMoreIcon)
 IosMusicalNoteIcon.install = plugin(IosMusicalNoteIcon)
 IosMusicalNotesIcon.install = plugin(IosMusicalNotesIcon)
 IosNavigateOutlineIcon.install = plugin(IosNavigateOutlineIcon)
-IosNavigateIcon.install = plugin(IosNavigateIcon)
 IosNutritionOutlineIcon.install = plugin(IosNutritionOutlineIcon)
+IosNavigateIcon.install = plugin(IosNavigateIcon)
 IosNutritionIcon.install = plugin(IosNutritionIcon)
 IosPaperOutlineIcon.install = plugin(IosPaperOutlineIcon)
 IosPaperIcon.install = plugin(IosPaperIcon)
 IosPaperplaneOutlineIcon.install = plugin(IosPaperplaneOutlineIcon)
 IosPartlysunnyOutlineIcon.install = plugin(IosPartlysunnyOutlineIcon)
-IosPaperplaneIcon.install = plugin(IosPaperplaneIcon)
 IosPartlysunnyIcon.install = plugin(IosPartlysunnyIcon)
 IosPauseOutlineIcon.install = plugin(IosPauseOutlineIcon)
 IosPauseIcon.install = plugin(IosPauseIcon)
 IosPawOutlineIcon.install = plugin(IosPawOutlineIcon)
 IosPawIcon.install = plugin(IosPawIcon)
+IosPaperplaneIcon.install = plugin(IosPaperplaneIcon)
 IosPeopleOutlineIcon.install = plugin(IosPeopleOutlineIcon)
 IosPeopleIcon.install = plugin(IosPeopleIcon)
 IosPersonOutlineIcon.install = plugin(IosPersonOutlineIcon)
 IosPersonIcon.install = plugin(IosPersonIcon)
-IosPersonaddOutlineIcon.install = plugin(IosPersonaddOutlineIcon)
 IosPersonaddIcon.install = plugin(IosPersonaddIcon)
+IosPersonaddOutlineIcon.install = plugin(IosPersonaddOutlineIcon)
 IosPhotosOutlineIcon.install = plugin(IosPhotosOutlineIcon)
-IosPhotosIcon.install = plugin(IosPhotosIcon)
 IosPieOutlineIcon.install = plugin(IosPieOutlineIcon)
+IosPhotosIcon.install = plugin(IosPhotosIcon)
 IosPieIcon.install = plugin(IosPieIcon)
 IosPintOutlineIcon.install = plugin(IosPintOutlineIcon)
 IosPintIcon.install = plugin(IosPintIcon)
@@ -1194,38 +1194,38 @@ IosPlusOutlineIcon.install = plugin(IosPlusOutlineIcon)
 IosPlusIcon.install = plugin(IosPlusIcon)
 IosPricetagOutlineIcon.install = plugin(IosPricetagOutlineIcon)
 IosPricetagIcon.install = plugin(IosPricetagIcon)
-IosPricetagsIcon.install = plugin(IosPricetagsIcon)
 IosPricetagsOutlineIcon.install = plugin(IosPricetagsOutlineIcon)
+IosPricetagsIcon.install = plugin(IosPricetagsIcon)
 IosPrinterOutlineIcon.install = plugin(IosPrinterOutlineIcon)
-IosPulseStrongIcon.install = plugin(IosPulseStrongIcon)
 IosPrinterIcon.install = plugin(IosPrinterIcon)
+IosPulseStrongIcon.install = plugin(IosPulseStrongIcon)
 IosPulseIcon.install = plugin(IosPulseIcon)
 IosRainyOutlineIcon.install = plugin(IosRainyOutlineIcon)
+IosRecordingOutlineIcon.install = plugin(IosRecordingOutlineIcon)
 IosRainyIcon.install = plugin(IosRainyIcon)
 IosRecordingIcon.install = plugin(IosRecordingIcon)
-IosRecordingOutlineIcon.install = plugin(IosRecordingOutlineIcon)
 IosRedoOutlineIcon.install = plugin(IosRedoOutlineIcon)
 IosRedoIcon.install = plugin(IosRedoIcon)
 IosRefreshEmptyIcon.install = plugin(IosRefreshEmptyIcon)
 IosRefreshOutlineIcon.install = plugin(IosRefreshOutlineIcon)
 IosRefreshIcon.install = plugin(IosRefreshIcon)
-IosReverseCameraOutlineIcon.install = plugin(IosReverseCameraOutlineIcon)
 IosReloadIcon.install = plugin(IosReloadIcon)
+IosReverseCameraOutlineIcon.install = plugin(IosReverseCameraOutlineIcon)
 IosReverseCameraIcon.install = plugin(IosReverseCameraIcon)
 IosRewindOutlineIcon.install = plugin(IosRewindOutlineIcon)
 IosRewindIcon.install = plugin(IosRewindIcon)
-IosRoseIcon.install = plugin(IosRoseIcon)
 IosRoseOutlineIcon.install = plugin(IosRoseOutlineIcon)
+IosRoseIcon.install = plugin(IosRoseIcon)
 IosSearchStrongIcon.install = plugin(IosSearchStrongIcon)
-IosSearchIcon.install = plugin(IosSearchIcon)
 IosSettingsStrongIcon.install = plugin(IosSettingsStrongIcon)
 IosSettingsIcon.install = plugin(IosSettingsIcon)
 IosShuffleStrongIcon.install = plugin(IosShuffleStrongIcon)
+IosSearchIcon.install = plugin(IosSearchIcon)
 IosShuffleIcon.install = plugin(IosShuffleIcon)
 IosSkipbackwardOutlineIcon.install = plugin(IosSkipbackwardOutlineIcon)
 IosSkipbackwardIcon.install = plugin(IosSkipbackwardIcon)
-IosSkipforwardIcon.install = plugin(IosSkipforwardIcon)
 IosSkipforwardOutlineIcon.install = plugin(IosSkipforwardOutlineIcon)
+IosSkipforwardIcon.install = plugin(IosSkipforwardIcon)
 IosSnowyIcon.install = plugin(IosSnowyIcon)
 IosSpeedometerOutlineIcon.install = plugin(IosSpeedometerOutlineIcon)
 IosSpeedometerIcon.install = plugin(IosSpeedometerIcon)
@@ -1269,8 +1269,8 @@ IphoneIcon.install = plugin(IphoneIcon)
 IpodIcon.install = plugin(IpodIcon)
 JetIcon.install = plugin(JetIcon)
 KeyIcon.install = plugin(KeyIcon)
-LaptopIcon.install = plugin(LaptopIcon)
 KnifeIcon.install = plugin(KnifeIcon)
+LaptopIcon.install = plugin(LaptopIcon)
 LeafIcon.install = plugin(LeafIcon)
 LevelsIcon.install = plugin(LevelsIcon)
 LightbulbIcon.install = plugin(LightbulbIcon)
@@ -1278,11 +1278,11 @@ LinkIcon.install = plugin(LinkIcon)
 LoadAIcon.install = plugin(LoadAIcon)
 LoadBIcon.install = plugin(LoadBIcon)
 LoadCIcon.install = plugin(LoadCIcon)
-LocationIcon.install = plugin(LocationIcon)
 LoadDIcon.install = plugin(LoadDIcon)
+LocationIcon.install = plugin(LocationIcon)
 LockCombinationIcon.install = plugin(LockCombinationIcon)
-LockedIcon.install = plugin(LockedIcon)
 LogInIcon.install = plugin(LogInIcon)
+LockedIcon.install = plugin(LockedIcon)
 LogOutIcon.install = plugin(LogOutIcon)
 LoopIcon.install = plugin(LoopIcon)
 MagnetIcon.install = plugin(MagnetIcon)
@@ -1290,13 +1290,13 @@ MaleIcon.install = plugin(MaleIcon)
 ManIcon.install = plugin(ManIcon)
 MapIcon.install = plugin(MapIcon)
 MedkitIcon.install = plugin(MedkitIcon)
-MicAIcon.install = plugin(MicAIcon)
 MergeIcon.install = plugin(MergeIcon)
 MicBIcon.install = plugin(MicBIcon)
-MicCIcon.install = plugin(MicCIcon)
+MicAIcon.install = plugin(MicAIcon)
 MinusCircledIcon.install = plugin(MinusCircledIcon)
 MinusRoundIcon.install = plugin(MinusRoundIcon)
 MinusIcon.install = plugin(MinusIcon)
+MicCIcon.install = plugin(MicCIcon)
 ModelSIcon.install = plugin(ModelSIcon)
 MonitorIcon.install = plugin(MonitorIcon)
 MoreIcon.install = plugin(MoreIcon)
@@ -1304,18 +1304,18 @@ MouseIcon.install = plugin(MouseIcon)
 MusicNoteIcon.install = plugin(MusicNoteIcon)
 NaviconRoundIcon.install = plugin(NaviconRoundIcon)
 NaviconIcon.install = plugin(NaviconIcon)
-NavigateIcon.install = plugin(NavigateIcon)
 NetworkIcon.install = plugin(NetworkIcon)
 NoSmokingIcon.install = plugin(NoSmokingIcon)
+NavigateIcon.install = plugin(NavigateIcon)
 NuclearIcon.install = plugin(NuclearIcon)
 OutletIcon.install = plugin(OutletIcon)
 PaintbrushIcon.install = plugin(PaintbrushIcon)
 PaintbucketIcon.install = plugin(PaintbucketIcon)
 PaperAirplaneIcon.install = plugin(PaperAirplaneIcon)
 PaperclipIcon.install = plugin(PaperclipIcon)
+PersonAddIcon.install = plugin(PersonAddIcon)
 PauseIcon.install = plugin(PauseIcon)
 PersonStalkerIcon.install = plugin(PersonStalkerIcon)
-PersonAddIcon.install = plugin(PersonAddIcon)
 PersonIcon.install = plugin(PersonIcon)
 PieGraphIcon.install = plugin(PieGraphIcon)
 PinIcon.install = plugin(PinIcon)
@@ -1335,8 +1335,8 @@ PricetagIcon.install = plugin(PricetagIcon)
 PricetagsIcon.install = plugin(PricetagsIcon)
 PrinterIcon.install = plugin(PrinterIcon)
 PullRequestIcon.install = plugin(PullRequestIcon)
-QuoteIcon.install = plugin(QuoteIcon)
 QrScannerIcon.install = plugin(QrScannerIcon)
+QuoteIcon.install = plugin(QuoteIcon)
 RadioWavesIcon.install = plugin(RadioWavesIcon)
 RecordIcon.install = plugin(RecordIcon)
 RefreshIcon.install = plugin(RefreshIcon)
@@ -1356,8 +1356,8 @@ SkipForwardIcon.install = plugin(SkipForwardIcon)
 SocialAndroidOutlineIcon.install = plugin(SocialAndroidOutlineIcon)
 SocialAndroidIcon.install = plugin(SocialAndroidIcon)
 SocialAngularOutlineIcon.install = plugin(SocialAngularOutlineIcon)
-SocialAppleOutlineIcon.install = plugin(SocialAppleOutlineIcon)
 SocialAngularIcon.install = plugin(SocialAngularIcon)
+SocialAppleOutlineIcon.install = plugin(SocialAppleOutlineIcon)
 SocialAppleIcon.install = plugin(SocialAppleIcon)
 SocialBitcoinOutlineIcon.install = plugin(SocialBitcoinOutlineIcon)
 SocialBitcoinIcon.install = plugin(SocialBitcoinIcon)
@@ -1366,22 +1366,22 @@ SocialBufferIcon.install = plugin(SocialBufferIcon)
 SocialChromeOutlineIcon.install = plugin(SocialChromeOutlineIcon)
 SocialChromeIcon.install = plugin(SocialChromeIcon)
 SocialCodepenOutlineIcon.install = plugin(SocialCodepenOutlineIcon)
-SocialCodepenIcon.install = plugin(SocialCodepenIcon)
 SocialCss3OutlineIcon.install = plugin(SocialCss3OutlineIcon)
-SocialCss3Icon.install = plugin(SocialCss3Icon)
+SocialCodepenIcon.install = plugin(SocialCodepenIcon)
 SocialDesignernewsOutlineIcon.install = plugin(SocialDesignernewsOutlineIcon)
+SocialCss3Icon.install = plugin(SocialCss3Icon)
 SocialDesignernewsIcon.install = plugin(SocialDesignernewsIcon)
 SocialDribbbleOutlineIcon.install = plugin(SocialDribbbleOutlineIcon)
 SocialDribbbleIcon.install = plugin(SocialDribbbleIcon)
 SocialDropboxOutlineIcon.install = plugin(SocialDropboxOutlineIcon)
-SocialEuroOutlineIcon.install = plugin(SocialEuroOutlineIcon)
 SocialDropboxIcon.install = plugin(SocialDropboxIcon)
+SocialEuroOutlineIcon.install = plugin(SocialEuroOutlineIcon)
 SocialEuroIcon.install = plugin(SocialEuroIcon)
-SocialFacebookIcon.install = plugin(SocialFacebookIcon)
 SocialFacebookOutlineIcon.install = plugin(SocialFacebookOutlineIcon)
+SocialFacebookIcon.install = plugin(SocialFacebookIcon)
 SocialFoursquareOutlineIcon.install = plugin(SocialFoursquareOutlineIcon)
-SocialFoursquareIcon.install = plugin(SocialFoursquareIcon)
 SocialFreebsdDevilIcon.install = plugin(SocialFreebsdDevilIcon)
+SocialFoursquareIcon.install = plugin(SocialFoursquareIcon)
 SocialGithubOutlineIcon.install = plugin(SocialGithubOutlineIcon)
 SocialGithubIcon.install = plugin(SocialGithubIcon)
 SocialGoogleOutlineIcon.install = plugin(SocialGoogleOutlineIcon)
@@ -1403,37 +1403,37 @@ SocialNodejsIcon.install = plugin(SocialNodejsIcon)
 SocialOctocatIcon.install = plugin(SocialOctocatIcon)
 SocialPinterestOutlineIcon.install = plugin(SocialPinterestOutlineIcon)
 SocialPinterestIcon.install = plugin(SocialPinterestIcon)
-SocialRedditOutlineIcon.install = plugin(SocialRedditOutlineIcon)
 SocialPythonIcon.install = plugin(SocialPythonIcon)
+SocialRedditOutlineIcon.install = plugin(SocialRedditOutlineIcon)
 SocialRedditIcon.install = plugin(SocialRedditIcon)
 SocialRssOutlineIcon.install = plugin(SocialRssOutlineIcon)
 SocialRssIcon.install = plugin(SocialRssIcon)
 SocialSassIcon.install = plugin(SocialSassIcon)
 SocialSkypeOutlineIcon.install = plugin(SocialSkypeOutlineIcon)
 SocialSkypeIcon.install = plugin(SocialSkypeIcon)
-SocialSnapchatIcon.install = plugin(SocialSnapchatIcon)
 SocialSnapchatOutlineIcon.install = plugin(SocialSnapchatOutlineIcon)
-SocialTumblrOutlineIcon.install = plugin(SocialTumblrOutlineIcon)
 SocialTumblrIcon.install = plugin(SocialTumblrIcon)
+SocialSnapchatIcon.install = plugin(SocialSnapchatIcon)
+SocialTumblrOutlineIcon.install = plugin(SocialTumblrOutlineIcon)
 SocialTuxIcon.install = plugin(SocialTuxIcon)
-SocialTwitterOutlineIcon.install = plugin(SocialTwitterOutlineIcon)
 SocialTwitchOutlineIcon.install = plugin(SocialTwitchOutlineIcon)
 SocialTwitchIcon.install = plugin(SocialTwitchIcon)
-SocialUsdOutlineIcon.install = plugin(SocialUsdOutlineIcon)
-SocialUsdIcon.install = plugin(SocialUsdIcon)
+SocialTwitterOutlineIcon.install = plugin(SocialTwitterOutlineIcon)
 SocialTwitterIcon.install = plugin(SocialTwitterIcon)
+SocialUsdOutlineIcon.install = plugin(SocialUsdOutlineIcon)
 SocialVimeoOutlineIcon.install = plugin(SocialVimeoOutlineIcon)
+SocialUsdIcon.install = plugin(SocialUsdIcon)
 SocialVimeoIcon.install = plugin(SocialVimeoIcon)
 SocialWhatsappIcon.install = plugin(SocialWhatsappIcon)
-SocialWhatsappOutlineIcon.install = plugin(SocialWhatsappOutlineIcon)
 SocialWindowsOutlineIcon.install = plugin(SocialWindowsOutlineIcon)
 SocialWindowsIcon.install = plugin(SocialWindowsIcon)
+SocialWhatsappOutlineIcon.install = plugin(SocialWhatsappOutlineIcon)
 SocialWordpressOutlineIcon.install = plugin(SocialWordpressOutlineIcon)
 SocialWordpressIcon.install = plugin(SocialWordpressIcon)
 SocialYahooOutlineIcon.install = plugin(SocialYahooOutlineIcon)
 SocialYahooIcon.install = plugin(SocialYahooIcon)
-SocialYenOutlineIcon.install = plugin(SocialYenOutlineIcon)
 SocialYenIcon.install = plugin(SocialYenIcon)
+SocialYenOutlineIcon.install = plugin(SocialYenOutlineIcon)
 SocialYoutubeOutlineIcon.install = plugin(SocialYoutubeOutlineIcon)
 SocialYoutubeIcon.install = plugin(SocialYoutubeIcon)
 SoupCanOutlineIcon.install = plugin(SoupCanOutlineIcon)
@@ -1443,8 +1443,8 @@ SpeedometerIcon.install = plugin(SpeedometerIcon)
 SpoonIcon.install = plugin(SpoonIcon)
 StarIcon.install = plugin(StarIcon)
 StatsBarsIcon.install = plugin(StatsBarsIcon)
-SteamIcon.install = plugin(SteamIcon)
 StopIcon.install = plugin(StopIcon)
+SteamIcon.install = plugin(SteamIcon)
 ThermometerIcon.install = plugin(ThermometerIcon)
 ThumbsdownIcon.install = plugin(ThumbsdownIcon)
 ThumbsupIcon.install = plugin(ThumbsupIcon)
@@ -1454,21 +1454,21 @@ TransgenderIcon.install = plugin(TransgenderIcon)
 TrashAIcon.install = plugin(TrashAIcon)
 TrashBIcon.install = plugin(TrashBIcon)
 TrophyIcon.install = plugin(TrophyIcon)
+TshirtOutlineIcon.install = plugin(TshirtOutlineIcon)
 UmbrellaIcon.install = plugin(UmbrellaIcon)
 UniversityIcon.install = plugin(UniversityIcon)
-TshirtOutlineIcon.install = plugin(TshirtOutlineIcon)
 UnlockedIcon.install = plugin(UnlockedIcon)
-TshirtIcon.install = plugin(TshirtIcon)
 UploadIcon.install = plugin(UploadIcon)
+TshirtIcon.install = plugin(TshirtIcon)
 UsbIcon.install = plugin(UsbIcon)
 VideocameraIcon.install = plugin(VideocameraIcon)
 VolumeHighIcon.install = plugin(VolumeHighIcon)
 VolumeLowIcon.install = plugin(VolumeLowIcon)
-VolumeMediumIcon.install = plugin(VolumeMediumIcon)
 VolumeMuteIcon.install = plugin(VolumeMuteIcon)
-WandIcon.install = plugin(WandIcon)
+VolumeMediumIcon.install = plugin(VolumeMediumIcon)
 WaterdropIcon.install = plugin(WaterdropIcon)
 WifiIcon.install = plugin(WifiIcon)
+WandIcon.install = plugin(WandIcon)
 WineglassIcon.install = plugin(WineglassIcon)
 WomanIcon.install = plugin(WomanIcon)
 WrenchIcon.install = plugin(WrenchIcon)
@@ -1476,169 +1476,169 @@ XboxIcon.install = plugin(XboxIcon)
 
 let ioniconsPlugin = {}
 ioniconsPlugin.AndroidAddCircleIcon = AndroidAddCircleIcon
-ioniconsPlugin.AlertIcon = AlertIcon
 ioniconsPlugin.AlertCircledIcon = AlertCircledIcon
+ioniconsPlugin.AlertIcon = AlertIcon
 ioniconsPlugin.AndroidAddIcon = AndroidAddIcon
+ioniconsPlugin.AndroidAlarmClockIcon = AndroidAlarmClockIcon
 ioniconsPlugin.AndroidAlertIcon = AndroidAlertIcon
 ioniconsPlugin.AndroidAppsIcon = AndroidAppsIcon
-ioniconsPlugin.AndroidAlarmClockIcon = AndroidAlarmClockIcon
 ioniconsPlugin.AndroidArchiveIcon = AndroidArchiveIcon
 ioniconsPlugin.AndroidArrowBackIcon = AndroidArrowBackIcon
 ioniconsPlugin.AndroidArrowDownIcon = AndroidArrowDownIcon
 ioniconsPlugin.AndroidArrowDropdownCircleIcon = AndroidArrowDropdownCircleIcon
 ioniconsPlugin.AndroidArrowDropdownIcon = AndroidArrowDropdownIcon
-ioniconsPlugin.AndroidArrowDropleftIcon = AndroidArrowDropleftIcon
 ioniconsPlugin.AndroidArrowDropleftCircleIcon = AndroidArrowDropleftCircleIcon
+ioniconsPlugin.AndroidArrowDropleftIcon = AndroidArrowDropleftIcon
 ioniconsPlugin.AndroidArrowDroprightCircleIcon = AndroidArrowDroprightCircleIcon
 ioniconsPlugin.AndroidArrowDroprightIcon = AndroidArrowDroprightIcon
-ioniconsPlugin.AndroidArrowForwardIcon = AndroidArrowForwardIcon
-ioniconsPlugin.AndroidArrowDropupIcon = AndroidArrowDropupIcon
-ioniconsPlugin.AndroidArrowUpIcon = AndroidArrowUpIcon
 ioniconsPlugin.AndroidArrowDropupCircleIcon = AndroidArrowDropupCircleIcon
-ioniconsPlugin.AndroidBarIcon = AndroidBarIcon
-ioniconsPlugin.AndroidBicycleIcon = AndroidBicycleIcon
+ioniconsPlugin.AndroidArrowDropupIcon = AndroidArrowDropupIcon
+ioniconsPlugin.AndroidArrowForwardIcon = AndroidArrowForwardIcon
+ioniconsPlugin.AndroidArrowUpIcon = AndroidArrowUpIcon
 ioniconsPlugin.AndroidAttachIcon = AndroidAttachIcon
 ioniconsPlugin.AndroidBoatIcon = AndroidBoatIcon
-ioniconsPlugin.AndroidBookmarkIcon = AndroidBookmarkIcon
-ioniconsPlugin.AndroidBulbIcon = AndroidBulbIcon
-ioniconsPlugin.AndroidCalendarIcon = AndroidCalendarIcon
+ioniconsPlugin.AndroidBicycleIcon = AndroidBicycleIcon
+ioniconsPlugin.AndroidBarIcon = AndroidBarIcon
 ioniconsPlugin.AndroidBusIcon = AndroidBusIcon
-ioniconsPlugin.AndroidCameraIcon = AndroidCameraIcon
+ioniconsPlugin.AndroidBookmarkIcon = AndroidBookmarkIcon
+ioniconsPlugin.AndroidCalendarIcon = AndroidCalendarIcon
 ioniconsPlugin.AndroidCallIcon = AndroidCallIcon
+ioniconsPlugin.AndroidCameraIcon = AndroidCameraIcon
+ioniconsPlugin.AndroidCancelIcon = AndroidCancelIcon
+ioniconsPlugin.AndroidBulbIcon = AndroidBulbIcon
 ioniconsPlugin.AndroidCarIcon = AndroidCarIcon
+ioniconsPlugin.AndroidCartIcon = AndroidCartIcon
 ioniconsPlugin.AndroidChatIcon = AndroidChatIcon
 ioniconsPlugin.AndroidCheckboxBlankIcon = AndroidCheckboxBlankIcon
-ioniconsPlugin.AndroidCancelIcon = AndroidCancelIcon
-ioniconsPlugin.AndroidCartIcon = AndroidCartIcon
 ioniconsPlugin.AndroidCheckboxOutlineBlankIcon = AndroidCheckboxOutlineBlankIcon
 ioniconsPlugin.AndroidCheckboxOutlineIcon = AndroidCheckboxOutlineIcon
-ioniconsPlugin.AndroidCheckmarkCircleIcon = AndroidCheckmarkCircleIcon
 ioniconsPlugin.AndroidCheckboxIcon = AndroidCheckboxIcon
+ioniconsPlugin.AndroidCheckmarkCircleIcon = AndroidCheckmarkCircleIcon
 ioniconsPlugin.AndroidClipboardIcon = AndroidClipboardIcon
 ioniconsPlugin.AndroidCloseIcon = AndroidCloseIcon
-ioniconsPlugin.AndroidCloudCircleIcon = AndroidCloudCircleIcon
 ioniconsPlugin.AndroidCloudOutlineIcon = AndroidCloudOutlineIcon
-ioniconsPlugin.AndroidCloudDoneIcon = AndroidCloudDoneIcon
 ioniconsPlugin.AndroidCloudIcon = AndroidCloudIcon
+ioniconsPlugin.AndroidCloudDoneIcon = AndroidCloudDoneIcon
+ioniconsPlugin.AndroidCloudCircleIcon = AndroidCloudCircleIcon
 ioniconsPlugin.AndroidColorPaletteIcon = AndroidColorPaletteIcon
-ioniconsPlugin.AndroidContactIcon = AndroidContactIcon
 ioniconsPlugin.AndroidCompassIcon = AndroidCompassIcon
-ioniconsPlugin.AndroidContractIcon = AndroidContractIcon
 ioniconsPlugin.AndroidContactsIcon = AndroidContactsIcon
-ioniconsPlugin.AndroidDeleteIcon = AndroidDeleteIcon
+ioniconsPlugin.AndroidContactIcon = AndroidContactIcon
+ioniconsPlugin.AndroidContractIcon = AndroidContractIcon
 ioniconsPlugin.AndroidCreateIcon = AndroidCreateIcon
+ioniconsPlugin.AndroidDeleteIcon = AndroidDeleteIcon
 ioniconsPlugin.AndroidDesktopIcon = AndroidDesktopIcon
-ioniconsPlugin.AndroidDocumentIcon = AndroidDocumentIcon
 ioniconsPlugin.AndroidDoneIcon = AndroidDoneIcon
+ioniconsPlugin.AndroidDocumentIcon = AndroidDocumentIcon
 ioniconsPlugin.AndroidDoneAllIcon = AndroidDoneAllIcon
-ioniconsPlugin.AndroidDownloadIcon = AndroidDownloadIcon
-ioniconsPlugin.AndroidDraftsIcon = AndroidDraftsIcon
 ioniconsPlugin.AndroidExpandIcon = AndroidExpandIcon
 ioniconsPlugin.AndroidExitIcon = AndroidExitIcon
-ioniconsPlugin.AndroidFavoriteIcon = AndroidFavoriteIcon
+ioniconsPlugin.AndroidDownloadIcon = AndroidDownloadIcon
 ioniconsPlugin.AndroidFilmIcon = AndroidFilmIcon
-ioniconsPlugin.AndroidFolderOpenIcon = AndroidFolderOpenIcon
 ioniconsPlugin.AndroidFavoriteOutlineIcon = AndroidFavoriteOutlineIcon
+ioniconsPlugin.AndroidDraftsIcon = AndroidDraftsIcon
+ioniconsPlugin.AndroidFavoriteIcon = AndroidFavoriteIcon
+ioniconsPlugin.AndroidFolderOpenIcon = AndroidFolderOpenIcon
 ioniconsPlugin.AndroidFolderIcon = AndroidFolderIcon
-ioniconsPlugin.AndroidFunnelIcon = AndroidFunnelIcon
 ioniconsPlugin.AndroidGlobeIcon = AndroidGlobeIcon
 ioniconsPlugin.AndroidHandIcon = AndroidHandIcon
-ioniconsPlugin.AndroidHappyIcon = AndroidHappyIcon
+ioniconsPlugin.AndroidFunnelIcon = AndroidFunnelIcon
 ioniconsPlugin.AndroidHangoutIcon = AndroidHangoutIcon
-ioniconsPlugin.AndroidImageIcon = AndroidImageIcon
+ioniconsPlugin.AndroidHappyIcon = AndroidHappyIcon
 ioniconsPlugin.AndroidHomeIcon = AndroidHomeIcon
+ioniconsPlugin.AndroidImageIcon = AndroidImageIcon
 ioniconsPlugin.AndroidLaptopIcon = AndroidLaptopIcon
+ioniconsPlugin.AndroidListIcon = AndroidListIcon
 ioniconsPlugin.AndroidLocateIcon = AndroidLocateIcon
 ioniconsPlugin.AndroidLockIcon = AndroidLockIcon
-ioniconsPlugin.AndroidListIcon = AndroidListIcon
-ioniconsPlugin.AndroidMenuIcon = AndroidMenuIcon
 ioniconsPlugin.AndroidMailIcon = AndroidMailIcon
+ioniconsPlugin.AndroidMenuIcon = AndroidMenuIcon
 ioniconsPlugin.AndroidMapIcon = AndroidMapIcon
 ioniconsPlugin.AndroidMicrophoneOffIcon = AndroidMicrophoneOffIcon
 ioniconsPlugin.AndroidMicrophoneIcon = AndroidMicrophoneIcon
 ioniconsPlugin.AndroidMoreHorizontalIcon = AndroidMoreHorizontalIcon
-ioniconsPlugin.AndroidMoreVerticalIcon = AndroidMoreVerticalIcon
 ioniconsPlugin.AndroidNavigateIcon = AndroidNavigateIcon
+ioniconsPlugin.AndroidMoreVerticalIcon = AndroidMoreVerticalIcon
 ioniconsPlugin.AndroidNotificationsNoneIcon = AndroidNotificationsNoneIcon
-ioniconsPlugin.AndroidNotificationsOffIcon = AndroidNotificationsOffIcon
 ioniconsPlugin.AndroidNotificationsIcon = AndroidNotificationsIcon
+ioniconsPlugin.AndroidNotificationsOffIcon = AndroidNotificationsOffIcon
 ioniconsPlugin.AndroidOpenIcon = AndroidOpenIcon
 ioniconsPlugin.AndroidOptionsIcon = AndroidOptionsIcon
-ioniconsPlugin.AndroidPeopleIcon = AndroidPeopleIcon
 ioniconsPlugin.AndroidPersonIcon = AndroidPersonIcon
+ioniconsPlugin.AndroidPeopleIcon = AndroidPeopleIcon
 ioniconsPlugin.AndroidPersonAddIcon = AndroidPersonAddIcon
-ioniconsPlugin.AndroidPhoneLandscapeIcon = AndroidPhoneLandscapeIcon
 ioniconsPlugin.AndroidPhonePortraitIcon = AndroidPhonePortraitIcon
-ioniconsPlugin.AndroidPlaneIcon = AndroidPlaneIcon
 ioniconsPlugin.AndroidPinIcon = AndroidPinIcon
+ioniconsPlugin.AndroidPhoneLandscapeIcon = AndroidPhoneLandscapeIcon
+ioniconsPlugin.AndroidPlaneIcon = AndroidPlaneIcon
 ioniconsPlugin.AndroidPlaystoreIcon = AndroidPlaystoreIcon
+ioniconsPlugin.AndroidPrintIcon = AndroidPrintIcon
 ioniconsPlugin.AndroidRadioButtonOffIcon = AndroidRadioButtonOffIcon
 ioniconsPlugin.AndroidRadioButtonOnIcon = AndroidRadioButtonOnIcon
 ioniconsPlugin.AndroidRefreshIcon = AndroidRefreshIcon
-ioniconsPlugin.AndroidPrintIcon = AndroidPrintIcon
+ioniconsPlugin.AndroidRemoveCircleIcon = AndroidRemoveCircleIcon
 ioniconsPlugin.AndroidRemoveIcon = AndroidRemoveIcon
+ioniconsPlugin.AndroidSendIcon = AndroidSendIcon
 ioniconsPlugin.AndroidRestaurantIcon = AndroidRestaurantIcon
 ioniconsPlugin.AndroidSadIcon = AndroidSadIcon
-ioniconsPlugin.AndroidRemoveCircleIcon = AndroidRemoveCircleIcon
 ioniconsPlugin.AndroidSearchIcon = AndroidSearchIcon
-ioniconsPlugin.AndroidSendIcon = AndroidSendIcon
 ioniconsPlugin.AndroidSettingsIcon = AndroidSettingsIcon
 ioniconsPlugin.AndroidShareAltIcon = AndroidShareAltIcon
 ioniconsPlugin.AndroidShareIcon = AndroidShareIcon
 ioniconsPlugin.AndroidStarHalfIcon = AndroidStarHalfIcon
-ioniconsPlugin.AndroidStarOutlineIcon = AndroidStarOutlineIcon
 ioniconsPlugin.AndroidStarIcon = AndroidStarIcon
-ioniconsPlugin.AndroidStopwatchIcon = AndroidStopwatchIcon
-ioniconsPlugin.AndroidSubwayIcon = AndroidSubwayIcon
+ioniconsPlugin.AndroidStarOutlineIcon = AndroidStarOutlineIcon
 ioniconsPlugin.AndroidSunnyIcon = AndroidSunnyIcon
+ioniconsPlugin.AndroidStopwatchIcon = AndroidStopwatchIcon
 ioniconsPlugin.AndroidSyncIcon = AndroidSyncIcon
-ioniconsPlugin.AndroidTextsmsIcon = AndroidTextsmsIcon
 ioniconsPlugin.AndroidTrainIcon = AndroidTrainIcon
 ioniconsPlugin.AndroidTimeIcon = AndroidTimeIcon
-ioniconsPlugin.AndroidVolumeDownIcon = AndroidVolumeDownIcon
+ioniconsPlugin.AndroidSubwayIcon = AndroidSubwayIcon
 ioniconsPlugin.AndroidUnlockIcon = AndroidUnlockIcon
+ioniconsPlugin.AndroidTextsmsIcon = AndroidTextsmsIcon
 ioniconsPlugin.AndroidUploadIcon = AndroidUploadIcon
+ioniconsPlugin.AndroidVolumeDownIcon = AndroidVolumeDownIcon
 ioniconsPlugin.AndroidVolumeMuteIcon = AndroidVolumeMuteIcon
-ioniconsPlugin.AndroidVolumeOffIcon = AndroidVolumeOffIcon
-ioniconsPlugin.AndroidWarningIcon = AndroidWarningIcon
 ioniconsPlugin.AndroidVolumeUpIcon = AndroidVolumeUpIcon
+ioniconsPlugin.AndroidVolumeOffIcon = AndroidVolumeOffIcon
 ioniconsPlugin.AndroidWalkIcon = AndroidWalkIcon
-ioniconsPlugin.ApertureIcon = ApertureIcon
-ioniconsPlugin.AndroidWatchIcon = AndroidWatchIcon
+ioniconsPlugin.AndroidWarningIcon = AndroidWarningIcon
 ioniconsPlugin.AndroidWifiIcon = AndroidWifiIcon
+ioniconsPlugin.AndroidWatchIcon = AndroidWatchIcon
+ioniconsPlugin.ApertureIcon = ApertureIcon
 ioniconsPlugin.ArchiveIcon = ArchiveIcon
 ioniconsPlugin.ArrowDownAIcon = ArrowDownAIcon
 ioniconsPlugin.ArrowDownBIcon = ArrowDownBIcon
 ioniconsPlugin.ArrowDownCIcon = ArrowDownCIcon
 ioniconsPlugin.ArrowExpandIcon = ArrowExpandIcon
-ioniconsPlugin.ArrowGraphDownRightIcon = ArrowGraphDownRightIcon
 ioniconsPlugin.ArrowGraphDownLeftIcon = ArrowGraphDownLeftIcon
-ioniconsPlugin.ArrowGraphUpLeftIcon = ArrowGraphUpLeftIcon
-ioniconsPlugin.ArrowGraphUpRightIcon = ArrowGraphUpRightIcon
+ioniconsPlugin.ArrowGraphDownRightIcon = ArrowGraphDownRightIcon
 ioniconsPlugin.ArrowLeftAIcon = ArrowLeftAIcon
+ioniconsPlugin.ArrowGraphUpRightIcon = ArrowGraphUpRightIcon
 ioniconsPlugin.ArrowLeftBIcon = ArrowLeftBIcon
 ioniconsPlugin.ArrowLeftCIcon = ArrowLeftCIcon
+ioniconsPlugin.ArrowResizeIcon = ArrowResizeIcon
+ioniconsPlugin.ArrowGraphUpLeftIcon = ArrowGraphUpLeftIcon
 ioniconsPlugin.ArrowMoveIcon = ArrowMoveIcon
 ioniconsPlugin.ArrowReturnLeftIcon = ArrowReturnLeftIcon
 ioniconsPlugin.ArrowReturnRightIcon = ArrowReturnRightIcon
-ioniconsPlugin.ArrowResizeIcon = ArrowResizeIcon
 ioniconsPlugin.ArrowRightAIcon = ArrowRightAIcon
 ioniconsPlugin.ArrowRightBIcon = ArrowRightBIcon
 ioniconsPlugin.ArrowRightCIcon = ArrowRightCIcon
 ioniconsPlugin.ArrowShrinkIcon = ArrowShrinkIcon
 ioniconsPlugin.ArrowSwapIcon = ArrowSwapIcon
-ioniconsPlugin.ArrowUpBIcon = ArrowUpBIcon
 ioniconsPlugin.ArrowUpAIcon = ArrowUpAIcon
+ioniconsPlugin.ArrowUpBIcon = ArrowUpBIcon
 ioniconsPlugin.ArrowUpCIcon = ArrowUpCIcon
 ioniconsPlugin.AsteriskIcon = AsteriskIcon
 ioniconsPlugin.AtIcon = AtIcon
-ioniconsPlugin.BackspaceIcon = BackspaceIcon
 ioniconsPlugin.BackspaceOutlineIcon = BackspaceOutlineIcon
+ioniconsPlugin.BackspaceIcon = BackspaceIcon
 ioniconsPlugin.BagIcon = BagIcon
 ioniconsPlugin.BatteryChargingIcon = BatteryChargingIcon
 ioniconsPlugin.BatteryEmptyIcon = BatteryEmptyIcon
-ioniconsPlugin.BatteryHalfIcon = BatteryHalfIcon
 ioniconsPlugin.BatteryFullIcon = BatteryFullIcon
+ioniconsPlugin.BatteryHalfIcon = BatteryHalfIcon
 ioniconsPlugin.BatteryLowIcon = BatteryLowIcon
 ioniconsPlugin.BeakerIcon = BeakerIcon
 ioniconsPlugin.BeerIcon = BeerIcon
@@ -1683,16 +1683,16 @@ ioniconsPlugin.ConnectionBarsIcon = ConnectionBarsIcon
 ioniconsPlugin.ContrastIcon = ContrastIcon
 ioniconsPlugin.CropIcon = CropIcon
 ioniconsPlugin.CubeIcon = CubeIcon
-ioniconsPlugin.DocumentTextIcon = DocumentTextIcon
 ioniconsPlugin.DiscIcon = DiscIcon
+ioniconsPlugin.DocumentTextIcon = DocumentTextIcon
 ioniconsPlugin.DocumentIcon = DocumentIcon
 ioniconsPlugin.DragIcon = DragIcon
 ioniconsPlugin.EarthIcon = EarthIcon
-ioniconsPlugin.EaselIcon = EaselIcon
 ioniconsPlugin.EditIcon = EditIcon
+ioniconsPlugin.EaselIcon = EaselIcon
 ioniconsPlugin.EggIcon = EggIcon
-ioniconsPlugin.EjectIcon = EjectIcon
 ioniconsPlugin.EmailUnreadIcon = EmailUnreadIcon
+ioniconsPlugin.EjectIcon = EjectIcon
 ioniconsPlugin.EmailIcon = EmailIcon
 ioniconsPlugin.ErlenmeyerFlaskBubblesIcon = ErlenmeyerFlaskBubblesIcon
 ioniconsPlugin.ErlenmeyerFlaskIcon = ErlenmeyerFlaskIcon
@@ -1703,8 +1703,8 @@ ioniconsPlugin.FilingIcon = FilingIcon
 ioniconsPlugin.FilmMarkerIcon = FilmMarkerIcon
 ioniconsPlugin.FireballIcon = FireballIcon
 ioniconsPlugin.FlagIcon = FlagIcon
-ioniconsPlugin.FlashOffIcon = FlashOffIcon
 ioniconsPlugin.FlameIcon = FlameIcon
+ioniconsPlugin.FlashOffIcon = FlashOffIcon
 ioniconsPlugin.FlashIcon = FlashIcon
 ioniconsPlugin.FolderIcon = FolderIcon
 ioniconsPlugin.ForkRepoIcon = ForkRepoIcon
@@ -1716,33 +1716,33 @@ ioniconsPlugin.GearBIcon = GearBIcon
 ioniconsPlugin.GridIcon = GridIcon
 ioniconsPlugin.HammerIcon = HammerIcon
 ioniconsPlugin.HappyOutlineIcon = HappyOutlineIcon
+ioniconsPlugin.HeadphoneIcon = HeadphoneIcon
 ioniconsPlugin.HappyIcon = HappyIcon
 ioniconsPlugin.HeartBrokenIcon = HeartBrokenIcon
-ioniconsPlugin.HeadphoneIcon = HeadphoneIcon
-ioniconsPlugin.HelpBuoyIcon = HelpBuoyIcon
 ioniconsPlugin.HeartIcon = HeartIcon
-ioniconsPlugin.IcecreamIcon = IcecreamIcon
-ioniconsPlugin.HelpIcon = HelpIcon
+ioniconsPlugin.HelpBuoyIcon = HelpBuoyIcon
 ioniconsPlugin.HelpCircledIcon = HelpCircledIcon
+ioniconsPlugin.HelpIcon = HelpIcon
 ioniconsPlugin.HomeIcon = HomeIcon
+ioniconsPlugin.IcecreamIcon = IcecreamIcon
 ioniconsPlugin.ImageIcon = ImageIcon
 ioniconsPlugin.ImagesIcon = ImagesIcon
-ioniconsPlugin.InformationIcon = InformationIcon
 ioniconsPlugin.InformationCircledIcon = InformationCircledIcon
+ioniconsPlugin.InformationIcon = InformationIcon
+ioniconsPlugin.IonicIcon = IonicIcon
 ioniconsPlugin.IosAlarmOutlineIcon = IosAlarmOutlineIcon
 ioniconsPlugin.IosAlarmIcon = IosAlarmIcon
 ioniconsPlugin.IosAlbumsOutlineIcon = IosAlbumsOutlineIcon
-ioniconsPlugin.IosAmericanfootballIcon = IosAmericanfootballIcon
-ioniconsPlugin.IosAmericanfootballOutlineIcon = IosAmericanfootballOutlineIcon
-ioniconsPlugin.IonicIcon = IonicIcon
 ioniconsPlugin.IosAlbumsIcon = IosAlbumsIcon
-ioniconsPlugin.IosArrowDownIcon = IosArrowDownIcon
+ioniconsPlugin.IosAmericanfootballOutlineIcon = IosAmericanfootballOutlineIcon
+ioniconsPlugin.IosAmericanfootballIcon = IosAmericanfootballIcon
 ioniconsPlugin.IosAnalyticsOutlineIcon = IosAnalyticsOutlineIcon
-ioniconsPlugin.IosArrowBackIcon = IosArrowBackIcon
 ioniconsPlugin.IosAnalyticsIcon = IosAnalyticsIcon
-ioniconsPlugin.IosArrowRightIcon = IosArrowRightIcon
-ioniconsPlugin.IosArrowLeftIcon = IosArrowLeftIcon
+ioniconsPlugin.IosArrowBackIcon = IosArrowBackIcon
+ioniconsPlugin.IosArrowDownIcon = IosArrowDownIcon
 ioniconsPlugin.IosArrowForwardIcon = IosArrowForwardIcon
+ioniconsPlugin.IosArrowLeftIcon = IosArrowLeftIcon
+ioniconsPlugin.IosArrowRightIcon = IosArrowRightIcon
 ioniconsPlugin.IosArrowThinDownIcon = IosArrowThinDownIcon
 ioniconsPlugin.IosArrowThinLeftIcon = IosArrowThinLeftIcon
 ioniconsPlugin.IosArrowThinRightIcon = IosArrowThinRightIcon
@@ -1755,16 +1755,16 @@ ioniconsPlugin.IosBarcodeIcon = IosBarcodeIcon
 ioniconsPlugin.IosBaseballOutlineIcon = IosBaseballOutlineIcon
 ioniconsPlugin.IosBaseballIcon = IosBaseballIcon
 ioniconsPlugin.IosBasketballOutlineIcon = IosBasketballOutlineIcon
-ioniconsPlugin.IosBellOutlineIcon = IosBellOutlineIcon
 ioniconsPlugin.IosBasketballIcon = IosBasketballIcon
+ioniconsPlugin.IosBellOutlineIcon = IosBellOutlineIcon
 ioniconsPlugin.IosBellIcon = IosBellIcon
 ioniconsPlugin.IosBodyOutlineIcon = IosBodyOutlineIcon
 ioniconsPlugin.IosBodyIcon = IosBodyIcon
 ioniconsPlugin.IosBoltOutlineIcon = IosBoltOutlineIcon
 ioniconsPlugin.IosBoltIcon = IosBoltIcon
 ioniconsPlugin.IosBookOutlineIcon = IosBookOutlineIcon
-ioniconsPlugin.IosBookmarksOutlineIcon = IosBookmarksOutlineIcon
 ioniconsPlugin.IosBookIcon = IosBookIcon
+ioniconsPlugin.IosBookmarksOutlineIcon = IosBookmarksOutlineIcon
 ioniconsPlugin.IosBookmarksIcon = IosBookmarksIcon
 ioniconsPlugin.IosBoxOutlineIcon = IosBoxOutlineIcon
 ioniconsPlugin.IosBoxIcon = IosBoxIcon
@@ -1778,27 +1778,27 @@ ioniconsPlugin.IosCalendarOutlineIcon = IosCalendarOutlineIcon
 ioniconsPlugin.IosCalendarIcon = IosCalendarIcon
 ioniconsPlugin.IosCameraOutlineIcon = IosCameraOutlineIcon
 ioniconsPlugin.IosCameraIcon = IosCameraIcon
-ioniconsPlugin.IosCartIcon = IosCartIcon
 ioniconsPlugin.IosCartOutlineIcon = IosCartOutlineIcon
+ioniconsPlugin.IosCartIcon = IosCartIcon
 ioniconsPlugin.IosChatboxesOutlineIcon = IosChatboxesOutlineIcon
 ioniconsPlugin.IosChatboxesIcon = IosChatboxesIcon
 ioniconsPlugin.IosChatbubbleOutlineIcon = IosChatbubbleOutlineIcon
 ioniconsPlugin.IosChatbubbleIcon = IosChatbubbleIcon
-ioniconsPlugin.IosCheckmarkOutlineIcon = IosCheckmarkOutlineIcon
 ioniconsPlugin.IosCheckmarkEmptyIcon = IosCheckmarkEmptyIcon
+ioniconsPlugin.IosCheckmarkOutlineIcon = IosCheckmarkOutlineIcon
 ioniconsPlugin.IosCheckmarkIcon = IosCheckmarkIcon
 ioniconsPlugin.IosCircleFilledIcon = IosCircleFilledIcon
 ioniconsPlugin.IosCircleOutlineIcon = IosCircleOutlineIcon
-ioniconsPlugin.IosClockIcon = IosClockIcon
 ioniconsPlugin.IosClockOutlineIcon = IosClockOutlineIcon
+ioniconsPlugin.IosClockIcon = IosClockIcon
 ioniconsPlugin.IosCloseEmptyIcon = IosCloseEmptyIcon
 ioniconsPlugin.IosCloseOutlineIcon = IosCloseOutlineIcon
+ioniconsPlugin.IosCloseIcon = IosCloseIcon
 ioniconsPlugin.IosCloudDownloadOutlineIcon = IosCloudDownloadOutlineIcon
 ioniconsPlugin.IosCloudDownloadIcon = IosCloudDownloadIcon
-ioniconsPlugin.IosCloseIcon = IosCloseIcon
 ioniconsPlugin.IosCloudOutlineIcon = IosCloudOutlineIcon
-ioniconsPlugin.IosCloudUploadIcon = IosCloudUploadIcon
 ioniconsPlugin.IosCloudUploadOutlineIcon = IosCloudUploadOutlineIcon
+ioniconsPlugin.IosCloudUploadIcon = IosCloudUploadIcon
 ioniconsPlugin.IosCloudIcon = IosCloudIcon
 ioniconsPlugin.IosCloudyNightOutlineIcon = IosCloudyNightOutlineIcon
 ioniconsPlugin.IosCloudyNightIcon = IosCloudyNightIcon
@@ -1833,8 +1833,8 @@ ioniconsPlugin.IosFilmOutlineIcon = IosFilmOutlineIcon
 ioniconsPlugin.IosFilmIcon = IosFilmIcon
 ioniconsPlugin.IosFlagOutlineIcon = IosFlagOutlineIcon
 ioniconsPlugin.IosFlagIcon = IosFlagIcon
-ioniconsPlugin.IosFlameIcon = IosFlameIcon
 ioniconsPlugin.IosFlameOutlineIcon = IosFlameOutlineIcon
+ioniconsPlugin.IosFlameIcon = IosFlameIcon
 ioniconsPlugin.IosFlaskOutlineIcon = IosFlaskOutlineIcon
 ioniconsPlugin.IosFlaskIcon = IosFlaskIcon
 ioniconsPlugin.IosFlowerOutlineIcon = IosFlowerOutlineIcon
@@ -1857,21 +1857,21 @@ ioniconsPlugin.IosHeartOutlineIcon = IosHeartOutlineIcon
 ioniconsPlugin.IosHeartIcon = IosHeartIcon
 ioniconsPlugin.IosHelpEmptyIcon = IosHelpEmptyIcon
 ioniconsPlugin.IosHelpOutlineIcon = IosHelpOutlineIcon
+ioniconsPlugin.IosHelpIcon = IosHelpIcon
 ioniconsPlugin.IosHomeOutlineIcon = IosHomeOutlineIcon
 ioniconsPlugin.IosHomeIcon = IosHomeIcon
-ioniconsPlugin.IosHelpIcon = IosHelpIcon
-ioniconsPlugin.IosInfiniteIcon = IosInfiniteIcon
 ioniconsPlugin.IosInfiniteOutlineIcon = IosInfiniteOutlineIcon
+ioniconsPlugin.IosInfiniteIcon = IosInfiniteIcon
 ioniconsPlugin.IosInformationEmptyIcon = IosInformationEmptyIcon
 ioniconsPlugin.IosInformationOutlineIcon = IosInformationOutlineIcon
-ioniconsPlugin.IosIonicOutlineIcon = IosIonicOutlineIcon
 ioniconsPlugin.IosInformationIcon = IosInformationIcon
+ioniconsPlugin.IosIonicOutlineIcon = IosIonicOutlineIcon
 ioniconsPlugin.IosKeypadOutlineIcon = IosKeypadOutlineIcon
 ioniconsPlugin.IosKeypadIcon = IosKeypadIcon
 ioniconsPlugin.IosLightbulbOutlineIcon = IosLightbulbOutlineIcon
 ioniconsPlugin.IosLightbulbIcon = IosLightbulbIcon
-ioniconsPlugin.IosListIcon = IosListIcon
 ioniconsPlugin.IosListOutlineIcon = IosListOutlineIcon
+ioniconsPlugin.IosListIcon = IosListIcon
 ioniconsPlugin.IosLocationOutlineIcon = IosLocationOutlineIcon
 ioniconsPlugin.IosLocationIcon = IosLocationIcon
 ioniconsPlugin.IosLockedOutlineIcon = IosLockedOutlineIcon
@@ -1885,8 +1885,8 @@ ioniconsPlugin.IosMedkitIcon = IosMedkitIcon
 ioniconsPlugin.IosMicOffIcon = IosMicOffIcon
 ioniconsPlugin.IosMicOutlineIcon = IosMicOutlineIcon
 ioniconsPlugin.IosMicIcon = IosMicIcon
-ioniconsPlugin.IosMinusOutlineIcon = IosMinusOutlineIcon
 ioniconsPlugin.IosMinusEmptyIcon = IosMinusEmptyIcon
+ioniconsPlugin.IosMinusOutlineIcon = IosMinusOutlineIcon
 ioniconsPlugin.IosMinusIcon = IosMinusIcon
 ioniconsPlugin.IosMonitorOutlineIcon = IosMonitorOutlineIcon
 ioniconsPlugin.IosMonitorIcon = IosMonitorIcon
@@ -1897,28 +1897,28 @@ ioniconsPlugin.IosMoreIcon = IosMoreIcon
 ioniconsPlugin.IosMusicalNoteIcon = IosMusicalNoteIcon
 ioniconsPlugin.IosMusicalNotesIcon = IosMusicalNotesIcon
 ioniconsPlugin.IosNavigateOutlineIcon = IosNavigateOutlineIcon
-ioniconsPlugin.IosNavigateIcon = IosNavigateIcon
 ioniconsPlugin.IosNutritionOutlineIcon = IosNutritionOutlineIcon
+ioniconsPlugin.IosNavigateIcon = IosNavigateIcon
 ioniconsPlugin.IosNutritionIcon = IosNutritionIcon
 ioniconsPlugin.IosPaperOutlineIcon = IosPaperOutlineIcon
 ioniconsPlugin.IosPaperIcon = IosPaperIcon
 ioniconsPlugin.IosPaperplaneOutlineIcon = IosPaperplaneOutlineIcon
 ioniconsPlugin.IosPartlysunnyOutlineIcon = IosPartlysunnyOutlineIcon
-ioniconsPlugin.IosPaperplaneIcon = IosPaperplaneIcon
 ioniconsPlugin.IosPartlysunnyIcon = IosPartlysunnyIcon
 ioniconsPlugin.IosPauseOutlineIcon = IosPauseOutlineIcon
 ioniconsPlugin.IosPauseIcon = IosPauseIcon
 ioniconsPlugin.IosPawOutlineIcon = IosPawOutlineIcon
 ioniconsPlugin.IosPawIcon = IosPawIcon
+ioniconsPlugin.IosPaperplaneIcon = IosPaperplaneIcon
 ioniconsPlugin.IosPeopleOutlineIcon = IosPeopleOutlineIcon
 ioniconsPlugin.IosPeopleIcon = IosPeopleIcon
 ioniconsPlugin.IosPersonOutlineIcon = IosPersonOutlineIcon
 ioniconsPlugin.IosPersonIcon = IosPersonIcon
-ioniconsPlugin.IosPersonaddOutlineIcon = IosPersonaddOutlineIcon
 ioniconsPlugin.IosPersonaddIcon = IosPersonaddIcon
+ioniconsPlugin.IosPersonaddOutlineIcon = IosPersonaddOutlineIcon
 ioniconsPlugin.IosPhotosOutlineIcon = IosPhotosOutlineIcon
-ioniconsPlugin.IosPhotosIcon = IosPhotosIcon
 ioniconsPlugin.IosPieOutlineIcon = IosPieOutlineIcon
+ioniconsPlugin.IosPhotosIcon = IosPhotosIcon
 ioniconsPlugin.IosPieIcon = IosPieIcon
 ioniconsPlugin.IosPintOutlineIcon = IosPintOutlineIcon
 ioniconsPlugin.IosPintIcon = IosPintIcon
@@ -1929,38 +1929,38 @@ ioniconsPlugin.IosPlusOutlineIcon = IosPlusOutlineIcon
 ioniconsPlugin.IosPlusIcon = IosPlusIcon
 ioniconsPlugin.IosPricetagOutlineIcon = IosPricetagOutlineIcon
 ioniconsPlugin.IosPricetagIcon = IosPricetagIcon
-ioniconsPlugin.IosPricetagsIcon = IosPricetagsIcon
 ioniconsPlugin.IosPricetagsOutlineIcon = IosPricetagsOutlineIcon
+ioniconsPlugin.IosPricetagsIcon = IosPricetagsIcon
 ioniconsPlugin.IosPrinterOutlineIcon = IosPrinterOutlineIcon
-ioniconsPlugin.IosPulseStrongIcon = IosPulseStrongIcon
 ioniconsPlugin.IosPrinterIcon = IosPrinterIcon
+ioniconsPlugin.IosPulseStrongIcon = IosPulseStrongIcon
 ioniconsPlugin.IosPulseIcon = IosPulseIcon
 ioniconsPlugin.IosRainyOutlineIcon = IosRainyOutlineIcon
+ioniconsPlugin.IosRecordingOutlineIcon = IosRecordingOutlineIcon
 ioniconsPlugin.IosRainyIcon = IosRainyIcon
 ioniconsPlugin.IosRecordingIcon = IosRecordingIcon
-ioniconsPlugin.IosRecordingOutlineIcon = IosRecordingOutlineIcon
 ioniconsPlugin.IosRedoOutlineIcon = IosRedoOutlineIcon
 ioniconsPlugin.IosRedoIcon = IosRedoIcon
 ioniconsPlugin.IosRefreshEmptyIcon = IosRefreshEmptyIcon
 ioniconsPlugin.IosRefreshOutlineIcon = IosRefreshOutlineIcon
 ioniconsPlugin.IosRefreshIcon = IosRefreshIcon
-ioniconsPlugin.IosReverseCameraOutlineIcon = IosReverseCameraOutlineIcon
 ioniconsPlugin.IosReloadIcon = IosReloadIcon
+ioniconsPlugin.IosReverseCameraOutlineIcon = IosReverseCameraOutlineIcon
 ioniconsPlugin.IosReverseCameraIcon = IosReverseCameraIcon
 ioniconsPlugin.IosRewindOutlineIcon = IosRewindOutlineIcon
 ioniconsPlugin.IosRewindIcon = IosRewindIcon
-ioniconsPlugin.IosRoseIcon = IosRoseIcon
 ioniconsPlugin.IosRoseOutlineIcon = IosRoseOutlineIcon
+ioniconsPlugin.IosRoseIcon = IosRoseIcon
 ioniconsPlugin.IosSearchStrongIcon = IosSearchStrongIcon
-ioniconsPlugin.IosSearchIcon = IosSearchIcon
 ioniconsPlugin.IosSettingsStrongIcon = IosSettingsStrongIcon
 ioniconsPlugin.IosSettingsIcon = IosSettingsIcon
 ioniconsPlugin.IosShuffleStrongIcon = IosShuffleStrongIcon
+ioniconsPlugin.IosSearchIcon = IosSearchIcon
 ioniconsPlugin.IosShuffleIcon = IosShuffleIcon
 ioniconsPlugin.IosSkipbackwardOutlineIcon = IosSkipbackwardOutlineIcon
 ioniconsPlugin.IosSkipbackwardIcon = IosSkipbackwardIcon
-ioniconsPlugin.IosSkipforwardIcon = IosSkipforwardIcon
 ioniconsPlugin.IosSkipforwardOutlineIcon = IosSkipforwardOutlineIcon
+ioniconsPlugin.IosSkipforwardIcon = IosSkipforwardIcon
 ioniconsPlugin.IosSnowyIcon = IosSnowyIcon
 ioniconsPlugin.IosSpeedometerOutlineIcon = IosSpeedometerOutlineIcon
 ioniconsPlugin.IosSpeedometerIcon = IosSpeedometerIcon
@@ -2004,8 +2004,8 @@ ioniconsPlugin.IphoneIcon = IphoneIcon
 ioniconsPlugin.IpodIcon = IpodIcon
 ioniconsPlugin.JetIcon = JetIcon
 ioniconsPlugin.KeyIcon = KeyIcon
-ioniconsPlugin.LaptopIcon = LaptopIcon
 ioniconsPlugin.KnifeIcon = KnifeIcon
+ioniconsPlugin.LaptopIcon = LaptopIcon
 ioniconsPlugin.LeafIcon = LeafIcon
 ioniconsPlugin.LevelsIcon = LevelsIcon
 ioniconsPlugin.LightbulbIcon = LightbulbIcon
@@ -2013,11 +2013,11 @@ ioniconsPlugin.LinkIcon = LinkIcon
 ioniconsPlugin.LoadAIcon = LoadAIcon
 ioniconsPlugin.LoadBIcon = LoadBIcon
 ioniconsPlugin.LoadCIcon = LoadCIcon
-ioniconsPlugin.LocationIcon = LocationIcon
 ioniconsPlugin.LoadDIcon = LoadDIcon
+ioniconsPlugin.LocationIcon = LocationIcon
 ioniconsPlugin.LockCombinationIcon = LockCombinationIcon
-ioniconsPlugin.LockedIcon = LockedIcon
 ioniconsPlugin.LogInIcon = LogInIcon
+ioniconsPlugin.LockedIcon = LockedIcon
 ioniconsPlugin.LogOutIcon = LogOutIcon
 ioniconsPlugin.LoopIcon = LoopIcon
 ioniconsPlugin.MagnetIcon = MagnetIcon
@@ -2025,13 +2025,13 @@ ioniconsPlugin.MaleIcon = MaleIcon
 ioniconsPlugin.ManIcon = ManIcon
 ioniconsPlugin.MapIcon = MapIcon
 ioniconsPlugin.MedkitIcon = MedkitIcon
-ioniconsPlugin.MicAIcon = MicAIcon
 ioniconsPlugin.MergeIcon = MergeIcon
 ioniconsPlugin.MicBIcon = MicBIcon
-ioniconsPlugin.MicCIcon = MicCIcon
+ioniconsPlugin.MicAIcon = MicAIcon
 ioniconsPlugin.MinusCircledIcon = MinusCircledIcon
 ioniconsPlugin.MinusRoundIcon = MinusRoundIcon
 ioniconsPlugin.MinusIcon = MinusIcon
+ioniconsPlugin.MicCIcon = MicCIcon
 ioniconsPlugin.ModelSIcon = ModelSIcon
 ioniconsPlugin.MonitorIcon = MonitorIcon
 ioniconsPlugin.MoreIcon = MoreIcon
@@ -2039,18 +2039,18 @@ ioniconsPlugin.MouseIcon = MouseIcon
 ioniconsPlugin.MusicNoteIcon = MusicNoteIcon
 ioniconsPlugin.NaviconRoundIcon = NaviconRoundIcon
 ioniconsPlugin.NaviconIcon = NaviconIcon
-ioniconsPlugin.NavigateIcon = NavigateIcon
 ioniconsPlugin.NetworkIcon = NetworkIcon
 ioniconsPlugin.NoSmokingIcon = NoSmokingIcon
+ioniconsPlugin.NavigateIcon = NavigateIcon
 ioniconsPlugin.NuclearIcon = NuclearIcon
 ioniconsPlugin.OutletIcon = OutletIcon
 ioniconsPlugin.PaintbrushIcon = PaintbrushIcon
 ioniconsPlugin.PaintbucketIcon = PaintbucketIcon
 ioniconsPlugin.PaperAirplaneIcon = PaperAirplaneIcon
 ioniconsPlugin.PaperclipIcon = PaperclipIcon
+ioniconsPlugin.PersonAddIcon = PersonAddIcon
 ioniconsPlugin.PauseIcon = PauseIcon
 ioniconsPlugin.PersonStalkerIcon = PersonStalkerIcon
-ioniconsPlugin.PersonAddIcon = PersonAddIcon
 ioniconsPlugin.PersonIcon = PersonIcon
 ioniconsPlugin.PieGraphIcon = PieGraphIcon
 ioniconsPlugin.PinIcon = PinIcon
@@ -2070,8 +2070,8 @@ ioniconsPlugin.PricetagIcon = PricetagIcon
 ioniconsPlugin.PricetagsIcon = PricetagsIcon
 ioniconsPlugin.PrinterIcon = PrinterIcon
 ioniconsPlugin.PullRequestIcon = PullRequestIcon
-ioniconsPlugin.QuoteIcon = QuoteIcon
 ioniconsPlugin.QrScannerIcon = QrScannerIcon
+ioniconsPlugin.QuoteIcon = QuoteIcon
 ioniconsPlugin.RadioWavesIcon = RadioWavesIcon
 ioniconsPlugin.RecordIcon = RecordIcon
 ioniconsPlugin.RefreshIcon = RefreshIcon
@@ -2091,8 +2091,8 @@ ioniconsPlugin.SkipForwardIcon = SkipForwardIcon
 ioniconsPlugin.SocialAndroidOutlineIcon = SocialAndroidOutlineIcon
 ioniconsPlugin.SocialAndroidIcon = SocialAndroidIcon
 ioniconsPlugin.SocialAngularOutlineIcon = SocialAngularOutlineIcon
-ioniconsPlugin.SocialAppleOutlineIcon = SocialAppleOutlineIcon
 ioniconsPlugin.SocialAngularIcon = SocialAngularIcon
+ioniconsPlugin.SocialAppleOutlineIcon = SocialAppleOutlineIcon
 ioniconsPlugin.SocialAppleIcon = SocialAppleIcon
 ioniconsPlugin.SocialBitcoinOutlineIcon = SocialBitcoinOutlineIcon
 ioniconsPlugin.SocialBitcoinIcon = SocialBitcoinIcon
@@ -2101,22 +2101,22 @@ ioniconsPlugin.SocialBufferIcon = SocialBufferIcon
 ioniconsPlugin.SocialChromeOutlineIcon = SocialChromeOutlineIcon
 ioniconsPlugin.SocialChromeIcon = SocialChromeIcon
 ioniconsPlugin.SocialCodepenOutlineIcon = SocialCodepenOutlineIcon
-ioniconsPlugin.SocialCodepenIcon = SocialCodepenIcon
 ioniconsPlugin.SocialCss3OutlineIcon = SocialCss3OutlineIcon
-ioniconsPlugin.SocialCss3Icon = SocialCss3Icon
+ioniconsPlugin.SocialCodepenIcon = SocialCodepenIcon
 ioniconsPlugin.SocialDesignernewsOutlineIcon = SocialDesignernewsOutlineIcon
+ioniconsPlugin.SocialCss3Icon = SocialCss3Icon
 ioniconsPlugin.SocialDesignernewsIcon = SocialDesignernewsIcon
 ioniconsPlugin.SocialDribbbleOutlineIcon = SocialDribbbleOutlineIcon
 ioniconsPlugin.SocialDribbbleIcon = SocialDribbbleIcon
 ioniconsPlugin.SocialDropboxOutlineIcon = SocialDropboxOutlineIcon
-ioniconsPlugin.SocialEuroOutlineIcon = SocialEuroOutlineIcon
 ioniconsPlugin.SocialDropboxIcon = SocialDropboxIcon
+ioniconsPlugin.SocialEuroOutlineIcon = SocialEuroOutlineIcon
 ioniconsPlugin.SocialEuroIcon = SocialEuroIcon
-ioniconsPlugin.SocialFacebookIcon = SocialFacebookIcon
 ioniconsPlugin.SocialFacebookOutlineIcon = SocialFacebookOutlineIcon
+ioniconsPlugin.SocialFacebookIcon = SocialFacebookIcon
 ioniconsPlugin.SocialFoursquareOutlineIcon = SocialFoursquareOutlineIcon
-ioniconsPlugin.SocialFoursquareIcon = SocialFoursquareIcon
 ioniconsPlugin.SocialFreebsdDevilIcon = SocialFreebsdDevilIcon
+ioniconsPlugin.SocialFoursquareIcon = SocialFoursquareIcon
 ioniconsPlugin.SocialGithubOutlineIcon = SocialGithubOutlineIcon
 ioniconsPlugin.SocialGithubIcon = SocialGithubIcon
 ioniconsPlugin.SocialGoogleOutlineIcon = SocialGoogleOutlineIcon
@@ -2138,37 +2138,37 @@ ioniconsPlugin.SocialNodejsIcon = SocialNodejsIcon
 ioniconsPlugin.SocialOctocatIcon = SocialOctocatIcon
 ioniconsPlugin.SocialPinterestOutlineIcon = SocialPinterestOutlineIcon
 ioniconsPlugin.SocialPinterestIcon = SocialPinterestIcon
-ioniconsPlugin.SocialRedditOutlineIcon = SocialRedditOutlineIcon
 ioniconsPlugin.SocialPythonIcon = SocialPythonIcon
+ioniconsPlugin.SocialRedditOutlineIcon = SocialRedditOutlineIcon
 ioniconsPlugin.SocialRedditIcon = SocialRedditIcon
 ioniconsPlugin.SocialRssOutlineIcon = SocialRssOutlineIcon
 ioniconsPlugin.SocialRssIcon = SocialRssIcon
 ioniconsPlugin.SocialSassIcon = SocialSassIcon
 ioniconsPlugin.SocialSkypeOutlineIcon = SocialSkypeOutlineIcon
 ioniconsPlugin.SocialSkypeIcon = SocialSkypeIcon
-ioniconsPlugin.SocialSnapchatIcon = SocialSnapchatIcon
 ioniconsPlugin.SocialSnapchatOutlineIcon = SocialSnapchatOutlineIcon
-ioniconsPlugin.SocialTumblrOutlineIcon = SocialTumblrOutlineIcon
 ioniconsPlugin.SocialTumblrIcon = SocialTumblrIcon
+ioniconsPlugin.SocialSnapchatIcon = SocialSnapchatIcon
+ioniconsPlugin.SocialTumblrOutlineIcon = SocialTumblrOutlineIcon
 ioniconsPlugin.SocialTuxIcon = SocialTuxIcon
-ioniconsPlugin.SocialTwitterOutlineIcon = SocialTwitterOutlineIcon
 ioniconsPlugin.SocialTwitchOutlineIcon = SocialTwitchOutlineIcon
 ioniconsPlugin.SocialTwitchIcon = SocialTwitchIcon
-ioniconsPlugin.SocialUsdOutlineIcon = SocialUsdOutlineIcon
-ioniconsPlugin.SocialUsdIcon = SocialUsdIcon
+ioniconsPlugin.SocialTwitterOutlineIcon = SocialTwitterOutlineIcon
 ioniconsPlugin.SocialTwitterIcon = SocialTwitterIcon
+ioniconsPlugin.SocialUsdOutlineIcon = SocialUsdOutlineIcon
 ioniconsPlugin.SocialVimeoOutlineIcon = SocialVimeoOutlineIcon
+ioniconsPlugin.SocialUsdIcon = SocialUsdIcon
 ioniconsPlugin.SocialVimeoIcon = SocialVimeoIcon
 ioniconsPlugin.SocialWhatsappIcon = SocialWhatsappIcon
-ioniconsPlugin.SocialWhatsappOutlineIcon = SocialWhatsappOutlineIcon
 ioniconsPlugin.SocialWindowsOutlineIcon = SocialWindowsOutlineIcon
 ioniconsPlugin.SocialWindowsIcon = SocialWindowsIcon
+ioniconsPlugin.SocialWhatsappOutlineIcon = SocialWhatsappOutlineIcon
 ioniconsPlugin.SocialWordpressOutlineIcon = SocialWordpressOutlineIcon
 ioniconsPlugin.SocialWordpressIcon = SocialWordpressIcon
 ioniconsPlugin.SocialYahooOutlineIcon = SocialYahooOutlineIcon
 ioniconsPlugin.SocialYahooIcon = SocialYahooIcon
-ioniconsPlugin.SocialYenOutlineIcon = SocialYenOutlineIcon
 ioniconsPlugin.SocialYenIcon = SocialYenIcon
+ioniconsPlugin.SocialYenOutlineIcon = SocialYenOutlineIcon
 ioniconsPlugin.SocialYoutubeOutlineIcon = SocialYoutubeOutlineIcon
 ioniconsPlugin.SocialYoutubeIcon = SocialYoutubeIcon
 ioniconsPlugin.SoupCanOutlineIcon = SoupCanOutlineIcon
@@ -2178,8 +2178,8 @@ ioniconsPlugin.SpeedometerIcon = SpeedometerIcon
 ioniconsPlugin.SpoonIcon = SpoonIcon
 ioniconsPlugin.StarIcon = StarIcon
 ioniconsPlugin.StatsBarsIcon = StatsBarsIcon
-ioniconsPlugin.SteamIcon = SteamIcon
 ioniconsPlugin.StopIcon = StopIcon
+ioniconsPlugin.SteamIcon = SteamIcon
 ioniconsPlugin.ThermometerIcon = ThermometerIcon
 ioniconsPlugin.ThumbsdownIcon = ThumbsdownIcon
 ioniconsPlugin.ThumbsupIcon = ThumbsupIcon
@@ -2189,21 +2189,21 @@ ioniconsPlugin.TransgenderIcon = TransgenderIcon
 ioniconsPlugin.TrashAIcon = TrashAIcon
 ioniconsPlugin.TrashBIcon = TrashBIcon
 ioniconsPlugin.TrophyIcon = TrophyIcon
+ioniconsPlugin.TshirtOutlineIcon = TshirtOutlineIcon
 ioniconsPlugin.UmbrellaIcon = UmbrellaIcon
 ioniconsPlugin.UniversityIcon = UniversityIcon
-ioniconsPlugin.TshirtOutlineIcon = TshirtOutlineIcon
 ioniconsPlugin.UnlockedIcon = UnlockedIcon
-ioniconsPlugin.TshirtIcon = TshirtIcon
 ioniconsPlugin.UploadIcon = UploadIcon
+ioniconsPlugin.TshirtIcon = TshirtIcon
 ioniconsPlugin.UsbIcon = UsbIcon
 ioniconsPlugin.VideocameraIcon = VideocameraIcon
 ioniconsPlugin.VolumeHighIcon = VolumeHighIcon
 ioniconsPlugin.VolumeLowIcon = VolumeLowIcon
-ioniconsPlugin.VolumeMediumIcon = VolumeMediumIcon
 ioniconsPlugin.VolumeMuteIcon = VolumeMuteIcon
-ioniconsPlugin.WandIcon = WandIcon
+ioniconsPlugin.VolumeMediumIcon = VolumeMediumIcon
 ioniconsPlugin.WaterdropIcon = WaterdropIcon
 ioniconsPlugin.WifiIcon = WifiIcon
+ioniconsPlugin.WandIcon = WandIcon
 ioniconsPlugin.WineglassIcon = WineglassIcon
 ioniconsPlugin.WomanIcon = WomanIcon
 ioniconsPlugin.WrenchIcon = WrenchIcon
