@@ -40,7 +40,7 @@
 
       <div class="grid__row">
 
-        <div class="box" v-for="icon in icons" :key="icon.name">
+        <div class="box" v-for="icon in filteredIcon" :key="icon.name">
 
           <component :is="icon.name"
                     :w="w"

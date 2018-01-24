@@ -13,7 +13,7 @@ const svgs = fs.readdirSync(svgPath)
 const svgo = new SVGO()
 const VERSION = process.env.npm_package_version
 
-console.log(chalk.yellow('Build starting...'))
+console.log(chalk.yellow(`Build v${VERSION} starting...`))
 var spinner = ora('building...')
 spinner.start()
 
