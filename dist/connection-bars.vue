@@ -5,7 +5,7 @@
     name="connection-bars-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M80 352h64v64H80zM176 288h64v128h-64zM272 192h64v224h-64zM368 96h64v320h-64z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M80 352h64v64H80zM176 288h64v128h-64zM272 192h64v224h-64zM368 96h64v320h-64z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

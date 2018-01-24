@@ -137,6 +137,9 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+// import ionicons global scss
+@import "../ionicons.scss";
+
 small{
   display: block;
   color: #ddd;

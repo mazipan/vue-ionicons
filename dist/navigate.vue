@@ -5,7 +5,7 @@
     name="navigate-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M480 32L32 224h256v256z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M480 32L32 224h256v256z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

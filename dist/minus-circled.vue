@@ -5,7 +5,7 @@
     name="minus-circled-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224 224-100.3 224-224S379.7 32 256 32zm128 240H128v-32h256v32z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M256 32C132.3 32 32 132.3 32 256s100.3 224 224 224 224-100.3 224-224S379.7 32 256 32zm128 240H128v-32h256v32z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

@@ -19,6 +19,7 @@ spinner.start()
 
 shell.config.silent = false
 shell.rm('-rf', dist)
+shell.rm('-rf', path.resolve(__dirname, 'demo/dist'))
 
 const getSVGString = (svg) => {
   return new Promise((resolve, reject) => {
@@ -50,7 +51,7 @@ const sanitizeSVG = (stream) => {
     .replace('<style>.st0{fill:#010101}</style>', '')
     .replace('<style>', '<data-style>')
     .replace('</style>', '</data-style>')
-    .replace('<svg', '<svg viewBox="0 0 512 512" ')
+    .replace('<svg', '<svg viewBox="0 0 512 512" class="ion__svg"')
 
   return newStream
 }
@@ -183,11 +184,7 @@ generateTemplateData().then((templateData) => {
     generateDemoAppFile(templateAppVue, templateData),
     generateVersionFile()
   ]).then(() => {
-    shell.cp('ionicons.css', 'dist/')
-    shell.cp('package.json', 'dist/')
-    shell.cp('README.md', 'dist/')
-
     spinner.stop()
-    console.log(chalk.green('Build completed'))
+    console.log(chalk.green('Build completed: ' + templateData.length + ' icons'))
   })
 })

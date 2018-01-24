@@ -5,7 +5,7 @@
     name="plus-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M448 224H288V64h-64v160H64v64h160v160h64V288h160z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M448 224H288V64h-64v160H64v64h160v160h64V288h160z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

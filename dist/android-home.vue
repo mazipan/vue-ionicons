@@ -5,7 +5,7 @@
     name="android-home-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M208 448V320h96v128h97.6V256H464L256 64 48 256h62.4v192z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M208 448V320h96v128h97.6V256H464L256 64 48 256h62.4v192z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

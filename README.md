@@ -45,6 +45,15 @@ https://mazipan.github.io/vue-ionicons
 
     > **Note** Icon files are kebab cased, e.g. `alert-circle.vue`. All icon generated can be see in [dist](https://github.com/mazipan/vue-ionicons/tree/master/dist) folder.
 
+1. Include global CSS/SCSS in your `main.js`
+
+    ```js
+    # Using plain css
+    require('vue-ionicons/ionicons.css')
+    # Or using SCSS import
+    @import('~vue-ionicons/ionicons.scss')
+    ```
+
 1. Then use it in your template code!
 
     ```html

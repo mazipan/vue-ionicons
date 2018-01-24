@@ -41,10 +41,5 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 
 <%={{ }}=%>

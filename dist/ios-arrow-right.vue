@@ -5,7 +5,7 @@
     name="ios-arrow-right-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M160 115.4L180.7 96 352 256 180.7 416 160 396.7 310.5 256z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

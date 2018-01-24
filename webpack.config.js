@@ -2,7 +2,6 @@ var path = require('path')
 var webpack = require('webpack')
 var npm = require("./package.json")
 const CompressionPlugin = require("compression-webpack-plugin")
-const ExtractTextPlugin = require("extract-text-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const ENV = process.env.NODE_ENV || 'development';
@@ -19,8 +18,8 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, 'demo/dist'),
 		publicPath: '/vue-ionicons/',
-    filename: '[name].bundle.js',
-    chunkFilename: '[name].bundle.js'
+    filename: '[name].[hash].js',
+    chunkFilename: '[id].[hash].js'
   },
   module: {
     rules: [
@@ -30,22 +29,14 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           loaders: {
-            css: ExtractTextPlugin.extract({
-              use: 'css-loader',
-              fallback: 'vue-style-loader'
-            })
+            scss: 'vue-style-loader!css-loader!sass-loader',
+            sass: 'vue-style-loader!css-loader!sass-loader?indentedSyntax'
           }
-          // other vue-loader options go here
         }
       },
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: /node_modules/
-      },
-      {
-        test: /\.css$/,
-        loader: 'css-loader',
         exclude: /node_modules/
       },
       {
@@ -87,43 +78,33 @@ module.exports = {
   },
 	devtool: ENV === 'production' ? 'source-map' : 'cheap-module-eval-source-map',
   plugins: [
-		new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 5, // Must be greater than or equal to one
+      minChunkSize: 1000,
+      maxChunkSize: 50000,
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      name: 'manifest',
+      chunks: ['vendor']
+    }),
     new webpack.BannerPlugin({
       banner: `vue-ionicons v.${npm.version}`
     }),
-    new ExtractTextPlugin("[name].bundle.css"),
     new webpack.optimize.UglifyJsPlugin({
-			output: {
-				comments: false
-			},
-			compress: {
-				unsafe_comps: true,
-				properties: true,
-				keep_fargs: false,
-				pure_getters: true,
-				collapse_vars: true,
-				unsafe: true,
-				warnings: false,
-				screw_ie8: true,
-				sequences: true,
-				dead_code: true,
-				drop_debugger: true,
-				comparisons: true,
-				conditionals: true,
-				evaluate: true,
-				booleans: true,
-				loops: true,
-				unused: true,
-				hoist_funs: true,
-				if_return: true,
-				join_vars: true,
-				cascade: true,
-				drop_console: true
-			}
-		}),
+      compress: {
+        warnings: false
+      },
+      sourceMap: false
+    }),
 		new HtmlWebpackPlugin({
 			template: './index.ejs',
-			minify: { collapseWhitespace: true }
+      minify: {
+        removeComments: true,
+        collapseWhitespace: true,
+        removeAttributeQuotes: true
+      },
+      chunksSortMode: 'dependency'
 		}),
     new CompressionPlugin({
       algorithm: 'gzip'

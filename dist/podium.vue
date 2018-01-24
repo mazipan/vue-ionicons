@@ -5,7 +5,7 @@
     name="podium-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M32 256h128v192H32zM192 160h128v288H192zM352 320h128v128H352z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M32 256h128v192H32zM192 160h128v288H192zM352 320h128v128H352z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

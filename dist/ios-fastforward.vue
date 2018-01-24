@@ -5,7 +5,7 @@
     name="ios-fastforward-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M256 128v123.2L32 128v256l224-123.2V384l224-128-224-128z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M256 128v123.2L32 128v256l224-123.2V384l224-128-224-128z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 

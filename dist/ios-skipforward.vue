@@ -5,7 +5,7 @@
     name="ios-skipforward-icon"
     :aria-labelledby="iconTitle">
 
-    <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M337 96v141.8L96 96v320l241-141.8V416h79V96h-79z"/></svg>
+    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M337 96v141.8L96 96v320l241-141.8V416h79V96h-79z"/></svg>
 
   </div>
 </template>
@@ -40,9 +40,4 @@
   }
 </script>
 
-<style>
-.ion{
-  display: inline-block;
-}
-</style>
 
