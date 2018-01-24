@@ -1,16 +1,8 @@
 .ion {
   display: inline-flex;
-  align-self: center;
-  position: relative;
-  height: 1em;
-  width: 1em;
 
   &__svg {
-    height: 1em;
-    width: 1em;
     fill: currentColor;
-    position: absolute;
-    bottom: -0.125em;
   }
 }
 

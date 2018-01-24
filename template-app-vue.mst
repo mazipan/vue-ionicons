@@ -187,7 +187,7 @@ small{
 
 .ion{
   &:hover{
-    fill: #4F8EF7;
+    color: #4F8EF7;
   }
 }
 
@@ -212,17 +212,8 @@ small{
     border-radius: .25em;
     cursor: pointer;
     display: flex;
-
-    .ion{
-      fill: #fff;
-
-      &:hover{
-        fill: #fff;
-      }
-    }
   }
 }
 </style>
-
 
 <%={{ }}=%>
