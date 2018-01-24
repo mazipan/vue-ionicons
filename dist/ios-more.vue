@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-more-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-more-icon"
-    aria-labelledby="ios-more-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M256 224c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32zM128.4 224c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.4-32-32-32zM384 224c-17.7 0-32 14.3-32 32s14.3 32 32 32 32-14.3 32-32-14.3-32-32-32z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

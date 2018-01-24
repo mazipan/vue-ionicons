@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-monitor-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-monitor-icon"
-    aria-labelledby="ios-monitor-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M496 384V96H16v288h175v16h-64v16h257v-16h-64v-16h176zM32 112h448v256H32V112z"/><path d="M48 128h416v224H48z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

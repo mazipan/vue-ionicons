@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-fastforward-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-fastforward-icon"
-    aria-labelledby="ios-fastforward-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M256 128v123.2L32 128v256l224-123.2V384l224-128-224-128z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

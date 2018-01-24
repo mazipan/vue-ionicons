@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion android-arrow-dropleft-icon"
+    class="ion"
+    :class="rootClass"
     name="android-arrow-dropleft-icon"
-    aria-labelledby="android-arrow-dropleft-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M320 128L192 256l128 128z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

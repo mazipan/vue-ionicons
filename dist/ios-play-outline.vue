@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-play-outline-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-play-outline-icon"
-    aria-labelledby="ios-play-outline-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M144 124.9L353.8 256 144 387.1V124.9M128 96v320l256-160L128 96z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion drag-icon"
+    class="ion"
+    :class="rootClass"
     name="drag-icon"
-    aria-labelledby="drag-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M0 144h512v32H0zM0 240h512v32H0zM0 336h512v32H0z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

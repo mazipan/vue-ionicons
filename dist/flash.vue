@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion flash-icon"
+    class="ion"
+    :class="rootClass"
     name="flash-icon"
-    aria-labelledby="flash-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M96 288h147l-51.1 192L416 224H269l51-192z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

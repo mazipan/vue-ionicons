@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion android-arrow-forward-icon"
+    class="ion"
+    :class="rootClass"
     name="android-arrow-forward-icon"
-    aria-labelledby="android-arrow-forward-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M85 277.375h259.704L225.002 397.077 256 427l171-171L256 85l-29.922 29.924 118.626 119.701H85v42.75z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

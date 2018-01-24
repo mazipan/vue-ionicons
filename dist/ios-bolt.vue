@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-bolt-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-bolt-icon"
-    aria-labelledby="ios-bolt-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M302.7 64L143 288h95.8l-29.5 160L369 224h-95.8l29.5-160z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion android-add-icon"
+    class="ion"
+    :class="rootClass"
     name="android-add-icon"
-    aria-labelledby="android-add-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M416 277.333H277.333V416h-42.666V277.333H96v-42.666h138.667V96h42.666v138.667H416v42.666z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

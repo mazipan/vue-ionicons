@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-pause-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-pause-icon"
-    aria-labelledby="ios-pause-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M128 96h79v320h-79zM305 96h79v320h-79z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

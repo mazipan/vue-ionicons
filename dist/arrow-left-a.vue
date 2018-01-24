@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion arrow-left-a-icon"
+    class="ion"
+    :class="rootClass"
     name="arrow-left-a-icon"
-    aria-labelledby="arrow-left-a-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M64.5 256.5l192 192v-112h192v-160h-192v-112z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

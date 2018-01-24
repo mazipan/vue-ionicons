@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion connection-bars-icon"
+    class="ion"
+    :class="rootClass"
     name="connection-bars-icon"
-    aria-labelledby="connection-bars-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M80 352h64v64H80zM176 288h64v128h-64zM272 192h64v224h-64zM368 96h64v320h-64z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

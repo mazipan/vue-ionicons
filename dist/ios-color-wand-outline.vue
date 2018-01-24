@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-color-wand-outline-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-color-wand-outline-icon"
-    aria-labelledby="ios-color-wand-outline-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M192.011 149.661l-34.043 34.041 256.097 256.096L448 405.757 192.011 149.661zm20.585 66.041l11.415-11.414 201.468 201.469-11.414 11.414-201.469-201.469zM184 64h16v40h-16zM184 268h16v40h-16zM280 176h40v16h-40zM64 176h40v16H64zM139.675 122.558l-11.313 11.314-28.284-28.284 11.313-11.314zM111.389 278.128l-11.312-11.312 28.284-28.284 11.312 11.312zM255.641 133.877l-11.313-11.313L272.61 94.28l11.313 11.313z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

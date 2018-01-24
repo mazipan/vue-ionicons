@@ -1,9 +1,10 @@
 {{=<% %>=}}
 <template>
   <div
-    class="ion <%name%>-icon"
+    class="ion"
+    :class="rootClass"
     name="<%name%>-icon"
-    aria-labelledby="<%name%>-icon-title">
+    :aria-labelledby="iconTitle">
 
     <%{svg}%>
 
@@ -21,6 +22,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

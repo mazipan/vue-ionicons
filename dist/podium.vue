@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion podium-icon"
+    class="ion"
+    :class="rootClass"
     name="podium-icon"
-    aria-labelledby="podium-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M32 256h128v192H32zM192 160h128v288H192zM352 320h128v128H352z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

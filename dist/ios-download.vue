@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-download-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-download-icon"
-    aria-labelledby="ios-download-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M264 144v163l54.8-54.7 11.6 11.6-74.4 74.5-74.5-74.5 11.7-11.6L248 307V144H96v304h320V144zM248 64h16v80h-16z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

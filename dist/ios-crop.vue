@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-crop-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-crop-icon"
-    aria-labelledby="ios-crop-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M128 64h16v48h-16zM144 368V160h-16v224h224v-16zM400 368h48v16h-48z"/><path d="M64 128v16h304v304h16V128z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

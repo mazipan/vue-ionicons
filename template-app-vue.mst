@@ -20,23 +20,71 @@
     </header>
 
     <div class="app">
-      <h1>{{ msg }}</h1>
+
+      <div class="grid__row centered" style="margin-bottom:1em;">
+        <h1 class="centered">
+          {{ title }}
+          <small> {{ subtitle }} </small>
+        </h1>
+        <img src="http://ionicons.com/img/ionicons-logo.png"/>
+      </div>
+
+      <div class="grid__row centered search__box">
+        <input type="text" class="search__input"
+                placeholder="Search Icon"
+                v-model="searchText"/>
+        <button class="search__btn">
+          <IosSearchIcon/> Search
+        </button>
+      </div>
 
       <div class="grid__row">
-        <%#data%>
-          <div class="box">
-            <<%libraryName%> :w="w" :h="h"/>
 
-            <div class="box-content">
-              <%libraryName%>
-            </div>
+        <div class="box" v-for="icon in icons" :key="icon.name">
+
+          <component :is="icon.name"
+                    :w="w"
+                    :h="h">
+          </component>
+
+          <div class="box-content">
+            {{ icon.libraryName }}
           </div>
-        <%/data%>
+
+        </div>
+
       </div>
 
     </div>
 
-    <div class="grid__row content centered"><h2>Contribute</h2><p> Feel free to fork <i class="fa fa-code-fork"></i> on <a href="https://github.com/mazipan/vue-ionicons" target="_blank">GitHub <i class="fa fa-github"></i></a> if you have any features <i class="fa fa-cart-plus"></i> or bugs <i class="fa fa-bug"></i>!</p></div><div class="grid__row content centered"><h2>Contact Developer</h2><p><a href="https://github.com/mazipan"> <img src="https://img.shields.io/badge/mazipan-Github-lightgrey.svg?maxAge=3600" alt="Github"> </a><a href="mailto:mazipanneh@gmail.com"> <img src="https://img.shields.io/badge/mazipanneh-Email-yellow.svg?maxAge=3600" alt="Email"> </a><a href="https://mazipanneh.com/blog/"> <img src="https://img.shields.io/badge/mazipanneh-Blog-brightgreen.svg?maxAge=3600" alt="Blog"> </a><a href="https://facebook.com/mazipanneh"> <img src="https://img.shields.io/badge/mazipanneh-Facebook-blue.svg?maxAge=3600" alt="Facebook"> </a><br/><a href="https://twitter.com/Maz_Ipan"> <img src="https://img.shields.io/badge/Maz_Ipan-Twitter-55acee.svg?maxAge=3600" alt="Twitter"> </a><a href="https://id.linkedin.com/in/irfanmaulanamazipan"> <img src="https://img.shields.io/badge/irfanmaulanamazipan-Linkedin-0077b5.svg?maxAge=3600" alt="Linkedin"> </a><a href="https://www.slideshare.net/IrfanMaulana21"> <img src="https://img.shields.io/badge/IrfanMaulana21-Slideshare-0077b5.svg?maxAge=3600" alt="Slideshare"> </a></p></div><div class="grid__row content centered"><p> Copyright © 2017 <a href="https://mazipanneh.com/blog/">Irfan Maulana</a>, All Rights Reserved.</p></div>
+    <div class="grid__row content centered">
+      <h2>Contribute</h2>
+      <p>Feel free to fork <i class="fa fa-code-fork"></i> on <a href="https://github.com/mazipan/vue-ionicons" target="_blank">GitHub <i class="fa fa-github"></i></a> if you have any features <i class="fa fa-cart-plus"></i> or bugs <i class="fa fa-bug"></i>!</p>
+    </div>
+    <div class="grid__row content centered">
+      <h2>Contact Developer</h2>
+      <p>
+        <a href="https://github.com/mazipan">
+          <SocialGithubIcon :w="w" :h="h"/>
+        </a>
+        <a href="mailto:mazipanneh@gmail.com">
+          <IosEmailIcon :w="w" :h="h" />
+        </a>
+        <a href="https://facebook.com/mazipanneh">
+          <SocialFacebookIcon :w="w" :h="h"/>
+        </a>
+        <a href="https://twitter.com/Maz_Ipan">
+          <SocialTwitterIcon :w="w" :h="h"/>
+        </a>
+        <a href="https://id.linkedin.com/in/irfanmaulanamazipan">
+          <SocialLinkedinIcon :w="w" :h="h"/>
+        </a>
+      </p>
+    </div>
+    <div class="grid__row content centered">
+      <p>Copyright © 2017 <a href="https://mazipanneh.com/blog/">Irfan Maulana</a>, All Rights Reserved.</p>
+    </div>
+
   </div>
 </template>
 
@@ -54,13 +102,30 @@ export default {
   },
   data () {
     return {
-      msg: 'Vue-Ionicons By Irfan Maulana',
+      title: 'Vue-Ionicons',
+      subtitle: 'Vue Icon Set Components from Ionic Team',
       w: '30px',
-      h: '30px'
+      h: '30px',
+      searchText: '',
+      icons: [
+        <%#data%>
+        {
+          name: '<%name%>-icon',
+          readableName: '<%readableName%>',
+          libraryName: '<%libraryName%>'
+        },
+        <%/data%>
+      ]
     }
   },
-  methods: {
-
+  computed: {
+    filteredIcon() {
+      if (this.searchText !== '') {
+        return this.icons.filter(icon =>
+          icon.readableName.toLowerCase().indexOf(this.searchText.toLowerCase()) >= 0
+        )
+      } else return this.icons
+    }
   }
 }
 </script>
@@ -72,10 +137,17 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 
+small{
+  display: block;
+  color: #ddd;
+  font-size: 16px;
+}
+
 .grid__row { *zoom: 1; margin: 0 auto; max-width: 92.308em; }
 .grid__row:before, .grid__row:after { display: table; content: ' '; }
 .grid__row:after { clear: both; }
 .centered { text-align: center; }
+
 
 .box{
   position: relative;
@@ -113,6 +185,38 @@ export default {
 .ion{
   &:hover{
     fill: #4F8EF7;
+  }
+}
+
+.search{
+  &__box{
+    margin-bottom: 1em;
+    display: flex;
+    justify-content: center;
+  }
+  &__input{
+    padding: 1em 5em;
+    margin-right: .5em;
+    outline: 0;
+    border: 1px solid #ddd;
+  }
+  &__btn{
+    background-color: #4F8EF7;
+    color: #fff;
+    padding: 1em;
+    outline: 0;
+    border: 1px solid #4F8EF7;
+    border-radius: .25em;
+    cursor: pointer;
+    display: flex;
+
+    .ion{
+      fill: #fff;
+
+      &:hover{
+        fill: #fff;
+      }
+    }
   }
 }
 </style>

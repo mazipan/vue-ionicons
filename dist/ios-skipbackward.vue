@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion ios-skipbackward-icon"
+    class="ion"
+    :class="rootClass"
     name="ios-skipbackward-icon"
-    aria-labelledby="ios-skipbackward-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M96 96v320h79V274.2L416 416V96L175 237.8V96H96z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion android-volume-mute-icon"
+    class="ion"
+    :class="rootClass"
     name="android-volume-mute-icon"
-    aria-labelledby="android-volume-mute-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M64 192v128h85.334L256 431.543V80.458L149.334 192H64z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

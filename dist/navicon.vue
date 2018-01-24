@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion navicon-icon"
+    class="ion"
+    :class="rootClass"
     name="navicon-icon"
-    aria-labelledby="navicon-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M96 241h320v32H96zM96 145h320v32H96zM96 337h320v32H96z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },

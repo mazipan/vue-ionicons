@@ -1,8 +1,9 @@
 <template>
   <div
-    class="ion android-bookmark-icon"
+    class="ion"
+    :class="rootClass"
     name="android-bookmark-icon"
-    aria-labelledby="android-bookmark-icon-title">
+    :aria-labelledby="iconTitle">
 
     <svg viewBox="0 0 512 512"  :width="w" :height="h"><path d="M360 64H152c-22.002 0-40 17.998-40 40v344l144-64 144 64V104c0-22.002-17.998-40-40-40z"/></svg>
 
@@ -20,6 +21,10 @@
     },
     props: {
       title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
         type: String,
         default: ""
       },
