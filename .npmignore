@@ -3,6 +3,7 @@ demo/
 ionicons/
 dist.js
 gh-publish.js
+.babelrc
 .gitmodules
 .prettierrc
 template-app-vue.mst

@@ -88,136 +88,136 @@
 </template>
 
 <script>
-import AndroidAddCircleIcon  from 'dist/android-add-circle.vue'
 import AlertCircledIcon  from 'dist/alert-circled.vue'
+import AndroidAddCircleIcon  from 'dist/android-add-circle.vue'
 import AlertIcon  from 'dist/alert.vue'
 import AndroidAddIcon  from 'dist/android-add.vue'
 import AndroidAlertIcon  from 'dist/android-alert.vue'
 import AndroidAppsIcon  from 'dist/android-apps.vue'
-import AndroidArchiveIcon  from 'dist/android-archive.vue'
 import AndroidAlarmClockIcon  from 'dist/android-alarm-clock.vue'
-import AndroidArrowBackIcon  from 'dist/android-arrow-back.vue'
+import AndroidArchiveIcon  from 'dist/android-archive.vue'
 import AndroidArrowDownIcon  from 'dist/android-arrow-down.vue'
+import AndroidArrowBackIcon  from 'dist/android-arrow-back.vue'
 import AndroidArrowDropdownCircleIcon  from 'dist/android-arrow-dropdown-circle.vue'
 import AndroidArrowDropdownIcon  from 'dist/android-arrow-dropdown.vue'
-import AndroidArrowDropleftIcon  from 'dist/android-arrow-dropleft.vue'
-import AndroidArrowDroprightCircleIcon  from 'dist/android-arrow-dropright-circle.vue'
-import AndroidArrowDroprightIcon  from 'dist/android-arrow-dropright.vue'
 import AndroidArrowDropleftCircleIcon  from 'dist/android-arrow-dropleft-circle.vue'
+import AndroidArrowDroprightCircleIcon  from 'dist/android-arrow-dropright-circle.vue'
+import AndroidArrowDropleftIcon  from 'dist/android-arrow-dropleft.vue'
+import AndroidArrowDroprightIcon  from 'dist/android-arrow-dropright.vue'
 import AndroidArrowDropupIcon  from 'dist/android-arrow-dropup.vue'
 import AndroidArrowDropupCircleIcon  from 'dist/android-arrow-dropup-circle.vue'
 import AndroidArrowForwardIcon  from 'dist/android-arrow-forward.vue'
-import AndroidBarIcon  from 'dist/android-bar.vue'
 import AndroidArrowUpIcon  from 'dist/android-arrow-up.vue'
-import AndroidBicycleIcon  from 'dist/android-bicycle.vue'
-import AndroidBookmarkIcon  from 'dist/android-bookmark.vue'
-import AndroidBoatIcon  from 'dist/android-boat.vue'
 import AndroidAttachIcon  from 'dist/android-attach.vue'
+import AndroidBicycleIcon  from 'dist/android-bicycle.vue'
+import AndroidBarIcon  from 'dist/android-bar.vue'
+import AndroidBoatIcon  from 'dist/android-boat.vue'
 import AndroidBulbIcon  from 'dist/android-bulb.vue'
+import AndroidBookmarkIcon  from 'dist/android-bookmark.vue'
 import AndroidBusIcon  from 'dist/android-bus.vue'
 import AndroidCalendarIcon  from 'dist/android-calendar.vue'
+import AndroidCallIcon  from 'dist/android-call.vue'
 import AndroidCameraIcon  from 'dist/android-camera.vue'
 import AndroidCancelIcon  from 'dist/android-cancel.vue'
 import AndroidCarIcon  from 'dist/android-car.vue'
 import AndroidChatIcon  from 'dist/android-chat.vue'
-import AndroidCallIcon  from 'dist/android-call.vue'
 import AndroidCheckboxBlankIcon  from 'dist/android-checkbox-blank.vue'
+import AndroidCheckboxOutlineBlankIcon  from 'dist/android-checkbox-outline-blank.vue'
 import AndroidCartIcon  from 'dist/android-cart.vue'
-import AndroidCheckboxOutlineIcon  from 'dist/android-checkbox-outline.vue'
 import AndroidCheckboxIcon  from 'dist/android-checkbox.vue'
 import AndroidCheckmarkCircleIcon  from 'dist/android-checkmark-circle.vue'
-import AndroidCheckboxOutlineBlankIcon  from 'dist/android-checkbox-outline-blank.vue'
+import AndroidCheckboxOutlineIcon  from 'dist/android-checkbox-outline.vue'
 import AndroidClipboardIcon  from 'dist/android-clipboard.vue'
 import AndroidCloseIcon  from 'dist/android-close.vue'
 import AndroidCloudCircleIcon  from 'dist/android-cloud-circle.vue'
 import AndroidCloudDoneIcon  from 'dist/android-cloud-done.vue'
 import AndroidCloudOutlineIcon  from 'dist/android-cloud-outline.vue'
-import AndroidColorPaletteIcon  from 'dist/android-color-palette.vue'
 import AndroidCloudIcon  from 'dist/android-cloud.vue'
+import AndroidColorPaletteIcon  from 'dist/android-color-palette.vue'
 import AndroidCompassIcon  from 'dist/android-compass.vue'
 import AndroidContactIcon  from 'dist/android-contact.vue'
-import AndroidContractIcon  from 'dist/android-contract.vue'
 import AndroidContactsIcon  from 'dist/android-contacts.vue'
+import AndroidContractIcon  from 'dist/android-contract.vue'
 import AndroidDeleteIcon  from 'dist/android-delete.vue'
-import AndroidDesktopIcon  from 'dist/android-desktop.vue'
 import AndroidDocumentIcon  from 'dist/android-document.vue'
+import AndroidDesktopIcon  from 'dist/android-desktop.vue'
 import AndroidCreateIcon  from 'dist/android-create.vue'
 import AndroidDoneAllIcon  from 'dist/android-done-all.vue'
-import AndroidDoneIcon  from 'dist/android-done.vue'
 import AndroidDownloadIcon  from 'dist/android-download.vue'
 import AndroidDraftsIcon  from 'dist/android-drafts.vue'
-import AndroidExpandIcon  from 'dist/android-expand.vue'
 import AndroidExitIcon  from 'dist/android-exit.vue'
+import AndroidExpandIcon  from 'dist/android-expand.vue'
+import AndroidDoneIcon  from 'dist/android-done.vue'
+import AndroidFavoriteIcon  from 'dist/android-favorite.vue'
 import AndroidFavoriteOutlineIcon  from 'dist/android-favorite-outline.vue'
 import AndroidFilmIcon  from 'dist/android-film.vue'
-import AndroidFavoriteIcon  from 'dist/android-favorite.vue'
 import AndroidFolderOpenIcon  from 'dist/android-folder-open.vue'
-import AndroidFolderIcon  from 'dist/android-folder.vue'
-import AndroidFunnelIcon  from 'dist/android-funnel.vue'
 import AndroidGlobeIcon  from 'dist/android-globe.vue'
+import AndroidFunnelIcon  from 'dist/android-funnel.vue'
 import AndroidHandIcon  from 'dist/android-hand.vue'
 import AndroidHangoutIcon  from 'dist/android-hangout.vue'
+import AndroidFolderIcon  from 'dist/android-folder.vue'
 import AndroidHappyIcon  from 'dist/android-happy.vue'
 import AndroidHomeIcon  from 'dist/android-home.vue'
 import AndroidImageIcon  from 'dist/android-image.vue'
+import AndroidLocateIcon  from 'dist/android-locate.vue'
+import AndroidMailIcon  from 'dist/android-mail.vue'
 import AndroidLaptopIcon  from 'dist/android-laptop.vue'
 import AndroidListIcon  from 'dist/android-list.vue'
-import AndroidLocateIcon  from 'dist/android-locate.vue'
-import AndroidLockIcon  from 'dist/android-lock.vue'
-import AndroidMailIcon  from 'dist/android-mail.vue'
 import AndroidMapIcon  from 'dist/android-map.vue'
+import AndroidLockIcon  from 'dist/android-lock.vue'
 import AndroidMenuIcon  from 'dist/android-menu.vue'
 import AndroidMicrophoneOffIcon  from 'dist/android-microphone-off.vue'
-import AndroidMicrophoneIcon  from 'dist/android-microphone.vue'
 import AndroidMoreHorizontalIcon  from 'dist/android-more-horizontal.vue'
-import AndroidMoreVerticalIcon  from 'dist/android-more-vertical.vue'
 import AndroidNavigateIcon  from 'dist/android-navigate.vue'
 import AndroidNotificationsNoneIcon  from 'dist/android-notifications-none.vue'
+import AndroidMicrophoneIcon  from 'dist/android-microphone.vue'
+import AndroidMoreVerticalIcon  from 'dist/android-more-vertical.vue'
 import AndroidNotificationsOffIcon  from 'dist/android-notifications-off.vue'
-import AndroidNotificationsIcon  from 'dist/android-notifications.vue'
 import AndroidOpenIcon  from 'dist/android-open.vue'
+import AndroidNotificationsIcon  from 'dist/android-notifications.vue'
 import AndroidOptionsIcon  from 'dist/android-options.vue'
 import AndroidPeopleIcon  from 'dist/android-people.vue'
 import AndroidPersonAddIcon  from 'dist/android-person-add.vue'
 import AndroidPersonIcon  from 'dist/android-person.vue'
 import AndroidPhoneLandscapeIcon  from 'dist/android-phone-landscape.vue'
 import AndroidPhonePortraitIcon  from 'dist/android-phone-portrait.vue'
-import AndroidPinIcon  from 'dist/android-pin.vue'
 import AndroidPlaneIcon  from 'dist/android-plane.vue'
-import AndroidPlaystoreIcon  from 'dist/android-playstore.vue'
+import AndroidPinIcon  from 'dist/android-pin.vue'
 import AndroidPrintIcon  from 'dist/android-print.vue'
+import AndroidPlaystoreIcon  from 'dist/android-playstore.vue'
 import AndroidRadioButtonOffIcon  from 'dist/android-radio-button-off.vue'
 import AndroidRadioButtonOnIcon  from 'dist/android-radio-button-on.vue'
-import AndroidRefreshIcon  from 'dist/android-refresh.vue'
 import AndroidRemoveCircleIcon  from 'dist/android-remove-circle.vue'
-import AndroidRemoveIcon  from 'dist/android-remove.vue'
 import AndroidRestaurantIcon  from 'dist/android-restaurant.vue'
+import AndroidRemoveIcon  from 'dist/android-remove.vue'
 import AndroidSadIcon  from 'dist/android-sad.vue'
+import AndroidRefreshIcon  from 'dist/android-refresh.vue'
 import AndroidSearchIcon  from 'dist/android-search.vue'
-import AndroidSendIcon  from 'dist/android-send.vue'
 import AndroidSettingsIcon  from 'dist/android-settings.vue'
+import AndroidSendIcon  from 'dist/android-send.vue'
+import AndroidStarHalfIcon  from 'dist/android-star-half.vue'
 import AndroidShareAltIcon  from 'dist/android-share-alt.vue'
 import AndroidShareIcon  from 'dist/android-share.vue'
-import AndroidStarHalfIcon  from 'dist/android-star-half.vue'
 import AndroidStarOutlineIcon  from 'dist/android-star-outline.vue'
-import AndroidStarIcon  from 'dist/android-star.vue'
 import AndroidStopwatchIcon  from 'dist/android-stopwatch.vue'
+import AndroidStarIcon  from 'dist/android-star.vue'
+import AndroidSunnyIcon  from 'dist/android-sunny.vue'
 import AndroidSubwayIcon  from 'dist/android-subway.vue'
 import AndroidSyncIcon  from 'dist/android-sync.vue'
-import AndroidSunnyIcon  from 'dist/android-sunny.vue'
-import AndroidTextsmsIcon  from 'dist/android-textsms.vue'
-import AndroidTimeIcon  from 'dist/android-time.vue'
 import AndroidTrainIcon  from 'dist/android-train.vue'
-import AndroidUnlockIcon  from 'dist/android-unlock.vue'
+import AndroidTextsmsIcon  from 'dist/android-textsms.vue'
 import AndroidUploadIcon  from 'dist/android-upload.vue'
+import AndroidTimeIcon  from 'dist/android-time.vue'
+import AndroidUnlockIcon  from 'dist/android-unlock.vue'
 import AndroidVolumeDownIcon  from 'dist/android-volume-down.vue'
+import AndroidVolumeUpIcon  from 'dist/android-volume-up.vue'
 import AndroidVolumeMuteIcon  from 'dist/android-volume-mute.vue'
 import AndroidVolumeOffIcon  from 'dist/android-volume-off.vue'
-import AndroidVolumeUpIcon  from 'dist/android-volume-up.vue'
-import AndroidWalkIcon  from 'dist/android-walk.vue'
 import AndroidWarningIcon  from 'dist/android-warning.vue'
-import AndroidWatchIcon  from 'dist/android-watch.vue'
 import AndroidWifiIcon  from 'dist/android-wifi.vue'
+import AndroidWalkIcon  from 'dist/android-walk.vue'
+import AndroidWatchIcon  from 'dist/android-watch.vue'
 import ApertureIcon  from 'dist/aperture.vue'
 import ArchiveIcon  from 'dist/archive.vue'
 import ArrowDownAIcon  from 'dist/arrow-down-a.vue'
@@ -237,11 +237,11 @@ import ArrowReturnLeftIcon  from 'dist/arrow-return-left.vue'
 import ArrowReturnRightIcon  from 'dist/arrow-return-right.vue'
 import ArrowRightAIcon  from 'dist/arrow-right-a.vue'
 import ArrowRightBIcon  from 'dist/arrow-right-b.vue'
-import ArrowRightCIcon  from 'dist/arrow-right-c.vue'
 import ArrowShrinkIcon  from 'dist/arrow-shrink.vue'
 import ArrowSwapIcon  from 'dist/arrow-swap.vue'
 import ArrowUpAIcon  from 'dist/arrow-up-a.vue'
 import ArrowUpBIcon  from 'dist/arrow-up-b.vue'
+import ArrowRightCIcon  from 'dist/arrow-right-c.vue'
 import ArrowUpCIcon  from 'dist/arrow-up-c.vue'
 import AsteriskIcon  from 'dist/asterisk.vue'
 import AtIcon  from 'dist/at.vue'
@@ -250,32 +250,32 @@ import BackspaceIcon  from 'dist/backspace.vue'
 import BagIcon  from 'dist/bag.vue'
 import BatteryChargingIcon  from 'dist/battery-charging.vue'
 import BatteryEmptyIcon  from 'dist/battery-empty.vue'
+import BeakerIcon  from 'dist/beaker.vue'
 import BatteryFullIcon  from 'dist/battery-full.vue'
 import BatteryHalfIcon  from 'dist/battery-half.vue'
 import BatteryLowIcon  from 'dist/battery-low.vue'
-import BeakerIcon  from 'dist/beaker.vue'
-import BeerIcon  from 'dist/beer.vue'
 import BluetoothIcon  from 'dist/bluetooth.vue'
 import BonfireIcon  from 'dist/bonfire.vue'
 import BookmarkIcon  from 'dist/bookmark.vue'
+import BeerIcon  from 'dist/beer.vue'
 import BowtieIcon  from 'dist/bowtie.vue'
 import BriefcaseIcon  from 'dist/briefcase.vue'
 import BugIcon  from 'dist/bug.vue'
+import CameraIcon  from 'dist/camera.vue'
 import CalculatorIcon  from 'dist/calculator.vue'
 import CalendarIcon  from 'dist/calendar.vue'
-import CameraIcon  from 'dist/camera.vue'
 import CardIcon  from 'dist/card.vue'
 import CashIcon  from 'dist/cash.vue'
-import ChatboxWorkingIcon  from 'dist/chatbox-working.vue'
 import ChatboxIcon  from 'dist/chatbox.vue'
+import ChatboxWorkingIcon  from 'dist/chatbox-working.vue'
 import ChatboxesIcon  from 'dist/chatboxes.vue'
 import ChatbubbleWorkingIcon  from 'dist/chatbubble-working.vue'
-import ChatbubbleIcon  from 'dist/chatbubble.vue'
-import ChatbubblesIcon  from 'dist/chatbubbles.vue'
 import CheckmarkCircledIcon  from 'dist/checkmark-circled.vue'
+import ChatbubblesIcon  from 'dist/chatbubbles.vue'
+import ChatbubbleIcon  from 'dist/chatbubble.vue'
+import ChevronDownIcon  from 'dist/chevron-down.vue'
 import CheckmarkRoundIcon  from 'dist/checkmark-round.vue'
 import CheckmarkIcon  from 'dist/checkmark.vue'
-import ChevronDownIcon  from 'dist/chevron-down.vue'
 import ChevronLeftIcon  from 'dist/chevron-left.vue'
 import ChevronRightIcon  from 'dist/chevron-right.vue'
 import ChevronUpIcon  from 'dist/chevron-up.vue'
@@ -295,16 +295,16 @@ import ComposeIcon  from 'dist/compose.vue'
 import ConnectionBarsIcon  from 'dist/connection-bars.vue'
 import ContrastIcon  from 'dist/contrast.vue'
 import CropIcon  from 'dist/crop.vue'
-import CubeIcon  from 'dist/cube.vue'
 import DiscIcon  from 'dist/disc.vue'
+import CubeIcon  from 'dist/cube.vue'
 import DocumentTextIcon  from 'dist/document-text.vue'
 import DocumentIcon  from 'dist/document.vue'
 import DragIcon  from 'dist/drag.vue'
 import EarthIcon  from 'dist/earth.vue'
 import EaselIcon  from 'dist/easel.vue'
 import EditIcon  from 'dist/edit.vue'
-import EggIcon  from 'dist/egg.vue'
 import EjectIcon  from 'dist/eject.vue'
+import EggIcon  from 'dist/egg.vue'
 import EmailUnreadIcon  from 'dist/email-unread.vue'
 import EmailIcon  from 'dist/email.vue'
 import ErlenmeyerFlaskBubblesIcon  from 'dist/erlenmeyer-flask-bubbles.vue'
@@ -325,8 +325,8 @@ import ForkIcon  from 'dist/fork.vue'
 import ForwardIcon  from 'dist/forward.vue'
 import FunnelIcon  from 'dist/funnel.vue'
 import GearAIcon  from 'dist/gear-a.vue'
-import GridIcon  from 'dist/grid.vue'
 import GearBIcon  from 'dist/gear-b.vue'
+import GridIcon  from 'dist/grid.vue'
 import HammerIcon  from 'dist/hammer.vue'
 import HappyOutlineIcon  from 'dist/happy-outline.vue'
 import HappyIcon  from 'dist/happy.vue'
@@ -335,8 +335,8 @@ import HeartBrokenIcon  from 'dist/heart-broken.vue'
 import HeartIcon  from 'dist/heart.vue'
 import HelpBuoyIcon  from 'dist/help-buoy.vue'
 import HelpCircledIcon  from 'dist/help-circled.vue'
-import HelpIcon  from 'dist/help.vue'
 import HomeIcon  from 'dist/home.vue'
+import HelpIcon  from 'dist/help.vue'
 import IcecreamIcon  from 'dist/icecream.vue'
 import ImageIcon  from 'dist/image.vue'
 import ImagesIcon  from 'dist/images.vue'
@@ -347,8 +347,8 @@ import IosAlarmOutlineIcon  from 'dist/ios-alarm-outline.vue'
 import IosAlarmIcon  from 'dist/ios-alarm.vue'
 import IosAlbumsOutlineIcon  from 'dist/ios-albums-outline.vue'
 import IosAlbumsIcon  from 'dist/ios-albums.vue'
-import IosAmericanfootballOutlineIcon  from 'dist/ios-americanfootball-outline.vue'
 import IosAmericanfootballIcon  from 'dist/ios-americanfootball.vue'
+import IosAmericanfootballOutlineIcon  from 'dist/ios-americanfootball-outline.vue'
 import IosAnalyticsOutlineIcon  from 'dist/ios-analytics-outline.vue'
 import IosAnalyticsIcon  from 'dist/ios-analytics.vue'
 import IosArrowBackIcon  from 'dist/ios-arrow-back.vue'
@@ -369,12 +369,12 @@ import IosBaseballOutlineIcon  from 'dist/ios-baseball-outline.vue'
 import IosBaseballIcon  from 'dist/ios-baseball.vue'
 import IosBasketballOutlineIcon  from 'dist/ios-basketball-outline.vue'
 import IosBasketballIcon  from 'dist/ios-basketball.vue'
-import IosBellOutlineIcon  from 'dist/ios-bell-outline.vue'
 import IosBellIcon  from 'dist/ios-bell.vue'
+import IosBellOutlineIcon  from 'dist/ios-bell-outline.vue'
 import IosBodyOutlineIcon  from 'dist/ios-body-outline.vue'
 import IosBodyIcon  from 'dist/ios-body.vue'
-import IosBoltOutlineIcon  from 'dist/ios-bolt-outline.vue'
 import IosBoltIcon  from 'dist/ios-bolt.vue'
+import IosBoltOutlineIcon  from 'dist/ios-bolt-outline.vue'
 import IosBookOutlineIcon  from 'dist/ios-book-outline.vue'
 import IosBookIcon  from 'dist/ios-book.vue'
 import IosBookmarksOutlineIcon  from 'dist/ios-bookmarks-outline.vue'
@@ -404,53 +404,53 @@ import IosCircleFilledIcon  from 'dist/ios-circle-filled.vue'
 import IosCircleOutlineIcon  from 'dist/ios-circle-outline.vue'
 import IosClockOutlineIcon  from 'dist/ios-clock-outline.vue'
 import IosClockIcon  from 'dist/ios-clock.vue'
-import IosCloseOutlineIcon  from 'dist/ios-close-outline.vue'
 import IosCloseEmptyIcon  from 'dist/ios-close-empty.vue'
+import IosCloseOutlineIcon  from 'dist/ios-close-outline.vue'
 import IosCloseIcon  from 'dist/ios-close.vue'
-import IosCloudDownloadIcon  from 'dist/ios-cloud-download.vue'
 import IosCloudDownloadOutlineIcon  from 'dist/ios-cloud-download-outline.vue'
+import IosCloudDownloadIcon  from 'dist/ios-cloud-download.vue'
 import IosCloudOutlineIcon  from 'dist/ios-cloud-outline.vue'
 import IosCloudUploadIcon  from 'dist/ios-cloud-upload.vue'
 import IosCloudUploadOutlineIcon  from 'dist/ios-cloud-upload-outline.vue'
-import IosCloudyNightOutlineIcon  from 'dist/ios-cloudy-night-outline.vue'
 import IosCloudIcon  from 'dist/ios-cloud.vue'
-import IosCloudyOutlineIcon  from 'dist/ios-cloudy-outline.vue'
+import IosCloudyNightOutlineIcon  from 'dist/ios-cloudy-night-outline.vue'
 import IosCloudyNightIcon  from 'dist/ios-cloudy-night.vue'
+import IosCloudyOutlineIcon  from 'dist/ios-cloudy-outline.vue'
 import IosCloudyIcon  from 'dist/ios-cloudy.vue'
 import IosCogOutlineIcon  from 'dist/ios-cog-outline.vue'
 import IosCogIcon  from 'dist/ios-cog.vue'
 import IosColorFilterOutlineIcon  from 'dist/ios-color-filter-outline.vue'
-import IosColorWandOutlineIcon  from 'dist/ios-color-wand-outline.vue'
 import IosColorFilterIcon  from 'dist/ios-color-filter.vue'
+import IosColorWandOutlineIcon  from 'dist/ios-color-wand-outline.vue'
 import IosColorWandIcon  from 'dist/ios-color-wand.vue'
-import IosContactOutlineIcon  from 'dist/ios-contact-outline.vue'
 import IosComposeOutlineIcon  from 'dist/ios-compose-outline.vue'
 import IosComposeIcon  from 'dist/ios-compose.vue'
+import IosContactOutlineIcon  from 'dist/ios-contact-outline.vue'
 import IosContactIcon  from 'dist/ios-contact.vue'
 import IosCopyOutlineIcon  from 'dist/ios-copy-outline.vue'
 import IosCopyIcon  from 'dist/ios-copy.vue'
 import IosCropStrongIcon  from 'dist/ios-crop-strong.vue'
+import IosCropIcon  from 'dist/ios-crop.vue'
 import IosDownloadOutlineIcon  from 'dist/ios-download-outline.vue'
 import IosDownloadIcon  from 'dist/ios-download.vue'
 import IosDragIcon  from 'dist/ios-drag.vue'
 import IosEmailOutlineIcon  from 'dist/ios-email-outline.vue'
-import IosCropIcon  from 'dist/ios-crop.vue'
 import IosEmailIcon  from 'dist/ios-email.vue'
 import IosEyeOutlineIcon  from 'dist/ios-eye-outline.vue'
 import IosEyeIcon  from 'dist/ios-eye.vue'
+import IosFastforwardOutlineIcon  from 'dist/ios-fastforward-outline.vue'
 import IosFastforwardIcon  from 'dist/ios-fastforward.vue'
 import IosFilingOutlineIcon  from 'dist/ios-filing-outline.vue'
 import IosFilingIcon  from 'dist/ios-filing.vue'
-import IosFastforwardOutlineIcon  from 'dist/ios-fastforward-outline.vue'
+import IosFilmOutlineIcon  from 'dist/ios-film-outline.vue'
 import IosFilmIcon  from 'dist/ios-film.vue'
 import IosFlagOutlineIcon  from 'dist/ios-flag-outline.vue'
 import IosFlagIcon  from 'dist/ios-flag.vue'
 import IosFlameOutlineIcon  from 'dist/ios-flame-outline.vue'
-import IosFilmOutlineIcon  from 'dist/ios-film-outline.vue'
 import IosFlameIcon  from 'dist/ios-flame.vue'
 import IosFlaskOutlineIcon  from 'dist/ios-flask-outline.vue'
-import IosFlowerOutlineIcon  from 'dist/ios-flower-outline.vue'
 import IosFlaskIcon  from 'dist/ios-flask.vue'
+import IosFlowerOutlineIcon  from 'dist/ios-flower-outline.vue'
 import IosFlowerIcon  from 'dist/ios-flower.vue'
 import IosFolderOutlineIcon  from 'dist/ios-folder-outline.vue'
 import IosFolderIcon  from 'dist/ios-folder.vue'
@@ -462,20 +462,20 @@ import IosGameControllerBOutlineIcon  from 'dist/ios-game-controller-b-outline.v
 import IosGameControllerBIcon  from 'dist/ios-game-controller-b.vue'
 import IosGearOutlineIcon  from 'dist/ios-gear-outline.vue'
 import IosGearIcon  from 'dist/ios-gear.vue'
+import IosGlassesOutlineIcon  from 'dist/ios-glasses-outline.vue'
 import IosGlassesIcon  from 'dist/ios-glasses.vue'
 import IosGridViewOutlineIcon  from 'dist/ios-grid-view-outline.vue'
+import IosGridViewIcon  from 'dist/ios-grid-view.vue'
 import IosHeartOutlineIcon  from 'dist/ios-heart-outline.vue'
-import IosGlassesOutlineIcon  from 'dist/ios-glasses-outline.vue'
 import IosHeartIcon  from 'dist/ios-heart.vue'
 import IosHelpEmptyIcon  from 'dist/ios-help-empty.vue'
-import IosGridViewIcon  from 'dist/ios-grid-view.vue'
 import IosHelpOutlineIcon  from 'dist/ios-help-outline.vue'
 import IosHelpIcon  from 'dist/ios-help.vue'
 import IosHomeOutlineIcon  from 'dist/ios-home-outline.vue'
+import IosHomeIcon  from 'dist/ios-home.vue'
 import IosInfiniteOutlineIcon  from 'dist/ios-infinite-outline.vue'
 import IosInfiniteIcon  from 'dist/ios-infinite.vue'
 import IosInformationEmptyIcon  from 'dist/ios-information-empty.vue'
-import IosHomeIcon  from 'dist/ios-home.vue'
 import IosInformationOutlineIcon  from 'dist/ios-information-outline.vue'
 import IosInformationIcon  from 'dist/ios-information.vue'
 import IosIonicOutlineIcon  from 'dist/ios-ionic-outline.vue'
@@ -489,145 +489,145 @@ import IosLocationOutlineIcon  from 'dist/ios-location-outline.vue'
 import IosLocationIcon  from 'dist/ios-location.vue'
 import IosLockedOutlineIcon  from 'dist/ios-locked-outline.vue'
 import IosLockedIcon  from 'dist/ios-locked.vue'
-import IosLoopIcon  from 'dist/ios-loop.vue'
 import IosLoopStrongIcon  from 'dist/ios-loop-strong.vue'
+import IosLoopIcon  from 'dist/ios-loop.vue'
 import IosMedicalOutlineIcon  from 'dist/ios-medical-outline.vue'
-import IosMedkitOutlineIcon  from 'dist/ios-medkit-outline.vue'
 import IosMedicalIcon  from 'dist/ios-medical.vue'
+import IosMedkitOutlineIcon  from 'dist/ios-medkit-outline.vue'
 import IosMedkitIcon  from 'dist/ios-medkit.vue'
 import IosMicOffIcon  from 'dist/ios-mic-off.vue'
+import IosMicOutlineIcon  from 'dist/ios-mic-outline.vue'
 import IosMinusEmptyIcon  from 'dist/ios-minus-empty.vue'
 import IosMicIcon  from 'dist/ios-mic.vue'
 import IosMinusOutlineIcon  from 'dist/ios-minus-outline.vue'
 import IosMinusIcon  from 'dist/ios-minus.vue'
-import IosMicOutlineIcon  from 'dist/ios-mic-outline.vue'
-import IosMonitorIcon  from 'dist/ios-monitor.vue'
 import IosMonitorOutlineIcon  from 'dist/ios-monitor-outline.vue'
-import IosMoonIcon  from 'dist/ios-moon.vue'
-import IosMoreOutlineIcon  from 'dist/ios-more-outline.vue'
+import IosMonitorIcon  from 'dist/ios-monitor.vue'
 import IosMoonOutlineIcon  from 'dist/ios-moon-outline.vue'
+import IosMoreOutlineIcon  from 'dist/ios-more-outline.vue'
+import IosMoonIcon  from 'dist/ios-moon.vue'
 import IosMoreIcon  from 'dist/ios-more.vue'
-import IosMusicalNoteIcon  from 'dist/ios-musical-note.vue'
 import IosMusicalNotesIcon  from 'dist/ios-musical-notes.vue'
 import IosNavigateOutlineIcon  from 'dist/ios-navigate-outline.vue'
+import IosMusicalNoteIcon  from 'dist/ios-musical-note.vue'
 import IosNavigateIcon  from 'dist/ios-navigate.vue'
-import IosNutritionIcon  from 'dist/ios-nutrition.vue'
-import IosPaperOutlineIcon  from 'dist/ios-paper-outline.vue'
 import IosNutritionOutlineIcon  from 'dist/ios-nutrition-outline.vue'
 import IosPaperIcon  from 'dist/ios-paper.vue'
-import IosPaperplaneOutlineIcon  from 'dist/ios-paperplane-outline.vue'
-import IosPartlysunnyOutlineIcon  from 'dist/ios-partlysunny-outline.vue'
+import IosNutritionIcon  from 'dist/ios-nutrition.vue'
+import IosPaperOutlineIcon  from 'dist/ios-paper-outline.vue'
 import IosPaperplaneIcon  from 'dist/ios-paperplane.vue'
+import IosPartlysunnyOutlineIcon  from 'dist/ios-partlysunny-outline.vue'
 import IosPartlysunnyIcon  from 'dist/ios-partlysunny.vue'
-import IosPauseOutlineIcon  from 'dist/ios-pause-outline.vue'
+import IosPaperplaneOutlineIcon  from 'dist/ios-paperplane-outline.vue'
 import IosPauseIcon  from 'dist/ios-pause.vue'
+import IosPauseOutlineIcon  from 'dist/ios-pause-outline.vue'
 import IosPawOutlineIcon  from 'dist/ios-paw-outline.vue'
 import IosPawIcon  from 'dist/ios-paw.vue'
-import IosPeopleOutlineIcon  from 'dist/ios-people-outline.vue'
-import IosPersonIcon  from 'dist/ios-person.vue'
 import IosPeopleIcon  from 'dist/ios-people.vue'
+import IosPersonOutlineIcon  from 'dist/ios-person-outline.vue'
+import IosPersonIcon  from 'dist/ios-person.vue'
+import IosPeopleOutlineIcon  from 'dist/ios-people-outline.vue'
+import IosPersonaddOutlineIcon  from 'dist/ios-personadd-outline.vue'
 import IosPersonaddIcon  from 'dist/ios-personadd.vue'
 import IosPhotosOutlineIcon  from 'dist/ios-photos-outline.vue'
-import IosPersonaddOutlineIcon  from 'dist/ios-personadd-outline.vue'
-import IosPersonOutlineIcon  from 'dist/ios-person-outline.vue'
 import IosPhotosIcon  from 'dist/ios-photos.vue'
 import IosPieOutlineIcon  from 'dist/ios-pie-outline.vue'
 import IosPieIcon  from 'dist/ios-pie.vue'
 import IosPintOutlineIcon  from 'dist/ios-pint-outline.vue'
-import IosPlayOutlineIcon  from 'dist/ios-play-outline.vue'
 import IosPintIcon  from 'dist/ios-pint.vue'
+import IosPlayOutlineIcon  from 'dist/ios-play-outline.vue'
 import IosPlayIcon  from 'dist/ios-play.vue'
 import IosPlusEmptyIcon  from 'dist/ios-plus-empty.vue'
+import IosPlusOutlineIcon  from 'dist/ios-plus-outline.vue'
 import IosPlusIcon  from 'dist/ios-plus.vue'
 import IosPricetagOutlineIcon  from 'dist/ios-pricetag-outline.vue'
-import IosPlusOutlineIcon  from 'dist/ios-plus-outline.vue'
 import IosPricetagIcon  from 'dist/ios-pricetag.vue'
-import IosPrinterOutlineIcon  from 'dist/ios-printer-outline.vue'
-import IosPrinterIcon  from 'dist/ios-printer.vue'
 import IosPricetagsIcon  from 'dist/ios-pricetags.vue'
+import IosPrinterOutlineIcon  from 'dist/ios-printer-outline.vue'
 import IosPricetagsOutlineIcon  from 'dist/ios-pricetags-outline.vue'
-import IosPulseStrongIcon  from 'dist/ios-pulse-strong.vue'
+import IosPrinterIcon  from 'dist/ios-printer.vue'
 import IosPulseIcon  from 'dist/ios-pulse.vue'
+import IosPulseStrongIcon  from 'dist/ios-pulse-strong.vue'
 import IosRainyOutlineIcon  from 'dist/ios-rainy-outline.vue'
-import IosRecordingIcon  from 'dist/ios-recording.vue'
-import IosRecordingOutlineIcon  from 'dist/ios-recording-outline.vue'
 import IosRainyIcon  from 'dist/ios-rainy.vue'
-import IosRedoIcon  from 'dist/ios-redo.vue'
-import IosRefreshEmptyIcon  from 'dist/ios-refresh-empty.vue'
+import IosRecordingOutlineIcon  from 'dist/ios-recording-outline.vue'
+import IosRecordingIcon  from 'dist/ios-recording.vue'
 import IosRedoOutlineIcon  from 'dist/ios-redo-outline.vue'
-import IosRefreshOutlineIcon  from 'dist/ios-refresh-outline.vue'
+import IosRedoIcon  from 'dist/ios-redo.vue'
 import IosRefreshIcon  from 'dist/ios-refresh.vue'
+import IosRefreshOutlineIcon  from 'dist/ios-refresh-outline.vue'
 import IosReloadIcon  from 'dist/ios-reload.vue'
-import IosReverseCameraOutlineIcon  from 'dist/ios-reverse-camera-outline.vue'
+import IosRefreshEmptyIcon  from 'dist/ios-refresh-empty.vue'
 import IosReverseCameraIcon  from 'dist/ios-reverse-camera.vue'
+import IosReverseCameraOutlineIcon  from 'dist/ios-reverse-camera-outline.vue'
 import IosRewindOutlineIcon  from 'dist/ios-rewind-outline.vue'
-import IosRewindIcon  from 'dist/ios-rewind.vue'
 import IosRoseOutlineIcon  from 'dist/ios-rose-outline.vue'
-import IosSearchStrongIcon  from 'dist/ios-search-strong.vue'
 import IosRoseIcon  from 'dist/ios-rose.vue'
+import IosRewindIcon  from 'dist/ios-rewind.vue'
+import IosSearchStrongIcon  from 'dist/ios-search-strong.vue'
 import IosSearchIcon  from 'dist/ios-search.vue'
 import IosSettingsStrongIcon  from 'dist/ios-settings-strong.vue'
+import IosSettingsIcon  from 'dist/ios-settings.vue'
 import IosShuffleStrongIcon  from 'dist/ios-shuffle-strong.vue'
 import IosShuffleIcon  from 'dist/ios-shuffle.vue'
 import IosSkipbackwardOutlineIcon  from 'dist/ios-skipbackward-outline.vue'
-import IosSettingsIcon  from 'dist/ios-settings.vue'
+import IosSkipbackwardIcon  from 'dist/ios-skipbackward.vue'
 import IosSkipforwardOutlineIcon  from 'dist/ios-skipforward-outline.vue'
 import IosSkipforwardIcon  from 'dist/ios-skipforward.vue'
-import IosSkipbackwardIcon  from 'dist/ios-skipbackward.vue'
 import IosSnowyIcon  from 'dist/ios-snowy.vue'
 import IosSpeedometerOutlineIcon  from 'dist/ios-speedometer-outline.vue'
 import IosSpeedometerIcon  from 'dist/ios-speedometer.vue'
-import IosStarOutlineIcon  from 'dist/ios-star-outline.vue'
-import IosStopwatchOutlineIcon  from 'dist/ios-stopwatch-outline.vue'
-import IosStarIcon  from 'dist/ios-star.vue'
 import IosStarHalfIcon  from 'dist/ios-star-half.vue'
-import IosSunnyIcon  from 'dist/ios-sunny.vue'
-import IosSunnyOutlineIcon  from 'dist/ios-sunny-outline.vue'
+import IosStarOutlineIcon  from 'dist/ios-star-outline.vue'
+import IosStarIcon  from 'dist/ios-star.vue'
+import IosStopwatchOutlineIcon  from 'dist/ios-stopwatch-outline.vue'
 import IosStopwatchIcon  from 'dist/ios-stopwatch.vue'
+import IosSunnyOutlineIcon  from 'dist/ios-sunny-outline.vue'
+import IosSunnyIcon  from 'dist/ios-sunny.vue'
 import IosTelephoneOutlineIcon  from 'dist/ios-telephone-outline.vue'
-import IosTelephoneIcon  from 'dist/ios-telephone.vue'
 import IosTennisballOutlineIcon  from 'dist/ios-tennisball-outline.vue'
+import IosTelephoneIcon  from 'dist/ios-telephone.vue'
+import IosTennisballIcon  from 'dist/ios-tennisball.vue'
+import IosThunderstormOutlineIcon  from 'dist/ios-thunderstorm-outline.vue'
 import IosThunderstormIcon  from 'dist/ios-thunderstorm.vue'
 import IosTimeOutlineIcon  from 'dist/ios-time-outline.vue'
-import IosThunderstormOutlineIcon  from 'dist/ios-thunderstorm-outline.vue'
 import IosTimeIcon  from 'dist/ios-time.vue'
 import IosTimerOutlineIcon  from 'dist/ios-timer-outline.vue'
-import IosTennisballIcon  from 'dist/ios-tennisball.vue'
 import IosTimerIcon  from 'dist/ios-timer.vue'
-import IosToggleOutlineIcon  from 'dist/ios-toggle-outline.vue'
 import IosToggleIcon  from 'dist/ios-toggle.vue'
+import IosToggleOutlineIcon  from 'dist/ios-toggle-outline.vue'
 import IosTrashOutlineIcon  from 'dist/ios-trash-outline.vue'
-import IosUndoOutlineIcon  from 'dist/ios-undo-outline.vue'
 import IosTrashIcon  from 'dist/ios-trash.vue'
+import IosUndoOutlineIcon  from 'dist/ios-undo-outline.vue'
 import IosUndoIcon  from 'dist/ios-undo.vue'
 import IosUnlockedOutlineIcon  from 'dist/ios-unlocked-outline.vue'
 import IosUnlockedIcon  from 'dist/ios-unlocked.vue'
-import IosUploadIcon  from 'dist/ios-upload.vue'
 import IosUploadOutlineIcon  from 'dist/ios-upload-outline.vue'
+import IosUploadIcon  from 'dist/ios-upload.vue'
 import IosVideocamOutlineIcon  from 'dist/ios-videocam-outline.vue'
 import IosVideocamIcon  from 'dist/ios-videocam.vue'
 import IosVolumeHighIcon  from 'dist/ios-volume-high.vue'
 import IosVolumeLowIcon  from 'dist/ios-volume-low.vue'
 import IosWineglassOutlineIcon  from 'dist/ios-wineglass-outline.vue'
 import IosWineglassIcon  from 'dist/ios-wineglass.vue'
-import IosWorldIcon  from 'dist/ios-world.vue'
-import IphoneIcon  from 'dist/iphone.vue'
-import IpadIcon  from 'dist/ipad.vue'
 import IosWorldOutlineIcon  from 'dist/ios-world-outline.vue'
+import IosWorldIcon  from 'dist/ios-world.vue'
+import IpadIcon  from 'dist/ipad.vue'
+import IphoneIcon  from 'dist/iphone.vue'
 import IpodIcon  from 'dist/ipod.vue'
 import JetIcon  from 'dist/jet.vue'
-import KnifeIcon  from 'dist/knife.vue'
 import KeyIcon  from 'dist/key.vue'
+import KnifeIcon  from 'dist/knife.vue'
+import LaptopIcon  from 'dist/laptop.vue'
 import LeafIcon  from 'dist/leaf.vue'
 import LevelsIcon  from 'dist/levels.vue'
 import LightbulbIcon  from 'dist/lightbulb.vue'
-import LaptopIcon  from 'dist/laptop.vue'
 import LinkIcon  from 'dist/link.vue'
 import LoadAIcon  from 'dist/load-a.vue'
 import LoadBIcon  from 'dist/load-b.vue'
 import LoadCIcon  from 'dist/load-c.vue'
-import LocationIcon  from 'dist/location.vue'
 import LoadDIcon  from 'dist/load-d.vue'
+import LocationIcon  from 'dist/location.vue'
 import LockCombinationIcon  from 'dist/lock-combination.vue'
 import LockedIcon  from 'dist/locked.vue'
 import LogInIcon  from 'dist/log-in.vue'
@@ -650,26 +650,26 @@ import MonitorIcon  from 'dist/monitor.vue'
 import MoreIcon  from 'dist/more.vue'
 import MouseIcon  from 'dist/mouse.vue'
 import MusicNoteIcon  from 'dist/music-note.vue'
-import NavigateIcon  from 'dist/navigate.vue'
-import NaviconIcon  from 'dist/navicon.vue'
 import NaviconRoundIcon  from 'dist/navicon-round.vue'
+import NaviconIcon  from 'dist/navicon.vue'
+import NavigateIcon  from 'dist/navigate.vue'
 import NetworkIcon  from 'dist/network.vue'
-import NuclearIcon  from 'dist/nuclear.vue'
 import NoSmokingIcon  from 'dist/no-smoking.vue'
+import NuclearIcon  from 'dist/nuclear.vue'
 import OutletIcon  from 'dist/outlet.vue'
 import PaintbrushIcon  from 'dist/paintbrush.vue'
-import PaperclipIcon  from 'dist/paperclip.vue'
 import PaintbucketIcon  from 'dist/paintbucket.vue'
-import PauseIcon  from 'dist/pause.vue'
 import PaperAirplaneIcon  from 'dist/paper-airplane.vue'
-import PersonStalkerIcon  from 'dist/person-stalker.vue'
+import PaperclipIcon  from 'dist/paperclip.vue'
+import PauseIcon  from 'dist/pause.vue'
 import PersonAddIcon  from 'dist/person-add.vue'
-import PieGraphIcon  from 'dist/pie-graph.vue'
+import PersonStalkerIcon  from 'dist/person-stalker.vue'
 import PersonIcon  from 'dist/person.vue'
-import PinpointIcon  from 'dist/pinpoint.vue'
-import PlaneIcon  from 'dist/plane.vue'
-import PizzaIcon  from 'dist/pizza.vue'
+import PieGraphIcon  from 'dist/pie-graph.vue'
 import PinIcon  from 'dist/pin.vue'
+import PinpointIcon  from 'dist/pinpoint.vue'
+import PizzaIcon  from 'dist/pizza.vue'
+import PlaneIcon  from 'dist/plane.vue'
 import PlanetIcon  from 'dist/planet.vue'
 import PlayIcon  from 'dist/play.vue'
 import PlaystationIcon  from 'dist/playstation.vue'
@@ -686,12 +686,12 @@ import PullRequestIcon  from 'dist/pull-request.vue'
 import QrScannerIcon  from 'dist/qr-scanner.vue'
 import QuoteIcon  from 'dist/quote.vue'
 import RadioWavesIcon  from 'dist/radio-waves.vue'
-import RecordIcon  from 'dist/record.vue'
 import RefreshIcon  from 'dist/refresh.vue'
+import RecordIcon  from 'dist/record.vue'
 import ReplyAllIcon  from 'dist/reply-all.vue'
 import ReplyIcon  from 'dist/reply.vue'
-import RibbonBIcon  from 'dist/ribbon-b.vue'
 import RibbonAIcon  from 'dist/ribbon-a.vue'
+import RibbonBIcon  from 'dist/ribbon-b.vue'
 import SadOutlineIcon  from 'dist/sad-outline.vue'
 import SadIcon  from 'dist/sad.vue'
 import ScissorsIcon  from 'dist/scissors.vue'
@@ -701,13 +701,13 @@ import ShareIcon  from 'dist/share.vue'
 import ShuffleIcon  from 'dist/shuffle.vue'
 import SkipBackwardIcon  from 'dist/skip-backward.vue'
 import SkipForwardIcon  from 'dist/skip-forward.vue'
-import SocialAndroidOutlineIcon  from 'dist/social-android-outline.vue'
 import SocialAndroidIcon  from 'dist/social-android.vue'
+import SocialAndroidOutlineIcon  from 'dist/social-android-outline.vue'
 import SocialAngularOutlineIcon  from 'dist/social-angular-outline.vue'
 import SocialAngularIcon  from 'dist/social-angular.vue'
 import SocialAppleOutlineIcon  from 'dist/social-apple-outline.vue'
-import SocialBitcoinOutlineIcon  from 'dist/social-bitcoin-outline.vue'
 import SocialAppleIcon  from 'dist/social-apple.vue'
+import SocialBitcoinOutlineIcon  from 'dist/social-bitcoin-outline.vue'
 import SocialBitcoinIcon  from 'dist/social-bitcoin.vue'
 import SocialBufferOutlineIcon  from 'dist/social-buffer-outline.vue'
 import SocialBufferIcon  from 'dist/social-buffer.vue'
@@ -747,8 +747,8 @@ import SocialJavascriptIcon  from 'dist/social-javascript.vue'
 import SocialLinkedinOutlineIcon  from 'dist/social-linkedin-outline.vue'
 import SocialLinkedinIcon  from 'dist/social-linkedin.vue'
 import SocialMarkdownIcon  from 'dist/social-markdown.vue'
-import SocialOctocatIcon  from 'dist/social-octocat.vue'
 import SocialNodejsIcon  from 'dist/social-nodejs.vue'
+import SocialOctocatIcon  from 'dist/social-octocat.vue'
 import SocialPinterestOutlineIcon  from 'dist/social-pinterest-outline.vue'
 import SocialPinterestIcon  from 'dist/social-pinterest.vue'
 import SocialPythonIcon  from 'dist/social-python.vue'
@@ -759,14 +759,14 @@ import SocialRssIcon  from 'dist/social-rss.vue'
 import SocialSassIcon  from 'dist/social-sass.vue'
 import SocialSkypeOutlineIcon  from 'dist/social-skype-outline.vue'
 import SocialSkypeIcon  from 'dist/social-skype.vue'
+import SocialTumblrOutlineIcon  from 'dist/social-tumblr-outline.vue'
 import SocialSnapchatOutlineIcon  from 'dist/social-snapchat-outline.vue'
 import SocialSnapchatIcon  from 'dist/social-snapchat.vue'
-import SocialTumblrOutlineIcon  from 'dist/social-tumblr-outline.vue'
 import SocialTumblrIcon  from 'dist/social-tumblr.vue'
-import SocialTuxIcon  from 'dist/social-tux.vue'
 import SocialTwitchOutlineIcon  from 'dist/social-twitch-outline.vue'
-import SocialTwitchIcon  from 'dist/social-twitch.vue'
 import SocialTwitterOutlineIcon  from 'dist/social-twitter-outline.vue'
+import SocialTuxIcon  from 'dist/social-tux.vue'
+import SocialTwitchIcon  from 'dist/social-twitch.vue'
 import SocialTwitterIcon  from 'dist/social-twitter.vue'
 import SocialUsdOutlineIcon  from 'dist/social-usd-outline.vue'
 import SocialUsdIcon  from 'dist/social-usd.vue'
@@ -777,184 +777,184 @@ import SocialWhatsappIcon  from 'dist/social-whatsapp.vue'
 import SocialWindowsOutlineIcon  from 'dist/social-windows-outline.vue'
 import SocialWindowsIcon  from 'dist/social-windows.vue'
 import SocialWordpressOutlineIcon  from 'dist/social-wordpress-outline.vue'
-import SocialWordpressIcon  from 'dist/social-wordpress.vue'
-import SocialYahooOutlineIcon  from 'dist/social-yahoo-outline.vue'
 import SocialYahooIcon  from 'dist/social-yahoo.vue'
 import SocialYenOutlineIcon  from 'dist/social-yen-outline.vue'
 import SocialYenIcon  from 'dist/social-yen.vue'
+import SocialWordpressIcon  from 'dist/social-wordpress.vue'
 import SocialYoutubeOutlineIcon  from 'dist/social-youtube-outline.vue'
-import SocialYoutubeIcon  from 'dist/social-youtube.vue'
-import SoupCanOutlineIcon  from 'dist/soup-can-outline.vue'
+import SocialYahooOutlineIcon  from 'dist/social-yahoo-outline.vue'
 import SoupCanIcon  from 'dist/soup-can.vue'
+import SoupCanOutlineIcon  from 'dist/soup-can-outline.vue'
+import SocialYoutubeIcon  from 'dist/social-youtube.vue'
 import SpeakerphoneIcon  from 'dist/speakerphone.vue'
 import SpeedometerIcon  from 'dist/speedometer.vue'
-import SpoonIcon  from 'dist/spoon.vue'
 import StarIcon  from 'dist/star.vue'
 import StatsBarsIcon  from 'dist/stats-bars.vue'
-import SteamIcon  from 'dist/steam.vue'
 import StopIcon  from 'dist/stop.vue'
 import ThermometerIcon  from 'dist/thermometer.vue'
-import ThumbsdownIcon  from 'dist/thumbsdown.vue'
+import SpoonIcon  from 'dist/spoon.vue'
 import ThumbsupIcon  from 'dist/thumbsup.vue'
+import SteamIcon  from 'dist/steam.vue'
 import ToggleFilledIcon  from 'dist/toggle-filled.vue'
+import ThumbsdownIcon  from 'dist/thumbsdown.vue'
 import ToggleIcon  from 'dist/toggle.vue'
 import TransgenderIcon  from 'dist/transgender.vue'
 import TrashAIcon  from 'dist/trash-a.vue'
 import TrashBIcon  from 'dist/trash-b.vue'
-import TrophyIcon  from 'dist/trophy.vue'
 import TshirtOutlineIcon  from 'dist/tshirt-outline.vue'
+import TrophyIcon  from 'dist/trophy.vue'
 import TshirtIcon  from 'dist/tshirt.vue'
-import UmbrellaIcon  from 'dist/umbrella.vue'
 import UniversityIcon  from 'dist/university.vue'
-import UnlockedIcon  from 'dist/unlocked.vue'
+import UmbrellaIcon  from 'dist/umbrella.vue'
 import UploadIcon  from 'dist/upload.vue'
 import UsbIcon  from 'dist/usb.vue'
 import VideocameraIcon  from 'dist/videocamera.vue'
+import UnlockedIcon  from 'dist/unlocked.vue'
 import VolumeHighIcon  from 'dist/volume-high.vue'
 import VolumeLowIcon  from 'dist/volume-low.vue'
-import VolumeMediumIcon  from 'dist/volume-medium.vue'
 import VolumeMuteIcon  from 'dist/volume-mute.vue'
 import WandIcon  from 'dist/wand.vue'
 import WaterdropIcon  from 'dist/waterdrop.vue'
 import WifiIcon  from 'dist/wifi.vue'
-import WineglassIcon  from 'dist/wineglass.vue'
 import WomanIcon  from 'dist/woman.vue'
+import VolumeMediumIcon  from 'dist/volume-medium.vue'
+import WineglassIcon  from 'dist/wineglass.vue'
 import WrenchIcon  from 'dist/wrench.vue'
 import XboxIcon  from 'dist/xbox.vue'
 
 export default {
   name: 'app',
   components: {
-    AndroidAddCircleIcon,
     AlertCircledIcon,
+    AndroidAddCircleIcon,
     AlertIcon,
     AndroidAddIcon,
     AndroidAlertIcon,
     AndroidAppsIcon,
-    AndroidArchiveIcon,
     AndroidAlarmClockIcon,
-    AndroidArrowBackIcon,
+    AndroidArchiveIcon,
     AndroidArrowDownIcon,
+    AndroidArrowBackIcon,
     AndroidArrowDropdownCircleIcon,
     AndroidArrowDropdownIcon,
-    AndroidArrowDropleftIcon,
-    AndroidArrowDroprightCircleIcon,
-    AndroidArrowDroprightIcon,
     AndroidArrowDropleftCircleIcon,
+    AndroidArrowDroprightCircleIcon,
+    AndroidArrowDropleftIcon,
+    AndroidArrowDroprightIcon,
     AndroidArrowDropupIcon,
     AndroidArrowDropupCircleIcon,
     AndroidArrowForwardIcon,
-    AndroidBarIcon,
     AndroidArrowUpIcon,
-    AndroidBicycleIcon,
-    AndroidBookmarkIcon,
-    AndroidBoatIcon,
     AndroidAttachIcon,
+    AndroidBicycleIcon,
+    AndroidBarIcon,
+    AndroidBoatIcon,
     AndroidBulbIcon,
+    AndroidBookmarkIcon,
     AndroidBusIcon,
     AndroidCalendarIcon,
+    AndroidCallIcon,
     AndroidCameraIcon,
     AndroidCancelIcon,
     AndroidCarIcon,
     AndroidChatIcon,
-    AndroidCallIcon,
     AndroidCheckboxBlankIcon,
+    AndroidCheckboxOutlineBlankIcon,
     AndroidCartIcon,
-    AndroidCheckboxOutlineIcon,
     AndroidCheckboxIcon,
     AndroidCheckmarkCircleIcon,
-    AndroidCheckboxOutlineBlankIcon,
+    AndroidCheckboxOutlineIcon,
     AndroidClipboardIcon,
     AndroidCloseIcon,
     AndroidCloudCircleIcon,
     AndroidCloudDoneIcon,
     AndroidCloudOutlineIcon,
-    AndroidColorPaletteIcon,
     AndroidCloudIcon,
+    AndroidColorPaletteIcon,
     AndroidCompassIcon,
     AndroidContactIcon,
-    AndroidContractIcon,
     AndroidContactsIcon,
+    AndroidContractIcon,
     AndroidDeleteIcon,
-    AndroidDesktopIcon,
     AndroidDocumentIcon,
+    AndroidDesktopIcon,
     AndroidCreateIcon,
     AndroidDoneAllIcon,
-    AndroidDoneIcon,
     AndroidDownloadIcon,
     AndroidDraftsIcon,
-    AndroidExpandIcon,
     AndroidExitIcon,
+    AndroidExpandIcon,
+    AndroidDoneIcon,
+    AndroidFavoriteIcon,
     AndroidFavoriteOutlineIcon,
     AndroidFilmIcon,
-    AndroidFavoriteIcon,
     AndroidFolderOpenIcon,
-    AndroidFolderIcon,
-    AndroidFunnelIcon,
     AndroidGlobeIcon,
+    AndroidFunnelIcon,
     AndroidHandIcon,
     AndroidHangoutIcon,
+    AndroidFolderIcon,
     AndroidHappyIcon,
     AndroidHomeIcon,
     AndroidImageIcon,
+    AndroidLocateIcon,
+    AndroidMailIcon,
     AndroidLaptopIcon,
     AndroidListIcon,
-    AndroidLocateIcon,
-    AndroidLockIcon,
-    AndroidMailIcon,
     AndroidMapIcon,
+    AndroidLockIcon,
     AndroidMenuIcon,
     AndroidMicrophoneOffIcon,
-    AndroidMicrophoneIcon,
     AndroidMoreHorizontalIcon,
-    AndroidMoreVerticalIcon,
     AndroidNavigateIcon,
     AndroidNotificationsNoneIcon,
+    AndroidMicrophoneIcon,
+    AndroidMoreVerticalIcon,
     AndroidNotificationsOffIcon,
-    AndroidNotificationsIcon,
     AndroidOpenIcon,
+    AndroidNotificationsIcon,
     AndroidOptionsIcon,
     AndroidPeopleIcon,
     AndroidPersonAddIcon,
     AndroidPersonIcon,
     AndroidPhoneLandscapeIcon,
     AndroidPhonePortraitIcon,
-    AndroidPinIcon,
     AndroidPlaneIcon,
-    AndroidPlaystoreIcon,
+    AndroidPinIcon,
     AndroidPrintIcon,
+    AndroidPlaystoreIcon,
     AndroidRadioButtonOffIcon,
     AndroidRadioButtonOnIcon,
-    AndroidRefreshIcon,
     AndroidRemoveCircleIcon,
-    AndroidRemoveIcon,
     AndroidRestaurantIcon,
+    AndroidRemoveIcon,
     AndroidSadIcon,
+    AndroidRefreshIcon,
     AndroidSearchIcon,
-    AndroidSendIcon,
     AndroidSettingsIcon,
+    AndroidSendIcon,
+    AndroidStarHalfIcon,
     AndroidShareAltIcon,
     AndroidShareIcon,
-    AndroidStarHalfIcon,
     AndroidStarOutlineIcon,
-    AndroidStarIcon,
     AndroidStopwatchIcon,
+    AndroidStarIcon,
+    AndroidSunnyIcon,
     AndroidSubwayIcon,
     AndroidSyncIcon,
-    AndroidSunnyIcon,
-    AndroidTextsmsIcon,
-    AndroidTimeIcon,
     AndroidTrainIcon,
-    AndroidUnlockIcon,
+    AndroidTextsmsIcon,
     AndroidUploadIcon,
+    AndroidTimeIcon,
+    AndroidUnlockIcon,
     AndroidVolumeDownIcon,
+    AndroidVolumeUpIcon,
     AndroidVolumeMuteIcon,
     AndroidVolumeOffIcon,
-    AndroidVolumeUpIcon,
-    AndroidWalkIcon,
     AndroidWarningIcon,
-    AndroidWatchIcon,
     AndroidWifiIcon,
+    AndroidWalkIcon,
+    AndroidWatchIcon,
     ApertureIcon,
     ArchiveIcon,
     ArrowDownAIcon,
@@ -974,11 +974,11 @@ export default {
     ArrowReturnRightIcon,
     ArrowRightAIcon,
     ArrowRightBIcon,
-    ArrowRightCIcon,
     ArrowShrinkIcon,
     ArrowSwapIcon,
     ArrowUpAIcon,
     ArrowUpBIcon,
+    ArrowRightCIcon,
     ArrowUpCIcon,
     AsteriskIcon,
     AtIcon,
@@ -987,32 +987,32 @@ export default {
     BagIcon,
     BatteryChargingIcon,
     BatteryEmptyIcon,
+    BeakerIcon,
     BatteryFullIcon,
     BatteryHalfIcon,
     BatteryLowIcon,
-    BeakerIcon,
-    BeerIcon,
     BluetoothIcon,
     BonfireIcon,
     BookmarkIcon,
+    BeerIcon,
     BowtieIcon,
     BriefcaseIcon,
     BugIcon,
+    CameraIcon,
     CalculatorIcon,
     CalendarIcon,
-    CameraIcon,
     CardIcon,
     CashIcon,
-    ChatboxWorkingIcon,
     ChatboxIcon,
+    ChatboxWorkingIcon,
     ChatboxesIcon,
     ChatbubbleWorkingIcon,
-    ChatbubbleIcon,
-    ChatbubblesIcon,
     CheckmarkCircledIcon,
+    ChatbubblesIcon,
+    ChatbubbleIcon,
+    ChevronDownIcon,
     CheckmarkRoundIcon,
     CheckmarkIcon,
-    ChevronDownIcon,
     ChevronLeftIcon,
     ChevronRightIcon,
     ChevronUpIcon,
@@ -1032,16 +1032,16 @@ export default {
     ConnectionBarsIcon,
     ContrastIcon,
     CropIcon,
-    CubeIcon,
     DiscIcon,
+    CubeIcon,
     DocumentTextIcon,
     DocumentIcon,
     DragIcon,
     EarthIcon,
     EaselIcon,
     EditIcon,
-    EggIcon,
     EjectIcon,
+    EggIcon,
     EmailUnreadIcon,
     EmailIcon,
     ErlenmeyerFlaskBubblesIcon,
@@ -1062,8 +1062,8 @@ export default {
     ForwardIcon,
     FunnelIcon,
     GearAIcon,
-    GridIcon,
     GearBIcon,
+    GridIcon,
     HammerIcon,
     HappyOutlineIcon,
     HappyIcon,
@@ -1072,8 +1072,8 @@ export default {
     HeartIcon,
     HelpBuoyIcon,
     HelpCircledIcon,
-    HelpIcon,
     HomeIcon,
+    HelpIcon,
     IcecreamIcon,
     ImageIcon,
     ImagesIcon,
@@ -1084,8 +1084,8 @@ export default {
     IosAlarmIcon,
     IosAlbumsOutlineIcon,
     IosAlbumsIcon,
-    IosAmericanfootballOutlineIcon,
     IosAmericanfootballIcon,
+    IosAmericanfootballOutlineIcon,
     IosAnalyticsOutlineIcon,
     IosAnalyticsIcon,
     IosArrowBackIcon,
@@ -1106,12 +1106,12 @@ export default {
     IosBaseballIcon,
     IosBasketballOutlineIcon,
     IosBasketballIcon,
-    IosBellOutlineIcon,
     IosBellIcon,
+    IosBellOutlineIcon,
     IosBodyOutlineIcon,
     IosBodyIcon,
-    IosBoltOutlineIcon,
     IosBoltIcon,
+    IosBoltOutlineIcon,
     IosBookOutlineIcon,
     IosBookIcon,
     IosBookmarksOutlineIcon,
@@ -1141,53 +1141,53 @@ export default {
     IosCircleOutlineIcon,
     IosClockOutlineIcon,
     IosClockIcon,
-    IosCloseOutlineIcon,
     IosCloseEmptyIcon,
+    IosCloseOutlineIcon,
     IosCloseIcon,
-    IosCloudDownloadIcon,
     IosCloudDownloadOutlineIcon,
+    IosCloudDownloadIcon,
     IosCloudOutlineIcon,
     IosCloudUploadIcon,
     IosCloudUploadOutlineIcon,
-    IosCloudyNightOutlineIcon,
     IosCloudIcon,
-    IosCloudyOutlineIcon,
+    IosCloudyNightOutlineIcon,
     IosCloudyNightIcon,
+    IosCloudyOutlineIcon,
     IosCloudyIcon,
     IosCogOutlineIcon,
     IosCogIcon,
     IosColorFilterOutlineIcon,
-    IosColorWandOutlineIcon,
     IosColorFilterIcon,
+    IosColorWandOutlineIcon,
     IosColorWandIcon,
-    IosContactOutlineIcon,
     IosComposeOutlineIcon,
     IosComposeIcon,
+    IosContactOutlineIcon,
     IosContactIcon,
     IosCopyOutlineIcon,
     IosCopyIcon,
     IosCropStrongIcon,
+    IosCropIcon,
     IosDownloadOutlineIcon,
     IosDownloadIcon,
     IosDragIcon,
     IosEmailOutlineIcon,
-    IosCropIcon,
     IosEmailIcon,
     IosEyeOutlineIcon,
     IosEyeIcon,
+    IosFastforwardOutlineIcon,
     IosFastforwardIcon,
     IosFilingOutlineIcon,
     IosFilingIcon,
-    IosFastforwardOutlineIcon,
+    IosFilmOutlineIcon,
     IosFilmIcon,
     IosFlagOutlineIcon,
     IosFlagIcon,
     IosFlameOutlineIcon,
-    IosFilmOutlineIcon,
     IosFlameIcon,
     IosFlaskOutlineIcon,
-    IosFlowerOutlineIcon,
     IosFlaskIcon,
+    IosFlowerOutlineIcon,
     IosFlowerIcon,
     IosFolderOutlineIcon,
     IosFolderIcon,
@@ -1199,20 +1199,20 @@ export default {
     IosGameControllerBIcon,
     IosGearOutlineIcon,
     IosGearIcon,
+    IosGlassesOutlineIcon,
     IosGlassesIcon,
     IosGridViewOutlineIcon,
+    IosGridViewIcon,
     IosHeartOutlineIcon,
-    IosGlassesOutlineIcon,
     IosHeartIcon,
     IosHelpEmptyIcon,
-    IosGridViewIcon,
     IosHelpOutlineIcon,
     IosHelpIcon,
     IosHomeOutlineIcon,
+    IosHomeIcon,
     IosInfiniteOutlineIcon,
     IosInfiniteIcon,
     IosInformationEmptyIcon,
-    IosHomeIcon,
     IosInformationOutlineIcon,
     IosInformationIcon,
     IosIonicOutlineIcon,
@@ -1226,145 +1226,145 @@ export default {
     IosLocationIcon,
     IosLockedOutlineIcon,
     IosLockedIcon,
-    IosLoopIcon,
     IosLoopStrongIcon,
+    IosLoopIcon,
     IosMedicalOutlineIcon,
-    IosMedkitOutlineIcon,
     IosMedicalIcon,
+    IosMedkitOutlineIcon,
     IosMedkitIcon,
     IosMicOffIcon,
+    IosMicOutlineIcon,
     IosMinusEmptyIcon,
     IosMicIcon,
     IosMinusOutlineIcon,
     IosMinusIcon,
-    IosMicOutlineIcon,
-    IosMonitorIcon,
     IosMonitorOutlineIcon,
-    IosMoonIcon,
-    IosMoreOutlineIcon,
+    IosMonitorIcon,
     IosMoonOutlineIcon,
+    IosMoreOutlineIcon,
+    IosMoonIcon,
     IosMoreIcon,
-    IosMusicalNoteIcon,
     IosMusicalNotesIcon,
     IosNavigateOutlineIcon,
+    IosMusicalNoteIcon,
     IosNavigateIcon,
-    IosNutritionIcon,
-    IosPaperOutlineIcon,
     IosNutritionOutlineIcon,
     IosPaperIcon,
-    IosPaperplaneOutlineIcon,
-    IosPartlysunnyOutlineIcon,
+    IosNutritionIcon,
+    IosPaperOutlineIcon,
     IosPaperplaneIcon,
+    IosPartlysunnyOutlineIcon,
     IosPartlysunnyIcon,
-    IosPauseOutlineIcon,
+    IosPaperplaneOutlineIcon,
     IosPauseIcon,
+    IosPauseOutlineIcon,
     IosPawOutlineIcon,
     IosPawIcon,
-    IosPeopleOutlineIcon,
-    IosPersonIcon,
     IosPeopleIcon,
+    IosPersonOutlineIcon,
+    IosPersonIcon,
+    IosPeopleOutlineIcon,
+    IosPersonaddOutlineIcon,
     IosPersonaddIcon,
     IosPhotosOutlineIcon,
-    IosPersonaddOutlineIcon,
-    IosPersonOutlineIcon,
     IosPhotosIcon,
     IosPieOutlineIcon,
     IosPieIcon,
     IosPintOutlineIcon,
-    IosPlayOutlineIcon,
     IosPintIcon,
+    IosPlayOutlineIcon,
     IosPlayIcon,
     IosPlusEmptyIcon,
+    IosPlusOutlineIcon,
     IosPlusIcon,
     IosPricetagOutlineIcon,
-    IosPlusOutlineIcon,
     IosPricetagIcon,
-    IosPrinterOutlineIcon,
-    IosPrinterIcon,
     IosPricetagsIcon,
+    IosPrinterOutlineIcon,
     IosPricetagsOutlineIcon,
-    IosPulseStrongIcon,
+    IosPrinterIcon,
     IosPulseIcon,
+    IosPulseStrongIcon,
     IosRainyOutlineIcon,
-    IosRecordingIcon,
-    IosRecordingOutlineIcon,
     IosRainyIcon,
-    IosRedoIcon,
-    IosRefreshEmptyIcon,
+    IosRecordingOutlineIcon,
+    IosRecordingIcon,
     IosRedoOutlineIcon,
-    IosRefreshOutlineIcon,
+    IosRedoIcon,
     IosRefreshIcon,
+    IosRefreshOutlineIcon,
     IosReloadIcon,
-    IosReverseCameraOutlineIcon,
+    IosRefreshEmptyIcon,
     IosReverseCameraIcon,
+    IosReverseCameraOutlineIcon,
     IosRewindOutlineIcon,
-    IosRewindIcon,
     IosRoseOutlineIcon,
-    IosSearchStrongIcon,
     IosRoseIcon,
+    IosRewindIcon,
+    IosSearchStrongIcon,
     IosSearchIcon,
     IosSettingsStrongIcon,
+    IosSettingsIcon,
     IosShuffleStrongIcon,
     IosShuffleIcon,
     IosSkipbackwardOutlineIcon,
-    IosSettingsIcon,
+    IosSkipbackwardIcon,
     IosSkipforwardOutlineIcon,
     IosSkipforwardIcon,
-    IosSkipbackwardIcon,
     IosSnowyIcon,
     IosSpeedometerOutlineIcon,
     IosSpeedometerIcon,
-    IosStarOutlineIcon,
-    IosStopwatchOutlineIcon,
-    IosStarIcon,
     IosStarHalfIcon,
-    IosSunnyIcon,
-    IosSunnyOutlineIcon,
+    IosStarOutlineIcon,
+    IosStarIcon,
+    IosStopwatchOutlineIcon,
     IosStopwatchIcon,
+    IosSunnyOutlineIcon,
+    IosSunnyIcon,
     IosTelephoneOutlineIcon,
-    IosTelephoneIcon,
     IosTennisballOutlineIcon,
+    IosTelephoneIcon,
+    IosTennisballIcon,
+    IosThunderstormOutlineIcon,
     IosThunderstormIcon,
     IosTimeOutlineIcon,
-    IosThunderstormOutlineIcon,
     IosTimeIcon,
     IosTimerOutlineIcon,
-    IosTennisballIcon,
     IosTimerIcon,
-    IosToggleOutlineIcon,
     IosToggleIcon,
+    IosToggleOutlineIcon,
     IosTrashOutlineIcon,
-    IosUndoOutlineIcon,
     IosTrashIcon,
+    IosUndoOutlineIcon,
     IosUndoIcon,
     IosUnlockedOutlineIcon,
     IosUnlockedIcon,
-    IosUploadIcon,
     IosUploadOutlineIcon,
+    IosUploadIcon,
     IosVideocamOutlineIcon,
     IosVideocamIcon,
     IosVolumeHighIcon,
     IosVolumeLowIcon,
     IosWineglassOutlineIcon,
     IosWineglassIcon,
-    IosWorldIcon,
-    IphoneIcon,
-    IpadIcon,
     IosWorldOutlineIcon,
+    IosWorldIcon,
+    IpadIcon,
+    IphoneIcon,
     IpodIcon,
     JetIcon,
-    KnifeIcon,
     KeyIcon,
+    KnifeIcon,
+    LaptopIcon,
     LeafIcon,
     LevelsIcon,
     LightbulbIcon,
-    LaptopIcon,
     LinkIcon,
     LoadAIcon,
     LoadBIcon,
     LoadCIcon,
-    LocationIcon,
     LoadDIcon,
+    LocationIcon,
     LockCombinationIcon,
     LockedIcon,
     LogInIcon,
@@ -1387,26 +1387,26 @@ export default {
     MoreIcon,
     MouseIcon,
     MusicNoteIcon,
-    NavigateIcon,
-    NaviconIcon,
     NaviconRoundIcon,
+    NaviconIcon,
+    NavigateIcon,
     NetworkIcon,
-    NuclearIcon,
     NoSmokingIcon,
+    NuclearIcon,
     OutletIcon,
     PaintbrushIcon,
-    PaperclipIcon,
     PaintbucketIcon,
-    PauseIcon,
     PaperAirplaneIcon,
-    PersonStalkerIcon,
+    PaperclipIcon,
+    PauseIcon,
     PersonAddIcon,
-    PieGraphIcon,
+    PersonStalkerIcon,
     PersonIcon,
-    PinpointIcon,
-    PlaneIcon,
-    PizzaIcon,
+    PieGraphIcon,
     PinIcon,
+    PinpointIcon,
+    PizzaIcon,
+    PlaneIcon,
     PlanetIcon,
     PlayIcon,
     PlaystationIcon,
@@ -1423,12 +1423,12 @@ export default {
     QrScannerIcon,
     QuoteIcon,
     RadioWavesIcon,
-    RecordIcon,
     RefreshIcon,
+    RecordIcon,
     ReplyAllIcon,
     ReplyIcon,
-    RibbonBIcon,
     RibbonAIcon,
+    RibbonBIcon,
     SadOutlineIcon,
     SadIcon,
     ScissorsIcon,
@@ -1438,13 +1438,13 @@ export default {
     ShuffleIcon,
     SkipBackwardIcon,
     SkipForwardIcon,
-    SocialAndroidOutlineIcon,
     SocialAndroidIcon,
+    SocialAndroidOutlineIcon,
     SocialAngularOutlineIcon,
     SocialAngularIcon,
     SocialAppleOutlineIcon,
-    SocialBitcoinOutlineIcon,
     SocialAppleIcon,
+    SocialBitcoinOutlineIcon,
     SocialBitcoinIcon,
     SocialBufferOutlineIcon,
     SocialBufferIcon,
@@ -1484,8 +1484,8 @@ export default {
     SocialLinkedinOutlineIcon,
     SocialLinkedinIcon,
     SocialMarkdownIcon,
-    SocialOctocatIcon,
     SocialNodejsIcon,
+    SocialOctocatIcon,
     SocialPinterestOutlineIcon,
     SocialPinterestIcon,
     SocialPythonIcon,
@@ -1496,14 +1496,14 @@ export default {
     SocialSassIcon,
     SocialSkypeOutlineIcon,
     SocialSkypeIcon,
+    SocialTumblrOutlineIcon,
     SocialSnapchatOutlineIcon,
     SocialSnapchatIcon,
-    SocialTumblrOutlineIcon,
     SocialTumblrIcon,
-    SocialTuxIcon,
     SocialTwitchOutlineIcon,
-    SocialTwitchIcon,
     SocialTwitterOutlineIcon,
+    SocialTuxIcon,
+    SocialTwitchIcon,
     SocialTwitterIcon,
     SocialUsdOutlineIcon,
     SocialUsdIcon,
@@ -1514,48 +1514,48 @@ export default {
     SocialWindowsOutlineIcon,
     SocialWindowsIcon,
     SocialWordpressOutlineIcon,
-    SocialWordpressIcon,
-    SocialYahooOutlineIcon,
     SocialYahooIcon,
     SocialYenOutlineIcon,
     SocialYenIcon,
+    SocialWordpressIcon,
     SocialYoutubeOutlineIcon,
-    SocialYoutubeIcon,
-    SoupCanOutlineIcon,
+    SocialYahooOutlineIcon,
     SoupCanIcon,
+    SoupCanOutlineIcon,
+    SocialYoutubeIcon,
     SpeakerphoneIcon,
     SpeedometerIcon,
-    SpoonIcon,
     StarIcon,
     StatsBarsIcon,
-    SteamIcon,
     StopIcon,
     ThermometerIcon,
-    ThumbsdownIcon,
+    SpoonIcon,
     ThumbsupIcon,
+    SteamIcon,
     ToggleFilledIcon,
+    ThumbsdownIcon,
     ToggleIcon,
     TransgenderIcon,
     TrashAIcon,
     TrashBIcon,
-    TrophyIcon,
     TshirtOutlineIcon,
+    TrophyIcon,
     TshirtIcon,
-    UmbrellaIcon,
     UniversityIcon,
-    UnlockedIcon,
+    UmbrellaIcon,
     UploadIcon,
     UsbIcon,
     VideocameraIcon,
+    UnlockedIcon,
     VolumeHighIcon,
     VolumeLowIcon,
-    VolumeMediumIcon,
     VolumeMuteIcon,
     WandIcon,
     WaterdropIcon,
     WifiIcon,
-    WineglassIcon,
     WomanIcon,
+    VolumeMediumIcon,
+    WineglassIcon,
     WrenchIcon,
     XboxIcon,
   },
@@ -1568,14 +1568,14 @@ export default {
       searchText: '',
       icons: [
         {
-          name: 'android-add-circle-icon',
-          readableName: 'Android Add Circle',
-          libraryName: 'AndroidAddCircleIcon'
-        },
-        {
           name: 'alert-circled-icon',
           readableName: 'Alert Circled',
           libraryName: 'AlertCircledIcon'
+        },
+        {
+          name: 'android-add-circle-icon',
+          readableName: 'Android Add Circle',
+          libraryName: 'AndroidAddCircleIcon'
         },
         {
           name: 'alert-icon',
@@ -1598,24 +1598,24 @@ export default {
           libraryName: 'AndroidAppsIcon'
         },
         {
-          name: 'android-archive-icon',
-          readableName: 'Android Archive',
-          libraryName: 'AndroidArchiveIcon'
-        },
-        {
           name: 'android-alarm-clock-icon',
           readableName: 'Android Alarm Clock',
           libraryName: 'AndroidAlarmClockIcon'
         },
         {
-          name: 'android-arrow-back-icon',
-          readableName: 'Android Arrow Back',
-          libraryName: 'AndroidArrowBackIcon'
+          name: 'android-archive-icon',
+          readableName: 'Android Archive',
+          libraryName: 'AndroidArchiveIcon'
         },
         {
           name: 'android-arrow-down-icon',
           readableName: 'Android Arrow Down',
           libraryName: 'AndroidArrowDownIcon'
+        },
+        {
+          name: 'android-arrow-back-icon',
+          readableName: 'Android Arrow Back',
+          libraryName: 'AndroidArrowBackIcon'
         },
         {
           name: 'android-arrow-dropdown-circle-icon',
@@ -1628,9 +1628,9 @@ export default {
           libraryName: 'AndroidArrowDropdownIcon'
         },
         {
-          name: 'android-arrow-dropleft-icon',
-          readableName: 'Android Arrow Dropleft',
-          libraryName: 'AndroidArrowDropleftIcon'
+          name: 'android-arrow-dropleft-circle-icon',
+          readableName: 'Android Arrow Dropleft Circle',
+          libraryName: 'AndroidArrowDropleftCircleIcon'
         },
         {
           name: 'android-arrow-dropright-circle-icon',
@@ -1638,14 +1638,14 @@ export default {
           libraryName: 'AndroidArrowDroprightCircleIcon'
         },
         {
+          name: 'android-arrow-dropleft-icon',
+          readableName: 'Android Arrow Dropleft',
+          libraryName: 'AndroidArrowDropleftIcon'
+        },
+        {
           name: 'android-arrow-dropright-icon',
           readableName: 'Android Arrow Dropright',
           libraryName: 'AndroidArrowDroprightIcon'
-        },
-        {
-          name: 'android-arrow-dropleft-circle-icon',
-          readableName: 'Android Arrow Dropleft Circle',
-          libraryName: 'AndroidArrowDropleftCircleIcon'
         },
         {
           name: 'android-arrow-dropup-icon',
@@ -1663,29 +1663,9 @@ export default {
           libraryName: 'AndroidArrowForwardIcon'
         },
         {
-          name: 'android-bar-icon',
-          readableName: 'Android Bar',
-          libraryName: 'AndroidBarIcon'
-        },
-        {
           name: 'android-arrow-up-icon',
           readableName: 'Android Arrow Up',
           libraryName: 'AndroidArrowUpIcon'
-        },
-        {
-          name: 'android-bicycle-icon',
-          readableName: 'Android Bicycle',
-          libraryName: 'AndroidBicycleIcon'
-        },
-        {
-          name: 'android-bookmark-icon',
-          readableName: 'Android Bookmark',
-          libraryName: 'AndroidBookmarkIcon'
-        },
-        {
-          name: 'android-boat-icon',
-          readableName: 'Android Boat',
-          libraryName: 'AndroidBoatIcon'
         },
         {
           name: 'android-attach-icon',
@@ -1693,9 +1673,29 @@ export default {
           libraryName: 'AndroidAttachIcon'
         },
         {
+          name: 'android-bicycle-icon',
+          readableName: 'Android Bicycle',
+          libraryName: 'AndroidBicycleIcon'
+        },
+        {
+          name: 'android-bar-icon',
+          readableName: 'Android Bar',
+          libraryName: 'AndroidBarIcon'
+        },
+        {
+          name: 'android-boat-icon',
+          readableName: 'Android Boat',
+          libraryName: 'AndroidBoatIcon'
+        },
+        {
           name: 'android-bulb-icon',
           readableName: 'Android Bulb',
           libraryName: 'AndroidBulbIcon'
+        },
+        {
+          name: 'android-bookmark-icon',
+          readableName: 'Android Bookmark',
+          libraryName: 'AndroidBookmarkIcon'
         },
         {
           name: 'android-bus-icon',
@@ -1706,6 +1706,11 @@ export default {
           name: 'android-calendar-icon',
           readableName: 'Android Calendar',
           libraryName: 'AndroidCalendarIcon'
+        },
+        {
+          name: 'android-call-icon',
+          readableName: 'Android Call',
+          libraryName: 'AndroidCallIcon'
         },
         {
           name: 'android-camera-icon',
@@ -1728,24 +1733,19 @@ export default {
           libraryName: 'AndroidChatIcon'
         },
         {
-          name: 'android-call-icon',
-          readableName: 'Android Call',
-          libraryName: 'AndroidCallIcon'
-        },
-        {
           name: 'android-checkbox-blank-icon',
           readableName: 'Android Checkbox Blank',
           libraryName: 'AndroidCheckboxBlankIcon'
         },
         {
+          name: 'android-checkbox-outline-blank-icon',
+          readableName: 'Android Checkbox Outline Blank',
+          libraryName: 'AndroidCheckboxOutlineBlankIcon'
+        },
+        {
           name: 'android-cart-icon',
           readableName: 'Android Cart',
           libraryName: 'AndroidCartIcon'
-        },
-        {
-          name: 'android-checkbox-outline-icon',
-          readableName: 'Android Checkbox Outline',
-          libraryName: 'AndroidCheckboxOutlineIcon'
         },
         {
           name: 'android-checkbox-icon',
@@ -1758,9 +1758,9 @@ export default {
           libraryName: 'AndroidCheckmarkCircleIcon'
         },
         {
-          name: 'android-checkbox-outline-blank-icon',
-          readableName: 'Android Checkbox Outline Blank',
-          libraryName: 'AndroidCheckboxOutlineBlankIcon'
+          name: 'android-checkbox-outline-icon',
+          readableName: 'Android Checkbox Outline',
+          libraryName: 'AndroidCheckboxOutlineIcon'
         },
         {
           name: 'android-clipboard-icon',
@@ -1788,14 +1788,14 @@ export default {
           libraryName: 'AndroidCloudOutlineIcon'
         },
         {
-          name: 'android-color-palette-icon',
-          readableName: 'Android Color Palette',
-          libraryName: 'AndroidColorPaletteIcon'
-        },
-        {
           name: 'android-cloud-icon',
           readableName: 'Android Cloud',
           libraryName: 'AndroidCloudIcon'
+        },
+        {
+          name: 'android-color-palette-icon',
+          readableName: 'Android Color Palette',
+          libraryName: 'AndroidColorPaletteIcon'
         },
         {
           name: 'android-compass-icon',
@@ -1808,14 +1808,14 @@ export default {
           libraryName: 'AndroidContactIcon'
         },
         {
-          name: 'android-contract-icon',
-          readableName: 'Android Contract',
-          libraryName: 'AndroidContractIcon'
-        },
-        {
           name: 'android-contacts-icon',
           readableName: 'Android Contacts',
           libraryName: 'AndroidContactsIcon'
+        },
+        {
+          name: 'android-contract-icon',
+          readableName: 'Android Contract',
+          libraryName: 'AndroidContractIcon'
         },
         {
           name: 'android-delete-icon',
@@ -1823,14 +1823,14 @@ export default {
           libraryName: 'AndroidDeleteIcon'
         },
         {
-          name: 'android-desktop-icon',
-          readableName: 'Android Desktop',
-          libraryName: 'AndroidDesktopIcon'
-        },
-        {
           name: 'android-document-icon',
           readableName: 'Android Document',
           libraryName: 'AndroidDocumentIcon'
+        },
+        {
+          name: 'android-desktop-icon',
+          readableName: 'Android Desktop',
+          libraryName: 'AndroidDesktopIcon'
         },
         {
           name: 'android-create-icon',
@@ -1843,11 +1843,6 @@ export default {
           libraryName: 'AndroidDoneAllIcon'
         },
         {
-          name: 'android-done-icon',
-          readableName: 'Android Done',
-          libraryName: 'AndroidDoneIcon'
-        },
-        {
           name: 'android-download-icon',
           readableName: 'Android Download',
           libraryName: 'AndroidDownloadIcon'
@@ -1858,14 +1853,24 @@ export default {
           libraryName: 'AndroidDraftsIcon'
         },
         {
+          name: 'android-exit-icon',
+          readableName: 'Android Exit',
+          libraryName: 'AndroidExitIcon'
+        },
+        {
           name: 'android-expand-icon',
           readableName: 'Android Expand',
           libraryName: 'AndroidExpandIcon'
         },
         {
-          name: 'android-exit-icon',
-          readableName: 'Android Exit',
-          libraryName: 'AndroidExitIcon'
+          name: 'android-done-icon',
+          readableName: 'Android Done',
+          libraryName: 'AndroidDoneIcon'
+        },
+        {
+          name: 'android-favorite-icon',
+          readableName: 'Android Favorite',
+          libraryName: 'AndroidFavoriteIcon'
         },
         {
           name: 'android-favorite-outline-icon',
@@ -1878,29 +1883,19 @@ export default {
           libraryName: 'AndroidFilmIcon'
         },
         {
-          name: 'android-favorite-icon',
-          readableName: 'Android Favorite',
-          libraryName: 'AndroidFavoriteIcon'
-        },
-        {
           name: 'android-folder-open-icon',
           readableName: 'Android Folder Open',
           libraryName: 'AndroidFolderOpenIcon'
         },
         {
-          name: 'android-folder-icon',
-          readableName: 'Android Folder',
-          libraryName: 'AndroidFolderIcon'
+          name: 'android-globe-icon',
+          readableName: 'Android Globe',
+          libraryName: 'AndroidGlobeIcon'
         },
         {
           name: 'android-funnel-icon',
           readableName: 'Android Funnel',
           libraryName: 'AndroidFunnelIcon'
-        },
-        {
-          name: 'android-globe-icon',
-          readableName: 'Android Globe',
-          libraryName: 'AndroidGlobeIcon'
         },
         {
           name: 'android-hand-icon',
@@ -1911,6 +1906,11 @@ export default {
           name: 'android-hangout-icon',
           readableName: 'Android Hangout',
           libraryName: 'AndroidHangoutIcon'
+        },
+        {
+          name: 'android-folder-icon',
+          readableName: 'Android Folder',
+          libraryName: 'AndroidFolderIcon'
         },
         {
           name: 'android-happy-icon',
@@ -1928,6 +1928,16 @@ export default {
           libraryName: 'AndroidImageIcon'
         },
         {
+          name: 'android-locate-icon',
+          readableName: 'Android Locate',
+          libraryName: 'AndroidLocateIcon'
+        },
+        {
+          name: 'android-mail-icon',
+          readableName: 'Android Mail',
+          libraryName: 'AndroidMailIcon'
+        },
+        {
           name: 'android-laptop-icon',
           readableName: 'Android Laptop',
           libraryName: 'AndroidLaptopIcon'
@@ -1938,24 +1948,14 @@ export default {
           libraryName: 'AndroidListIcon'
         },
         {
-          name: 'android-locate-icon',
-          readableName: 'Android Locate',
-          libraryName: 'AndroidLocateIcon'
+          name: 'android-map-icon',
+          readableName: 'Android Map',
+          libraryName: 'AndroidMapIcon'
         },
         {
           name: 'android-lock-icon',
           readableName: 'Android Lock',
           libraryName: 'AndroidLockIcon'
-        },
-        {
-          name: 'android-mail-icon',
-          readableName: 'Android Mail',
-          libraryName: 'AndroidMailIcon'
-        },
-        {
-          name: 'android-map-icon',
-          readableName: 'Android Map',
-          libraryName: 'AndroidMapIcon'
         },
         {
           name: 'android-menu-icon',
@@ -1968,19 +1968,9 @@ export default {
           libraryName: 'AndroidMicrophoneOffIcon'
         },
         {
-          name: 'android-microphone-icon',
-          readableName: 'Android Microphone',
-          libraryName: 'AndroidMicrophoneIcon'
-        },
-        {
           name: 'android-more-horizontal-icon',
           readableName: 'Android More Horizontal',
           libraryName: 'AndroidMoreHorizontalIcon'
-        },
-        {
-          name: 'android-more-vertical-icon',
-          readableName: 'Android More Vertical',
-          libraryName: 'AndroidMoreVerticalIcon'
         },
         {
           name: 'android-navigate-icon',
@@ -1993,19 +1983,29 @@ export default {
           libraryName: 'AndroidNotificationsNoneIcon'
         },
         {
+          name: 'android-microphone-icon',
+          readableName: 'Android Microphone',
+          libraryName: 'AndroidMicrophoneIcon'
+        },
+        {
+          name: 'android-more-vertical-icon',
+          readableName: 'Android More Vertical',
+          libraryName: 'AndroidMoreVerticalIcon'
+        },
+        {
           name: 'android-notifications-off-icon',
           readableName: 'Android Notifications Off',
           libraryName: 'AndroidNotificationsOffIcon'
         },
         {
-          name: 'android-notifications-icon',
-          readableName: 'Android Notifications',
-          libraryName: 'AndroidNotificationsIcon'
-        },
-        {
           name: 'android-open-icon',
           readableName: 'Android Open',
           libraryName: 'AndroidOpenIcon'
+        },
+        {
+          name: 'android-notifications-icon',
+          readableName: 'Android Notifications',
+          libraryName: 'AndroidNotificationsIcon'
         },
         {
           name: 'android-options-icon',
@@ -2038,24 +2038,24 @@ export default {
           libraryName: 'AndroidPhonePortraitIcon'
         },
         {
-          name: 'android-pin-icon',
-          readableName: 'Android Pin',
-          libraryName: 'AndroidPinIcon'
-        },
-        {
           name: 'android-plane-icon',
           readableName: 'Android Plane',
           libraryName: 'AndroidPlaneIcon'
         },
         {
-          name: 'android-playstore-icon',
-          readableName: 'Android Playstore',
-          libraryName: 'AndroidPlaystoreIcon'
+          name: 'android-pin-icon',
+          readableName: 'Android Pin',
+          libraryName: 'AndroidPinIcon'
         },
         {
           name: 'android-print-icon',
           readableName: 'Android Print',
           libraryName: 'AndroidPrintIcon'
+        },
+        {
+          name: 'android-playstore-icon',
+          readableName: 'Android Playstore',
+          libraryName: 'AndroidPlaystoreIcon'
         },
         {
           name: 'android-radio-button-off-icon',
@@ -2068,19 +2068,9 @@ export default {
           libraryName: 'AndroidRadioButtonOnIcon'
         },
         {
-          name: 'android-refresh-icon',
-          readableName: 'Android Refresh',
-          libraryName: 'AndroidRefreshIcon'
-        },
-        {
           name: 'android-remove-circle-icon',
           readableName: 'Android Remove Circle',
           libraryName: 'AndroidRemoveCircleIcon'
-        },
-        {
-          name: 'android-remove-icon',
-          readableName: 'Android Remove',
-          libraryName: 'AndroidRemoveIcon'
         },
         {
           name: 'android-restaurant-icon',
@@ -2088,9 +2078,19 @@ export default {
           libraryName: 'AndroidRestaurantIcon'
         },
         {
+          name: 'android-remove-icon',
+          readableName: 'Android Remove',
+          libraryName: 'AndroidRemoveIcon'
+        },
+        {
           name: 'android-sad-icon',
           readableName: 'Android Sad',
           libraryName: 'AndroidSadIcon'
+        },
+        {
+          name: 'android-refresh-icon',
+          readableName: 'Android Refresh',
+          libraryName: 'AndroidRefreshIcon'
         },
         {
           name: 'android-search-icon',
@@ -2098,14 +2098,19 @@ export default {
           libraryName: 'AndroidSearchIcon'
         },
         {
+          name: 'android-settings-icon',
+          readableName: 'Android Settings',
+          libraryName: 'AndroidSettingsIcon'
+        },
+        {
           name: 'android-send-icon',
           readableName: 'Android Send',
           libraryName: 'AndroidSendIcon'
         },
         {
-          name: 'android-settings-icon',
-          readableName: 'Android Settings',
-          libraryName: 'AndroidSettingsIcon'
+          name: 'android-star-half-icon',
+          readableName: 'Android Star Half',
+          libraryName: 'AndroidStarHalfIcon'
         },
         {
           name: 'android-share-alt-icon',
@@ -2118,14 +2123,14 @@ export default {
           libraryName: 'AndroidShareIcon'
         },
         {
-          name: 'android-star-half-icon',
-          readableName: 'Android Star Half',
-          libraryName: 'AndroidStarHalfIcon'
-        },
-        {
           name: 'android-star-outline-icon',
           readableName: 'Android Star Outline',
           libraryName: 'AndroidStarOutlineIcon'
+        },
+        {
+          name: 'android-stopwatch-icon',
+          readableName: 'Android Stopwatch',
+          libraryName: 'AndroidStopwatchIcon'
         },
         {
           name: 'android-star-icon',
@@ -2133,9 +2138,9 @@ export default {
           libraryName: 'AndroidStarIcon'
         },
         {
-          name: 'android-stopwatch-icon',
-          readableName: 'Android Stopwatch',
-          libraryName: 'AndroidStopwatchIcon'
+          name: 'android-sunny-icon',
+          readableName: 'Android Sunny',
+          libraryName: 'AndroidSunnyIcon'
         },
         {
           name: 'android-subway-icon',
@@ -2148,9 +2153,9 @@ export default {
           libraryName: 'AndroidSyncIcon'
         },
         {
-          name: 'android-sunny-icon',
-          readableName: 'Android Sunny',
-          libraryName: 'AndroidSunnyIcon'
+          name: 'android-train-icon',
+          readableName: 'Android Train',
+          libraryName: 'AndroidTrainIcon'
         },
         {
           name: 'android-textsms-icon',
@@ -2158,14 +2163,14 @@ export default {
           libraryName: 'AndroidTextsmsIcon'
         },
         {
+          name: 'android-upload-icon',
+          readableName: 'Android Upload',
+          libraryName: 'AndroidUploadIcon'
+        },
+        {
           name: 'android-time-icon',
           readableName: 'Android Time',
           libraryName: 'AndroidTimeIcon'
-        },
-        {
-          name: 'android-train-icon',
-          readableName: 'Android Train',
-          libraryName: 'AndroidTrainIcon'
         },
         {
           name: 'android-unlock-icon',
@@ -2173,14 +2178,14 @@ export default {
           libraryName: 'AndroidUnlockIcon'
         },
         {
-          name: 'android-upload-icon',
-          readableName: 'Android Upload',
-          libraryName: 'AndroidUploadIcon'
-        },
-        {
           name: 'android-volume-down-icon',
           readableName: 'Android Volume Down',
           libraryName: 'AndroidVolumeDownIcon'
+        },
+        {
+          name: 'android-volume-up-icon',
+          readableName: 'Android Volume Up',
+          libraryName: 'AndroidVolumeUpIcon'
         },
         {
           name: 'android-volume-mute-icon',
@@ -2193,9 +2198,14 @@ export default {
           libraryName: 'AndroidVolumeOffIcon'
         },
         {
-          name: 'android-volume-up-icon',
-          readableName: 'Android Volume Up',
-          libraryName: 'AndroidVolumeUpIcon'
+          name: 'android-warning-icon',
+          readableName: 'Android Warning',
+          libraryName: 'AndroidWarningIcon'
+        },
+        {
+          name: 'android-wifi-icon',
+          readableName: 'Android Wifi',
+          libraryName: 'AndroidWifiIcon'
         },
         {
           name: 'android-walk-icon',
@@ -2203,19 +2213,9 @@ export default {
           libraryName: 'AndroidWalkIcon'
         },
         {
-          name: 'android-warning-icon',
-          readableName: 'Android Warning',
-          libraryName: 'AndroidWarningIcon'
-        },
-        {
           name: 'android-watch-icon',
           readableName: 'Android Watch',
           libraryName: 'AndroidWatchIcon'
-        },
-        {
-          name: 'android-wifi-icon',
-          readableName: 'Android Wifi',
-          libraryName: 'AndroidWifiIcon'
         },
         {
           name: 'aperture-icon',
@@ -2313,11 +2313,6 @@ export default {
           libraryName: 'ArrowRightBIcon'
         },
         {
-          name: 'arrow-right-c-icon',
-          readableName: 'Arrow Right C',
-          libraryName: 'ArrowRightCIcon'
-        },
-        {
           name: 'arrow-shrink-icon',
           readableName: 'Arrow Shrink',
           libraryName: 'ArrowShrinkIcon'
@@ -2336,6 +2331,11 @@ export default {
           name: 'arrow-up-b-icon',
           readableName: 'Arrow Up B',
           libraryName: 'ArrowUpBIcon'
+        },
+        {
+          name: 'arrow-right-c-icon',
+          readableName: 'Arrow Right C',
+          libraryName: 'ArrowRightCIcon'
         },
         {
           name: 'arrow-up-c-icon',
@@ -2378,6 +2378,11 @@ export default {
           libraryName: 'BatteryEmptyIcon'
         },
         {
+          name: 'beaker-icon',
+          readableName: 'Beaker',
+          libraryName: 'BeakerIcon'
+        },
+        {
           name: 'battery-full-icon',
           readableName: 'Battery Full',
           libraryName: 'BatteryFullIcon'
@@ -2391,16 +2396,6 @@ export default {
           name: 'battery-low-icon',
           readableName: 'Battery Low',
           libraryName: 'BatteryLowIcon'
-        },
-        {
-          name: 'beaker-icon',
-          readableName: 'Beaker',
-          libraryName: 'BeakerIcon'
-        },
-        {
-          name: 'beer-icon',
-          readableName: 'Beer',
-          libraryName: 'BeerIcon'
         },
         {
           name: 'bluetooth-icon',
@@ -2418,6 +2413,11 @@ export default {
           libraryName: 'BookmarkIcon'
         },
         {
+          name: 'beer-icon',
+          readableName: 'Beer',
+          libraryName: 'BeerIcon'
+        },
+        {
           name: 'bowtie-icon',
           readableName: 'Bowtie',
           libraryName: 'BowtieIcon'
@@ -2433,6 +2433,11 @@ export default {
           libraryName: 'BugIcon'
         },
         {
+          name: 'camera-icon',
+          readableName: 'Camera',
+          libraryName: 'CameraIcon'
+        },
+        {
           name: 'calculator-icon',
           readableName: 'Calculator',
           libraryName: 'CalculatorIcon'
@@ -2441,11 +2446,6 @@ export default {
           name: 'calendar-icon',
           readableName: 'Calendar',
           libraryName: 'CalendarIcon'
-        },
-        {
-          name: 'camera-icon',
-          readableName: 'Camera',
-          libraryName: 'CameraIcon'
         },
         {
           name: 'card-icon',
@@ -2458,14 +2458,14 @@ export default {
           libraryName: 'CashIcon'
         },
         {
-          name: 'chatbox-working-icon',
-          readableName: 'Chatbox Working',
-          libraryName: 'ChatboxWorkingIcon'
-        },
-        {
           name: 'chatbox-icon',
           readableName: 'Chatbox',
           libraryName: 'ChatboxIcon'
+        },
+        {
+          name: 'chatbox-working-icon',
+          readableName: 'Chatbox Working',
+          libraryName: 'ChatboxWorkingIcon'
         },
         {
           name: 'chatboxes-icon',
@@ -2478,9 +2478,9 @@ export default {
           libraryName: 'ChatbubbleWorkingIcon'
         },
         {
-          name: 'chatbubble-icon',
-          readableName: 'Chatbubble',
-          libraryName: 'ChatbubbleIcon'
+          name: 'checkmark-circled-icon',
+          readableName: 'Checkmark Circled',
+          libraryName: 'CheckmarkCircledIcon'
         },
         {
           name: 'chatbubbles-icon',
@@ -2488,9 +2488,14 @@ export default {
           libraryName: 'ChatbubblesIcon'
         },
         {
-          name: 'checkmark-circled-icon',
-          readableName: 'Checkmark Circled',
-          libraryName: 'CheckmarkCircledIcon'
+          name: 'chatbubble-icon',
+          readableName: 'Chatbubble',
+          libraryName: 'ChatbubbleIcon'
+        },
+        {
+          name: 'chevron-down-icon',
+          readableName: 'Chevron Down',
+          libraryName: 'ChevronDownIcon'
         },
         {
           name: 'checkmark-round-icon',
@@ -2501,11 +2506,6 @@ export default {
           name: 'checkmark-icon',
           readableName: 'Checkmark',
           libraryName: 'CheckmarkIcon'
-        },
-        {
-          name: 'chevron-down-icon',
-          readableName: 'Chevron Down',
-          libraryName: 'ChevronDownIcon'
         },
         {
           name: 'chevron-left-icon',
@@ -2603,14 +2603,14 @@ export default {
           libraryName: 'CropIcon'
         },
         {
-          name: 'cube-icon',
-          readableName: 'Cube',
-          libraryName: 'CubeIcon'
-        },
-        {
           name: 'disc-icon',
           readableName: 'Disc',
           libraryName: 'DiscIcon'
+        },
+        {
+          name: 'cube-icon',
+          readableName: 'Cube',
+          libraryName: 'CubeIcon'
         },
         {
           name: 'document-text-icon',
@@ -2643,14 +2643,14 @@ export default {
           libraryName: 'EditIcon'
         },
         {
-          name: 'egg-icon',
-          readableName: 'Egg',
-          libraryName: 'EggIcon'
-        },
-        {
           name: 'eject-icon',
           readableName: 'Eject',
           libraryName: 'EjectIcon'
+        },
+        {
+          name: 'egg-icon',
+          readableName: 'Egg',
+          libraryName: 'EggIcon'
         },
         {
           name: 'email-unread-icon',
@@ -2753,14 +2753,14 @@ export default {
           libraryName: 'GearAIcon'
         },
         {
-          name: 'grid-icon',
-          readableName: 'Grid',
-          libraryName: 'GridIcon'
-        },
-        {
           name: 'gear-b-icon',
           readableName: 'Gear B',
           libraryName: 'GearBIcon'
+        },
+        {
+          name: 'grid-icon',
+          readableName: 'Grid',
+          libraryName: 'GridIcon'
         },
         {
           name: 'hammer-icon',
@@ -2803,14 +2803,14 @@ export default {
           libraryName: 'HelpCircledIcon'
         },
         {
-          name: 'help-icon',
-          readableName: 'Help',
-          libraryName: 'HelpIcon'
-        },
-        {
           name: 'home-icon',
           readableName: 'Home',
           libraryName: 'HomeIcon'
+        },
+        {
+          name: 'help-icon',
+          readableName: 'Help',
+          libraryName: 'HelpIcon'
         },
         {
           name: 'icecream-icon',
@@ -2863,14 +2863,14 @@ export default {
           libraryName: 'IosAlbumsIcon'
         },
         {
-          name: 'ios-americanfootball-outline-icon',
-          readableName: 'Ios Americanfootball Outline',
-          libraryName: 'IosAmericanfootballOutlineIcon'
-        },
-        {
           name: 'ios-americanfootball-icon',
           readableName: 'Ios Americanfootball',
           libraryName: 'IosAmericanfootballIcon'
+        },
+        {
+          name: 'ios-americanfootball-outline-icon',
+          readableName: 'Ios Americanfootball Outline',
+          libraryName: 'IosAmericanfootballOutlineIcon'
         },
         {
           name: 'ios-analytics-outline-icon',
@@ -2973,14 +2973,14 @@ export default {
           libraryName: 'IosBasketballIcon'
         },
         {
-          name: 'ios-bell-outline-icon',
-          readableName: 'Ios Bell Outline',
-          libraryName: 'IosBellOutlineIcon'
-        },
-        {
           name: 'ios-bell-icon',
           readableName: 'Ios Bell',
           libraryName: 'IosBellIcon'
+        },
+        {
+          name: 'ios-bell-outline-icon',
+          readableName: 'Ios Bell Outline',
+          libraryName: 'IosBellOutlineIcon'
         },
         {
           name: 'ios-body-outline-icon',
@@ -2993,14 +2993,14 @@ export default {
           libraryName: 'IosBodyIcon'
         },
         {
-          name: 'ios-bolt-outline-icon',
-          readableName: 'Ios Bolt Outline',
-          libraryName: 'IosBoltOutlineIcon'
-        },
-        {
           name: 'ios-bolt-icon',
           readableName: 'Ios Bolt',
           libraryName: 'IosBoltIcon'
+        },
+        {
+          name: 'ios-bolt-outline-icon',
+          readableName: 'Ios Bolt Outline',
+          libraryName: 'IosBoltOutlineIcon'
         },
         {
           name: 'ios-book-outline-icon',
@@ -3148,14 +3148,14 @@ export default {
           libraryName: 'IosClockIcon'
         },
         {
-          name: 'ios-close-outline-icon',
-          readableName: 'Ios Close Outline',
-          libraryName: 'IosCloseOutlineIcon'
-        },
-        {
           name: 'ios-close-empty-icon',
           readableName: 'Ios Close Empty',
           libraryName: 'IosCloseEmptyIcon'
+        },
+        {
+          name: 'ios-close-outline-icon',
+          readableName: 'Ios Close Outline',
+          libraryName: 'IosCloseOutlineIcon'
         },
         {
           name: 'ios-close-icon',
@@ -3163,14 +3163,14 @@ export default {
           libraryName: 'IosCloseIcon'
         },
         {
-          name: 'ios-cloud-download-icon',
-          readableName: 'Ios Cloud Download',
-          libraryName: 'IosCloudDownloadIcon'
-        },
-        {
           name: 'ios-cloud-download-outline-icon',
           readableName: 'Ios Cloud Download Outline',
           libraryName: 'IosCloudDownloadOutlineIcon'
+        },
+        {
+          name: 'ios-cloud-download-icon',
+          readableName: 'Ios Cloud Download',
+          libraryName: 'IosCloudDownloadIcon'
         },
         {
           name: 'ios-cloud-outline-icon',
@@ -3188,24 +3188,24 @@ export default {
           libraryName: 'IosCloudUploadOutlineIcon'
         },
         {
-          name: 'ios-cloudy-night-outline-icon',
-          readableName: 'Ios Cloudy Night Outline',
-          libraryName: 'IosCloudyNightOutlineIcon'
-        },
-        {
           name: 'ios-cloud-icon',
           readableName: 'Ios Cloud',
           libraryName: 'IosCloudIcon'
         },
         {
-          name: 'ios-cloudy-outline-icon',
-          readableName: 'Ios Cloudy Outline',
-          libraryName: 'IosCloudyOutlineIcon'
+          name: 'ios-cloudy-night-outline-icon',
+          readableName: 'Ios Cloudy Night Outline',
+          libraryName: 'IosCloudyNightOutlineIcon'
         },
         {
           name: 'ios-cloudy-night-icon',
           readableName: 'Ios Cloudy Night',
           libraryName: 'IosCloudyNightIcon'
+        },
+        {
+          name: 'ios-cloudy-outline-icon',
+          readableName: 'Ios Cloudy Outline',
+          libraryName: 'IosCloudyOutlineIcon'
         },
         {
           name: 'ios-cloudy-icon',
@@ -3228,24 +3228,19 @@ export default {
           libraryName: 'IosColorFilterOutlineIcon'
         },
         {
-          name: 'ios-color-wand-outline-icon',
-          readableName: 'Ios Color Wand Outline',
-          libraryName: 'IosColorWandOutlineIcon'
-        },
-        {
           name: 'ios-color-filter-icon',
           readableName: 'Ios Color Filter',
           libraryName: 'IosColorFilterIcon'
         },
         {
+          name: 'ios-color-wand-outline-icon',
+          readableName: 'Ios Color Wand Outline',
+          libraryName: 'IosColorWandOutlineIcon'
+        },
+        {
           name: 'ios-color-wand-icon',
           readableName: 'Ios Color Wand',
           libraryName: 'IosColorWandIcon'
-        },
-        {
-          name: 'ios-contact-outline-icon',
-          readableName: 'Ios Contact Outline',
-          libraryName: 'IosContactOutlineIcon'
         },
         {
           name: 'ios-compose-outline-icon',
@@ -3256,6 +3251,11 @@ export default {
           name: 'ios-compose-icon',
           readableName: 'Ios Compose',
           libraryName: 'IosComposeIcon'
+        },
+        {
+          name: 'ios-contact-outline-icon',
+          readableName: 'Ios Contact Outline',
+          libraryName: 'IosContactOutlineIcon'
         },
         {
           name: 'ios-contact-icon',
@@ -3278,6 +3278,11 @@ export default {
           libraryName: 'IosCropStrongIcon'
         },
         {
+          name: 'ios-crop-icon',
+          readableName: 'Ios Crop',
+          libraryName: 'IosCropIcon'
+        },
+        {
           name: 'ios-download-outline-icon',
           readableName: 'Ios Download Outline',
           libraryName: 'IosDownloadOutlineIcon'
@@ -3298,11 +3303,6 @@ export default {
           libraryName: 'IosEmailOutlineIcon'
         },
         {
-          name: 'ios-crop-icon',
-          readableName: 'Ios Crop',
-          libraryName: 'IosCropIcon'
-        },
-        {
           name: 'ios-email-icon',
           readableName: 'Ios Email',
           libraryName: 'IosEmailIcon'
@@ -3316,6 +3316,11 @@ export default {
           name: 'ios-eye-icon',
           readableName: 'Ios Eye',
           libraryName: 'IosEyeIcon'
+        },
+        {
+          name: 'ios-fastforward-outline-icon',
+          readableName: 'Ios Fastforward Outline',
+          libraryName: 'IosFastforwardOutlineIcon'
         },
         {
           name: 'ios-fastforward-icon',
@@ -3333,9 +3338,9 @@ export default {
           libraryName: 'IosFilingIcon'
         },
         {
-          name: 'ios-fastforward-outline-icon',
-          readableName: 'Ios Fastforward Outline',
-          libraryName: 'IosFastforwardOutlineIcon'
+          name: 'ios-film-outline-icon',
+          readableName: 'Ios Film Outline',
+          libraryName: 'IosFilmOutlineIcon'
         },
         {
           name: 'ios-film-icon',
@@ -3358,11 +3363,6 @@ export default {
           libraryName: 'IosFlameOutlineIcon'
         },
         {
-          name: 'ios-film-outline-icon',
-          readableName: 'Ios Film Outline',
-          libraryName: 'IosFilmOutlineIcon'
-        },
-        {
           name: 'ios-flame-icon',
           readableName: 'Ios Flame',
           libraryName: 'IosFlameIcon'
@@ -3373,14 +3373,14 @@ export default {
           libraryName: 'IosFlaskOutlineIcon'
         },
         {
-          name: 'ios-flower-outline-icon',
-          readableName: 'Ios Flower Outline',
-          libraryName: 'IosFlowerOutlineIcon'
-        },
-        {
           name: 'ios-flask-icon',
           readableName: 'Ios Flask',
           libraryName: 'IosFlaskIcon'
+        },
+        {
+          name: 'ios-flower-outline-icon',
+          readableName: 'Ios Flower Outline',
+          libraryName: 'IosFlowerOutlineIcon'
         },
         {
           name: 'ios-flower-icon',
@@ -3438,6 +3438,11 @@ export default {
           libraryName: 'IosGearIcon'
         },
         {
+          name: 'ios-glasses-outline-icon',
+          readableName: 'Ios Glasses Outline',
+          libraryName: 'IosGlassesOutlineIcon'
+        },
+        {
           name: 'ios-glasses-icon',
           readableName: 'Ios Glasses',
           libraryName: 'IosGlassesIcon'
@@ -3448,14 +3453,14 @@ export default {
           libraryName: 'IosGridViewOutlineIcon'
         },
         {
+          name: 'ios-grid-view-icon',
+          readableName: 'Ios Grid View',
+          libraryName: 'IosGridViewIcon'
+        },
+        {
           name: 'ios-heart-outline-icon',
           readableName: 'Ios Heart Outline',
           libraryName: 'IosHeartOutlineIcon'
-        },
-        {
-          name: 'ios-glasses-outline-icon',
-          readableName: 'Ios Glasses Outline',
-          libraryName: 'IosGlassesOutlineIcon'
         },
         {
           name: 'ios-heart-icon',
@@ -3466,11 +3471,6 @@ export default {
           name: 'ios-help-empty-icon',
           readableName: 'Ios Help Empty',
           libraryName: 'IosHelpEmptyIcon'
-        },
-        {
-          name: 'ios-grid-view-icon',
-          readableName: 'Ios Grid View',
-          libraryName: 'IosGridViewIcon'
         },
         {
           name: 'ios-help-outline-icon',
@@ -3488,6 +3488,11 @@ export default {
           libraryName: 'IosHomeOutlineIcon'
         },
         {
+          name: 'ios-home-icon',
+          readableName: 'Ios Home',
+          libraryName: 'IosHomeIcon'
+        },
+        {
           name: 'ios-infinite-outline-icon',
           readableName: 'Ios Infinite Outline',
           libraryName: 'IosInfiniteOutlineIcon'
@@ -3501,11 +3506,6 @@ export default {
           name: 'ios-information-empty-icon',
           readableName: 'Ios Information Empty',
           libraryName: 'IosInformationEmptyIcon'
-        },
-        {
-          name: 'ios-home-icon',
-          readableName: 'Ios Home',
-          libraryName: 'IosHomeIcon'
         },
         {
           name: 'ios-information-outline-icon',
@@ -3573,14 +3573,14 @@ export default {
           libraryName: 'IosLockedIcon'
         },
         {
-          name: 'ios-loop-icon',
-          readableName: 'Ios Loop',
-          libraryName: 'IosLoopIcon'
-        },
-        {
           name: 'ios-loop-strong-icon',
           readableName: 'Ios Loop Strong',
           libraryName: 'IosLoopStrongIcon'
+        },
+        {
+          name: 'ios-loop-icon',
+          readableName: 'Ios Loop',
+          libraryName: 'IosLoopIcon'
         },
         {
           name: 'ios-medical-outline-icon',
@@ -3588,14 +3588,14 @@ export default {
           libraryName: 'IosMedicalOutlineIcon'
         },
         {
-          name: 'ios-medkit-outline-icon',
-          readableName: 'Ios Medkit Outline',
-          libraryName: 'IosMedkitOutlineIcon'
-        },
-        {
           name: 'ios-medical-icon',
           readableName: 'Ios Medical',
           libraryName: 'IosMedicalIcon'
+        },
+        {
+          name: 'ios-medkit-outline-icon',
+          readableName: 'Ios Medkit Outline',
+          libraryName: 'IosMedkitOutlineIcon'
         },
         {
           name: 'ios-medkit-icon',
@@ -3606,6 +3606,11 @@ export default {
           name: 'ios-mic-off-icon',
           readableName: 'Ios Mic Off',
           libraryName: 'IosMicOffIcon'
+        },
+        {
+          name: 'ios-mic-outline-icon',
+          readableName: 'Ios Mic Outline',
+          libraryName: 'IosMicOutlineIcon'
         },
         {
           name: 'ios-minus-empty-icon',
@@ -3628,9 +3633,9 @@ export default {
           libraryName: 'IosMinusIcon'
         },
         {
-          name: 'ios-mic-outline-icon',
-          readableName: 'Ios Mic Outline',
-          libraryName: 'IosMicOutlineIcon'
+          name: 'ios-monitor-outline-icon',
+          readableName: 'Ios Monitor Outline',
+          libraryName: 'IosMonitorOutlineIcon'
         },
         {
           name: 'ios-monitor-icon',
@@ -3638,14 +3643,9 @@ export default {
           libraryName: 'IosMonitorIcon'
         },
         {
-          name: 'ios-monitor-outline-icon',
-          readableName: 'Ios Monitor Outline',
-          libraryName: 'IosMonitorOutlineIcon'
-        },
-        {
-          name: 'ios-moon-icon',
-          readableName: 'Ios Moon',
-          libraryName: 'IosMoonIcon'
+          name: 'ios-moon-outline-icon',
+          readableName: 'Ios Moon Outline',
+          libraryName: 'IosMoonOutlineIcon'
         },
         {
           name: 'ios-more-outline-icon',
@@ -3653,19 +3653,14 @@ export default {
           libraryName: 'IosMoreOutlineIcon'
         },
         {
-          name: 'ios-moon-outline-icon',
-          readableName: 'Ios Moon Outline',
-          libraryName: 'IosMoonOutlineIcon'
+          name: 'ios-moon-icon',
+          readableName: 'Ios Moon',
+          libraryName: 'IosMoonIcon'
         },
         {
           name: 'ios-more-icon',
           readableName: 'Ios More',
           libraryName: 'IosMoreIcon'
-        },
-        {
-          name: 'ios-musical-note-icon',
-          readableName: 'Ios Musical Note',
-          libraryName: 'IosMusicalNoteIcon'
         },
         {
           name: 'ios-musical-notes-icon',
@@ -3678,19 +3673,14 @@ export default {
           libraryName: 'IosNavigateOutlineIcon'
         },
         {
+          name: 'ios-musical-note-icon',
+          readableName: 'Ios Musical Note',
+          libraryName: 'IosMusicalNoteIcon'
+        },
+        {
           name: 'ios-navigate-icon',
           readableName: 'Ios Navigate',
           libraryName: 'IosNavigateIcon'
-        },
-        {
-          name: 'ios-nutrition-icon',
-          readableName: 'Ios Nutrition',
-          libraryName: 'IosNutritionIcon'
-        },
-        {
-          name: 'ios-paper-outline-icon',
-          readableName: 'Ios Paper Outline',
-          libraryName: 'IosPaperOutlineIcon'
         },
         {
           name: 'ios-nutrition-outline-icon',
@@ -3703,14 +3693,14 @@ export default {
           libraryName: 'IosPaperIcon'
         },
         {
-          name: 'ios-paperplane-outline-icon',
-          readableName: 'Ios Paperplane Outline',
-          libraryName: 'IosPaperplaneOutlineIcon'
+          name: 'ios-nutrition-icon',
+          readableName: 'Ios Nutrition',
+          libraryName: 'IosNutritionIcon'
         },
         {
-          name: 'ios-partlysunny-outline-icon',
-          readableName: 'Ios Partlysunny Outline',
-          libraryName: 'IosPartlysunnyOutlineIcon'
+          name: 'ios-paper-outline-icon',
+          readableName: 'Ios Paper Outline',
+          libraryName: 'IosPaperOutlineIcon'
         },
         {
           name: 'ios-paperplane-icon',
@@ -3718,19 +3708,29 @@ export default {
           libraryName: 'IosPaperplaneIcon'
         },
         {
+          name: 'ios-partlysunny-outline-icon',
+          readableName: 'Ios Partlysunny Outline',
+          libraryName: 'IosPartlysunnyOutlineIcon'
+        },
+        {
           name: 'ios-partlysunny-icon',
           readableName: 'Ios Partlysunny',
           libraryName: 'IosPartlysunnyIcon'
         },
         {
-          name: 'ios-pause-outline-icon',
-          readableName: 'Ios Pause Outline',
-          libraryName: 'IosPauseOutlineIcon'
+          name: 'ios-paperplane-outline-icon',
+          readableName: 'Ios Paperplane Outline',
+          libraryName: 'IosPaperplaneOutlineIcon'
         },
         {
           name: 'ios-pause-icon',
           readableName: 'Ios Pause',
           libraryName: 'IosPauseIcon'
+        },
+        {
+          name: 'ios-pause-outline-icon',
+          readableName: 'Ios Pause Outline',
+          libraryName: 'IosPauseOutlineIcon'
         },
         {
           name: 'ios-paw-outline-icon',
@@ -3743,9 +3743,14 @@ export default {
           libraryName: 'IosPawIcon'
         },
         {
-          name: 'ios-people-outline-icon',
-          readableName: 'Ios People Outline',
-          libraryName: 'IosPeopleOutlineIcon'
+          name: 'ios-people-icon',
+          readableName: 'Ios People',
+          libraryName: 'IosPeopleIcon'
+        },
+        {
+          name: 'ios-person-outline-icon',
+          readableName: 'Ios Person Outline',
+          libraryName: 'IosPersonOutlineIcon'
         },
         {
           name: 'ios-person-icon',
@@ -3753,9 +3758,14 @@ export default {
           libraryName: 'IosPersonIcon'
         },
         {
-          name: 'ios-people-icon',
-          readableName: 'Ios People',
-          libraryName: 'IosPeopleIcon'
+          name: 'ios-people-outline-icon',
+          readableName: 'Ios People Outline',
+          libraryName: 'IosPeopleOutlineIcon'
+        },
+        {
+          name: 'ios-personadd-outline-icon',
+          readableName: 'Ios Personadd Outline',
+          libraryName: 'IosPersonaddOutlineIcon'
         },
         {
           name: 'ios-personadd-icon',
@@ -3766,16 +3776,6 @@ export default {
           name: 'ios-photos-outline-icon',
           readableName: 'Ios Photos Outline',
           libraryName: 'IosPhotosOutlineIcon'
-        },
-        {
-          name: 'ios-personadd-outline-icon',
-          readableName: 'Ios Personadd Outline',
-          libraryName: 'IosPersonaddOutlineIcon'
-        },
-        {
-          name: 'ios-person-outline-icon',
-          readableName: 'Ios Person Outline',
-          libraryName: 'IosPersonOutlineIcon'
         },
         {
           name: 'ios-photos-icon',
@@ -3798,14 +3798,14 @@ export default {
           libraryName: 'IosPintOutlineIcon'
         },
         {
-          name: 'ios-play-outline-icon',
-          readableName: 'Ios Play Outline',
-          libraryName: 'IosPlayOutlineIcon'
-        },
-        {
           name: 'ios-pint-icon',
           readableName: 'Ios Pint',
           libraryName: 'IosPintIcon'
+        },
+        {
+          name: 'ios-play-outline-icon',
+          readableName: 'Ios Play Outline',
+          libraryName: 'IosPlayOutlineIcon'
         },
         {
           name: 'ios-play-icon',
@@ -3818,6 +3818,11 @@ export default {
           libraryName: 'IosPlusEmptyIcon'
         },
         {
+          name: 'ios-plus-outline-icon',
+          readableName: 'Ios Plus Outline',
+          libraryName: 'IosPlusOutlineIcon'
+        },
+        {
           name: 'ios-plus-icon',
           readableName: 'Ios Plus',
           libraryName: 'IosPlusIcon'
@@ -3828,24 +3833,9 @@ export default {
           libraryName: 'IosPricetagOutlineIcon'
         },
         {
-          name: 'ios-plus-outline-icon',
-          readableName: 'Ios Plus Outline',
-          libraryName: 'IosPlusOutlineIcon'
-        },
-        {
           name: 'ios-pricetag-icon',
           readableName: 'Ios Pricetag',
           libraryName: 'IosPricetagIcon'
-        },
-        {
-          name: 'ios-printer-outline-icon',
-          readableName: 'Ios Printer Outline',
-          libraryName: 'IosPrinterOutlineIcon'
-        },
-        {
-          name: 'ios-printer-icon',
-          readableName: 'Ios Printer',
-          libraryName: 'IosPrinterIcon'
         },
         {
           name: 'ios-pricetags-icon',
@@ -3853,14 +3843,19 @@ export default {
           libraryName: 'IosPricetagsIcon'
         },
         {
+          name: 'ios-printer-outline-icon',
+          readableName: 'Ios Printer Outline',
+          libraryName: 'IosPrinterOutlineIcon'
+        },
+        {
           name: 'ios-pricetags-outline-icon',
           readableName: 'Ios Pricetags Outline',
           libraryName: 'IosPricetagsOutlineIcon'
         },
         {
-          name: 'ios-pulse-strong-icon',
-          readableName: 'Ios Pulse Strong',
-          libraryName: 'IosPulseStrongIcon'
+          name: 'ios-printer-icon',
+          readableName: 'Ios Printer',
+          libraryName: 'IosPrinterIcon'
         },
         {
           name: 'ios-pulse-icon',
@@ -3868,19 +3863,14 @@ export default {
           libraryName: 'IosPulseIcon'
         },
         {
+          name: 'ios-pulse-strong-icon',
+          readableName: 'Ios Pulse Strong',
+          libraryName: 'IosPulseStrongIcon'
+        },
+        {
           name: 'ios-rainy-outline-icon',
           readableName: 'Ios Rainy Outline',
           libraryName: 'IosRainyOutlineIcon'
-        },
-        {
-          name: 'ios-recording-icon',
-          readableName: 'Ios Recording',
-          libraryName: 'IosRecordingIcon'
-        },
-        {
-          name: 'ios-recording-outline-icon',
-          readableName: 'Ios Recording Outline',
-          libraryName: 'IosRecordingOutlineIcon'
         },
         {
           name: 'ios-rainy-icon',
@@ -3888,14 +3878,14 @@ export default {
           libraryName: 'IosRainyIcon'
         },
         {
-          name: 'ios-redo-icon',
-          readableName: 'Ios Redo',
-          libraryName: 'IosRedoIcon'
+          name: 'ios-recording-outline-icon',
+          readableName: 'Ios Recording Outline',
+          libraryName: 'IosRecordingOutlineIcon'
         },
         {
-          name: 'ios-refresh-empty-icon',
-          readableName: 'Ios Refresh Empty',
-          libraryName: 'IosRefreshEmptyIcon'
+          name: 'ios-recording-icon',
+          readableName: 'Ios Recording',
+          libraryName: 'IosRecordingIcon'
         },
         {
           name: 'ios-redo-outline-icon',
@@ -3903,9 +3893,9 @@ export default {
           libraryName: 'IosRedoOutlineIcon'
         },
         {
-          name: 'ios-refresh-outline-icon',
-          readableName: 'Ios Refresh Outline',
-          libraryName: 'IosRefreshOutlineIcon'
+          name: 'ios-redo-icon',
+          readableName: 'Ios Redo',
+          libraryName: 'IosRedoIcon'
         },
         {
           name: 'ios-refresh-icon',
@@ -3913,14 +3903,19 @@ export default {
           libraryName: 'IosRefreshIcon'
         },
         {
+          name: 'ios-refresh-outline-icon',
+          readableName: 'Ios Refresh Outline',
+          libraryName: 'IosRefreshOutlineIcon'
+        },
+        {
           name: 'ios-reload-icon',
           readableName: 'Ios Reload',
           libraryName: 'IosReloadIcon'
         },
         {
-          name: 'ios-reverse-camera-outline-icon',
-          readableName: 'Ios Reverse Camera Outline',
-          libraryName: 'IosReverseCameraOutlineIcon'
+          name: 'ios-refresh-empty-icon',
+          readableName: 'Ios Refresh Empty',
+          libraryName: 'IosRefreshEmptyIcon'
         },
         {
           name: 'ios-reverse-camera-icon',
@@ -3928,14 +3923,14 @@ export default {
           libraryName: 'IosReverseCameraIcon'
         },
         {
+          name: 'ios-reverse-camera-outline-icon',
+          readableName: 'Ios Reverse Camera Outline',
+          libraryName: 'IosReverseCameraOutlineIcon'
+        },
+        {
           name: 'ios-rewind-outline-icon',
           readableName: 'Ios Rewind Outline',
           libraryName: 'IosRewindOutlineIcon'
-        },
-        {
-          name: 'ios-rewind-icon',
-          readableName: 'Ios Rewind',
-          libraryName: 'IosRewindIcon'
         },
         {
           name: 'ios-rose-outline-icon',
@@ -3943,14 +3938,19 @@ export default {
           libraryName: 'IosRoseOutlineIcon'
         },
         {
-          name: 'ios-search-strong-icon',
-          readableName: 'Ios Search Strong',
-          libraryName: 'IosSearchStrongIcon'
-        },
-        {
           name: 'ios-rose-icon',
           readableName: 'Ios Rose',
           libraryName: 'IosRoseIcon'
+        },
+        {
+          name: 'ios-rewind-icon',
+          readableName: 'Ios Rewind',
+          libraryName: 'IosRewindIcon'
+        },
+        {
+          name: 'ios-search-strong-icon',
+          readableName: 'Ios Search Strong',
+          libraryName: 'IosSearchStrongIcon'
         },
         {
           name: 'ios-search-icon',
@@ -3961,6 +3961,11 @@ export default {
           name: 'ios-settings-strong-icon',
           readableName: 'Ios Settings Strong',
           libraryName: 'IosSettingsStrongIcon'
+        },
+        {
+          name: 'ios-settings-icon',
+          readableName: 'Ios Settings',
+          libraryName: 'IosSettingsIcon'
         },
         {
           name: 'ios-shuffle-strong-icon',
@@ -3978,9 +3983,9 @@ export default {
           libraryName: 'IosSkipbackwardOutlineIcon'
         },
         {
-          name: 'ios-settings-icon',
-          readableName: 'Ios Settings',
-          libraryName: 'IosSettingsIcon'
+          name: 'ios-skipbackward-icon',
+          readableName: 'Ios Skipbackward',
+          libraryName: 'IosSkipbackwardIcon'
         },
         {
           name: 'ios-skipforward-outline-icon',
@@ -3991,11 +3996,6 @@ export default {
           name: 'ios-skipforward-icon',
           readableName: 'Ios Skipforward',
           libraryName: 'IosSkipforwardIcon'
-        },
-        {
-          name: 'ios-skipbackward-icon',
-          readableName: 'Ios Skipbackward',
-          libraryName: 'IosSkipbackwardIcon'
         },
         {
           name: 'ios-snowy-icon',
@@ -4013,14 +4013,14 @@ export default {
           libraryName: 'IosSpeedometerIcon'
         },
         {
+          name: 'ios-star-half-icon',
+          readableName: 'Ios Star Half',
+          libraryName: 'IosStarHalfIcon'
+        },
+        {
           name: 'ios-star-outline-icon',
           readableName: 'Ios Star Outline',
           libraryName: 'IosStarOutlineIcon'
-        },
-        {
-          name: 'ios-stopwatch-outline-icon',
-          readableName: 'Ios Stopwatch Outline',
-          libraryName: 'IosStopwatchOutlineIcon'
         },
         {
           name: 'ios-star-icon',
@@ -4028,19 +4028,9 @@ export default {
           libraryName: 'IosStarIcon'
         },
         {
-          name: 'ios-star-half-icon',
-          readableName: 'Ios Star Half',
-          libraryName: 'IosStarHalfIcon'
-        },
-        {
-          name: 'ios-sunny-icon',
-          readableName: 'Ios Sunny',
-          libraryName: 'IosSunnyIcon'
-        },
-        {
-          name: 'ios-sunny-outline-icon',
-          readableName: 'Ios Sunny Outline',
-          libraryName: 'IosSunnyOutlineIcon'
+          name: 'ios-stopwatch-outline-icon',
+          readableName: 'Ios Stopwatch Outline',
+          libraryName: 'IosStopwatchOutlineIcon'
         },
         {
           name: 'ios-stopwatch-icon',
@@ -4048,9 +4038,24 @@ export default {
           libraryName: 'IosStopwatchIcon'
         },
         {
+          name: 'ios-sunny-outline-icon',
+          readableName: 'Ios Sunny Outline',
+          libraryName: 'IosSunnyOutlineIcon'
+        },
+        {
+          name: 'ios-sunny-icon',
+          readableName: 'Ios Sunny',
+          libraryName: 'IosSunnyIcon'
+        },
+        {
           name: 'ios-telephone-outline-icon',
           readableName: 'Ios Telephone Outline',
           libraryName: 'IosTelephoneOutlineIcon'
+        },
+        {
+          name: 'ios-tennisball-outline-icon',
+          readableName: 'Ios Tennisball Outline',
+          libraryName: 'IosTennisballOutlineIcon'
         },
         {
           name: 'ios-telephone-icon',
@@ -4058,9 +4063,14 @@ export default {
           libraryName: 'IosTelephoneIcon'
         },
         {
-          name: 'ios-tennisball-outline-icon',
-          readableName: 'Ios Tennisball Outline',
-          libraryName: 'IosTennisballOutlineIcon'
+          name: 'ios-tennisball-icon',
+          readableName: 'Ios Tennisball',
+          libraryName: 'IosTennisballIcon'
+        },
+        {
+          name: 'ios-thunderstorm-outline-icon',
+          readableName: 'Ios Thunderstorm Outline',
+          libraryName: 'IosThunderstormOutlineIcon'
         },
         {
           name: 'ios-thunderstorm-icon',
@@ -4073,11 +4083,6 @@ export default {
           libraryName: 'IosTimeOutlineIcon'
         },
         {
-          name: 'ios-thunderstorm-outline-icon',
-          readableName: 'Ios Thunderstorm Outline',
-          libraryName: 'IosThunderstormOutlineIcon'
-        },
-        {
           name: 'ios-time-icon',
           readableName: 'Ios Time',
           libraryName: 'IosTimeIcon'
@@ -4088,19 +4093,9 @@ export default {
           libraryName: 'IosTimerOutlineIcon'
         },
         {
-          name: 'ios-tennisball-icon',
-          readableName: 'Ios Tennisball',
-          libraryName: 'IosTennisballIcon'
-        },
-        {
           name: 'ios-timer-icon',
           readableName: 'Ios Timer',
           libraryName: 'IosTimerIcon'
-        },
-        {
-          name: 'ios-toggle-outline-icon',
-          readableName: 'Ios Toggle Outline',
-          libraryName: 'IosToggleOutlineIcon'
         },
         {
           name: 'ios-toggle-icon',
@@ -4108,19 +4103,24 @@ export default {
           libraryName: 'IosToggleIcon'
         },
         {
+          name: 'ios-toggle-outline-icon',
+          readableName: 'Ios Toggle Outline',
+          libraryName: 'IosToggleOutlineIcon'
+        },
+        {
           name: 'ios-trash-outline-icon',
           readableName: 'Ios Trash Outline',
           libraryName: 'IosTrashOutlineIcon'
         },
         {
-          name: 'ios-undo-outline-icon',
-          readableName: 'Ios Undo Outline',
-          libraryName: 'IosUndoOutlineIcon'
-        },
-        {
           name: 'ios-trash-icon',
           readableName: 'Ios Trash',
           libraryName: 'IosTrashIcon'
+        },
+        {
+          name: 'ios-undo-outline-icon',
+          readableName: 'Ios Undo Outline',
+          libraryName: 'IosUndoOutlineIcon'
         },
         {
           name: 'ios-undo-icon',
@@ -4138,14 +4138,14 @@ export default {
           libraryName: 'IosUnlockedIcon'
         },
         {
-          name: 'ios-upload-icon',
-          readableName: 'Ios Upload',
-          libraryName: 'IosUploadIcon'
-        },
-        {
           name: 'ios-upload-outline-icon',
           readableName: 'Ios Upload Outline',
           libraryName: 'IosUploadOutlineIcon'
+        },
+        {
+          name: 'ios-upload-icon',
+          readableName: 'Ios Upload',
+          libraryName: 'IosUploadIcon'
         },
         {
           name: 'ios-videocam-outline-icon',
@@ -4178,14 +4178,14 @@ export default {
           libraryName: 'IosWineglassIcon'
         },
         {
+          name: 'ios-world-outline-icon',
+          readableName: 'Ios World Outline',
+          libraryName: 'IosWorldOutlineIcon'
+        },
+        {
           name: 'ios-world-icon',
           readableName: 'Ios World',
           libraryName: 'IosWorldIcon'
-        },
-        {
-          name: 'iphone-icon',
-          readableName: 'Iphone',
-          libraryName: 'IphoneIcon'
         },
         {
           name: 'ipad-icon',
@@ -4193,9 +4193,9 @@ export default {
           libraryName: 'IpadIcon'
         },
         {
-          name: 'ios-world-outline-icon',
-          readableName: 'Ios World Outline',
-          libraryName: 'IosWorldOutlineIcon'
+          name: 'iphone-icon',
+          readableName: 'Iphone',
+          libraryName: 'IphoneIcon'
         },
         {
           name: 'ipod-icon',
@@ -4208,14 +4208,19 @@ export default {
           libraryName: 'JetIcon'
         },
         {
+          name: 'key-icon',
+          readableName: 'Key',
+          libraryName: 'KeyIcon'
+        },
+        {
           name: 'knife-icon',
           readableName: 'Knife',
           libraryName: 'KnifeIcon'
         },
         {
-          name: 'key-icon',
-          readableName: 'Key',
-          libraryName: 'KeyIcon'
+          name: 'laptop-icon',
+          readableName: 'Laptop',
+          libraryName: 'LaptopIcon'
         },
         {
           name: 'leaf-icon',
@@ -4231,11 +4236,6 @@ export default {
           name: 'lightbulb-icon',
           readableName: 'Lightbulb',
           libraryName: 'LightbulbIcon'
-        },
-        {
-          name: 'laptop-icon',
-          readableName: 'Laptop',
-          libraryName: 'LaptopIcon'
         },
         {
           name: 'link-icon',
@@ -4258,14 +4258,14 @@ export default {
           libraryName: 'LoadCIcon'
         },
         {
-          name: 'location-icon',
-          readableName: 'Location',
-          libraryName: 'LocationIcon'
-        },
-        {
           name: 'load-d-icon',
           readableName: 'Load D',
           libraryName: 'LoadDIcon'
+        },
+        {
+          name: 'location-icon',
+          readableName: 'Location',
+          libraryName: 'LocationIcon'
         },
         {
           name: 'lock-combination-icon',
@@ -4378,9 +4378,9 @@ export default {
           libraryName: 'MusicNoteIcon'
         },
         {
-          name: 'navigate-icon',
-          readableName: 'Navigate',
-          libraryName: 'NavigateIcon'
+          name: 'navicon-round-icon',
+          readableName: 'Navicon Round',
+          libraryName: 'NaviconRoundIcon'
         },
         {
           name: 'navicon-icon',
@@ -4388,9 +4388,9 @@ export default {
           libraryName: 'NaviconIcon'
         },
         {
-          name: 'navicon-round-icon',
-          readableName: 'Navicon Round',
-          libraryName: 'NaviconRoundIcon'
+          name: 'navigate-icon',
+          readableName: 'Navigate',
+          libraryName: 'NavigateIcon'
         },
         {
           name: 'network-icon',
@@ -4398,14 +4398,14 @@ export default {
           libraryName: 'NetworkIcon'
         },
         {
-          name: 'nuclear-icon',
-          readableName: 'Nuclear',
-          libraryName: 'NuclearIcon'
-        },
-        {
           name: 'no-smoking-icon',
           readableName: 'No Smoking',
           libraryName: 'NoSmokingIcon'
+        },
+        {
+          name: 'nuclear-icon',
+          readableName: 'Nuclear',
+          libraryName: 'NuclearIcon'
         },
         {
           name: 'outlet-icon',
@@ -4418,19 +4418,9 @@ export default {
           libraryName: 'PaintbrushIcon'
         },
         {
-          name: 'paperclip-icon',
-          readableName: 'Paperclip',
-          libraryName: 'PaperclipIcon'
-        },
-        {
           name: 'paintbucket-icon',
           readableName: 'Paintbucket',
           libraryName: 'PaintbucketIcon'
-        },
-        {
-          name: 'pause-icon',
-          readableName: 'Pause',
-          libraryName: 'PauseIcon'
         },
         {
           name: 'paper-airplane-icon',
@@ -4438,9 +4428,14 @@ export default {
           libraryName: 'PaperAirplaneIcon'
         },
         {
-          name: 'person-stalker-icon',
-          readableName: 'Person Stalker',
-          libraryName: 'PersonStalkerIcon'
+          name: 'paperclip-icon',
+          readableName: 'Paperclip',
+          libraryName: 'PaperclipIcon'
+        },
+        {
+          name: 'pause-icon',
+          readableName: 'Pause',
+          libraryName: 'PauseIcon'
         },
         {
           name: 'person-add-icon',
@@ -4448,9 +4443,9 @@ export default {
           libraryName: 'PersonAddIcon'
         },
         {
-          name: 'pie-graph-icon',
-          readableName: 'Pie Graph',
-          libraryName: 'PieGraphIcon'
+          name: 'person-stalker-icon',
+          readableName: 'Person Stalker',
+          libraryName: 'PersonStalkerIcon'
         },
         {
           name: 'person-icon',
@@ -4458,14 +4453,19 @@ export default {
           libraryName: 'PersonIcon'
         },
         {
+          name: 'pie-graph-icon',
+          readableName: 'Pie Graph',
+          libraryName: 'PieGraphIcon'
+        },
+        {
+          name: 'pin-icon',
+          readableName: 'Pin',
+          libraryName: 'PinIcon'
+        },
+        {
           name: 'pinpoint-icon',
           readableName: 'Pinpoint',
           libraryName: 'PinpointIcon'
-        },
-        {
-          name: 'plane-icon',
-          readableName: 'Plane',
-          libraryName: 'PlaneIcon'
         },
         {
           name: 'pizza-icon',
@@ -4473,9 +4473,9 @@ export default {
           libraryName: 'PizzaIcon'
         },
         {
-          name: 'pin-icon',
-          readableName: 'Pin',
-          libraryName: 'PinIcon'
+          name: 'plane-icon',
+          readableName: 'Plane',
+          libraryName: 'PlaneIcon'
         },
         {
           name: 'planet-icon',
@@ -4558,14 +4558,14 @@ export default {
           libraryName: 'RadioWavesIcon'
         },
         {
-          name: 'record-icon',
-          readableName: 'Record',
-          libraryName: 'RecordIcon'
-        },
-        {
           name: 'refresh-icon',
           readableName: 'Refresh',
           libraryName: 'RefreshIcon'
+        },
+        {
+          name: 'record-icon',
+          readableName: 'Record',
+          libraryName: 'RecordIcon'
         },
         {
           name: 'reply-all-icon',
@@ -4578,14 +4578,14 @@ export default {
           libraryName: 'ReplyIcon'
         },
         {
-          name: 'ribbon-b-icon',
-          readableName: 'Ribbon B',
-          libraryName: 'RibbonBIcon'
-        },
-        {
           name: 'ribbon-a-icon',
           readableName: 'Ribbon A',
           libraryName: 'RibbonAIcon'
+        },
+        {
+          name: 'ribbon-b-icon',
+          readableName: 'Ribbon B',
+          libraryName: 'RibbonBIcon'
         },
         {
           name: 'sad-outline-icon',
@@ -4633,14 +4633,14 @@ export default {
           libraryName: 'SkipForwardIcon'
         },
         {
-          name: 'social-android-outline-icon',
-          readableName: 'Social Android Outline',
-          libraryName: 'SocialAndroidOutlineIcon'
-        },
-        {
           name: 'social-android-icon',
           readableName: 'Social Android',
           libraryName: 'SocialAndroidIcon'
+        },
+        {
+          name: 'social-android-outline-icon',
+          readableName: 'Social Android Outline',
+          libraryName: 'SocialAndroidOutlineIcon'
         },
         {
           name: 'social-angular-outline-icon',
@@ -4658,14 +4658,14 @@ export default {
           libraryName: 'SocialAppleOutlineIcon'
         },
         {
-          name: 'social-bitcoin-outline-icon',
-          readableName: 'Social Bitcoin Outline',
-          libraryName: 'SocialBitcoinOutlineIcon'
-        },
-        {
           name: 'social-apple-icon',
           readableName: 'Social Apple',
           libraryName: 'SocialAppleIcon'
+        },
+        {
+          name: 'social-bitcoin-outline-icon',
+          readableName: 'Social Bitcoin Outline',
+          libraryName: 'SocialBitcoinOutlineIcon'
         },
         {
           name: 'social-bitcoin-icon',
@@ -4863,14 +4863,14 @@ export default {
           libraryName: 'SocialMarkdownIcon'
         },
         {
-          name: 'social-octocat-icon',
-          readableName: 'Social Octocat',
-          libraryName: 'SocialOctocatIcon'
-        },
-        {
           name: 'social-nodejs-icon',
           readableName: 'Social Nodejs',
           libraryName: 'SocialNodejsIcon'
+        },
+        {
+          name: 'social-octocat-icon',
+          readableName: 'Social Octocat',
+          libraryName: 'SocialOctocatIcon'
         },
         {
           name: 'social-pinterest-outline-icon',
@@ -4923,6 +4923,11 @@ export default {
           libraryName: 'SocialSkypeIcon'
         },
         {
+          name: 'social-tumblr-outline-icon',
+          readableName: 'Social Tumblr Outline',
+          libraryName: 'SocialTumblrOutlineIcon'
+        },
+        {
           name: 'social-snapchat-outline-icon',
           readableName: 'Social Snapchat Outline',
           libraryName: 'SocialSnapchatOutlineIcon'
@@ -4933,19 +4938,9 @@ export default {
           libraryName: 'SocialSnapchatIcon'
         },
         {
-          name: 'social-tumblr-outline-icon',
-          readableName: 'Social Tumblr Outline',
-          libraryName: 'SocialTumblrOutlineIcon'
-        },
-        {
           name: 'social-tumblr-icon',
           readableName: 'Social Tumblr',
           libraryName: 'SocialTumblrIcon'
-        },
-        {
-          name: 'social-tux-icon',
-          readableName: 'Social Tux',
-          libraryName: 'SocialTuxIcon'
         },
         {
           name: 'social-twitch-outline-icon',
@@ -4953,14 +4948,19 @@ export default {
           libraryName: 'SocialTwitchOutlineIcon'
         },
         {
-          name: 'social-twitch-icon',
-          readableName: 'Social Twitch',
-          libraryName: 'SocialTwitchIcon'
-        },
-        {
           name: 'social-twitter-outline-icon',
           readableName: 'Social Twitter Outline',
           libraryName: 'SocialTwitterOutlineIcon'
+        },
+        {
+          name: 'social-tux-icon',
+          readableName: 'Social Tux',
+          libraryName: 'SocialTuxIcon'
+        },
+        {
+          name: 'social-twitch-icon',
+          readableName: 'Social Twitch',
+          libraryName: 'SocialTwitchIcon'
         },
         {
           name: 'social-twitter-icon',
@@ -5013,16 +5013,6 @@ export default {
           libraryName: 'SocialWordpressOutlineIcon'
         },
         {
-          name: 'social-wordpress-icon',
-          readableName: 'Social Wordpress',
-          libraryName: 'SocialWordpressIcon'
-        },
-        {
-          name: 'social-yahoo-outline-icon',
-          readableName: 'Social Yahoo Outline',
-          libraryName: 'SocialYahooOutlineIcon'
-        },
-        {
           name: 'social-yahoo-icon',
           readableName: 'Social Yahoo',
           libraryName: 'SocialYahooIcon'
@@ -5038,14 +5028,24 @@ export default {
           libraryName: 'SocialYenIcon'
         },
         {
+          name: 'social-wordpress-icon',
+          readableName: 'Social Wordpress',
+          libraryName: 'SocialWordpressIcon'
+        },
+        {
           name: 'social-youtube-outline-icon',
           readableName: 'Social Youtube Outline',
           libraryName: 'SocialYoutubeOutlineIcon'
         },
         {
-          name: 'social-youtube-icon',
-          readableName: 'Social Youtube',
-          libraryName: 'SocialYoutubeIcon'
+          name: 'social-yahoo-outline-icon',
+          readableName: 'Social Yahoo Outline',
+          libraryName: 'SocialYahooOutlineIcon'
+        },
+        {
+          name: 'soup-can-icon',
+          readableName: 'Soup Can',
+          libraryName: 'SoupCanIcon'
         },
         {
           name: 'soup-can-outline-icon',
@@ -5053,9 +5053,9 @@ export default {
           libraryName: 'SoupCanOutlineIcon'
         },
         {
-          name: 'soup-can-icon',
-          readableName: 'Soup Can',
-          libraryName: 'SoupCanIcon'
+          name: 'social-youtube-icon',
+          readableName: 'Social Youtube',
+          libraryName: 'SocialYoutubeIcon'
         },
         {
           name: 'speakerphone-icon',
@@ -5068,11 +5068,6 @@ export default {
           libraryName: 'SpeedometerIcon'
         },
         {
-          name: 'spoon-icon',
-          readableName: 'Spoon',
-          libraryName: 'SpoonIcon'
-        },
-        {
           name: 'star-icon',
           readableName: 'Star',
           libraryName: 'StarIcon'
@@ -5081,11 +5076,6 @@ export default {
           name: 'stats-bars-icon',
           readableName: 'Stats Bars',
           libraryName: 'StatsBarsIcon'
-        },
-        {
-          name: 'steam-icon',
-          readableName: 'Steam',
-          libraryName: 'SteamIcon'
         },
         {
           name: 'stop-icon',
@@ -5098,9 +5088,9 @@ export default {
           libraryName: 'ThermometerIcon'
         },
         {
-          name: 'thumbsdown-icon',
-          readableName: 'Thumbsdown',
-          libraryName: 'ThumbsdownIcon'
+          name: 'spoon-icon',
+          readableName: 'Spoon',
+          libraryName: 'SpoonIcon'
         },
         {
           name: 'thumbsup-icon',
@@ -5108,9 +5098,19 @@ export default {
           libraryName: 'ThumbsupIcon'
         },
         {
+          name: 'steam-icon',
+          readableName: 'Steam',
+          libraryName: 'SteamIcon'
+        },
+        {
           name: 'toggle-filled-icon',
           readableName: 'Toggle Filled',
           libraryName: 'ToggleFilledIcon'
+        },
+        {
+          name: 'thumbsdown-icon',
+          readableName: 'Thumbsdown',
+          libraryName: 'ThumbsdownIcon'
         },
         {
           name: 'toggle-icon',
@@ -5133,14 +5133,14 @@ export default {
           libraryName: 'TrashBIcon'
         },
         {
-          name: 'trophy-icon',
-          readableName: 'Trophy',
-          libraryName: 'TrophyIcon'
-        },
-        {
           name: 'tshirt-outline-icon',
           readableName: 'Tshirt Outline',
           libraryName: 'TshirtOutlineIcon'
+        },
+        {
+          name: 'trophy-icon',
+          readableName: 'Trophy',
+          libraryName: 'TrophyIcon'
         },
         {
           name: 'tshirt-icon',
@@ -5148,19 +5148,14 @@ export default {
           libraryName: 'TshirtIcon'
         },
         {
-          name: 'umbrella-icon',
-          readableName: 'Umbrella',
-          libraryName: 'UmbrellaIcon'
-        },
-        {
           name: 'university-icon',
           readableName: 'University',
           libraryName: 'UniversityIcon'
         },
         {
-          name: 'unlocked-icon',
-          readableName: 'Unlocked',
-          libraryName: 'UnlockedIcon'
+          name: 'umbrella-icon',
+          readableName: 'Umbrella',
+          libraryName: 'UmbrellaIcon'
         },
         {
           name: 'upload-icon',
@@ -5178,6 +5173,11 @@ export default {
           libraryName: 'VideocameraIcon'
         },
         {
+          name: 'unlocked-icon',
+          readableName: 'Unlocked',
+          libraryName: 'UnlockedIcon'
+        },
+        {
           name: 'volume-high-icon',
           readableName: 'Volume High',
           libraryName: 'VolumeHighIcon'
@@ -5186,11 +5186,6 @@ export default {
           name: 'volume-low-icon',
           readableName: 'Volume Low',
           libraryName: 'VolumeLowIcon'
-        },
-        {
-          name: 'volume-medium-icon',
-          readableName: 'Volume Medium',
-          libraryName: 'VolumeMediumIcon'
         },
         {
           name: 'volume-mute-icon',
@@ -5213,14 +5208,19 @@ export default {
           libraryName: 'WifiIcon'
         },
         {
-          name: 'wineglass-icon',
-          readableName: 'Wineglass',
-          libraryName: 'WineglassIcon'
-        },
-        {
           name: 'woman-icon',
           readableName: 'Woman',
           libraryName: 'WomanIcon'
+        },
+        {
+          name: 'volume-medium-icon',
+          readableName: 'Volume Medium',
+          libraryName: 'VolumeMediumIcon'
+        },
+        {
+          name: 'wineglass-icon',
+          readableName: 'Wineglass',
+          libraryName: 'WineglassIcon'
         },
         {
           name: 'wrench-icon',
