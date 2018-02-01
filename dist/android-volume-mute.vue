@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="android-volume-mute-icon"
-    :aria-labelledby="iconTitle">
-
+    name="android-volume-mute-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M64 192v128h85.334L256 431.543V80.458L149.334 192H64z"/></svg>
-
   </div>
 </template>
 

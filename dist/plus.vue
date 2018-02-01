@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="plus-icon"
-    :aria-labelledby="iconTitle">
-
+    name="plus-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M448 224H288V64h-64v160H64v64h160v160h64V288h160z"/></svg>
-
   </div>
 </template>
 

@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-minus-empty-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-minus-empty-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M384 265H128v-17h256v17z"/></svg>
-
   </div>
 </template>
 

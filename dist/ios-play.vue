@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-play-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-play-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M128 96v320l256-160L128 96z"/></svg>
-
   </div>
 </template>
 

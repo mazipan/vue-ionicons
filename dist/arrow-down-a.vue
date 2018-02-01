@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="arrow-down-a-icon"
-    :aria-labelledby="iconTitle">
-
+    name="arrow-down-a-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M256.5 448.5l192-192h-112v-192h-160v192h-112z"/></svg>
-
   </div>
 </template>
 

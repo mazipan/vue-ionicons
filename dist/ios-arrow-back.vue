@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-arrow-back-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-arrow-back-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M352 128.4L319.7 96 160 256l159.7 160 32.3-32.4L224.7 256z"/></svg>
-
   </div>
 </template>
 

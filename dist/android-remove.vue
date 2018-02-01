@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="android-remove-icon"
-    :aria-labelledby="iconTitle">
-
+    name="android-remove-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M96 235h320v42H96z"/></svg>
-
   </div>
 </template>
 

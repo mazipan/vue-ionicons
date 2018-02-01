@@ -3,11 +3,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="<%name%>-icon"
-    :aria-labelledby="iconTitle">
-
+    name="<%name%>-icon">
     <%{svg}%>
-
   </div>
 </template>
 

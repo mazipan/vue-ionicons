@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-fastforward-outline-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-fastforward-outline-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M48 155l183.5 101L48 356.9V155m224 .8L448 256 272 356.4V156m-16-28v123.2L32 128v256l224-123.2V384l224-128-224-128z"/></svg>
-
   </div>
 </template>
 

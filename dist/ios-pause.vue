@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-pause-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-pause-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M128 96h79v320h-79zM305 96h79v320h-79z"/></svg>
-
   </div>
 </template>
 

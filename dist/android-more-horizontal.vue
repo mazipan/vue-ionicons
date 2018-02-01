@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="android-more-horizontal-icon"
-    :aria-labelledby="iconTitle">
-
+    name="android-more-horizontal-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M136 216c-22.002 0-40 17.998-40 40s17.998 40 40 40 40-17.998 40-40-17.998-40-40-40zm240 0c-22.002 0-40 17.998-40 40s17.998 40 40 40 40-17.998 40-40-17.998-40-40-40zm-120 0c-22.002 0-40 17.998-40 40s17.998 40 40 40 40-17.998 40-40-17.998-40-40-40z"/></svg>
-
   </div>
 </template>
 

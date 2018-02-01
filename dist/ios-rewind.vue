@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-rewind-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-rewind-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M256 128L32 256l224 128V260.8L480 384V128L256 251.2V128z"/></svg>
-
   </div>
 </template>
 

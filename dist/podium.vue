@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="podium-icon"
-    :aria-labelledby="iconTitle">
-
+    name="podium-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M32 256h128v192H32zM192 160h128v288H192zM352 320h128v128H352z"/></svg>
-
   </div>
 </template>
 

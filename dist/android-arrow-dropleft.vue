@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="android-arrow-dropleft-icon"
-    :aria-labelledby="iconTitle">
-
+    name="android-arrow-dropleft-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M320 128L192 256l128 128z"/></svg>
-
   </div>
 </template>
 

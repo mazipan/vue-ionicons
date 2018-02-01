@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="navigate-icon"
-    :aria-labelledby="iconTitle">
-
+    name="navigate-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M480 32L32 224h256v256z"/></svg>
-
   </div>
 </template>
 

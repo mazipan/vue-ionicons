@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-bolt-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-bolt-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M302.7 64L143 288h95.8l-29.5 160L369 224h-95.8l29.5-160z"/></svg>
-
   </div>
 </template>
 

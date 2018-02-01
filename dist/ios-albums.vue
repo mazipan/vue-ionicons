@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="ios-albums-icon"
-    :aria-labelledby="iconTitle">
-
+    name="ios-albums-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M480 128H32v320h448V128zM72 96h368v16H72zM104 64h304v16H104z"/></svg>
-
   </div>
 </template>
 

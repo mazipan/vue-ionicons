@@ -2,11 +2,8 @@
   <div
     class="ion"
     :class="rootClass"
-    name="android-navigate-icon"
-    :aria-labelledby="iconTitle">
-
+    name="android-navigate-icon">
     <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M256 64L96 433.062 110.938 448 256 384l145.062 64L416 433.062z"/></svg>
-
   </div>
 </template>
 
