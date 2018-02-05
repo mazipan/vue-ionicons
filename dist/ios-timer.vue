@@ -1,9 +1,9 @@
 <template>
   <div
     class="ion"
-    :class="rootClass"
+    :class="ionClass"
     name="ios-timer-icon">
-    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M256 48C141.1 48 48 141.1 48 256s93.1 208 208 208 208-93.1 208-208S370.9 48 256 48zM150.5 150.5c2.6-2.3 119.9 84.9 119.9 84.9 1 .7 1.6 1.5 2.2 2.2 5 4.6 8.2 11 8.2 18.3 0 13.7-11.1 24.9-24.9 24.9-7.8 0-14.7-3.7-19.3-9.4-.4-.4-.8-.7-1.1-1.1.1.1-87.5-117.4-85-119.8zm105.6 296.7c-105.7 0-191.4-85.7-191.4-191.4 0-52.8 21.4-100.7 56-135.3l11.8 11.8c-31.6 31.6-51.2 75.3-51.2 123.5 0 96.3 78.4 174.7 174.7 174.7s174.5-78.4 174.5-174.7c0-90.3-70.5-165.1-158.5-174V160h-16V64.4c105.7 0 191.5 85.7 191.5 191.4s-85.8 191.4-191.4 191.4z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M256 456c-110.3 0-200-89.7-200-200 0-54.8 21.7-105.9 61.2-144 6.4-6.2 16.6-6 22.7.4 6.2 6.4 6 16.6-.4 22.7-33.1 32-51.3 74.9-51.3 120.9 0 92.5 75.3 167.8 167.8 167.8S423.8 348.5 423.8 256c0-87.1-66.7-159-151.8-167.1v62.6c0 8.9-7.2 16.1-16.1 16.1s-16.1-7.2-16.1-16.1V72.1c0-8.9 7.2-16.1 16.1-16.1 110.3 0 200 89.7 200 200S366.3 456 256 456z"/><path d="M175.9 161.9l99.5 71.5c13.5 9.7 16.7 28.5 7 42s-28.5 16.7-42 7c-2.8-2-5.2-4.4-7-7l-71.5-99.5c-3.2-4.5-2.2-10.8 2.3-14 3.6-2.6 8.3-2.4 11.7 0z"/></svg>
   </div>
 </template>
 
@@ -14,6 +14,21 @@
       let iconTitle = this.title ? this.title : "Ios Timer Icon"
       return {
         iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
       }
     },
     props: {
@@ -32,6 +47,18 @@
       h: {
         type: String,
         default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
       }
     }
   }

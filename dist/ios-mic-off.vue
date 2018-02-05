@@ -1,9 +1,9 @@
 <template>
   <div
     class="ion"
-    :class="rootClass"
+    :class="ionClass"
     name="ios-mic-off-icon">
-    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M136.483 40.109l13.806-8.085L407.89 471.931l-13.807 8.084zM256.2 353.4c12.3 0 23.8-2.9 34.2-8.2L177 152.4V270c0 46 35.4 83.4 79.2 83.4zM335 270V115.5c0-46-35.2-83.5-79-83.5-25.4 0-47.8 12.6-62.3 32.2l136.9 233.3c2.9-8.6 4.4-17.9 4.4-27.5zM384 271.7V192h-17v79.7c0 21.5-6.2 41.6-17.1 58.5l9.9 17c15.3-21.2 24.2-47.3 24.2-75.5z"/><path d="M267 399.2c17-1.2 33-5.8 47.3-13l-9.4-16.1c-14.5 7-30.7 10.9-47.7 10.9-60.3 0-110.1-49-110.1-109.1V192h-19v79.7c0 67.2 53 122.6 120 127.4V462h-73v18h161v-18h-69v-62.8z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M369.8 464c-4.9 0-9.7-2.5-12.3-7L129.9 69.3c-4-6.7-1.7-15.4 5.1-19.3 6.8-3.9 15.5-1.7 19.5 5.1l227.6 387.7c4 6.7 1.7 15.4-5.1 19.3-2.3 1.3-4.8 1.9-7.2 1.9zM320 272V112c0-35.2-28.8-64-64-64-28.4 0-52.6 18.8-60.9 44.5L315 296.8c3.2-7.6 5-16 5-24.8zm-128 0c0 35.2 28.8 64 64 64 3.9 0 7.6-.4 11.3-1L192 206.6V272zm174 3v-69c0-7.7-6.3-14-14-14s-14 6.3-14 14v69c0 15.2-4.2 29.4-11.4 41.6l15.6 26.6c14.9-18.7 23.8-42.4 23.8-68.2z"/><path d="M256 357c-45.2 0-82-36.8-82-82v-69c0-7.7-6.3-14-14-14s-14 6.3-14 14v69c0 55.9 41.9 102.2 96 109.1V436h-36c-7.7 0-14 6.3-14 14s6.3 14 14 14h100c7.7 0 14-6.3 14-14s-6.3-14-14-14h-36v-51.9c7.9-1 15.6-2.9 22.9-5.5l-14.5-24.8c-7.1 2.1-14.6 3.2-22.4 3.2z"/></svg>
   </div>
 </template>
 
@@ -14,6 +14,21 @@
       let iconTitle = this.title ? this.title : "Ios Mic Off Icon"
       return {
         iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
       }
     },
     props: {
@@ -32,6 +47,18 @@
       h: {
         type: String,
         default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
       }
     }
   }

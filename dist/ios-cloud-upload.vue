@@ -1,9 +1,9 @@
 <template>
   <div
     class="ion"
-    :class="rootClass"
+    :class="ionClass"
     name="ios-cloud-upload-icon">
-    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M248 352h16v96h-16zM399.3 183.6c0-1.2.2-2.4.2-3.6 0-64.3-52.8-116.4-116.8-116.4-46.1 0-85.8 27.1-104.4 66.3-8.1-4.1-17.1-6.4-26.8-6.4-29.6 0-54.1 23.6-58.9 52C57.4 187.6 32 222.2 32 261.8c0 49.7 40.1 90.2 89.6 90.2H248V205.8l-54.7 54.5-11.6-11.6 74.5-74.3 74.5 74.3-11.8 11.6-54.9-54.5V352h134c45 0 82-37.3 82-82.8s-35.5-85.5-80.7-85.6z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M437.1 165.8C429 90.6 365.4 32 288 32c-51.2 0-96.3 25.6-123.4 64.7-8.3-3.4-17.4-5.3-26.9-5.3-39.1 0-70.8 34.4-71.4 73.4C26.4 177.5 0 216.5 0 257.5 0 307.7 40.7 352 90.9 352H243V210.1l-47.9 47.2c-5.1 5-13.3 5-18.4-.1-5-5.1-5-13.3.1-18.4l70-69c1.2-1.1 2.5-2.1 4.1-2.7 1.6-.7 3.3-1 5-1 3.4 0 6.6 1.3 9.1 3.7l70 69c5.1 5 5.2 13.3.1 18.4-5 5.1-13.3 5.2-18.4.1L269 210.1V352h152.1c50.2 0 90.9-44.3 90.9-94.5 0-44.7-32.3-84.1-74.9-91.7zM243 467c0 7.2 5.8 13 13 13s13-5.8 13-13V352h-26v115z"/></svg>
   </div>
 </template>
 
@@ -14,6 +14,21 @@
       let iconTitle = this.title ? this.title : "Ios Cloud Upload Icon"
       return {
         iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
       }
     },
     props: {
@@ -32,6 +47,18 @@
       h: {
         type: String,
         default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
       }
     }
   }

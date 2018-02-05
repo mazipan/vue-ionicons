@@ -1,9 +1,9 @@
 <template>
   <div
     class="ion"
-    :class="rootClass"
+    :class="ionClass"
     name="ios-pulse-icon">
-    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><path d="M448 288c-15.268 0-28.029 10.695-31.223 25h-59.004l-30.181-90.896a8.006 8.006 0 0 0-7.759-5.478 7.996 7.996 0 0 0-7.524 5.795L258.067 411.74 199.892 62.685a8.003 8.003 0 0 0-7.576-6.679 7.996 7.996 0 0 0-8.078 6.061L121.748 313H32v16h96a8 8 0 0 0 7.763-6.066l54.685-219.591 57.661 345.973a8.002 8.002 0 0 0 15.583.888l56.872-198.496 23.845 71.813a8.002 8.002 0 0 0 7.593 5.479h65.292c3.89 13.289 16.161 23 30.708 23 17.674 0 32-14.327 32-32S465.674 288 448 288z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M434.6 272.1c-22.4-1.2-41.6 13.2-48.2 32.9h-38.9l-28.4-85.4c-2.2-6.6-8.3-11-15.2-11h-.3c-7 .1-13.1 4.8-15 11.6l-44.5 155.3-52.3-314.1c-1.2-7.5-7.6-13.1-15.2-13.4-7.6-.3-14.3 4.8-16.2 12.1l-53 244.9H48c-8.8 0-16 7.2-16 16s7.2 16 16 16h72c7.3 0 13.8-5 15.5-12.1l37.4-182.2 51.3 307.9c1.2 7.4 7.4 12.9 14.9 13.3h.9c7.1 0 13.4-4.7 15.4-11.6l49.7-173.6 15.7 47.3c2.2 6.5 8.3 11 15.2 11h51.1c6.9 18 24.4 31 44.9 31 27 0 48.8-22.3 48-49.5-.8-24.8-20.7-45.1-45.4-46.4z"/></svg>
   </div>
 </template>
 
@@ -14,6 +14,21 @@
       let iconTitle = this.title ? this.title : "Ios Pulse Icon"
       return {
         iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
       }
     },
     props: {
@@ -32,6 +47,18 @@
       h: {
         type: String,
         default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
       }
     }
   }

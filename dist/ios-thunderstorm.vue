@@ -1,9 +1,9 @@
 <template>
   <div
     class="ion"
-    :class="rootClass"
+    :class="ionClass"
     name="ios-thunderstorm-icon">
-    <svg viewBox="0 0 512 512" class="ion__svg" id="Layer_1" :width="w" :height="h"><path class="st0" d="M272 272l16-48h-72l-15 80h52.3L224 400l66-96 22-32z"/><path class="st0" d="M202.7 208h107.5l-16 48h48.2l-33 48h19c35.7 0 64.6-30.1 64.6-65.9 0-35.8-28.9-65.5-64.6-65.5-2.7 0-5.4 0-8 .3-7.9-35-39.1-61.4-76.4-61.4-43.3 0-78.3 35.2-78.3 78.5 0 2.6.1 5.2.4 7.8-26.4 2.3-47.1 25.7-47.1 52.8 0 28.6 23.2 53.3 51.7 53.3h14"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M374.4 141.9l-13.3-.1C349.4 88.2 306 48 236 48S108.2 98.4 108.2 169.5l.3 4.8C66.3 179.9 32 219.6 32 264c0 47 37.9 88 84.7 88H236l13.8-50.6H183c-2.6 0-4.5-2.4-3.9-4.9l23.2-113c.4-1.8 2-3.1 3.9-3.1h86.1c2.7 0 4.6 2.6 3.8 5.2l-22.5 74.9h60.1c3.1 0 5.1 3.5 3.4 6.1L283.4 352H367c72 0 113-52 113-110 0-58.6-47.3-100.1-105.6-100.1zm-167.6 317c-1.2 4.4 4.8 7 7.2 3.2L283.4 352H236l-29.2 106.9z"/></svg>
   </div>
 </template>
 
@@ -14,6 +14,21 @@
       let iconTitle = this.title ? this.title : "Ios Thunderstorm Icon"
       return {
         iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
       }
     },
     props: {
@@ -32,6 +47,18 @@
       h: {
         type: String,
         default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
       }
     }
   }

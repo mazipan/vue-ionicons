@@ -29,6 +29,32 @@
         <img src="http://ionicons.com/img/ionicons-logo.png"/>
       </div>
 
+      <div class="grid__row centered sample">
+        <div class="card">
+          <h3>Default Icon</h3>
+          <LogoIonicIcon w="60px" h="60px"/>
+          <pre>{{ defaultSampleCode }}</pre>
+        </div>
+
+        <div class="card">
+          <h3>Rotate Icon</h3>
+          <IosRefreshIcon w="60px" h="60px" :rotate="true" style="color:#4F8EF7;"/>
+          <pre>{{ rotateSampleCode }}</pre>
+        </div>
+
+        <div class="card">
+          <h3>Beat Icon</h3>
+          <IosHeartIcon w="60px" h="60px" :beat="true" style="color:red;"/>
+          <pre>{{ beatSampleCode }}</pre>
+        </div>
+
+        <div class="card">
+          <h3>Shake Icon</h3>
+          <IosBicycleIcon w="60px" h="60px" :shake="true" style="color:#00e679;"/>
+          <pre>{{ shakeSampleCode }}</pre>
+        </div>
+      </div>
+
       <div class="grid__row centered search__box">
         <input type="text" class="search__input"
                 placeholder="Search Icon"
@@ -61,26 +87,28 @@
       <h2>Contribute</h2>
       <p>Feel free to fork <i class="fa fa-code-fork"></i> on <a href="https://github.com/mazipan/vue-ionicons" target="_blank">GitHub <i class="fa fa-github"></i></a> if you have any features <i class="fa fa-cart-plus"></i> or bugs <i class="fa fa-bug"></i>!</p>
     </div>
+
     <div class="grid__row content centered">
       <h2>Contact Developer</h2>
       <p>
         <a href="https://github.com/mazipan">
-          <SocialGithubIcon :w="w" :h="h"/>
+          <LogoGithubIcon :w="w" :h="h"/>
         </a>
         <a href="mailto:mazipanneh@gmail.com">
-          <IosEmailIcon :w="w" :h="h" />
+          <IosMailIcon :w="w" :h="h" />
         </a>
         <a href="https://facebook.com/mazipanneh">
-          <SocialFacebookIcon :w="w" :h="h"/>
+          <LogoFacebookIcon :w="w" :h="h"/>
         </a>
         <a href="https://twitter.com/Maz_Ipan">
-          <SocialTwitterIcon :w="w" :h="h"/>
+          <LogoTwitterIcon :w="w" :h="h"/>
         </a>
         <a href="https://id.linkedin.com/in/irfanmaulanamazipan">
-          <SocialLinkedinIcon :w="w" :h="h"/>
+          <LogoLinkedinIcon :w="w" :h="h"/>
         </a>
       </p>
     </div>
+
     <div class="grid__row content centered">
       <p>Copyright © 2017 <a href="https://mazipanneh.com/blog/">Irfan Maulana</a>, All Rights Reserved.</p>
     </div>
@@ -107,6 +135,10 @@ export default {
       w: '30px',
       h: '30px',
       searchText: '',
+      defaultSampleCode: '<LogoIonicIcon w="60px" h="60px"/>',
+      rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" :rotate="true"/>',
+      beatSampleCode: '<IosHeartIcon w="60px" h="60px" :beat="true"/>',
+      shakeSampleCode: '<IosBicycleIcon w="60px" h="60px" :shake="true"/>',
       icons: [
         <%#data%>
         {
@@ -213,6 +245,25 @@ small{
     cursor: pointer;
     display: flex;
   }
+}
+
+pre{
+  padding: 16px;
+  background-color: #f6f8fa;
+}
+.sample{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 2em;
+}
+.card{
+  padding: 1em;
+  width: 45%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 1em;
+  border-radius: .25em;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
 }
 </style>
 

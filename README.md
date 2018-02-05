@@ -7,6 +7,8 @@
 Design icons sourced from the
 [Ionicons](https://github.com/ionic-team/ionicons) project.
 
+> Warning!!! Vue-Ionicons v2.0.0 we will move to ionicons branch [4.0](https://github.com/ionic-team/ionicons/tree/4.0) for better icons naming
+
 ## 🎉 Demo
 
 https://mazipan.github.io/vue-ionicons
@@ -60,7 +62,7 @@ https://mazipan.github.io/vue-ionicons
     <AlertIcon />
     ```
 
-1. You can add props for height and width icon
+1. You can add props
 
     ```html
     <AlertIcon w="30px" h="30px"/>
@@ -75,7 +77,7 @@ Checkout with submodule :
 ```bash
 git clone git@github.com:mazipan/vue-ionicons.git
 git submodule init
-git submodule update
+git submodule update --remote
 ```
 
 Run demo

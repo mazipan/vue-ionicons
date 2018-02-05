@@ -1,0 +1,67 @@
+<template>
+  <div
+    class="ion"
+    :class="ionClass"
+    name="md-ribbon-icon">
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M256 32c-70.7 0-128 57.3-128 128s57.3 128 128 128 128-57.3 128-128S326.7 32 256 32zm0 208c-44.2 0-80-35.8-80-80s35.8-80 80-80 80 35.8 80 80-35.8 80-80 80zm-62.3 67.4c-19.1-8.1-36.2-19.6-50.8-34.3-1.4-1.4-2.8-2.8-4.1-4.3L64 400h96l48 80 48-105.8 25.5-56.2c-8.4 1.3-16.9 2-25.5 2-21.6 0-42.5-4.2-62.3-12.6zm179.6-38.5c-1.3 1.4-2.7 2.9-4.1 4.3-14.6 14.6-31.7 26.2-50.7 34.2L294 361.2l-21.9 48.4L304 480l48-80h96l-74.7-131.1z"/></svg>
+  </div>
+</template>
+
+<script>
+  export default {
+    name: "md-ribbon-icon",
+    data () {
+      let iconTitle = this.title ? this.title : "Md Ribbon Icon"
+      return {
+        iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
+      }
+    },
+    props: {
+      title: {
+        type: String,
+        default: ""
+      },
+      rootClass: {
+        type: String,
+        default: ""
+      },
+      w: {
+        type: String,
+        default: "14px"
+      },
+      h: {
+        type: String,
+        default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
+      }
+    }
+  }
+</script>
+
+

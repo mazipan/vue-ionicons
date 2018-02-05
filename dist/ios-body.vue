@@ -1,9 +1,9 @@
 <template>
   <div
     class="ion"
-    :class="rootClass"
+    :class="ionClass"
     name="ios-body-icon">
-    <svg viewBox="0 0 512 512" class="ion__svg" :width="w" :height="h"><circle cx="256" cy="79.838" r="48"/><path d="M424 144H88c-13.255 0-24 10.745-24 24s10.745 24 24 24h98.451c5.579 1 13.197 3.837 17.216 14.252 4.651 12.056 2.37 33.606-.539 51.727l-3.775 21.395-.058.311-.004.02-30.375 172.268c-2.303 13.053 6.414 25.5 19.467 27.803 13.055 2.301 25.333-6.416 27.634-19.471L237 340.348v.167S243.25 308 255.452 308h1.096C269 308 275 340.515 275 340.515v-.083l20.983 119.913c2.301 13.055 14.663 21.749 27.718 19.448 13.053-2.303 21.728-14.762 19.425-27.814L312.73 279.703c-.002-.008-.013-.02-.015-.027-.019-.104-.044-.217-.063-.322l-3.777-21.414c-2.909-18.121-5.191-39.631-.541-51.688C312.354 195.838 319.97 193 325.549 192H424c13.255 0 24-10.745 24-24s-10.745-24-24-24z"/></svg>
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><ellipse cx="256" cy="80" rx="48" ry="48"/><path d="M424 144H88c-13.3 0-24 10.7-24 24s10.7 24 24 24h98.5c5.6 1 13.2 3.8 17.2 14.2 4.7 12.1 2.4 33.6-.5 51.7l-3.8 21.4c0 .1 0 .2-.1.3l-30.4 172.2c-2.3 13 6.4 25.5 19.5 27.8 13.1 2.3 25.3-6.4 27.6-19.5l21-119.9v.2s6.2-32.5 18.5-32.5h1.1c12.5 0 18.5 32.5 18.5 32.5v-.1l21 119.9c2.3 13 14.7 21.7 27.7 19.4 13.1-2.3 21.7-14.8 19.4-27.8l-30.4-172.2c0-.1 0-.2-.1-.3l-3.8-21.4c-2.9-18.1-5.2-39.6-.5-51.7 4-10.4 11.6-13.2 17.2-14.2H424c13.3 0 24-10.7 24-24s-10.7-24-24-24z"/></svg>
   </div>
 </template>
 
@@ -14,6 +14,21 @@
       let iconTitle = this.title ? this.title : "Ios Body Icon"
       return {
         iconTitle: iconTitle
+      }
+    },
+    computed: {
+      ionClass() {
+        let addClass = ''
+
+        if (this.rotate) {
+          addClass = addClass + 'ion-rotate '
+        } else if (this.beat) {
+          addClass = addClass + 'ion-beat '
+        } else if (this.shake) {
+          addClass = addClass + 'ion-shake '
+        }
+
+        return `${this.rootClass} ${addClass}`
       }
     },
     props: {
@@ -32,6 +47,18 @@
       h: {
         type: String,
         default: "14px"
+      },
+      rotate: {
+        type: Boolean,
+        default: false
+      },
+      beat: {
+        type: Boolean,
+        default: false
+      },
+      shake: {
+        type: Boolean,
+        default: false
       }
     }
   }
