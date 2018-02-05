@@ -12,7 +12,7 @@
 
         <a href="https://github.com/mazipan/vue-ionicons"
             target="_blank" style="margin-right: 2em;">
-          <SocialGithubIcon :w="w" :h="h"/>
+          <LogoGithubIcon :w="w" :h="h"/>
         </a>
 
       </div>
@@ -132,9 +132,9 @@ import IosArchiveIcon  from 'dist/ios-archive.vue'
 import IosArrowBackIcon  from 'dist/ios-arrow-back.vue'
 import IosArrowDownIcon  from 'dist/ios-arrow-down.vue'
 import IosArrowDropdownCircleIcon  from 'dist/ios-arrow-dropdown-circle.vue'
+import IosArrowDropdownIcon  from 'dist/ios-arrow-dropdown.vue'
 import IosArrowDropleftCircleIcon  from 'dist/ios-arrow-dropleft-circle.vue'
 import IosArrowDropleftIcon  from 'dist/ios-arrow-dropleft.vue'
-import IosArrowDropdownIcon  from 'dist/ios-arrow-dropdown.vue'
 import IosArrowDroprightCircleIcon  from 'dist/ios-arrow-dropright-circle.vue'
 import IosArrowDroprightIcon  from 'dist/ios-arrow-dropright.vue'
 import IosArrowDropupCircleIcon  from 'dist/ios-arrow-dropup-circle.vue'
@@ -148,6 +148,7 @@ import IosArrowUpIcon  from 'dist/ios-arrow-up.vue'
 import IosAtIcon  from 'dist/ios-at.vue'
 import IosAttachIcon  from 'dist/ios-attach.vue'
 import IosBackspaceIcon  from 'dist/ios-backspace.vue'
+import IosBarcodeIcon  from 'dist/ios-barcode.vue'
 import IosBaseballIcon  from 'dist/ios-baseball.vue'
 import IosBasketIcon  from 'dist/ios-basket.vue'
 import IosBasketballIcon  from 'dist/ios-basketball.vue'
@@ -155,7 +156,6 @@ import IosBatteryChargingIcon  from 'dist/ios-battery-charging.vue'
 import IosBatteryDeadIcon  from 'dist/ios-battery-dead.vue'
 import IosBatteryFullIcon  from 'dist/ios-battery-full.vue'
 import IosBeakerIcon  from 'dist/ios-beaker.vue'
-import IosBarcodeIcon  from 'dist/ios-barcode.vue'
 import IosBedIcon  from 'dist/ios-bed.vue'
 import IosBeerIcon  from 'dist/ios-beer.vue'
 import IosBicycleIcon  from 'dist/ios-bicycle.vue'
@@ -211,8 +211,8 @@ import IosCodeIcon  from 'dist/ios-code.vue'
 import IosCogIcon  from 'dist/ios-cog.vue'
 import IosColorFillIcon  from 'dist/ios-color-fill.vue'
 import IosColorFilterIcon  from 'dist/ios-color-filter.vue'
-import IosColorPaletteIcon  from 'dist/ios-color-palette.vue'
 import IosColorWandIcon  from 'dist/ios-color-wand.vue'
+import IosColorPaletteIcon  from 'dist/ios-color-palette.vue'
 import IosCompassIcon  from 'dist/ios-compass.vue'
 import IosConstructIcon  from 'dist/ios-construct.vue'
 import IosContactIcon  from 'dist/ios-contact.vue'
@@ -449,8 +449,8 @@ import LogoDribbbleIcon  from 'dist/logo-dribbble.vue'
 import LogoDropboxIcon  from 'dist/logo-dropbox.vue'
 import LogoEuroIcon  from 'dist/logo-euro.vue'
 import LogoFacebookIcon  from 'dist/logo-facebook.vue'
-import LogoFoursquareIcon  from 'dist/logo-foursquare.vue'
 import LogoFlickrIcon  from 'dist/logo-flickr.vue'
+import LogoFoursquareIcon  from 'dist/logo-foursquare.vue'
 import LogoFreebsdDevilIcon  from 'dist/logo-freebsd-devil.vue'
 import LogoGameControllerAIcon  from 'dist/logo-game-controller-a.vue'
 import LogoGameControllerBIcon  from 'dist/logo-game-controller-b.vue'
@@ -522,8 +522,8 @@ import MdArrowDropupIcon  from 'dist/md-arrow-dropup.vue'
 import MdArrowForwardIcon  from 'dist/md-arrow-forward.vue'
 import MdArrowRoundBackIcon  from 'dist/md-arrow-round-back.vue'
 import MdArrowRoundDownIcon  from 'dist/md-arrow-round-down.vue'
-import MdArrowRoundUpIcon  from 'dist/md-arrow-round-up.vue'
 import MdArrowRoundForwardIcon  from 'dist/md-arrow-round-forward.vue'
+import MdArrowRoundUpIcon  from 'dist/md-arrow-round-up.vue'
 import MdArrowUpIcon  from 'dist/md-arrow-up.vue'
 import MdAtIcon  from 'dist/md-at.vue'
 import MdAttachIcon  from 'dist/md-attach.vue'
@@ -699,18 +699,18 @@ import MdMusicalNotesIcon  from 'dist/md-musical-notes.vue'
 import MdNavigateIcon  from 'dist/md-navigate.vue'
 import MdNotificationsOffIcon  from 'dist/md-notifications-off.vue'
 import MdNotificationsOutlineIcon  from 'dist/md-notifications-outline.vue'
-import MdNuclearIcon  from 'dist/md-nuclear.vue'
 import MdNotificationsIcon  from 'dist/md-notifications.vue'
+import MdNuclearIcon  from 'dist/md-nuclear.vue'
 import MdNutritionIcon  from 'dist/md-nutrition.vue'
 import MdOpenIcon  from 'dist/md-open.vue'
-import MdOutletIcon  from 'dist/md-outlet.vue'
 import MdOptionsIcon  from 'dist/md-options.vue'
+import MdOutletIcon  from 'dist/md-outlet.vue'
 import MdPaperPlaneIcon  from 'dist/md-paper-plane.vue'
 import MdPaperIcon  from 'dist/md-paper.vue'
-import MdPauseIcon  from 'dist/md-pause.vue'
 import MdPartlySunnyIcon  from 'dist/md-partly-sunny.vue'
-import MdPeopleIcon  from 'dist/md-people.vue'
+import MdPauseIcon  from 'dist/md-pause.vue'
 import MdPawIcon  from 'dist/md-paw.vue'
+import MdPeopleIcon  from 'dist/md-people.vue'
 import MdPersonAddIcon  from 'dist/md-person-add.vue'
 import MdPersonIcon  from 'dist/md-person.vue'
 import MdPhoneLandscapeIcon  from 'dist/md-phone-landscape.vue'
@@ -833,9 +833,9 @@ export default {
     IosArrowBackIcon,
     IosArrowDownIcon,
     IosArrowDropdownCircleIcon,
+    IosArrowDropdownIcon,
     IosArrowDropleftCircleIcon,
     IosArrowDropleftIcon,
-    IosArrowDropdownIcon,
     IosArrowDroprightCircleIcon,
     IosArrowDroprightIcon,
     IosArrowDropupCircleIcon,
@@ -849,6 +849,7 @@ export default {
     IosAtIcon,
     IosAttachIcon,
     IosBackspaceIcon,
+    IosBarcodeIcon,
     IosBaseballIcon,
     IosBasketIcon,
     IosBasketballIcon,
@@ -856,7 +857,6 @@ export default {
     IosBatteryDeadIcon,
     IosBatteryFullIcon,
     IosBeakerIcon,
-    IosBarcodeIcon,
     IosBedIcon,
     IosBeerIcon,
     IosBicycleIcon,
@@ -912,8 +912,8 @@ export default {
     IosCogIcon,
     IosColorFillIcon,
     IosColorFilterIcon,
-    IosColorPaletteIcon,
     IosColorWandIcon,
+    IosColorPaletteIcon,
     IosCompassIcon,
     IosConstructIcon,
     IosContactIcon,
@@ -1150,8 +1150,8 @@ export default {
     LogoDropboxIcon,
     LogoEuroIcon,
     LogoFacebookIcon,
-    LogoFoursquareIcon,
     LogoFlickrIcon,
+    LogoFoursquareIcon,
     LogoFreebsdDevilIcon,
     LogoGameControllerAIcon,
     LogoGameControllerBIcon,
@@ -1223,8 +1223,8 @@ export default {
     MdArrowForwardIcon,
     MdArrowRoundBackIcon,
     MdArrowRoundDownIcon,
-    MdArrowRoundUpIcon,
     MdArrowRoundForwardIcon,
+    MdArrowRoundUpIcon,
     MdArrowUpIcon,
     MdAtIcon,
     MdAttachIcon,
@@ -1400,18 +1400,18 @@ export default {
     MdNavigateIcon,
     MdNotificationsOffIcon,
     MdNotificationsOutlineIcon,
-    MdNuclearIcon,
     MdNotificationsIcon,
+    MdNuclearIcon,
     MdNutritionIcon,
     MdOpenIcon,
-    MdOutletIcon,
     MdOptionsIcon,
+    MdOutletIcon,
     MdPaperPlaneIcon,
     MdPaperIcon,
-    MdPauseIcon,
     MdPartlySunnyIcon,
-    MdPeopleIcon,
+    MdPauseIcon,
     MdPawIcon,
+    MdPeopleIcon,
     MdPersonAddIcon,
     MdPersonIcon,
     MdPhoneLandscapeIcon,
@@ -1608,6 +1608,11 @@ export default {
           libraryName: 'IosArrowDropdownCircleIcon'
         },
         {
+          name: 'ios-arrow-dropdown-icon',
+          readableName: 'Ios Arrow Dropdown',
+          libraryName: 'IosArrowDropdownIcon'
+        },
+        {
           name: 'ios-arrow-dropleft-circle-icon',
           readableName: 'Ios Arrow Dropleft Circle',
           libraryName: 'IosArrowDropleftCircleIcon'
@@ -1616,11 +1621,6 @@ export default {
           name: 'ios-arrow-dropleft-icon',
           readableName: 'Ios Arrow Dropleft',
           libraryName: 'IosArrowDropleftIcon'
-        },
-        {
-          name: 'ios-arrow-dropdown-icon',
-          readableName: 'Ios Arrow Dropdown',
-          libraryName: 'IosArrowDropdownIcon'
         },
         {
           name: 'ios-arrow-dropright-circle-icon',
@@ -1688,6 +1688,11 @@ export default {
           libraryName: 'IosBackspaceIcon'
         },
         {
+          name: 'ios-barcode-icon',
+          readableName: 'Ios Barcode',
+          libraryName: 'IosBarcodeIcon'
+        },
+        {
           name: 'ios-baseball-icon',
           readableName: 'Ios Baseball',
           libraryName: 'IosBaseballIcon'
@@ -1721,11 +1726,6 @@ export default {
           name: 'ios-beaker-icon',
           readableName: 'Ios Beaker',
           libraryName: 'IosBeakerIcon'
-        },
-        {
-          name: 'ios-barcode-icon',
-          readableName: 'Ios Barcode',
-          libraryName: 'IosBarcodeIcon'
         },
         {
           name: 'ios-bed-icon',
@@ -2003,14 +2003,14 @@ export default {
           libraryName: 'IosColorFilterIcon'
         },
         {
-          name: 'ios-color-palette-icon',
-          readableName: 'Ios Color Palette',
-          libraryName: 'IosColorPaletteIcon'
-        },
-        {
           name: 'ios-color-wand-icon',
           readableName: 'Ios Color Wand',
           libraryName: 'IosColorWandIcon'
+        },
+        {
+          name: 'ios-color-palette-icon',
+          readableName: 'Ios Color Palette',
+          libraryName: 'IosColorPaletteIcon'
         },
         {
           name: 'ios-compass-icon',
@@ -3193,14 +3193,14 @@ export default {
           libraryName: 'LogoFacebookIcon'
         },
         {
-          name: 'logo-foursquare-icon',
-          readableName: 'Logo Foursquare',
-          libraryName: 'LogoFoursquareIcon'
-        },
-        {
           name: 'logo-flickr-icon',
           readableName: 'Logo Flickr',
           libraryName: 'LogoFlickrIcon'
+        },
+        {
+          name: 'logo-foursquare-icon',
+          readableName: 'Logo Foursquare',
+          libraryName: 'LogoFoursquareIcon'
         },
         {
           name: 'logo-freebsd-devil-icon',
@@ -3558,14 +3558,14 @@ export default {
           libraryName: 'MdArrowRoundDownIcon'
         },
         {
-          name: 'md-arrow-round-up-icon',
-          readableName: 'Md Arrow Round Up',
-          libraryName: 'MdArrowRoundUpIcon'
-        },
-        {
           name: 'md-arrow-round-forward-icon',
           readableName: 'Md Arrow Round Forward',
           libraryName: 'MdArrowRoundForwardIcon'
+        },
+        {
+          name: 'md-arrow-round-up-icon',
+          readableName: 'Md Arrow Round Up',
+          libraryName: 'MdArrowRoundUpIcon'
         },
         {
           name: 'md-arrow-up-icon',
@@ -4443,14 +4443,14 @@ export default {
           libraryName: 'MdNotificationsOutlineIcon'
         },
         {
-          name: 'md-nuclear-icon',
-          readableName: 'Md Nuclear',
-          libraryName: 'MdNuclearIcon'
-        },
-        {
           name: 'md-notifications-icon',
           readableName: 'Md Notifications',
           libraryName: 'MdNotificationsIcon'
+        },
+        {
+          name: 'md-nuclear-icon',
+          readableName: 'Md Nuclear',
+          libraryName: 'MdNuclearIcon'
         },
         {
           name: 'md-nutrition-icon',
@@ -4463,14 +4463,14 @@ export default {
           libraryName: 'MdOpenIcon'
         },
         {
-          name: 'md-outlet-icon',
-          readableName: 'Md Outlet',
-          libraryName: 'MdOutletIcon'
-        },
-        {
           name: 'md-options-icon',
           readableName: 'Md Options',
           libraryName: 'MdOptionsIcon'
+        },
+        {
+          name: 'md-outlet-icon',
+          readableName: 'Md Outlet',
+          libraryName: 'MdOutletIcon'
         },
         {
           name: 'md-paper-plane-icon',
@@ -4483,24 +4483,24 @@ export default {
           libraryName: 'MdPaperIcon'
         },
         {
-          name: 'md-pause-icon',
-          readableName: 'Md Pause',
-          libraryName: 'MdPauseIcon'
-        },
-        {
           name: 'md-partly-sunny-icon',
           readableName: 'Md Partly Sunny',
           libraryName: 'MdPartlySunnyIcon'
         },
         {
-          name: 'md-people-icon',
-          readableName: 'Md People',
-          libraryName: 'MdPeopleIcon'
+          name: 'md-pause-icon',
+          readableName: 'Md Pause',
+          libraryName: 'MdPauseIcon'
         },
         {
           name: 'md-paw-icon',
           readableName: 'Md Paw',
           libraryName: 'MdPawIcon'
+        },
+        {
+          name: 'md-people-icon',
+          readableName: 'Md People',
+          libraryName: 'MdPeopleIcon'
         },
         {
           name: 'md-person-add-icon',

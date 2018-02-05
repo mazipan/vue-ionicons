@@ -13,7 +13,7 @@
 
         <a href="https://github.com/mazipan/vue-ionicons"
             target="_blank" style="margin-right: 2em;">
-          <SocialGithubIcon :w="w" :h="h"/>
+          <LogoGithubIcon :w="w" :h="h"/>
         </a>
 
       </div>
