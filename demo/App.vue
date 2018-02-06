@@ -161,13 +161,13 @@ import IosBeerIcon  from 'dist/ios-beer.vue'
 import IosBicycleIcon  from 'dist/ios-bicycle.vue'
 import IosBluetoothIcon  from 'dist/ios-bluetooth.vue'
 import IosBoatIcon  from 'dist/ios-boat.vue'
-import IosBodyIcon  from 'dist/ios-body.vue'
 import IosBonfireIcon  from 'dist/ios-bonfire.vue'
+import IosBodyIcon  from 'dist/ios-body.vue'
 import IosBookIcon  from 'dist/ios-book.vue'
 import IosBookmarkIcon  from 'dist/ios-bookmark.vue'
 import IosBookmarksIcon  from 'dist/ios-bookmarks.vue'
-import IosBowtieIcon  from 'dist/ios-bowtie.vue'
 import IosBriefcaseIcon  from 'dist/ios-briefcase.vue'
+import IosBowtieIcon  from 'dist/ios-bowtie.vue'
 import IosBrowsersIcon  from 'dist/ios-browsers.vue'
 import IosBrushIcon  from 'dist/ios-brush.vue'
 import IosBugIcon  from 'dist/ios-bug.vue'
@@ -210,8 +210,8 @@ import IosCodeWorkingIcon  from 'dist/ios-code-working.vue'
 import IosCodeIcon  from 'dist/ios-code.vue'
 import IosCogIcon  from 'dist/ios-cog.vue'
 import IosColorFillIcon  from 'dist/ios-color-fill.vue'
-import IosColorFilterIcon  from 'dist/ios-color-filter.vue'
 import IosColorPaletteIcon  from 'dist/ios-color-palette.vue'
+import IosColorFilterIcon  from 'dist/ios-color-filter.vue'
 import IosColorWandIcon  from 'dist/ios-color-wand.vue'
 import IosCompassIcon  from 'dist/ios-compass.vue'
 import IosConstructIcon  from 'dist/ios-construct.vue'
@@ -224,8 +224,8 @@ import IosCreateIcon  from 'dist/ios-create.vue'
 import IosCropIcon  from 'dist/ios-crop.vue'
 import IosCubeIcon  from 'dist/ios-cube.vue'
 import IosCutIcon  from 'dist/ios-cut.vue'
-import IosDesktopIcon  from 'dist/ios-desktop.vue'
 import IosDiscIcon  from 'dist/ios-disc.vue'
+import IosDesktopIcon  from 'dist/ios-desktop.vue'
 import IosDocumentIcon  from 'dist/ios-document.vue'
 import IosDoneAllIcon  from 'dist/ios-done-all.vue'
 import IosDownloadIcon  from 'dist/ios-download.vue'
@@ -237,13 +237,13 @@ import IosEyeOffIcon  from 'dist/ios-eye-off.vue'
 import IosEyeIcon  from 'dist/ios-eye.vue'
 import IosFastforwardIcon  from 'dist/ios-fastforward.vue'
 import IosFemaleIcon  from 'dist/ios-female.vue'
-import IosFilingIcon  from 'dist/ios-filing.vue'
 import IosFilmIcon  from 'dist/ios-film.vue'
+import IosFilingIcon  from 'dist/ios-filing.vue'
 import IosFingerPrintIcon  from 'dist/ios-finger-print.vue'
-import IosFlagIcon  from 'dist/ios-flag.vue'
 import IosFitnessIcon  from 'dist/ios-fitness.vue'
-import IosFlameIcon  from 'dist/ios-flame.vue'
+import IosFlagIcon  from 'dist/ios-flag.vue'
 import IosFlashOffIcon  from 'dist/ios-flash-off.vue'
+import IosFlameIcon  from 'dist/ios-flame.vue'
 import IosFlashIcon  from 'dist/ios-flash.vue'
 import IosFlashlightIcon  from 'dist/ios-flashlight.vue'
 import IosFlaskIcon  from 'dist/ios-flask.vue'
@@ -286,15 +286,15 @@ import IosInformationIcon  from 'dist/ios-information.vue'
 import IosJetIcon  from 'dist/ios-jet.vue'
 import IosJournalIcon  from 'dist/ios-journal.vue'
 import IosKeyIcon  from 'dist/ios-key.vue'
-import IosKeypadIcon  from 'dist/ios-keypad.vue'
 import IosLaptopIcon  from 'dist/ios-laptop.vue'
+import IosKeypadIcon  from 'dist/ios-keypad.vue'
 import IosLeafIcon  from 'dist/ios-leaf.vue'
 import IosLinkIcon  from 'dist/ios-link.vue'
 import IosListBoxIcon  from 'dist/ios-list-box.vue'
 import IosListIcon  from 'dist/ios-list.vue'
-import IosLocateIcon  from 'dist/ios-locate.vue'
 import IosLockIcon  from 'dist/ios-lock.vue'
 import IosLogInIcon  from 'dist/ios-log-in.vue'
+import IosLocateIcon  from 'dist/ios-locate.vue'
 import IosLogOutIcon  from 'dist/ios-log-out.vue'
 import IosMagnetIcon  from 'dist/ios-magnet.vue'
 import IosMailOpenIcon  from 'dist/ios-mail-open.vue'
@@ -315,8 +315,8 @@ import IosMoonIcon  from 'dist/ios-moon.vue'
 import IosMoreIcon  from 'dist/ios-more.vue'
 import IosMoveIcon  from 'dist/ios-move.vue'
 import IosMusicalNoteIcon  from 'dist/ios-musical-note.vue'
-import IosMusicalNotesIcon  from 'dist/ios-musical-notes.vue'
 import IosNavigateIcon  from 'dist/ios-navigate.vue'
+import IosMusicalNotesIcon  from 'dist/ios-musical-notes.vue'
 import IosNotificationsOffIcon  from 'dist/ios-notifications-off.vue'
 import IosNotificationsOutlineIcon  from 'dist/ios-notifications-outline.vue'
 import IosNotificationsIcon  from 'dist/ios-notifications.vue'
@@ -470,8 +470,8 @@ import LogoNoSmokingIcon  from 'dist/logo-no-smoking.vue'
 import LogoNodejsIcon  from 'dist/logo-nodejs.vue'
 import LogoNpmIcon  from 'dist/logo-npm.vue'
 import LogoOctocatIcon  from 'dist/logo-octocat.vue'
-import LogoPinterestIcon  from 'dist/logo-pinterest.vue'
 import LogoPlaystationIcon  from 'dist/logo-playstation.vue'
+import LogoPinterestIcon  from 'dist/logo-pinterest.vue'
 import LogoPolymerIcon  from 'dist/logo-polymer.vue'
 import LogoPythonIcon  from 'dist/logo-python.vue'
 import LogoRedditIcon  from 'dist/logo-reddit.vue'
@@ -493,8 +493,8 @@ import LogoWindowsIcon  from 'dist/logo-windows.vue'
 import LogoWordpressIcon  from 'dist/logo-wordpress.vue'
 import LogoXboxIcon  from 'dist/logo-xbox.vue'
 import LogoXingIcon  from 'dist/logo-xing.vue'
-import LogoYahooIcon  from 'dist/logo-yahoo.vue'
 import LogoYenIcon  from 'dist/logo-yen.vue'
+import LogoYahooIcon  from 'dist/logo-yahoo.vue'
 import LogoYoutubeIcon  from 'dist/logo-youtube.vue'
 import MdAddCircleOutlineIcon  from 'dist/md-add-circle-outline.vue'
 import MdAddCircleIcon  from 'dist/md-add-circle.vue'
@@ -553,7 +553,6 @@ import MdBrushIcon  from 'dist/md-brush.vue'
 import MdBugIcon  from 'dist/md-bug.vue'
 import MdBuildIcon  from 'dist/md-build.vue'
 import MdBulbIcon  from 'dist/md-bulb.vue'
-import MdBusIcon  from 'dist/md-bus.vue'
 import MdBusinessIcon  from 'dist/md-business.vue'
 import MdCafeIcon  from 'dist/md-cafe.vue'
 import MdCalculatorIcon  from 'dist/md-calculator.vue'
@@ -579,6 +578,7 @@ import MdCloseCircleIcon  from 'dist/md-close-circle.vue'
 import MdCloseIcon  from 'dist/md-close.vue'
 import MdCloudCircleIcon  from 'dist/md-cloud-circle.vue'
 import MdCloudDoneIcon  from 'dist/md-cloud-done.vue'
+import MdBusIcon  from 'dist/md-bus.vue'
 import MdCloudDownloadIcon  from 'dist/md-cloud-download.vue'
 import MdCloudOutlineIcon  from 'dist/md-cloud-outline.vue'
 import MdCloudUploadIcon  from 'dist/md-cloud-upload.vue'
@@ -653,8 +653,8 @@ import MdHeartIcon  from 'dist/md-heart.vue'
 import MdHelpBuoyIcon  from 'dist/md-help-buoy.vue'
 import MdHelpCircleOutlineIcon  from 'dist/md-help-circle-outline.vue'
 import MdHelpCircleIcon  from 'dist/md-help-circle.vue'
-import MdHelpIcon  from 'dist/md-help.vue'
 import MdHomeIcon  from 'dist/md-home.vue'
+import MdHelpIcon  from 'dist/md-help.vue'
 import MdHourglassIcon  from 'dist/md-hourglass.vue'
 import MdIceCreamIcon  from 'dist/md-ice-cream.vue'
 import MdImageIcon  from 'dist/md-image.vue'
@@ -678,8 +678,8 @@ import MdLogInIcon  from 'dist/md-log-in.vue'
 import MdLogOutIcon  from 'dist/md-log-out.vue'
 import MdMagnetIcon  from 'dist/md-magnet.vue'
 import MdMailOpenIcon  from 'dist/md-mail-open.vue'
-import MdMailUnreadIcon  from 'dist/md-mail-unread.vue'
 import MdMailIcon  from 'dist/md-mail.vue'
+import MdMailUnreadIcon  from 'dist/md-mail-unread.vue'
 import MdMaleIcon  from 'dist/md-male.vue'
 import MdManIcon  from 'dist/md-man.vue'
 import MdMapIcon  from 'dist/md-map.vue'
@@ -762,8 +762,8 @@ import MdSendIcon  from 'dist/md-send.vue'
 import MdSettingsIcon  from 'dist/md-settings.vue'
 import MdShareAltIcon  from 'dist/md-share-alt.vue'
 import MdShareIcon  from 'dist/md-share.vue'
-import MdShirtIcon  from 'dist/md-shirt.vue'
 import MdShuffleIcon  from 'dist/md-shuffle.vue'
+import MdShirtIcon  from 'dist/md-shirt.vue'
 import MdSkipBackwardIcon  from 'dist/md-skip-backward.vue'
 import MdSkipForwardIcon  from 'dist/md-skip-forward.vue'
 import MdSnowIcon  from 'dist/md-snow.vue'
@@ -785,8 +785,8 @@ import MdTabletPortraitIcon  from 'dist/md-tablet-portrait.vue'
 import MdTennisballIcon  from 'dist/md-tennisball.vue'
 import MdTextIcon  from 'dist/md-text.vue'
 import MdThermometerIcon  from 'dist/md-thermometer.vue'
-import MdThumbsDownIcon  from 'dist/md-thumbs-down.vue'
 import MdThumbsUpIcon  from 'dist/md-thumbs-up.vue'
+import MdThumbsDownIcon  from 'dist/md-thumbs-down.vue'
 import MdThunderstormIcon  from 'dist/md-thunderstorm.vue'
 import MdTimeIcon  from 'dist/md-time.vue'
 import MdTimerIcon  from 'dist/md-timer.vue'
@@ -862,13 +862,13 @@ export default {
     IosBicycleIcon,
     IosBluetoothIcon,
     IosBoatIcon,
-    IosBodyIcon,
     IosBonfireIcon,
+    IosBodyIcon,
     IosBookIcon,
     IosBookmarkIcon,
     IosBookmarksIcon,
-    IosBowtieIcon,
     IosBriefcaseIcon,
+    IosBowtieIcon,
     IosBrowsersIcon,
     IosBrushIcon,
     IosBugIcon,
@@ -911,8 +911,8 @@ export default {
     IosCodeIcon,
     IosCogIcon,
     IosColorFillIcon,
-    IosColorFilterIcon,
     IosColorPaletteIcon,
+    IosColorFilterIcon,
     IosColorWandIcon,
     IosCompassIcon,
     IosConstructIcon,
@@ -925,8 +925,8 @@ export default {
     IosCropIcon,
     IosCubeIcon,
     IosCutIcon,
-    IosDesktopIcon,
     IosDiscIcon,
+    IosDesktopIcon,
     IosDocumentIcon,
     IosDoneAllIcon,
     IosDownloadIcon,
@@ -938,13 +938,13 @@ export default {
     IosEyeIcon,
     IosFastforwardIcon,
     IosFemaleIcon,
-    IosFilingIcon,
     IosFilmIcon,
+    IosFilingIcon,
     IosFingerPrintIcon,
-    IosFlagIcon,
     IosFitnessIcon,
-    IosFlameIcon,
+    IosFlagIcon,
     IosFlashOffIcon,
+    IosFlameIcon,
     IosFlashIcon,
     IosFlashlightIcon,
     IosFlaskIcon,
@@ -987,15 +987,15 @@ export default {
     IosJetIcon,
     IosJournalIcon,
     IosKeyIcon,
-    IosKeypadIcon,
     IosLaptopIcon,
+    IosKeypadIcon,
     IosLeafIcon,
     IosLinkIcon,
     IosListBoxIcon,
     IosListIcon,
-    IosLocateIcon,
     IosLockIcon,
     IosLogInIcon,
+    IosLocateIcon,
     IosLogOutIcon,
     IosMagnetIcon,
     IosMailOpenIcon,
@@ -1016,8 +1016,8 @@ export default {
     IosMoreIcon,
     IosMoveIcon,
     IosMusicalNoteIcon,
-    IosMusicalNotesIcon,
     IosNavigateIcon,
+    IosMusicalNotesIcon,
     IosNotificationsOffIcon,
     IosNotificationsOutlineIcon,
     IosNotificationsIcon,
@@ -1171,8 +1171,8 @@ export default {
     LogoNodejsIcon,
     LogoNpmIcon,
     LogoOctocatIcon,
-    LogoPinterestIcon,
     LogoPlaystationIcon,
+    LogoPinterestIcon,
     LogoPolymerIcon,
     LogoPythonIcon,
     LogoRedditIcon,
@@ -1194,8 +1194,8 @@ export default {
     LogoWordpressIcon,
     LogoXboxIcon,
     LogoXingIcon,
-    LogoYahooIcon,
     LogoYenIcon,
+    LogoYahooIcon,
     LogoYoutubeIcon,
     MdAddCircleOutlineIcon,
     MdAddCircleIcon,
@@ -1254,7 +1254,6 @@ export default {
     MdBugIcon,
     MdBuildIcon,
     MdBulbIcon,
-    MdBusIcon,
     MdBusinessIcon,
     MdCafeIcon,
     MdCalculatorIcon,
@@ -1280,6 +1279,7 @@ export default {
     MdCloseIcon,
     MdCloudCircleIcon,
     MdCloudDoneIcon,
+    MdBusIcon,
     MdCloudDownloadIcon,
     MdCloudOutlineIcon,
     MdCloudUploadIcon,
@@ -1354,8 +1354,8 @@ export default {
     MdHelpBuoyIcon,
     MdHelpCircleOutlineIcon,
     MdHelpCircleIcon,
-    MdHelpIcon,
     MdHomeIcon,
+    MdHelpIcon,
     MdHourglassIcon,
     MdIceCreamIcon,
     MdImageIcon,
@@ -1379,8 +1379,8 @@ export default {
     MdLogOutIcon,
     MdMagnetIcon,
     MdMailOpenIcon,
-    MdMailUnreadIcon,
     MdMailIcon,
+    MdMailUnreadIcon,
     MdMaleIcon,
     MdManIcon,
     MdMapIcon,
@@ -1463,8 +1463,8 @@ export default {
     MdSettingsIcon,
     MdShareAltIcon,
     MdShareIcon,
-    MdShirtIcon,
     MdShuffleIcon,
+    MdShirtIcon,
     MdSkipBackwardIcon,
     MdSkipForwardIcon,
     MdSnowIcon,
@@ -1486,8 +1486,8 @@ export default {
     MdTennisballIcon,
     MdTextIcon,
     MdThermometerIcon,
-    MdThumbsDownIcon,
     MdThumbsUpIcon,
+    MdThumbsDownIcon,
     MdThunderstormIcon,
     MdTimeIcon,
     MdTimerIcon,
@@ -1753,14 +1753,14 @@ export default {
           libraryName: 'IosBoatIcon'
         },
         {
-          name: 'ios-body-icon',
-          readableName: 'Ios Body',
-          libraryName: 'IosBodyIcon'
-        },
-        {
           name: 'ios-bonfire-icon',
           readableName: 'Ios Bonfire',
           libraryName: 'IosBonfireIcon'
+        },
+        {
+          name: 'ios-body-icon',
+          readableName: 'Ios Body',
+          libraryName: 'IosBodyIcon'
         },
         {
           name: 'ios-book-icon',
@@ -1778,14 +1778,14 @@ export default {
           libraryName: 'IosBookmarksIcon'
         },
         {
-          name: 'ios-bowtie-icon',
-          readableName: 'Ios Bowtie',
-          libraryName: 'IosBowtieIcon'
-        },
-        {
           name: 'ios-briefcase-icon',
           readableName: 'Ios Briefcase',
           libraryName: 'IosBriefcaseIcon'
+        },
+        {
+          name: 'ios-bowtie-icon',
+          readableName: 'Ios Bowtie',
+          libraryName: 'IosBowtieIcon'
         },
         {
           name: 'ios-browsers-icon',
@@ -1998,14 +1998,14 @@ export default {
           libraryName: 'IosColorFillIcon'
         },
         {
-          name: 'ios-color-filter-icon',
-          readableName: 'Ios Color Filter',
-          libraryName: 'IosColorFilterIcon'
-        },
-        {
           name: 'ios-color-palette-icon',
           readableName: 'Ios Color Palette',
           libraryName: 'IosColorPaletteIcon'
+        },
+        {
+          name: 'ios-color-filter-icon',
+          readableName: 'Ios Color Filter',
+          libraryName: 'IosColorFilterIcon'
         },
         {
           name: 'ios-color-wand-icon',
@@ -2068,14 +2068,14 @@ export default {
           libraryName: 'IosCutIcon'
         },
         {
-          name: 'ios-desktop-icon',
-          readableName: 'Ios Desktop',
-          libraryName: 'IosDesktopIcon'
-        },
-        {
           name: 'ios-disc-icon',
           readableName: 'Ios Disc',
           libraryName: 'IosDiscIcon'
+        },
+        {
+          name: 'ios-desktop-icon',
+          readableName: 'Ios Desktop',
+          libraryName: 'IosDesktopIcon'
         },
         {
           name: 'ios-document-icon',
@@ -2133,14 +2133,14 @@ export default {
           libraryName: 'IosFemaleIcon'
         },
         {
-          name: 'ios-filing-icon',
-          readableName: 'Ios Filing',
-          libraryName: 'IosFilingIcon'
-        },
-        {
           name: 'ios-film-icon',
           readableName: 'Ios Film',
           libraryName: 'IosFilmIcon'
+        },
+        {
+          name: 'ios-filing-icon',
+          readableName: 'Ios Filing',
+          libraryName: 'IosFilingIcon'
         },
         {
           name: 'ios-finger-print-icon',
@@ -2148,24 +2148,24 @@ export default {
           libraryName: 'IosFingerPrintIcon'
         },
         {
-          name: 'ios-flag-icon',
-          readableName: 'Ios Flag',
-          libraryName: 'IosFlagIcon'
-        },
-        {
           name: 'ios-fitness-icon',
           readableName: 'Ios Fitness',
           libraryName: 'IosFitnessIcon'
         },
         {
-          name: 'ios-flame-icon',
-          readableName: 'Ios Flame',
-          libraryName: 'IosFlameIcon'
+          name: 'ios-flag-icon',
+          readableName: 'Ios Flag',
+          libraryName: 'IosFlagIcon'
         },
         {
           name: 'ios-flash-off-icon',
           readableName: 'Ios Flash Off',
           libraryName: 'IosFlashOffIcon'
+        },
+        {
+          name: 'ios-flame-icon',
+          readableName: 'Ios Flame',
+          libraryName: 'IosFlameIcon'
         },
         {
           name: 'ios-flash-icon',
@@ -2378,14 +2378,14 @@ export default {
           libraryName: 'IosKeyIcon'
         },
         {
-          name: 'ios-keypad-icon',
-          readableName: 'Ios Keypad',
-          libraryName: 'IosKeypadIcon'
-        },
-        {
           name: 'ios-laptop-icon',
           readableName: 'Ios Laptop',
           libraryName: 'IosLaptopIcon'
+        },
+        {
+          name: 'ios-keypad-icon',
+          readableName: 'Ios Keypad',
+          libraryName: 'IosKeypadIcon'
         },
         {
           name: 'ios-leaf-icon',
@@ -2408,11 +2408,6 @@ export default {
           libraryName: 'IosListIcon'
         },
         {
-          name: 'ios-locate-icon',
-          readableName: 'Ios Locate',
-          libraryName: 'IosLocateIcon'
-        },
-        {
           name: 'ios-lock-icon',
           readableName: 'Ios Lock',
           libraryName: 'IosLockIcon'
@@ -2421,6 +2416,11 @@ export default {
           name: 'ios-log-in-icon',
           readableName: 'Ios Log In',
           libraryName: 'IosLogInIcon'
+        },
+        {
+          name: 'ios-locate-icon',
+          readableName: 'Ios Locate',
+          libraryName: 'IosLocateIcon'
         },
         {
           name: 'ios-log-out-icon',
@@ -2523,14 +2523,14 @@ export default {
           libraryName: 'IosMusicalNoteIcon'
         },
         {
-          name: 'ios-musical-notes-icon',
-          readableName: 'Ios Musical Notes',
-          libraryName: 'IosMusicalNotesIcon'
-        },
-        {
           name: 'ios-navigate-icon',
           readableName: 'Ios Navigate',
           libraryName: 'IosNavigateIcon'
+        },
+        {
+          name: 'ios-musical-notes-icon',
+          readableName: 'Ios Musical Notes',
+          libraryName: 'IosMusicalNotesIcon'
         },
         {
           name: 'ios-notifications-off-icon',
@@ -3298,14 +3298,14 @@ export default {
           libraryName: 'LogoOctocatIcon'
         },
         {
-          name: 'logo-pinterest-icon',
-          readableName: 'Logo Pinterest',
-          libraryName: 'LogoPinterestIcon'
-        },
-        {
           name: 'logo-playstation-icon',
           readableName: 'Logo Playstation',
           libraryName: 'LogoPlaystationIcon'
+        },
+        {
+          name: 'logo-pinterest-icon',
+          readableName: 'Logo Pinterest',
+          libraryName: 'LogoPinterestIcon'
         },
         {
           name: 'logo-polymer-icon',
@@ -3413,14 +3413,14 @@ export default {
           libraryName: 'LogoXingIcon'
         },
         {
-          name: 'logo-yahoo-icon',
-          readableName: 'Logo Yahoo',
-          libraryName: 'LogoYahooIcon'
-        },
-        {
           name: 'logo-yen-icon',
           readableName: 'Logo Yen',
           libraryName: 'LogoYenIcon'
+        },
+        {
+          name: 'logo-yahoo-icon',
+          readableName: 'Logo Yahoo',
+          libraryName: 'LogoYahooIcon'
         },
         {
           name: 'logo-youtube-icon',
@@ -3713,11 +3713,6 @@ export default {
           libraryName: 'MdBulbIcon'
         },
         {
-          name: 'md-bus-icon',
-          readableName: 'Md Bus',
-          libraryName: 'MdBusIcon'
-        },
-        {
           name: 'md-business-icon',
           readableName: 'Md Business',
           libraryName: 'MdBusinessIcon'
@@ -3841,6 +3836,11 @@ export default {
           name: 'md-cloud-done-icon',
           readableName: 'Md Cloud Done',
           libraryName: 'MdCloudDoneIcon'
+        },
+        {
+          name: 'md-bus-icon',
+          readableName: 'Md Bus',
+          libraryName: 'MdBusIcon'
         },
         {
           name: 'md-cloud-download-icon',
@@ -4213,14 +4213,14 @@ export default {
           libraryName: 'MdHelpCircleIcon'
         },
         {
-          name: 'md-help-icon',
-          readableName: 'Md Help',
-          libraryName: 'MdHelpIcon'
-        },
-        {
           name: 'md-home-icon',
           readableName: 'Md Home',
           libraryName: 'MdHomeIcon'
+        },
+        {
+          name: 'md-help-icon',
+          readableName: 'Md Help',
+          libraryName: 'MdHelpIcon'
         },
         {
           name: 'md-hourglass-icon',
@@ -4338,14 +4338,14 @@ export default {
           libraryName: 'MdMailOpenIcon'
         },
         {
-          name: 'md-mail-unread-icon',
-          readableName: 'Md Mail Unread',
-          libraryName: 'MdMailUnreadIcon'
-        },
-        {
           name: 'md-mail-icon',
           readableName: 'Md Mail',
           libraryName: 'MdMailIcon'
+        },
+        {
+          name: 'md-mail-unread-icon',
+          readableName: 'Md Mail Unread',
+          libraryName: 'MdMailUnreadIcon'
         },
         {
           name: 'md-male-icon',
@@ -4758,14 +4758,14 @@ export default {
           libraryName: 'MdShareIcon'
         },
         {
-          name: 'md-shirt-icon',
-          readableName: 'Md Shirt',
-          libraryName: 'MdShirtIcon'
-        },
-        {
           name: 'md-shuffle-icon',
           readableName: 'Md Shuffle',
           libraryName: 'MdShuffleIcon'
+        },
+        {
+          name: 'md-shirt-icon',
+          readableName: 'Md Shirt',
+          libraryName: 'MdShirtIcon'
         },
         {
           name: 'md-skip-backward-icon',
@@ -4873,14 +4873,14 @@ export default {
           libraryName: 'MdThermometerIcon'
         },
         {
-          name: 'md-thumbs-down-icon',
-          readableName: 'Md Thumbs Down',
-          libraryName: 'MdThumbsDownIcon'
-        },
-        {
           name: 'md-thumbs-up-icon',
           readableName: 'Md Thumbs Up',
           libraryName: 'MdThumbsUpIcon'
+        },
+        {
+          name: 'md-thumbs-down-icon',
+          readableName: 'Md Thumbs Down',
+          libraryName: 'MdThumbsDownIcon'
         },
         {
           name: 'md-thunderstorm-icon',

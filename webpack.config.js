@@ -4,12 +4,15 @@ var npm = require("./package.json")
 const CompressionPlugin = require("compression-webpack-plugin")
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const ExtractTextPlugin = require("extract-text-webpack-plugin");
+const workboxPlugin = require('workbox-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const ENV = process.env.NODE_ENV || 'development';
 
 require('es6-promise').polyfill();
 const SRC = path.resolve(__dirname, "demo");
 const DIST = path.resolve(__dirname, "dist");
+const DEMO_DIST = path.resolve(__dirname, 'demo/dist');
 
 module.exports = {
 	context: SRC,
@@ -111,6 +114,9 @@ module.exports = {
       },
       sourceMap: false
     }),
+		new CopyWebpackPlugin([
+			{ from: SRC + '/manifest.json', to: DEMO_DIST }
+		]),
 		new HtmlWebpackPlugin({
 			template: './index.ejs',
       minify: {
@@ -126,7 +132,14 @@ module.exports = {
           return order1 - order2;
       },
       // chunksSortMode: 'dependency'
-		}),
+    }),
+    new workboxPlugin({
+      globDirectory: DEMO_DIST,
+      globPatterns: ['**/*.{html,js,css,json,gif,png,jpg,jpeg}'],
+      swDest: path.join(DEMO_DIST, 'sw.js'),
+      clientsClaim: true,
+      skipWaiting: true,
+    }),
     new CompressionPlugin({
       algorithm: 'gzip'
     })
