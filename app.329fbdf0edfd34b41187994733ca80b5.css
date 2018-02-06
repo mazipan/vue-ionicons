@@ -196,12 +196,17 @@ small {
 .box {
   position: relative;
   float: left;
-  width: 10%;
+  width: 14%;
   cursor: pointer;
   margin: 1px;
   padding: 7px 0 3px 0;
   text-align: center;
   border: 1px solid #ddd;
+}
+@media screen and (max-width: 480px) {
+.box {
+      width: 24%;
+}
 }
 .box-content {
     position: absolute;
@@ -248,6 +253,7 @@ small {
 pre {
   padding: 16px;
   background-color: #f6f8fa;
+  overflow: auto;
 }
 .sample {
   display: flex;
@@ -263,5 +269,10 @@ pre {
   border-radius: .25em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
 }
+@media screen and (max-width: 480px) {
+.card {
+      width: 75%;
+}
+}
 
-/*# sourceMappingURL=app.92fe6658883f4b3ff315b4774c82adde.css.map*/
+/*# sourceMappingURL=app.329fbdf0edfd34b41187994733ca80b5.css.map*/
