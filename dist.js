@@ -50,6 +50,9 @@ const sanitizeSVG = (stream) => {
     .replace('<style>.st0{fill:#010101}</style>', '')
     .replace('<style>', '<data-style>')
     .replace('</style>', '</data-style>')
+    .replace('fill="#010101"', '')
+    .replace('fill="#231F20"', '')
+    .replace('fill=', 'data-fill=')
     .replace('width="512" height="512"', '')
     .replace('<svg', '<svg :width="w" :height="h" class="ion__svg"')
 

@@ -132,8 +132,8 @@ export default {
     return {
       title: 'Vue-Ionicons',
       subtitle: 'Vue Icon Set Components from Ionic Team',
-      w: '30px',
-      h: '30px',
+      w: '5em',
+      h: '5em',
       searchText: '',
       defaultSampleCode: '<LogoIonicIcon w="60px" h="60px"/>',
       rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" :rotate="true"/>',
@@ -187,12 +187,16 @@ small{
 .box{
   position: relative;
   float: left;
-  width: 10%;
+  width: 14%;
   cursor: pointer;
   margin: 1px;
   padding: 7px 0 3px 0;
   text-align: center;
   border: 1px solid #ddd;
+
+  @media screen and (max-width: 480px) {
+    width: 24%;
+  }
 
   &-content{
     position: absolute;
@@ -250,7 +254,9 @@ small{
 pre{
   padding: 16px;
   background-color: #f6f8fa;
+  overflow: auto;
 }
+
 .sample{
   display: flex;
   flex-wrap: wrap;
@@ -264,6 +270,10 @@ pre{
   margin-bottom: 1em;
   border-radius: .25em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+
+  @media screen and (max-width: 480px) {
+    width: 75%;
+  }
 }
 </style>
 

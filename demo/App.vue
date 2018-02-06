@@ -211,8 +211,8 @@ import IosCodeIcon  from 'dist/ios-code.vue'
 import IosCogIcon  from 'dist/ios-cog.vue'
 import IosColorFillIcon  from 'dist/ios-color-fill.vue'
 import IosColorFilterIcon  from 'dist/ios-color-filter.vue'
-import IosColorWandIcon  from 'dist/ios-color-wand.vue'
 import IosColorPaletteIcon  from 'dist/ios-color-palette.vue'
+import IosColorWandIcon  from 'dist/ios-color-wand.vue'
 import IosCompassIcon  from 'dist/ios-compass.vue'
 import IosConstructIcon  from 'dist/ios-construct.vue'
 import IosContactIcon  from 'dist/ios-contact.vue'
@@ -240,8 +240,8 @@ import IosFemaleIcon  from 'dist/ios-female.vue'
 import IosFilingIcon  from 'dist/ios-filing.vue'
 import IosFilmIcon  from 'dist/ios-film.vue'
 import IosFingerPrintIcon  from 'dist/ios-finger-print.vue'
-import IosFitnessIcon  from 'dist/ios-fitness.vue'
 import IosFlagIcon  from 'dist/ios-flag.vue'
+import IosFitnessIcon  from 'dist/ios-fitness.vue'
 import IosFlameIcon  from 'dist/ios-flame.vue'
 import IosFlashOffIcon  from 'dist/ios-flash-off.vue'
 import IosFlashIcon  from 'dist/ios-flash.vue'
@@ -912,8 +912,8 @@ export default {
     IosCogIcon,
     IosColorFillIcon,
     IosColorFilterIcon,
-    IosColorWandIcon,
     IosColorPaletteIcon,
+    IosColorWandIcon,
     IosCompassIcon,
     IosConstructIcon,
     IosContactIcon,
@@ -941,8 +941,8 @@ export default {
     IosFilingIcon,
     IosFilmIcon,
     IosFingerPrintIcon,
-    IosFitnessIcon,
     IosFlagIcon,
+    IosFitnessIcon,
     IosFlameIcon,
     IosFlashOffIcon,
     IosFlashIcon,
@@ -1519,8 +1519,8 @@ export default {
     return {
       title: 'Vue-Ionicons',
       subtitle: 'Vue Icon Set Components from Ionic Team',
-      w: '30px',
-      h: '30px',
+      w: '5em',
+      h: '5em',
       searchText: '',
       defaultSampleCode: '<LogoIonicIcon w="60px" h="60px"/>',
       rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" :rotate="true"/>',
@@ -2003,14 +2003,14 @@ export default {
           libraryName: 'IosColorFilterIcon'
         },
         {
-          name: 'ios-color-wand-icon',
-          readableName: 'Ios Color Wand',
-          libraryName: 'IosColorWandIcon'
-        },
-        {
           name: 'ios-color-palette-icon',
           readableName: 'Ios Color Palette',
           libraryName: 'IosColorPaletteIcon'
+        },
+        {
+          name: 'ios-color-wand-icon',
+          readableName: 'Ios Color Wand',
+          libraryName: 'IosColorWandIcon'
         },
         {
           name: 'ios-compass-icon',
@@ -2148,14 +2148,14 @@ export default {
           libraryName: 'IosFingerPrintIcon'
         },
         {
-          name: 'ios-fitness-icon',
-          readableName: 'Ios Fitness',
-          libraryName: 'IosFitnessIcon'
-        },
-        {
           name: 'ios-flag-icon',
           readableName: 'Ios Flag',
           libraryName: 'IosFlagIcon'
+        },
+        {
+          name: 'ios-fitness-icon',
+          readableName: 'Ios Fitness',
+          libraryName: 'IosFitnessIcon'
         },
         {
           name: 'ios-flame-icon',
@@ -5052,12 +5052,16 @@ small{
 .box{
   position: relative;
   float: left;
-  width: 10%;
+  width: 14%;
   cursor: pointer;
   margin: 1px;
   padding: 7px 0 3px 0;
   text-align: center;
   border: 1px solid #ddd;
+
+  @media screen and (max-width: 480px) {
+    width: 24%;
+  }
 
   &-content{
     position: absolute;
@@ -5115,7 +5119,9 @@ small{
 pre{
   padding: 16px;
   background-color: #f6f8fa;
+  overflow: auto;
 }
+
 .sample{
   display: flex;
   flex-wrap: wrap;
@@ -5129,6 +5135,10 @@ pre{
   margin-bottom: 1em;
   border-radius: .25em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+
+  @media screen and (max-width: 480px) {
+    width: 75%;
+  }
 }
 </style>
 

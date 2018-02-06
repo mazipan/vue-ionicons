@@ -95,8 +95,8 @@ let IosCodeIcon  = () => import('./ios-code.vue')
 let IosCogIcon  = () => import('./ios-cog.vue')
 let IosColorFillIcon  = () => import('./ios-color-fill.vue')
 let IosColorFilterIcon  = () => import('./ios-color-filter.vue')
-let IosColorWandIcon  = () => import('./ios-color-wand.vue')
 let IosColorPaletteIcon  = () => import('./ios-color-palette.vue')
+let IosColorWandIcon  = () => import('./ios-color-wand.vue')
 let IosCompassIcon  = () => import('./ios-compass.vue')
 let IosConstructIcon  = () => import('./ios-construct.vue')
 let IosContactIcon  = () => import('./ios-contact.vue')
@@ -124,8 +124,8 @@ let IosFemaleIcon  = () => import('./ios-female.vue')
 let IosFilingIcon  = () => import('./ios-filing.vue')
 let IosFilmIcon  = () => import('./ios-film.vue')
 let IosFingerPrintIcon  = () => import('./ios-finger-print.vue')
-let IosFitnessIcon  = () => import('./ios-fitness.vue')
 let IosFlagIcon  = () => import('./ios-flag.vue')
+let IosFitnessIcon  = () => import('./ios-fitness.vue')
 let IosFlameIcon  = () => import('./ios-flame.vue')
 let IosFlashOffIcon  = () => import('./ios-flash-off.vue')
 let IosFlashIcon  = () => import('./ios-flash.vue')
@@ -799,8 +799,8 @@ IosCodeIcon.install = plugin(IosCodeIcon)
 IosCogIcon.install = plugin(IosCogIcon)
 IosColorFillIcon.install = plugin(IosColorFillIcon)
 IosColorFilterIcon.install = plugin(IosColorFilterIcon)
-IosColorWandIcon.install = plugin(IosColorWandIcon)
 IosColorPaletteIcon.install = plugin(IosColorPaletteIcon)
+IosColorWandIcon.install = plugin(IosColorWandIcon)
 IosCompassIcon.install = plugin(IosCompassIcon)
 IosConstructIcon.install = plugin(IosConstructIcon)
 IosContactIcon.install = plugin(IosContactIcon)
@@ -828,8 +828,8 @@ IosFemaleIcon.install = plugin(IosFemaleIcon)
 IosFilingIcon.install = plugin(IosFilingIcon)
 IosFilmIcon.install = plugin(IosFilmIcon)
 IosFingerPrintIcon.install = plugin(IosFingerPrintIcon)
-IosFitnessIcon.install = plugin(IosFitnessIcon)
 IosFlagIcon.install = plugin(IosFlagIcon)
+IosFitnessIcon.install = plugin(IosFitnessIcon)
 IosFlameIcon.install = plugin(IosFlameIcon)
 IosFlashOffIcon.install = plugin(IosFlashOffIcon)
 IosFlashIcon.install = plugin(IosFlashIcon)
@@ -1498,8 +1498,8 @@ ioniconsPlugin.IosCodeIcon = IosCodeIcon
 ioniconsPlugin.IosCogIcon = IosCogIcon
 ioniconsPlugin.IosColorFillIcon = IosColorFillIcon
 ioniconsPlugin.IosColorFilterIcon = IosColorFilterIcon
-ioniconsPlugin.IosColorWandIcon = IosColorWandIcon
 ioniconsPlugin.IosColorPaletteIcon = IosColorPaletteIcon
+ioniconsPlugin.IosColorWandIcon = IosColorWandIcon
 ioniconsPlugin.IosCompassIcon = IosCompassIcon
 ioniconsPlugin.IosConstructIcon = IosConstructIcon
 ioniconsPlugin.IosContactIcon = IosContactIcon
@@ -1527,8 +1527,8 @@ ioniconsPlugin.IosFemaleIcon = IosFemaleIcon
 ioniconsPlugin.IosFilingIcon = IosFilingIcon
 ioniconsPlugin.IosFilmIcon = IosFilmIcon
 ioniconsPlugin.IosFingerPrintIcon = IosFingerPrintIcon
-ioniconsPlugin.IosFitnessIcon = IosFitnessIcon
 ioniconsPlugin.IosFlagIcon = IosFlagIcon
+ioniconsPlugin.IosFitnessIcon = IosFitnessIcon
 ioniconsPlugin.IosFlameIcon = IosFlameIcon
 ioniconsPlugin.IosFlashOffIcon = IosFlashOffIcon
 ioniconsPlugin.IosFlashIcon = IosFlashIcon
