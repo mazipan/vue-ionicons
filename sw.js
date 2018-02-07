@@ -19,24 +19,24 @@ importScripts('workbox-sw.prod.v2.1.2.js');
  */
 const fileManifest = [
   {
-    "url": "/vue-ionicons/app.ce7f63fe6e5e26d3a2e6ca81620bb92f.css",
-    "revision": "ae614762b668e906834653e3a6c54400"
+    "url": "/vue-ionicons/app.53aa82d2e19820d1910fec7cd6d98bfc.css",
+    "revision": "02131c451649b4eeeac746f21917d3ea"
   },
   {
-    "url": "/vue-ionicons/app.d5e74b3f8aeb9d4ff147.js",
-    "revision": "5dceb2a9307258ca0b7fc3f5ab7ea18d"
+    "url": "/vue-ionicons/app.ebf9f67592a6261a98d7.js",
+    "revision": "8d666d01b7bd0edd22fce59e846beb51"
   },
   {
     "url": "/vue-ionicons/index.html",
-    "revision": "fb8a688bcfb94ec4944534174ea7a3b8"
+    "revision": "d754f660f7125fb193cbc375c6088c38"
   },
   {
     "url": "/vue-ionicons/manifest.json",
     "revision": "1124a7901152c484510ee86f1ddcfc5d"
   },
   {
-    "url": "/vue-ionicons/vendor.d5e74b3f8aeb9d4ff147.js",
-    "revision": "b463d7f08503d0d3d0e2d7c64d12d1fe"
+    "url": "/vue-ionicons/vendor.ebf9f67592a6261a98d7.js",
+    "revision": "8c28f070049e896bb6a1896fefe7bb96"
   }
 ];
 
