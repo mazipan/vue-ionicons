@@ -86,37 +86,21 @@ module.exports = {
 			}
 		}
   },
+
   performance: {
     hints: false
   },
+
 	devtool: ENV === 'production' ? 'source-map' : 'cheap-module-eval-source-map',
-  plugins: [
+
+  plugins: ([
+		new webpack.DefinePlugin({
+			'process.env.NODE_ENV': JSON.stringify(ENV)
+		}),
     new webpack.NoEmitOnErrorsPlugin(),
     new ExtractTextPlugin({
       filename: '[name].[contenthash].css'
     }),
-    new webpack.optimize.LimitChunkCountPlugin({
-      maxChunks: 5, // Must be greater than or equal to one
-      minChunkSize: 1000,
-      maxChunkSize: 50000,
-    }),
-    new webpack.optimize.CommonsChunkPlugin({
-      names: ['common', 'vendor'],
-      async: true,
-      minChunks: 2,
-    }),
-    new webpack.BannerPlugin({
-      banner: `vue-ionicons v.${npm.version}`
-    }),
-    new webpack.optimize.UglifyJsPlugin({
-      compress: {
-        warnings: false
-      },
-      sourceMap: false
-    }),
-		new CopyWebpackPlugin([
-			{ from: SRC + '/manifest.json', to: DEMO_DIST }
-		]),
 		new HtmlWebpackPlugin({
 			template: './index.ejs',
       minify: {
@@ -133,6 +117,26 @@ module.exports = {
       },
       // chunksSortMode: 'dependency'
     }),
+  ]).concat(ENV === 'production' ? [
+    new webpack.optimize.LimitChunkCountPlugin({
+      maxChunks: 5, // Must be greater than or equal to one
+      minChunkSize: 1000,
+      maxChunkSize: 50000,
+    }),
+    new webpack.optimize.CommonsChunkPlugin({
+      names: ['common', 'vendor'],
+      async: true,
+      minChunks: 2,
+    }),
+    new webpack.optimize.UglifyJsPlugin({
+      compress: {
+        warnings: false
+      },
+      sourceMap: false
+    }),
+		new CopyWebpackPlugin([
+			{ from: SRC + '/manifest.json', to: DEMO_DIST }
+		]),
     new workboxPlugin({
       globDirectory: DEMO_DIST,
       globPatterns: ['**/*.{html,js,css,json,gif,png,jpg,jpeg}'],
@@ -140,8 +144,11 @@ module.exports = {
       clientsClaim: true,
       skipWaiting: true,
     }),
+    new webpack.BannerPlugin({
+      banner: `vue-ionicons v.${npm.version}`
+    }),
     new CompressionPlugin({
       algorithm: 'gzip'
     })
-  ]
+  ] : [])
 }
