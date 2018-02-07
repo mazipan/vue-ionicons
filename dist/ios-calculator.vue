@@ -2,65 +2,26 @@
   <div
     class="ion"
     :class="ionClass"
+    :title="iconTitle"
     name="ios-calculator-icon">
     <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M372 48H140c-17.7 0-32 14.3-32 32v352c0 17.7 14.3 32 32 32h232c17.7 0 32-14.3 32-32V80c0-17.7-14.3-32-32-32zm-12 272v80c0 13.3-10.7 24-24 24s-24-10.7-24-24v-80c0-13.3 10.7-24 24-24s24 10.7 24 24zm0-80c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm-80 160c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm0-80c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm0-80c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm-80 160c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm0-80c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm0-80c0 13.3-10.7 24-24 24s-24-10.7-24-24 10.7-24 24-24 24 10.7 24 24zm-48-80v-48c0-8.8 7.2-16 16-16h176c8.8 0 16 7.2 16 16v48c0 8.8-7.2 16-16 16H168c-8.8 0-16-7.2-16-16z"/></svg>
   </div>
 </template>
 
 <script>
-  export default {
-    name: "ios-calculator-icon",
-    data () {
-      let iconTitle = this.title ? this.title : "Ios Calculator Icon"
-      return {
-        iconTitle: iconTitle
-      }
-    },
-    computed: {
-      ionClass() {
-        let addClass = ''
+import IoniconsMixin from './ionicons-mixin'
 
-        if (this.rotate) {
-          addClass = addClass + 'ion-rotate '
-        } else if (this.beat) {
-          addClass = addClass + 'ion-beat '
-        } else if (this.shake) {
-          addClass = addClass + 'ion-shake '
-        }
-
-        return `${this.rootClass} ${addClass}`
-      }
-    },
-    props: {
-      title: {
-        type: String,
-        default: ""
-      },
-      rootClass: {
-        type: String,
-        default: ""
-      },
-      w: {
-        type: String,
-        default: "14px"
-      },
-      h: {
-        type: String,
-        default: "14px"
-      },
-      rotate: {
-        type: Boolean,
-        default: false
-      },
-      beat: {
-        type: Boolean,
-        default: false
-      },
-      shake: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: "ios-calculator-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : "Ios Calculator Icon"
+    return {
+      iconTitle: iconTitle
     }
   }
+}
 </script>
 

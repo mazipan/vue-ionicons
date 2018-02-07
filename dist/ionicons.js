@@ -6,9 +6,9 @@ let IosAddIcon  = () => import('./ios-add.vue')
 let IosAirplaneIcon  = () => import('./ios-airplane.vue')
 let IosAlarmIcon  = () => import('./ios-alarm.vue')
 let IosAlbumsIcon  = () => import('./ios-albums.vue')
-let IosAlertIcon  = () => import('./ios-alert.vue')
 let IosAmericanFootballIcon  = () => import('./ios-american-football.vue')
 let IosAnalyticsIcon  = () => import('./ios-analytics.vue')
+let IosAlertIcon  = () => import('./ios-alert.vue')
 let IosApertureIcon  = () => import('./ios-aperture.vue')
 let IosAppsIcon  = () => import('./ios-apps.vue')
 let IosAppstoreIcon  = () => import('./ios-appstore.vue')
@@ -72,8 +72,8 @@ let IosCellularIcon  = () => import('./ios-cellular.vue')
 let IosChatboxesIcon  = () => import('./ios-chatboxes.vue')
 let IosChatbubblesIcon  = () => import('./ios-chatbubbles.vue')
 let IosCheckboxOutlineIcon  = () => import('./ios-checkbox-outline.vue')
-let IosCheckboxIcon  = () => import('./ios-checkbox.vue')
 let IosCheckmarkCircleOutlineIcon  = () => import('./ios-checkmark-circle-outline.vue')
+let IosCheckboxIcon  = () => import('./ios-checkbox.vue')
 let IosCheckmarkCircleIcon  = () => import('./ios-checkmark-circle.vue')
 let IosCheckmarkIcon  = () => import('./ios-checkmark.vue')
 let IosClipboardIcon  = () => import('./ios-clipboard.vue')
@@ -103,8 +103,8 @@ let IosContactIcon  = () => import('./ios-contact.vue')
 let IosContactsIcon  = () => import('./ios-contacts.vue')
 let IosContractIcon  = () => import('./ios-contract.vue')
 let IosContrastIcon  = () => import('./ios-contrast.vue')
-let IosCopyIcon  = () => import('./ios-copy.vue')
 let IosCreateIcon  = () => import('./ios-create.vue')
+let IosCopyIcon  = () => import('./ios-copy.vue')
 let IosCropIcon  = () => import('./ios-crop.vue')
 let IosCubeIcon  = () => import('./ios-cube.vue')
 let IosCutIcon  = () => import('./ios-cut.vue')
@@ -136,12 +136,12 @@ let IosFolderOpenIcon  = () => import('./ios-folder-open.vue')
 let IosFolderIcon  = () => import('./ios-folder.vue')
 let IosFootballIcon  = () => import('./ios-football.vue')
 let IosFunnelIcon  = () => import('./ios-funnel.vue')
-let IosGiftIcon  = () => import('./ios-gift.vue')
 let IosGitBranchIcon  = () => import('./ios-git-branch.vue')
+let IosGiftIcon  = () => import('./ios-gift.vue')
 let IosGitCommitIcon  = () => import('./ios-git-commit.vue')
 let IosGitCompareIcon  = () => import('./ios-git-compare.vue')
-let IosGitMergeIcon  = () => import('./ios-git-merge.vue')
 let IosGitNetworkIcon  = () => import('./ios-git-network.vue')
+let IosGitMergeIcon  = () => import('./ios-git-merge.vue')
 let IosGitPullRequestIcon  = () => import('./ios-git-pull-request.vue')
 let IosGlassesIcon  = () => import('./ios-glasses.vue')
 let IosGlobeIcon  = () => import('./ios-globe.vue')
@@ -178,8 +178,8 @@ let IosListBoxIcon  = () => import('./ios-list-box.vue')
 let IosListIcon  = () => import('./ios-list.vue')
 let IosLocateIcon  = () => import('./ios-locate.vue')
 let IosLockIcon  = () => import('./ios-lock.vue')
-let IosLogInIcon  = () => import('./ios-log-in.vue')
 let IosLogOutIcon  = () => import('./ios-log-out.vue')
+let IosLogInIcon  = () => import('./ios-log-in.vue')
 let IosMagnetIcon  = () => import('./ios-magnet.vue')
 let IosMailOpenIcon  = () => import('./ios-mail-open.vue')
 let IosMailUnreadIcon  = () => import('./ios-mail-unread.vue')
@@ -234,8 +234,8 @@ let IosPricetagIcon  = () => import('./ios-pricetag.vue')
 let IosPricetagsIcon  = () => import('./ios-pricetags.vue')
 let IosPrintIcon  = () => import('./ios-print.vue')
 let IosPulseIcon  = () => import('./ios-pulse.vue')
-let IosQrScannerIcon  = () => import('./ios-qr-scanner.vue')
 let IosQuoteIcon  = () => import('./ios-quote.vue')
+let IosQrScannerIcon  = () => import('./ios-qr-scanner.vue')
 let IosRadioButtonOffIcon  = () => import('./ios-radio-button-off.vue')
 let IosRadioButtonOnIcon  = () => import('./ios-radio-button-on.vue')
 let IosRadioIcon  = () => import('./ios-radio.vue')
@@ -710,9 +710,9 @@ IosAddIcon.install = plugin(IosAddIcon)
 IosAirplaneIcon.install = plugin(IosAirplaneIcon)
 IosAlarmIcon.install = plugin(IosAlarmIcon)
 IosAlbumsIcon.install = plugin(IosAlbumsIcon)
-IosAlertIcon.install = plugin(IosAlertIcon)
 IosAmericanFootballIcon.install = plugin(IosAmericanFootballIcon)
 IosAnalyticsIcon.install = plugin(IosAnalyticsIcon)
+IosAlertIcon.install = plugin(IosAlertIcon)
 IosApertureIcon.install = plugin(IosApertureIcon)
 IosAppsIcon.install = plugin(IosAppsIcon)
 IosAppstoreIcon.install = plugin(IosAppstoreIcon)
@@ -776,8 +776,8 @@ IosCellularIcon.install = plugin(IosCellularIcon)
 IosChatboxesIcon.install = plugin(IosChatboxesIcon)
 IosChatbubblesIcon.install = plugin(IosChatbubblesIcon)
 IosCheckboxOutlineIcon.install = plugin(IosCheckboxOutlineIcon)
-IosCheckboxIcon.install = plugin(IosCheckboxIcon)
 IosCheckmarkCircleOutlineIcon.install = plugin(IosCheckmarkCircleOutlineIcon)
+IosCheckboxIcon.install = plugin(IosCheckboxIcon)
 IosCheckmarkCircleIcon.install = plugin(IosCheckmarkCircleIcon)
 IosCheckmarkIcon.install = plugin(IosCheckmarkIcon)
 IosClipboardIcon.install = plugin(IosClipboardIcon)
@@ -807,8 +807,8 @@ IosContactIcon.install = plugin(IosContactIcon)
 IosContactsIcon.install = plugin(IosContactsIcon)
 IosContractIcon.install = plugin(IosContractIcon)
 IosContrastIcon.install = plugin(IosContrastIcon)
-IosCopyIcon.install = plugin(IosCopyIcon)
 IosCreateIcon.install = plugin(IosCreateIcon)
+IosCopyIcon.install = plugin(IosCopyIcon)
 IosCropIcon.install = plugin(IosCropIcon)
 IosCubeIcon.install = plugin(IosCubeIcon)
 IosCutIcon.install = plugin(IosCutIcon)
@@ -840,12 +840,12 @@ IosFolderOpenIcon.install = plugin(IosFolderOpenIcon)
 IosFolderIcon.install = plugin(IosFolderIcon)
 IosFootballIcon.install = plugin(IosFootballIcon)
 IosFunnelIcon.install = plugin(IosFunnelIcon)
-IosGiftIcon.install = plugin(IosGiftIcon)
 IosGitBranchIcon.install = plugin(IosGitBranchIcon)
+IosGiftIcon.install = plugin(IosGiftIcon)
 IosGitCommitIcon.install = plugin(IosGitCommitIcon)
 IosGitCompareIcon.install = plugin(IosGitCompareIcon)
-IosGitMergeIcon.install = plugin(IosGitMergeIcon)
 IosGitNetworkIcon.install = plugin(IosGitNetworkIcon)
+IosGitMergeIcon.install = plugin(IosGitMergeIcon)
 IosGitPullRequestIcon.install = plugin(IosGitPullRequestIcon)
 IosGlassesIcon.install = plugin(IosGlassesIcon)
 IosGlobeIcon.install = plugin(IosGlobeIcon)
@@ -882,8 +882,8 @@ IosListBoxIcon.install = plugin(IosListBoxIcon)
 IosListIcon.install = plugin(IosListIcon)
 IosLocateIcon.install = plugin(IosLocateIcon)
 IosLockIcon.install = plugin(IosLockIcon)
-IosLogInIcon.install = plugin(IosLogInIcon)
 IosLogOutIcon.install = plugin(IosLogOutIcon)
+IosLogInIcon.install = plugin(IosLogInIcon)
 IosMagnetIcon.install = plugin(IosMagnetIcon)
 IosMailOpenIcon.install = plugin(IosMailOpenIcon)
 IosMailUnreadIcon.install = plugin(IosMailUnreadIcon)
@@ -938,8 +938,8 @@ IosPricetagIcon.install = plugin(IosPricetagIcon)
 IosPricetagsIcon.install = plugin(IosPricetagsIcon)
 IosPrintIcon.install = plugin(IosPrintIcon)
 IosPulseIcon.install = plugin(IosPulseIcon)
-IosQrScannerIcon.install = plugin(IosQrScannerIcon)
 IosQuoteIcon.install = plugin(IosQuoteIcon)
+IosQrScannerIcon.install = plugin(IosQrScannerIcon)
 IosRadioButtonOffIcon.install = plugin(IosRadioButtonOffIcon)
 IosRadioButtonOnIcon.install = plugin(IosRadioButtonOnIcon)
 IosRadioIcon.install = plugin(IosRadioIcon)
@@ -1409,9 +1409,9 @@ ioniconsPlugin.IosAddIcon = IosAddIcon
 ioniconsPlugin.IosAirplaneIcon = IosAirplaneIcon
 ioniconsPlugin.IosAlarmIcon = IosAlarmIcon
 ioniconsPlugin.IosAlbumsIcon = IosAlbumsIcon
-ioniconsPlugin.IosAlertIcon = IosAlertIcon
 ioniconsPlugin.IosAmericanFootballIcon = IosAmericanFootballIcon
 ioniconsPlugin.IosAnalyticsIcon = IosAnalyticsIcon
+ioniconsPlugin.IosAlertIcon = IosAlertIcon
 ioniconsPlugin.IosApertureIcon = IosApertureIcon
 ioniconsPlugin.IosAppsIcon = IosAppsIcon
 ioniconsPlugin.IosAppstoreIcon = IosAppstoreIcon
@@ -1475,8 +1475,8 @@ ioniconsPlugin.IosCellularIcon = IosCellularIcon
 ioniconsPlugin.IosChatboxesIcon = IosChatboxesIcon
 ioniconsPlugin.IosChatbubblesIcon = IosChatbubblesIcon
 ioniconsPlugin.IosCheckboxOutlineIcon = IosCheckboxOutlineIcon
-ioniconsPlugin.IosCheckboxIcon = IosCheckboxIcon
 ioniconsPlugin.IosCheckmarkCircleOutlineIcon = IosCheckmarkCircleOutlineIcon
+ioniconsPlugin.IosCheckboxIcon = IosCheckboxIcon
 ioniconsPlugin.IosCheckmarkCircleIcon = IosCheckmarkCircleIcon
 ioniconsPlugin.IosCheckmarkIcon = IosCheckmarkIcon
 ioniconsPlugin.IosClipboardIcon = IosClipboardIcon
@@ -1506,8 +1506,8 @@ ioniconsPlugin.IosContactIcon = IosContactIcon
 ioniconsPlugin.IosContactsIcon = IosContactsIcon
 ioniconsPlugin.IosContractIcon = IosContractIcon
 ioniconsPlugin.IosContrastIcon = IosContrastIcon
-ioniconsPlugin.IosCopyIcon = IosCopyIcon
 ioniconsPlugin.IosCreateIcon = IosCreateIcon
+ioniconsPlugin.IosCopyIcon = IosCopyIcon
 ioniconsPlugin.IosCropIcon = IosCropIcon
 ioniconsPlugin.IosCubeIcon = IosCubeIcon
 ioniconsPlugin.IosCutIcon = IosCutIcon
@@ -1539,12 +1539,12 @@ ioniconsPlugin.IosFolderOpenIcon = IosFolderOpenIcon
 ioniconsPlugin.IosFolderIcon = IosFolderIcon
 ioniconsPlugin.IosFootballIcon = IosFootballIcon
 ioniconsPlugin.IosFunnelIcon = IosFunnelIcon
-ioniconsPlugin.IosGiftIcon = IosGiftIcon
 ioniconsPlugin.IosGitBranchIcon = IosGitBranchIcon
+ioniconsPlugin.IosGiftIcon = IosGiftIcon
 ioniconsPlugin.IosGitCommitIcon = IosGitCommitIcon
 ioniconsPlugin.IosGitCompareIcon = IosGitCompareIcon
-ioniconsPlugin.IosGitMergeIcon = IosGitMergeIcon
 ioniconsPlugin.IosGitNetworkIcon = IosGitNetworkIcon
+ioniconsPlugin.IosGitMergeIcon = IosGitMergeIcon
 ioniconsPlugin.IosGitPullRequestIcon = IosGitPullRequestIcon
 ioniconsPlugin.IosGlassesIcon = IosGlassesIcon
 ioniconsPlugin.IosGlobeIcon = IosGlobeIcon
@@ -1581,8 +1581,8 @@ ioniconsPlugin.IosListBoxIcon = IosListBoxIcon
 ioniconsPlugin.IosListIcon = IosListIcon
 ioniconsPlugin.IosLocateIcon = IosLocateIcon
 ioniconsPlugin.IosLockIcon = IosLockIcon
-ioniconsPlugin.IosLogInIcon = IosLogInIcon
 ioniconsPlugin.IosLogOutIcon = IosLogOutIcon
+ioniconsPlugin.IosLogInIcon = IosLogInIcon
 ioniconsPlugin.IosMagnetIcon = IosMagnetIcon
 ioniconsPlugin.IosMailOpenIcon = IosMailOpenIcon
 ioniconsPlugin.IosMailUnreadIcon = IosMailUnreadIcon
@@ -1637,8 +1637,8 @@ ioniconsPlugin.IosPricetagIcon = IosPricetagIcon
 ioniconsPlugin.IosPricetagsIcon = IosPricetagsIcon
 ioniconsPlugin.IosPrintIcon = IosPrintIcon
 ioniconsPlugin.IosPulseIcon = IosPulseIcon
-ioniconsPlugin.IosQrScannerIcon = IosQrScannerIcon
 ioniconsPlugin.IosQuoteIcon = IosQuoteIcon
+ioniconsPlugin.IosQrScannerIcon = IosQrScannerIcon
 ioniconsPlugin.IosRadioButtonOffIcon = IosRadioButtonOffIcon
 ioniconsPlugin.IosRadioButtonOnIcon = IosRadioButtonOnIcon
 ioniconsPlugin.IosRadioIcon = IosRadioIcon

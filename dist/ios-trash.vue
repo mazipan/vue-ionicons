@@ -2,65 +2,26 @@
   <div
     class="ion"
     :class="ionClass"
+    :title="iconTitle"
     name="ios-trash-icon">
     <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M133.1 128l23.6 290.7c0 16.2 13.1 29.3 29.3 29.3h141c16.2 0 29.3-13.1 29.3-29.3L379.6 128M194.7 393L188 160h18.5l6.9 233h-18.7zm70.3 0h-18V160h18v233zm52.3 0h-18.6l6.8-233H324l-6.7 233zM364 92h-36l-26.3-23c-3.7-3.2-8.4-5-13.2-5h-64.8c-4.9 0-9.7 1.8-13.4 5L184 92h-36c-17.6 0-30 8.4-30 26h276c0-17.6-12.4-26-30-26z"/></svg>
   </div>
 </template>
 
 <script>
-  export default {
-    name: "ios-trash-icon",
-    data () {
-      let iconTitle = this.title ? this.title : "Ios Trash Icon"
-      return {
-        iconTitle: iconTitle
-      }
-    },
-    computed: {
-      ionClass() {
-        let addClass = ''
+import IoniconsMixin from './ionicons-mixin'
 
-        if (this.rotate) {
-          addClass = addClass + 'ion-rotate '
-        } else if (this.beat) {
-          addClass = addClass + 'ion-beat '
-        } else if (this.shake) {
-          addClass = addClass + 'ion-shake '
-        }
-
-        return `${this.rootClass} ${addClass}`
-      }
-    },
-    props: {
-      title: {
-        type: String,
-        default: ""
-      },
-      rootClass: {
-        type: String,
-        default: ""
-      },
-      w: {
-        type: String,
-        default: "14px"
-      },
-      h: {
-        type: String,
-        default: "14px"
-      },
-      rotate: {
-        type: Boolean,
-        default: false
-      },
-      beat: {
-        type: Boolean,
-        default: false
-      },
-      shake: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: "ios-trash-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : "Ios Trash Icon"
+    return {
+      iconTitle: iconTitle
     }
   }
+}
 </script>
 

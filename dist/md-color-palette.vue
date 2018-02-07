@@ -2,65 +2,26 @@
   <div
     class="ion"
     :class="ionClass"
+    :title="iconTitle"
     name="md-color-palette-icon">
     <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M256 64C150.401 64 64 150.401 64 256c0 105.604 86.401 192 192 192 18.136 0 32-13.864 32-32 0-8.531-3.198-16-8.531-21.333-5.333-5.334-8.531-12.803-8.531-21.334 0-18.135 13.864-32 32-32h38.396c58.667 0 106.667-48 106.667-106.666C448 140.802 361.604 64 256 64zM138.667 256c-18.136 0-32-13.864-32-32s13.864-32 32-32c18.135 0 32 13.864 32 32s-13.865 32-32 32zm64-85.333c-18.136 0-32-13.865-32-32 0-18.136 13.864-32 32-32 18.135 0 32 13.864 32 32 0 18.135-13.865 32-32 32zm106.666 0c-18.135 0-32-13.865-32-32 0-18.136 13.865-32 32-32 18.136 0 32 13.864 32 32 0 18.135-13.864 32-32 32zm64 85.333c-18.135 0-32-13.864-32-32s13.865-32 32-32c18.136 0 32 13.864 32 32s-13.864 32-32 32z"/></svg>
   </div>
 </template>
 
 <script>
-  export default {
-    name: "md-color-palette-icon",
-    data () {
-      let iconTitle = this.title ? this.title : "Md Color Palette Icon"
-      return {
-        iconTitle: iconTitle
-      }
-    },
-    computed: {
-      ionClass() {
-        let addClass = ''
+import IoniconsMixin from './ionicons-mixin'
 
-        if (this.rotate) {
-          addClass = addClass + 'ion-rotate '
-        } else if (this.beat) {
-          addClass = addClass + 'ion-beat '
-        } else if (this.shake) {
-          addClass = addClass + 'ion-shake '
-        }
-
-        return `${this.rootClass} ${addClass}`
-      }
-    },
-    props: {
-      title: {
-        type: String,
-        default: ""
-      },
-      rootClass: {
-        type: String,
-        default: ""
-      },
-      w: {
-        type: String,
-        default: "14px"
-      },
-      h: {
-        type: String,
-        default: "14px"
-      },
-      rotate: {
-        type: Boolean,
-        default: false
-      },
-      beat: {
-        type: Boolean,
-        default: false
-      },
-      shake: {
-        type: Boolean,
-        default: false
-      }
+export default {
+  name: "md-color-palette-icon",
+  mixins: [
+    IoniconsMixin
+  ],
+  data () {
+    let iconTitle = this.title ? this.title : "Md Color Palette Icon"
+    return {
+      iconTitle: iconTitle
     }
   }
+}
 </script>
 

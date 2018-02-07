@@ -104,12 +104,14 @@ const generateTemplateData = () => {
   })
 }
 
-const generateBuildFile = (template, extension, templateData) => {
+const generateVueFile = (templateData) => {
+  const templateVue = path.resolve(__dirname, 'template-vue.mst')
+
   return new Promise((resolve, reject) => {
-    fs.readFile(template, { encoding: 'utf8' }, (err, componentFile) => {
+    fs.readFile(templateVue, { encoding: 'utf8' }, (err, componentFile) => {
       for (data of templateData) {
         let component = mustache.render(componentFile, data)
-        let filename = data.name + "." + extension
+        let filename = data.name + ".vue"
         fs.writeFile(path.resolve(dist, filename), component, (err) => {
           if (err) {
             reject(err)
@@ -121,12 +123,37 @@ const generateBuildFile = (template, extension, templateData) => {
   });
 }
 
-const generatePluginFile = (template, templateData) => {
+const generateMixinFile = (templateData) => {
+  const template = path.resolve(__dirname, 'template-vue-mixin.mst')
+
+  return new Promise((resolve, reject) => {
+    spinner.stop()
+    console.log(chalk.yellow('Generating mixin file...'))
+    spinner.start()
+    fs.readFile(template, { encoding: 'utf8' }, (err, componentFile) => {
+      let component = mustache.render(componentFile, templateData)
+      let filename = "ionicons-mixin.js"
+      fs.writeFile(path.resolve(dist, filename), component, (err) => {
+        if (err) {
+          reject(err)
+        }
+        spinner.stop()
+        console.log(chalk.green('Mixin file generated, filename: ' + filename))
+        spinner.start()
+        resolve()
+      })
+    })
+  });
+}
+
+const generateVuePluginFile = (templateData) => {
+  const templateJS = path.resolve(__dirname, 'template-js.mst')
+
   return new Promise((resolve, reject) => {
     spinner.stop()
     console.log(chalk.yellow('Generating plugin file...'))
     spinner.start()
-    fs.readFile(template, { encoding: 'utf8' }, (err, componentFile) => {
+    fs.readFile(templateJS, { encoding: 'utf8' }, (err, componentFile) => {
       let data = {
         data: []
       };
@@ -147,13 +174,15 @@ const generatePluginFile = (template, templateData) => {
   });
 }
 
-const generateDemoAppFile = (template, templateData) => {
+const generateDemoMixinFile = (templateData) => {
+  const templateAppVue = path.resolve(__dirname, 'template-app-mixin.mst')
+
   return new Promise((resolve, reject) => {
     const fileOutput = 'component-mixin.js'
     spinner.stop()
     console.log(chalk.yellow(`Generating demo ${fileOutput} file...`))
     spinner.start()
-    fs.readFile(template, { encoding: 'utf8' }, (err, componentFile) => {
+    fs.readFile(templateAppVue, { encoding: 'utf8' }, (err, componentFile) => {
       let data = {
         data: []
       };
@@ -190,19 +219,16 @@ const generateVersionFile = () => {
   })
 }
 
-const templateVue = path.resolve(__dirname, 'template-vue.mst')
-const templateJS = path.resolve(__dirname, 'template-js.mst')
-const templateAppVue = path.resolve(__dirname, 'template-app-mixin.mst')
-
 generateTemplateData().then((templateData) => {
   if (fs.existsSync(dist)) {
     fs.rmdirSync(dist)
   }
   fs.mkdirSync(dist)
   Promise.all([
-    generateBuildFile(templateVue, 'vue', templateData),
-    generatePluginFile(templateJS, templateData),
-    generateDemoAppFile(templateAppVue, templateData),
+    generateVueFile(templateData),
+    generateMixinFile(templateData),
+    generateVuePluginFile(templateData),
+    generateDemoMixinFile(templateData),
     generateVersionFile()
   ]).then(() => {
     spinner.stop()
