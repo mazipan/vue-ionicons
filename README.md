@@ -62,13 +62,17 @@ https://mazipan.github.io/vue-ionicons
     <AlertIcon />
     ```
 
-1. You can add props
+## 🔥 API and Props
 
-    ```html
-    <AlertIcon w="30px" h="30px"/>
-    ```
+| Name               	| Type                 | Default     | Description                          	|
+|--------------------	|----------------------|-------------|--------------------------------------	|
+| w         	        | String               | 14px        | Width of SVG                          	|
+| h         	        | String               | 14px        | Height of SVG                         	|
+| rootClass         	| String               | `empty`     | Class for wrapper SVG                  |
+| rotate         	    | Boolean              | `false`     | Enable animation rotation              |
+| beat         	      | Boolean              | `false`     | Enable animation beating               |
+| shake         	    | Boolean              | `false`     | Enable animation shaking               |
 
-    > **Note** Default value for height and width is `14px`.
 
 ## 🏃 Development
 
