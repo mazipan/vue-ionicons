@@ -149,8 +149,9 @@ const generatePluginFile = (template, templateData) => {
 
 const generateDemoAppFile = (template, templateData) => {
   return new Promise((resolve, reject) => {
+    const fileOutput = 'component-mixin.js'
     spinner.stop()
-    console.log(chalk.yellow('Generating demo App.vue file...'))
+    console.log(chalk.yellow(`Generating demo ${fileOutput} file...`))
     spinner.start()
     fs.readFile(template, { encoding: 'utf8' }, (err, componentFile) => {
       let data = {
@@ -159,13 +160,12 @@ const generateDemoAppFile = (template, templateData) => {
       data.data = templateData
 
       let component = mustache.render(componentFile, data)
-      let filename = "App.vue"
-      fs.writeFile(path.resolve('demo', filename), component, (err) => {
+      fs.writeFile(path.resolve('demo', fileOutput), component, (err) => {
         if (err) {
           reject(err)
         }
         spinner.stop()
-        console.log(chalk.green('App.vue demo file generated'))
+        console.log(chalk.green(`${fileOutput} demo file generated`))
         spinner.start()
         resolve()
       })
@@ -192,7 +192,7 @@ const generateVersionFile = () => {
 
 const templateVue = path.resolve(__dirname, 'template-vue.mst')
 const templateJS = path.resolve(__dirname, 'template-js.mst')
-const templateAppVue = path.resolve(__dirname, 'template-app-vue.mst')
+const templateAppVue = path.resolve(__dirname, 'template-app-mixin.mst')
 
 generateTemplateData().then((templateData) => {
   if (fs.existsSync(dist)) {

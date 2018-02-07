@@ -1,0 +1,26 @@
+{{=<% %>=}}
+<%#data%>
+import <%libraryName%>  from 'dist/<%name%>.vue'
+<%/data%>
+
+export default {
+  components: {
+    <%#data%>
+    <%libraryName%>,
+    <%/data%>
+  },
+  data () {
+    return {
+      icons: [
+        <%#data%>
+        {
+          name: '<%name%>-icon',
+          readableName: '<%readableName%>',
+          libraryName: '<%libraryName%>'
+        },
+        <%/data%>
+      ]
+    }
+  }
+}
+<%={{ }}=%>

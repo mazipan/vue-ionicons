@@ -43,8 +43,8 @@ let IosBeakerIcon  = () => import('./ios-beaker.vue')
 let IosBedIcon  = () => import('./ios-bed.vue')
 let IosBeerIcon  = () => import('./ios-beer.vue')
 let IosBicycleIcon  = () => import('./ios-bicycle.vue')
-let IosBoatIcon  = () => import('./ios-boat.vue')
 let IosBluetoothIcon  = () => import('./ios-bluetooth.vue')
+let IosBoatIcon  = () => import('./ios-boat.vue')
 let IosBodyIcon  = () => import('./ios-body.vue')
 let IosBonfireIcon  = () => import('./ios-bonfire.vue')
 let IosBookIcon  = () => import('./ios-book.vue')
@@ -76,8 +76,8 @@ let IosCheckboxIcon  = () => import('./ios-checkbox.vue')
 let IosCheckmarkCircleOutlineIcon  = () => import('./ios-checkmark-circle-outline.vue')
 let IosCheckmarkCircleIcon  = () => import('./ios-checkmark-circle.vue')
 let IosCheckmarkIcon  = () => import('./ios-checkmark.vue')
-let IosClockIcon  = () => import('./ios-clock.vue')
 let IosClipboardIcon  = () => import('./ios-clipboard.vue')
+let IosClockIcon  = () => import('./ios-clock.vue')
 let IosCloseCircleOutlineIcon  = () => import('./ios-close-circle-outline.vue')
 let IosCloseCircleIcon  = () => import('./ios-close-circle.vue')
 let IosCloseIcon  = () => import('./ios-close.vue')
@@ -747,8 +747,8 @@ IosBeakerIcon.install = plugin(IosBeakerIcon)
 IosBedIcon.install = plugin(IosBedIcon)
 IosBeerIcon.install = plugin(IosBeerIcon)
 IosBicycleIcon.install = plugin(IosBicycleIcon)
-IosBoatIcon.install = plugin(IosBoatIcon)
 IosBluetoothIcon.install = plugin(IosBluetoothIcon)
+IosBoatIcon.install = plugin(IosBoatIcon)
 IosBodyIcon.install = plugin(IosBodyIcon)
 IosBonfireIcon.install = plugin(IosBonfireIcon)
 IosBookIcon.install = plugin(IosBookIcon)
@@ -780,8 +780,8 @@ IosCheckboxIcon.install = plugin(IosCheckboxIcon)
 IosCheckmarkCircleOutlineIcon.install = plugin(IosCheckmarkCircleOutlineIcon)
 IosCheckmarkCircleIcon.install = plugin(IosCheckmarkCircleIcon)
 IosCheckmarkIcon.install = plugin(IosCheckmarkIcon)
-IosClockIcon.install = plugin(IosClockIcon)
 IosClipboardIcon.install = plugin(IosClipboardIcon)
+IosClockIcon.install = plugin(IosClockIcon)
 IosCloseCircleOutlineIcon.install = plugin(IosCloseCircleOutlineIcon)
 IosCloseCircleIcon.install = plugin(IosCloseCircleIcon)
 IosCloseIcon.install = plugin(IosCloseIcon)
@@ -1446,8 +1446,8 @@ ioniconsPlugin.IosBeakerIcon = IosBeakerIcon
 ioniconsPlugin.IosBedIcon = IosBedIcon
 ioniconsPlugin.IosBeerIcon = IosBeerIcon
 ioniconsPlugin.IosBicycleIcon = IosBicycleIcon
-ioniconsPlugin.IosBoatIcon = IosBoatIcon
 ioniconsPlugin.IosBluetoothIcon = IosBluetoothIcon
+ioniconsPlugin.IosBoatIcon = IosBoatIcon
 ioniconsPlugin.IosBodyIcon = IosBodyIcon
 ioniconsPlugin.IosBonfireIcon = IosBonfireIcon
 ioniconsPlugin.IosBookIcon = IosBookIcon
@@ -1479,8 +1479,8 @@ ioniconsPlugin.IosCheckboxIcon = IosCheckboxIcon
 ioniconsPlugin.IosCheckmarkCircleOutlineIcon = IosCheckmarkCircleOutlineIcon
 ioniconsPlugin.IosCheckmarkCircleIcon = IosCheckmarkCircleIcon
 ioniconsPlugin.IosCheckmarkIcon = IosCheckmarkIcon
-ioniconsPlugin.IosClockIcon = IosClockIcon
 ioniconsPlugin.IosClipboardIcon = IosClipboardIcon
+ioniconsPlugin.IosClockIcon = IosClockIcon
 ioniconsPlugin.IosCloseCircleOutlineIcon = IosCloseCircleOutlineIcon
 ioniconsPlugin.IosCloseCircleIcon = IosCloseCircleIcon
 ioniconsPlugin.IosCloseIcon = IosCloseIcon

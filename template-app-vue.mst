@@ -125,17 +125,10 @@
 </template>
 
 <script>
-<%#data%>
-import <%libraryName%>  from 'dist/<%name%>.vue'
-<%/data%>
+import iconMixin from './component-mixin'
 
 export default {
   name: 'app',
-  components: {
-    <%#data%>
-    <%libraryName%>,
-    <%/data%>
-  },
   data () {
     return {
       title: 'Vue-Ionicons',
@@ -147,25 +140,58 @@ export default {
       rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" :rotate="true"/>',
       beatSampleCode: '<IosHeartIcon w="60px" h="60px" :beat="true"/>',
       shakeSampleCode: '<IosBicycleIcon w="60px" h="60px" :shake="true"/>',
-      icons: [
-        <%#data%>
+      filteredIcon: [],
+      filterGroup: [
         {
-          name: '<%name%>-icon',
-          readableName: '<%readableName%>',
-          libraryName: '<%libraryName%>'
+          id: 'all',
+          display: 'All'
         },
-        <%/data%>
-      ]
+        {
+          id: 'ios',
+          display: 'iOS'
+        },
+        {
+          id: 'md',
+          display: 'Material'
+        },
+        {
+          id: 'logo',
+          display: 'Logo'
+        }
+      ],
+      selectedFilter: {
+        id: 'all',
+        display: 'All'
+      }
     }
   },
-  computed: {
-    filteredIcon() {
-      if (this.searchText !== '') {
-        return this.icons.filter(icon =>
-          icon.readableName.toLowerCase().indexOf(this.searchText.toLowerCase()) >= 0
-        )
-      } else return this.icons
+  watch: {
+    searchText(val) {
+      if (val) {
+        this.doFilterByKeyValue('readableName', val)
+      }
+    },
+    selectedFilter(val) {
+      if (val !== 'all') {
+        this.doFilterByKeyValue('name', val)
+      } else {
+        this.filteredIcon = this.icons
+      }
     }
+  },
+  methods: {
+    doFilterByKeyValue (key, val) {
+      if (val) {
+        this.filteredIcon = this.icons.filter(icon =>
+          icon[key].toLowerCase().indexOf(val.toLowerCase()) >= 0
+        )
+      } else {
+        this.filteredIcon = this.icons
+      }
+    }
+  },
+  mounted() {
+    this.filteredIcon = this.icons
   }
 }
 </script>
@@ -245,7 +271,7 @@ a:focus {
 }
 
 .hero{
-  margin-bottom:1em;
+  margin-bottom:1em !important;
 }
 
 small{
@@ -308,6 +334,21 @@ small{
     margin-bottom: 1em;
     display: flex;
     justify-content: center;
+  }
+  &__select{
+    padding: 1em 5em;
+    margin-right: .5em;
+    outline: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 100px;
+    border-radius: 0;
+    -webkit-appearance : none;
+        -moz-appearance: none;
+            appearance : none;
+    background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAGCAYAAAARx7TFAAAAAXNSR0IArs4c6QAAAJ1JREFUCB1jzMnJCWdkZBSdPHnyFAYk0NDQwPbmzZuVTExMk5iA4p7//v2bDFScC1OzatUqZqCC5f////cHyikwiYiIJAFNWgIUmARSCKQZDx48OAdIBwJNSZ8yZcp8RpBuoNFMQJ0LgRIxQO4hILYFKsgEOmEmSJ4ZRBw4cOC/l5fXxu/fvysDub5Ak3OAJswAyWEAkIm5ublu6BIADTRHW7YWzxEAAAAASUVORK5CYII=);
+    background-position: right 10px center;
+    background-repeat: no-repeat;
   }
   &__input{
     padding: 1em 5em;
