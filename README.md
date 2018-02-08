@@ -69,9 +69,7 @@ https://mazipan.github.io/vue-ionicons
 | w         	        | String               | 14px        | Width of SVG                          	|
 | h         	        | String               | 14px        | Height of SVG                         	|
 | rootClass         	| String               | `empty`     | Class for wrapper SVG                  |
-| rotate         	    | Boolean              | `false`     | Enable animation rotation              |
-| beat         	      | Boolean              | `false`     | Enable animation beating               |
-| shake         	    | Boolean              | `false`     | Enable animation shaking               |
+| animate         	  | String               | `empty`     | Available: `rotate`, `shake`, `beat`   |
 
 
 ## 🏃 Development

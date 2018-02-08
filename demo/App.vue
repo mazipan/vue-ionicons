@@ -5,7 +5,7 @@
       <div class="header__wrapper">
         <div class="header__brand">
           <a href="https://mazipan.github.io/vue-ionicons/">
-            <LogoIonicIcon w="60px" h="60px" :rotate="true" style="color:#fff;"/>
+            <LogoIonicIcon w="60px" h="60px" animate="rotate" style="color:#fff;"/>
           </a>
           <div class="header__title">Vue Ionicons</div>
         </div>
@@ -42,19 +42,19 @@
 
         <div class="card">
           <h3>Rotate Icon</h3>
-          <IosRefreshIcon w="60px" h="60px" :rotate="true" style="color:#4F8EF7;"/>
+          <IosRefreshIcon w="60px" h="60px" animate="rotate" style="color:#4F8EF7;"/>
           <pre>{{ rotateSampleCode }}</pre>
         </div>
 
         <div class="card">
           <h3>Beat Icon</h3>
-          <IosHeartIcon w="60px" h="60px" :beat="true" style="color:red;"/>
+          <IosHeartIcon w="60px" h="60px" animate="beat" style="color:red;"/>
           <pre>{{ beatSampleCode }}</pre>
         </div>
 
         <div class="card">
           <h3>Shake Icon</h3>
-          <IosBicycleIcon w="60px" h="60px" :shake="true" style="color:#00e679;"/>
+          <IosBicycleIcon w="60px" h="60px" animate="shake" style="color:#00e679;"/>
           <pre>{{ shakeSampleCode }}</pre>
         </div>
       </div>
@@ -143,9 +143,9 @@ export default {
       h: '3em',
       searchText: '',
       defaultSampleCode: '<LogoIonicIcon w="60px" h="60px"/>',
-      rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" :rotate="true"/>',
-      beatSampleCode: '<IosHeartIcon w="60px" h="60px" :beat="true"/>',
-      shakeSampleCode: '<IosBicycleIcon w="60px" h="60px" :shake="true"/>',
+      rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" animate="rotate"/>',
+      beatSampleCode: '<IosHeartIcon w="60px" h="60px" animate="beat"/>',
+      shakeSampleCode: '<IosBicycleIcon w="60px" h="60px" animate="shake"/>',
       filteredIcon: [],
       selectedFilter: 'all',
       filterGroup: [ 'all', 'ios', 'md', 'logo']
