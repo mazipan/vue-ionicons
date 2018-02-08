@@ -19,24 +19,24 @@ importScripts('workbox-sw.prod.v2.1.2.js');
  */
 const fileManifest = [
   {
-    "url": "/vue-ionicons/app.53aa82d2e19820d1910fec7cd6d98bfc.css",
-    "revision": "f349a5bcbafc377ae3836a9278a8747e"
+    "url": "/vue-ionicons/app.36f2704370abe9f588bc.js",
+    "revision": "1639b4dcb1f4eec47f9f6390935d8354"
   },
   {
-    "url": "/vue-ionicons/app.eeafcb5d23aaed8573a5.js",
-    "revision": "fe1130809560023d01d63d0f48337960"
+    "url": "/vue-ionicons/app.62911c8c015f8636f5f480e86828b8ea.css",
+    "revision": "aa822280621268c42f6cde345d759030"
   },
   {
     "url": "/vue-ionicons/index.html",
-    "revision": "b18d14d8143e90bd91c7ea0a424441ac"
+    "revision": "4df394f552c1f4de52c76bf490b588f1"
   },
   {
     "url": "/vue-ionicons/manifest.json",
     "revision": "1124a7901152c484510ee86f1ddcfc5d"
   },
   {
-    "url": "/vue-ionicons/vendor.eeafcb5d23aaed8573a5.js",
-    "revision": "96002660b27f5f6c8712bedfe818ea18"
+    "url": "/vue-ionicons/vendor.36f2704370abe9f588bc.js",
+    "revision": "0baea52c112acda487b775190e1478aa"
   }
 ];
 
