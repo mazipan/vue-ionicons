@@ -20,23 +20,23 @@ importScripts('workbox-sw.prod.v2.1.2.js');
 const fileManifest = [
   {
     "url": "/vue-ionicons/app.53aa82d2e19820d1910fec7cd6d98bfc.css",
-    "revision": "b4b2960136e5a2e6872297c7ee61e162"
+    "revision": "f349a5bcbafc377ae3836a9278a8747e"
   },
   {
-    "url": "/vue-ionicons/app.d91caeb4f0da91959c62.js",
-    "revision": "18b678f14a57e30c5b921145e83e1781"
+    "url": "/vue-ionicons/app.eeafcb5d23aaed8573a5.js",
+    "revision": "fe1130809560023d01d63d0f48337960"
   },
   {
     "url": "/vue-ionicons/index.html",
-    "revision": "144e6057064f688a6deef8532ab9b30a"
+    "revision": "b18d14d8143e90bd91c7ea0a424441ac"
   },
   {
     "url": "/vue-ionicons/manifest.json",
     "revision": "1124a7901152c484510ee86f1ddcfc5d"
   },
   {
-    "url": "/vue-ionicons/vendor.d91caeb4f0da91959c62.js",
-    "revision": "6bf0e1f0416081a1244a29b19ef9e36d"
+    "url": "/vue-ionicons/vendor.eeafcb5d23aaed8573a5.js",
+    "revision": "96002660b27f5f6c8712bedfe818ea18"
   }
 ];
 
