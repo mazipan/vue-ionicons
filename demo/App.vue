@@ -36,7 +36,7 @@
       <div class="grid__row centered sample">
         <div class="card">
           <h3>Default Icon</h3>
-          <LogoIonicIcon w="60px" h="60px"/>
+          <LogoIonicIcon w="60px" h="60px" style="color:#FFF;"/>
           <pre>{{ defaultSampleCode }}</pre>
         </div>
 
@@ -200,16 +200,12 @@ html {
   -o-box-sizing: border-box;
   -ms-box-sizing: border-box;
   -webkit-tap-highlight-color: transparent;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
 }
 
 *, *:before, *:after {
     box-sizing: inherit;
-}
-
-#app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
 .header {
@@ -247,8 +243,6 @@ html {
 }
 
 .header__title {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
-    'Helvetica Neue', Arial, sans-serif;
   font-style: normal;
   font-size: 1.8rem;
   font-weight: 500;
@@ -305,6 +299,10 @@ small {
   padding: 7px 0 3px 0;
   text-align: center;
   border: 1px solid #ddd;
+  color: #fff;
+
+  @include bg-gradient();
+  border-radius: 0.25em;
 
   @media screen and (max-width: 480px) {
     width: 24%;
@@ -333,12 +331,6 @@ small {
   }
 }
 
-.ion {
-  &:hover {
-    color: #4f8ef7;
-  }
-}
-
 .search {
   &__box {
     margin-bottom: 1em;
@@ -360,12 +352,12 @@ small {
     border: 1px solid #ddd;
   }
   &__btn {
-    background-color: #4f8ef7;
-    color: #fff;
-    padding: 1em;
-    outline: 0;
-    border: 1px solid #4f8ef7;
+    @include bg-gradient();
     border-radius: 0.25em;
+    color: #fff;
+    padding: 1em 3em;
+    outline: 0;
+    border: 1px solid #4776e6;
     cursor: pointer;
     display: flex;
   }
@@ -375,6 +367,7 @@ pre {
   padding: 16px;
   background-color: #f6f8fa;
   overflow: auto;
+  border-radius: 0.25em;
 }
 
 .sample {
@@ -384,12 +377,14 @@ pre {
 }
 .card {
   padding: 1em;
-  width: 45%;
+  width: 47%;
   text-align: center;
   margin: auto;
   margin-bottom: 1em;
   border-radius: 0.25em;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 10px, rgba(0, 0, 0, 0.23) 0px 3px 10px;
+
+  @include bg-gradient();
 
   @media screen and (max-width: 480px) {
     width: 75%;
