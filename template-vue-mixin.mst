@@ -21,19 +21,19 @@ export default {
   props: {
     title: {
       type: String,
-      default: ""
+      default: ''
     },
     rootClass: {
       type: String,
-      default: ""
+      default: ''
     },
     w: {
       type: String,
-      default: "14px"
+      default: '14px'
     },
     h: {
       type: String,
-      default: "14px"
+      default: '14px'
     },
     animate: {
       type: String,

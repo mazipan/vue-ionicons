@@ -1,14 +1,17 @@
+const A_ROTATE = 'rotate'
+const A_BEAT = 'beat'
+const A_SHAKE = 'shake'
+
 export default {
   computed: {
     ionClass() {
       let addClass = ''
-
-      if (this.rotate) {
-        addClass = addClass + 'ion-rotate '
-      } else if (this.beat) {
-        addClass = addClass + 'ion-beat '
-      } else if (this.shake) {
-        addClass = addClass + 'ion-shake '
+      if (this.animate === A_ROTATE) {
+        addClass = 'ion-rotate '
+      } else if (this.animate === A_BEAT) {
+        addClass = 'ion-beat '
+      } else if (this.animate === A_SHAKE) {
+        addClass = 'ion-shake '
       }
 
       return `${this.rootClass} ${addClass}`
@@ -17,31 +20,23 @@ export default {
   props: {
     title: {
       type: String,
-      default: ""
+      default: ''
     },
     rootClass: {
       type: String,
-      default: ""
+      default: ''
     },
     w: {
       type: String,
-      default: "14px"
+      default: '14px'
     },
     h: {
       type: String,
-      default: "14px"
+      default: '14px'
     },
-    rotate: {
-      type: Boolean,
-      default: false
-    },
-    beat: {
-      type: Boolean,
-      default: false
-    },
-    shake: {
-      type: Boolean,
-      default: false
+    animate: {
+      type: String,
+      default: ''
     }
   }
 }
