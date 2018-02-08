@@ -34,6 +34,10 @@ module.exports = {
         exclude: /node_modules/,
         options: {
           loaders: {
+            css: ExtractTextPlugin.extract({
+              use: 'css-loader',
+              fallback: 'vue-style-loader'
+            }),
             scss: ExtractTextPlugin.extract({
               use: 'css-loader!sass-loader',
               fallback: 'vue-style-loader'
@@ -51,6 +55,14 @@ module.exports = {
         test: /\.js$/,
         loader: 'babel-loader',
         exclude: /node_modules/
+      },
+      {
+        test: /\.css$/,
+        exclude: /node_modules/,
+        use: ExtractTextPlugin.extract({
+          fallback: "style-loader",
+          use: "css-loader"
+        })
       },
       {
         test: /\.(png|jpg|gif|svg)$/,

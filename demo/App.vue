@@ -1,5 +1,5 @@
 <template>
-  <div id="app" class="VueSelectImage">
+  <div id="app" class="app">
 
     <header role="header" class="site__header header">
       <div class="header__wrapper">
@@ -18,7 +18,7 @@
       </div>
     </header>
 
-    <div class="app">
+    <main class="main-app">
 
       <div class="grid__row centered hero">
         <h1 class="centered">
@@ -94,14 +94,12 @@
 
       </div>
 
-    </div>
+    </main>
 
-    <div class="grid__row content centered">
+    <footer class="grid__row content centered">
       <h2>Contribute</h2>
       <p>Feel free to fork <i class="fa fa-code-fork"></i> on <a href="https://github.com/mazipan/vue-ionicons" target="_blank">GitHub <i class="fa fa-github"></i></a> if you have any features <i class="fa fa-cart-plus"></i> or bugs <i class="fa fa-bug"></i>!</p>
-    </div>
 
-    <div class="grid__row content centered">
       <h2>Contact Developer</h2>
       <p>
         <a href="https://github.com/mazipan">
@@ -120,11 +118,9 @@
           <LogoLinkedinIcon w="30px" h="30px" />
         </a>
       </p>
-    </div>
 
-    <div class="grid__row content centered">
       <p>Copyright © 2017 <a href="https://mazipanneh.com/blog/">Irfan Maulana</a>, All Rights Reserved.</p>
-    </div>
+    </footer>
 
   </div>
 </template>
@@ -183,8 +179,10 @@ export default {
 </script>
 
 <style lang="scss">
+@import "./normalize.scss";
+
 // import ionicons global scss
-@import '../ionicons.scss';
+@import "../ionicons.scss";
 
 @mixin bg-gradient() {
   background: #4776e6;
