@@ -51,8 +51,8 @@ let IosBookIcon  = () => import('./ios-book.vue')
 let IosBookmarkIcon  = () => import('./ios-bookmark.vue')
 let IosBookmarksIcon  = () => import('./ios-bookmarks.vue')
 let IosBowtieIcon  = () => import('./ios-bowtie.vue')
-let IosBrowsersIcon  = () => import('./ios-browsers.vue')
 let IosBriefcaseIcon  = () => import('./ios-briefcase.vue')
+let IosBrowsersIcon  = () => import('./ios-browsers.vue')
 let IosBrushIcon  = () => import('./ios-brush.vue')
 let IosBugIcon  = () => import('./ios-bug.vue')
 let IosBuildIcon  = () => import('./ios-build.vue')
@@ -120,8 +120,8 @@ let IosExpandIcon  = () => import('./ios-expand.vue')
 let IosEyeOffIcon  = () => import('./ios-eye-off.vue')
 let IosEyeIcon  = () => import('./ios-eye.vue')
 let IosFastforwardIcon  = () => import('./ios-fastforward.vue')
-let IosFilingIcon  = () => import('./ios-filing.vue')
 let IosFemaleIcon  = () => import('./ios-female.vue')
+let IosFilingIcon  = () => import('./ios-filing.vue')
 let IosFilmIcon  = () => import('./ios-film.vue')
 let IosFingerPrintIcon  = () => import('./ios-finger-print.vue')
 let IosFitnessIcon  = () => import('./ios-fitness.vue')
@@ -465,8 +465,8 @@ let MdCloudCircleIcon  = () => import('./md-cloud-circle.vue')
 let MdCloudDoneIcon  = () => import('./md-cloud-done.vue')
 let MdCloudDownloadIcon  = () => import('./md-cloud-download.vue')
 let MdCloudOutlineIcon  = () => import('./md-cloud-outline.vue')
-let MdCloudIcon  = () => import('./md-cloud.vue')
 let MdCloudUploadIcon  = () => import('./md-cloud-upload.vue')
+let MdCloudIcon  = () => import('./md-cloud.vue')
 let MdCloudyNightIcon  = () => import('./md-cloudy-night.vue')
 let MdCloudyIcon  = () => import('./md-cloudy.vue')
 let MdCodeDownloadIcon  = () => import('./md-code-download.vue')
@@ -596,8 +596,8 @@ let MdPauseIcon  = () => import('./md-pause.vue')
 let MdPawIcon  = () => import('./md-paw.vue')
 let MdPeopleIcon  = () => import('./md-people.vue')
 let MdPersonAddIcon  = () => import('./md-person-add.vue')
-let MdPhoneLandscapeIcon  = () => import('./md-phone-landscape.vue')
 let MdPersonIcon  = () => import('./md-person.vue')
+let MdPhoneLandscapeIcon  = () => import('./md-phone-landscape.vue')
 let MdPhonePortraitIcon  = () => import('./md-phone-portrait.vue')
 let MdPhotosIcon  = () => import('./md-photos.vue')
 let MdPieIcon  = () => import('./md-pie.vue')
@@ -616,8 +616,8 @@ let MdPrintIcon  = () => import('./md-print.vue')
 let MdPulseIcon  = () => import('./md-pulse.vue')
 let MdQrScannerIcon  = () => import('./md-qr-scanner.vue')
 let MdQuoteIcon  = () => import('./md-quote.vue')
-let MdRadioButtonOnIcon  = () => import('./md-radio-button-on.vue')
 let MdRadioButtonOffIcon  = () => import('./md-radio-button-off.vue')
+let MdRadioButtonOnIcon  = () => import('./md-radio-button-on.vue')
 let MdRadioIcon  = () => import('./md-radio.vue')
 let MdRainyIcon  = () => import('./md-rainy.vue')
 let MdRecordingIcon  = () => import('./md-recording.vue')
@@ -755,8 +755,8 @@ IosBookIcon.install = plugin(IosBookIcon)
 IosBookmarkIcon.install = plugin(IosBookmarkIcon)
 IosBookmarksIcon.install = plugin(IosBookmarksIcon)
 IosBowtieIcon.install = plugin(IosBowtieIcon)
-IosBrowsersIcon.install = plugin(IosBrowsersIcon)
 IosBriefcaseIcon.install = plugin(IosBriefcaseIcon)
+IosBrowsersIcon.install = plugin(IosBrowsersIcon)
 IosBrushIcon.install = plugin(IosBrushIcon)
 IosBugIcon.install = plugin(IosBugIcon)
 IosBuildIcon.install = plugin(IosBuildIcon)
@@ -824,8 +824,8 @@ IosExpandIcon.install = plugin(IosExpandIcon)
 IosEyeOffIcon.install = plugin(IosEyeOffIcon)
 IosEyeIcon.install = plugin(IosEyeIcon)
 IosFastforwardIcon.install = plugin(IosFastforwardIcon)
-IosFilingIcon.install = plugin(IosFilingIcon)
 IosFemaleIcon.install = plugin(IosFemaleIcon)
+IosFilingIcon.install = plugin(IosFilingIcon)
 IosFilmIcon.install = plugin(IosFilmIcon)
 IosFingerPrintIcon.install = plugin(IosFingerPrintIcon)
 IosFitnessIcon.install = plugin(IosFitnessIcon)
@@ -1169,8 +1169,8 @@ MdCloudCircleIcon.install = plugin(MdCloudCircleIcon)
 MdCloudDoneIcon.install = plugin(MdCloudDoneIcon)
 MdCloudDownloadIcon.install = plugin(MdCloudDownloadIcon)
 MdCloudOutlineIcon.install = plugin(MdCloudOutlineIcon)
-MdCloudIcon.install = plugin(MdCloudIcon)
 MdCloudUploadIcon.install = plugin(MdCloudUploadIcon)
+MdCloudIcon.install = plugin(MdCloudIcon)
 MdCloudyNightIcon.install = plugin(MdCloudyNightIcon)
 MdCloudyIcon.install = plugin(MdCloudyIcon)
 MdCodeDownloadIcon.install = plugin(MdCodeDownloadIcon)
@@ -1300,8 +1300,8 @@ MdPauseIcon.install = plugin(MdPauseIcon)
 MdPawIcon.install = plugin(MdPawIcon)
 MdPeopleIcon.install = plugin(MdPeopleIcon)
 MdPersonAddIcon.install = plugin(MdPersonAddIcon)
-MdPhoneLandscapeIcon.install = plugin(MdPhoneLandscapeIcon)
 MdPersonIcon.install = plugin(MdPersonIcon)
+MdPhoneLandscapeIcon.install = plugin(MdPhoneLandscapeIcon)
 MdPhonePortraitIcon.install = plugin(MdPhonePortraitIcon)
 MdPhotosIcon.install = plugin(MdPhotosIcon)
 MdPieIcon.install = plugin(MdPieIcon)
@@ -1320,8 +1320,8 @@ MdPrintIcon.install = plugin(MdPrintIcon)
 MdPulseIcon.install = plugin(MdPulseIcon)
 MdQrScannerIcon.install = plugin(MdQrScannerIcon)
 MdQuoteIcon.install = plugin(MdQuoteIcon)
-MdRadioButtonOnIcon.install = plugin(MdRadioButtonOnIcon)
 MdRadioButtonOffIcon.install = plugin(MdRadioButtonOffIcon)
+MdRadioButtonOnIcon.install = plugin(MdRadioButtonOnIcon)
 MdRadioIcon.install = plugin(MdRadioIcon)
 MdRainyIcon.install = plugin(MdRainyIcon)
 MdRecordingIcon.install = plugin(MdRecordingIcon)
@@ -1454,8 +1454,8 @@ ioniconsPlugin.IosBookIcon = IosBookIcon
 ioniconsPlugin.IosBookmarkIcon = IosBookmarkIcon
 ioniconsPlugin.IosBookmarksIcon = IosBookmarksIcon
 ioniconsPlugin.IosBowtieIcon = IosBowtieIcon
-ioniconsPlugin.IosBrowsersIcon = IosBrowsersIcon
 ioniconsPlugin.IosBriefcaseIcon = IosBriefcaseIcon
+ioniconsPlugin.IosBrowsersIcon = IosBrowsersIcon
 ioniconsPlugin.IosBrushIcon = IosBrushIcon
 ioniconsPlugin.IosBugIcon = IosBugIcon
 ioniconsPlugin.IosBuildIcon = IosBuildIcon
@@ -1523,8 +1523,8 @@ ioniconsPlugin.IosExpandIcon = IosExpandIcon
 ioniconsPlugin.IosEyeOffIcon = IosEyeOffIcon
 ioniconsPlugin.IosEyeIcon = IosEyeIcon
 ioniconsPlugin.IosFastforwardIcon = IosFastforwardIcon
-ioniconsPlugin.IosFilingIcon = IosFilingIcon
 ioniconsPlugin.IosFemaleIcon = IosFemaleIcon
+ioniconsPlugin.IosFilingIcon = IosFilingIcon
 ioniconsPlugin.IosFilmIcon = IosFilmIcon
 ioniconsPlugin.IosFingerPrintIcon = IosFingerPrintIcon
 ioniconsPlugin.IosFitnessIcon = IosFitnessIcon
@@ -1868,8 +1868,8 @@ ioniconsPlugin.MdCloudCircleIcon = MdCloudCircleIcon
 ioniconsPlugin.MdCloudDoneIcon = MdCloudDoneIcon
 ioniconsPlugin.MdCloudDownloadIcon = MdCloudDownloadIcon
 ioniconsPlugin.MdCloudOutlineIcon = MdCloudOutlineIcon
-ioniconsPlugin.MdCloudIcon = MdCloudIcon
 ioniconsPlugin.MdCloudUploadIcon = MdCloudUploadIcon
+ioniconsPlugin.MdCloudIcon = MdCloudIcon
 ioniconsPlugin.MdCloudyNightIcon = MdCloudyNightIcon
 ioniconsPlugin.MdCloudyIcon = MdCloudyIcon
 ioniconsPlugin.MdCodeDownloadIcon = MdCodeDownloadIcon
@@ -1999,8 +1999,8 @@ ioniconsPlugin.MdPauseIcon = MdPauseIcon
 ioniconsPlugin.MdPawIcon = MdPawIcon
 ioniconsPlugin.MdPeopleIcon = MdPeopleIcon
 ioniconsPlugin.MdPersonAddIcon = MdPersonAddIcon
-ioniconsPlugin.MdPhoneLandscapeIcon = MdPhoneLandscapeIcon
 ioniconsPlugin.MdPersonIcon = MdPersonIcon
+ioniconsPlugin.MdPhoneLandscapeIcon = MdPhoneLandscapeIcon
 ioniconsPlugin.MdPhonePortraitIcon = MdPhonePortraitIcon
 ioniconsPlugin.MdPhotosIcon = MdPhotosIcon
 ioniconsPlugin.MdPieIcon = MdPieIcon
@@ -2019,8 +2019,8 @@ ioniconsPlugin.MdPrintIcon = MdPrintIcon
 ioniconsPlugin.MdPulseIcon = MdPulseIcon
 ioniconsPlugin.MdQrScannerIcon = MdQrScannerIcon
 ioniconsPlugin.MdQuoteIcon = MdQuoteIcon
-ioniconsPlugin.MdRadioButtonOnIcon = MdRadioButtonOnIcon
 ioniconsPlugin.MdRadioButtonOffIcon = MdRadioButtonOffIcon
+ioniconsPlugin.MdRadioButtonOnIcon = MdRadioButtonOnIcon
 ioniconsPlugin.MdRadioIcon = MdRadioIcon
 ioniconsPlugin.MdRainyIcon = MdRainyIcon
 ioniconsPlugin.MdRecordingIcon = MdRecordingIcon
