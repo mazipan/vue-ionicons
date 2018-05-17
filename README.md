@@ -28,7 +28,7 @@ https://mazipan.github.io/vue-ionicons
 1. Import the icon, and declare it as a local component:
 
     ```javascript
-    import AlertIcon from 'vue-ionicons/dist/alert.vue'
+    import AlertIcon from 'vue-ionicons/dist/ios-alert.vue'
 
     components: {
       AlertIcon
@@ -40,7 +40,7 @@ https://mazipan.github.io/vue-ionicons
     Declare it as a global component:
 
     ```javascript
-    import AlertIcon from 'vue-ionicons/dist/alert.vue'
+    import AlertIcon from 'vue-ionicons/dist/ios-alert.vue'
 
     Vue.component('alert-icon', AlertIcon)
     ```
