@@ -124,3 +124,5 @@ npm run dist
 ## 🎁 Contributing
 
 If you'd like to contribute, head to the [contributing guidelines](/CONTRIBUTING.md). Inside you'll find directions for opening issues, coding standards, and notes on development.
+
+Copyright © 2017 Built with ❤️ by Irfan Maulana
