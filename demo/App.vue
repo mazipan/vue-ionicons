@@ -77,7 +77,7 @@
         </button>
       </div>
 
-      <div class="grid__row">
+      <div class="grid__row icons__list">
 
         <div class="box" v-for="icon in filteredIcon" :key="icon.name">
 
@@ -303,7 +303,9 @@ small {
   border-radius: 0.25em;
 
   @media screen and (max-width: 480px) {
-    width: 24%;
+    width: 30%;
+    position: unset;
+    float: unset;
   }
 
   &-content {
@@ -334,6 +336,10 @@ small {
     margin-bottom: 1em;
     display: flex;
     justify-content: center;
+
+    @media screen and (max-width: 480px) {
+      padding: 1em;
+    }
   }
   &__select {
     padding: 1em 5em;
@@ -342,12 +348,18 @@ small {
     background-color: #fff;
     border: 1px solid #ddd;
     width: 100px;
+    @media screen and (max-width: 480px) {
+      padding: 1em;
+    }
   }
   &__input {
     padding: 1em 5em;
     margin-right: 0.5em;
     outline: 0;
     border: 1px solid #ddd;
+    @media screen and (max-width: 480px) {
+      padding: 1em;
+    }
   }
   &__btn {
     @include bg-gradient();
@@ -358,6 +370,9 @@ small {
     border: 1px solid #4776e6;
     cursor: pointer;
     display: flex;
+    @media screen and (max-width: 480px) {
+      display: none;
+    }
   }
 }
 
@@ -366,6 +381,11 @@ pre {
   background-color: #f6f8fa;
   overflow: auto;
   border-radius: 0.25em;
+
+
+  @media screen and (max-width: 480px) {
+    margin-bottom: 0;
+  }
 }
 
 .sample {
@@ -373,6 +393,15 @@ pre {
   flex-wrap: wrap;
   margin-bottom: 2em;
 }
+
+.icons__list {
+  @media screen and (max-width: 480px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+}
+
 .card {
   padding: 1em;
   width: 47%;
@@ -385,7 +414,12 @@ pre {
   @include bg-gradient();
 
   @media screen and (max-width: 480px) {
-    width: 75%;
+    width: 45%;
+    font-size: 12px;
+
+    h3 {
+      margin-top: 0;
+    }
   }
 }
 </style>
