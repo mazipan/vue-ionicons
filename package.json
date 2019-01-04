@@ -1,6 +1,6 @@
 {
   "name": "vue-ionicons",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "license": "MIT",
   "author": "Irfan Maulana (https://github.com/mazipan/)",
   "description": "Vue Icon Set Components from Ionic Team",
@@ -12,7 +12,10 @@
     "deploy": "node ./gh-publish.js"
   },
   "files": [
-    "dist/**"
+    "dist/**",
+    "ionicons.css",
+    "ionicons.scss",
+    "ionicons.less"
   ],
   "keywords": [
     "vue ionicons",

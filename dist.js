@@ -193,15 +193,15 @@ generateTemplateData().then((templateData) => {
     console.log(chalk.red('Error when build templateData'))
   })
 
-  fs.copyFile('public/ionicons.css', 'dist/ionicons.css', (err) => {
+  fs.copyFile('ionicons.css', 'dist/ionicons.css', (err) => {
     if (err) throw err;
     console.log(chalk.green('File css already copied'))
   });
-  fs.copyFile('public/ionicons.scss', 'dist/ionicons.scss', (err) => {
+  fs.copyFile('ionicons.scss', 'dist/ionicons.scss', (err) => {
     if (err) throw err;
     console.log(chalk.green('File scss already copied'))
   });
-  fs.copyFile('public/ionicons.less', 'dist/ionicons.less', (err) => {
+  fs.copyFile('ionicons.less', 'dist/ionicons.less', (err) => {
     if (err) throw err;
     console.log(chalk.green('File less already copied'))
   });
