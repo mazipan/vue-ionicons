@@ -110,16 +110,18 @@
           <div class="section__head">
             <h2 class="icon__title-section">Logo Icon</h2>
           </div>
-          <div class="box" 
-            v-for="icon in filteredLogoIcons" 
-            :key="icon.name"
-            @click="activateIcon(icon)">
-            <component :is="icon.name"
-                      :w="w"
-                      :h="h">
-            </component>
-            <div class="box-content">
-              {{ icon.libraryName }}
+          <div class="appicon__wrapper">
+            <div class="box" 
+              v-for="icon in filteredLogoIcons" 
+              :key="icon.name"
+              @click="activateIcon(icon)">
+              <component :is="icon.name"
+                        :w="w"
+                        :h="h">
+              </component>
+              <div class="box-content">
+                {{ icon.libraryName }}
+              </div>
             </div>
           </div>
         </section>
@@ -366,9 +368,14 @@ small {
   margin-bottom: 1em !important;
 }
 
+.appicon__wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
 .box {
   position: relative;
-  float: left;
   width: 14%;
   cursor: pointer;
   padding: 7px 0 3px 0;
@@ -385,9 +392,7 @@ small {
   }
 
   @media screen and (max-width: 480px) {
-    width: 30%;
-    position: unset;
-    float: unset;
+    width: 20%;
   }
 
   &-content {
