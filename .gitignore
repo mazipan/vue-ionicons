@@ -58,3 +58,4 @@ typings/
 .env
 demo/component-mixin.js
 demo/dist/
+dist/
