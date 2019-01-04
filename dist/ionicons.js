@@ -1,702 +1,701 @@
-// import libraryName from './name.vue'
+// let   = () => import('./.vue')
 
-let IosAddCircleOutlineIcon  = () => import('./ios-add-circle-outline.vue')
-let IosAddCircleIcon  = () => import('./ios-add-circle.vue')
-let IosAddIcon  = () => import('./ios-add.vue')
-let IosAirplaneIcon  = () => import('./ios-airplane.vue')
-let IosAlarmIcon  = () => import('./ios-alarm.vue')
-let IosAlbumsIcon  = () => import('./ios-albums.vue')
-let IosAlertIcon  = () => import('./ios-alert.vue')
-let IosAmericanFootballIcon  = () => import('./ios-american-football.vue')
-let IosAnalyticsIcon  = () => import('./ios-analytics.vue')
-let IosApertureIcon  = () => import('./ios-aperture.vue')
-let IosAppsIcon  = () => import('./ios-apps.vue')
-let IosAppstoreIcon  = () => import('./ios-appstore.vue')
-let IosArchiveIcon  = () => import('./ios-archive.vue')
-let IosArrowBackIcon  = () => import('./ios-arrow-back.vue')
-let IosArrowDownIcon  = () => import('./ios-arrow-down.vue')
-let IosArrowDropdownCircleIcon  = () => import('./ios-arrow-dropdown-circle.vue')
-let IosArrowDropdownIcon  = () => import('./ios-arrow-dropdown.vue')
-let IosArrowDropleftCircleIcon  = () => import('./ios-arrow-dropleft-circle.vue')
-let IosArrowDropleftIcon  = () => import('./ios-arrow-dropleft.vue')
-let IosArrowDroprightCircleIcon  = () => import('./ios-arrow-dropright-circle.vue')
-let IosArrowDroprightIcon  = () => import('./ios-arrow-dropright.vue')
-let IosArrowDropupCircleIcon  = () => import('./ios-arrow-dropup-circle.vue')
-let IosArrowDropupIcon  = () => import('./ios-arrow-dropup.vue')
-let IosArrowForwardIcon  = () => import('./ios-arrow-forward.vue')
-let IosArrowRoundBackIcon  = () => import('./ios-arrow-round-back.vue')
-let IosArrowRoundDownIcon  = () => import('./ios-arrow-round-down.vue')
-let IosArrowRoundForwardIcon  = () => import('./ios-arrow-round-forward.vue')
-let IosArrowRoundUpIcon  = () => import('./ios-arrow-round-up.vue')
-let IosArrowUpIcon  = () => import('./ios-arrow-up.vue')
-let IosAtIcon  = () => import('./ios-at.vue')
-let IosAttachIcon  = () => import('./ios-attach.vue')
-let IosBackspaceIcon  = () => import('./ios-backspace.vue')
-let IosBarcodeIcon  = () => import('./ios-barcode.vue')
-let IosBaseballIcon  = () => import('./ios-baseball.vue')
-let IosBasketIcon  = () => import('./ios-basket.vue')
-let IosBasketballIcon  = () => import('./ios-basketball.vue')
-let IosBatteryChargingIcon  = () => import('./ios-battery-charging.vue')
-let IosBatteryDeadIcon  = () => import('./ios-battery-dead.vue')
-let IosBatteryFullIcon  = () => import('./ios-battery-full.vue')
-let IosBeakerIcon  = () => import('./ios-beaker.vue')
-let IosBedIcon  = () => import('./ios-bed.vue')
-let IosBeerIcon  = () => import('./ios-beer.vue')
-let IosBicycleIcon  = () => import('./ios-bicycle.vue')
-let IosBluetoothIcon  = () => import('./ios-bluetooth.vue')
-let IosBoatIcon  = () => import('./ios-boat.vue')
-let IosBodyIcon  = () => import('./ios-body.vue')
-let IosBonfireIcon  = () => import('./ios-bonfire.vue')
-let IosBookIcon  = () => import('./ios-book.vue')
-let IosBookmarkIcon  = () => import('./ios-bookmark.vue')
-let IosBookmarksIcon  = () => import('./ios-bookmarks.vue')
-let IosBowtieIcon  = () => import('./ios-bowtie.vue')
-let IosBriefcaseIcon  = () => import('./ios-briefcase.vue')
-let IosBrowsersIcon  = () => import('./ios-browsers.vue')
-let IosBrushIcon  = () => import('./ios-brush.vue')
-let IosBugIcon  = () => import('./ios-bug.vue')
-let IosBuildIcon  = () => import('./ios-build.vue')
-let IosBulbIcon  = () => import('./ios-bulb.vue')
-let IosBusIcon  = () => import('./ios-bus.vue')
-let IosBusinessIcon  = () => import('./ios-business.vue')
-let IosCafeIcon  = () => import('./ios-cafe.vue')
-let IosCalculatorIcon  = () => import('./ios-calculator.vue')
-let IosCalendarIcon  = () => import('./ios-calendar.vue')
-let IosCallIcon  = () => import('./ios-call.vue')
-let IosCameraIcon  = () => import('./ios-camera.vue')
-let IosCarIcon  = () => import('./ios-car.vue')
-let IosCardIcon  = () => import('./ios-card.vue')
-let IosCartIcon  = () => import('./ios-cart.vue')
-let IosCashIcon  = () => import('./ios-cash.vue')
-let IosCellularIcon  = () => import('./ios-cellular.vue')
-let IosChatboxesIcon  = () => import('./ios-chatboxes.vue')
-let IosChatbubblesIcon  = () => import('./ios-chatbubbles.vue')
-let IosCheckboxOutlineIcon  = () => import('./ios-checkbox-outline.vue')
-let IosCheckboxIcon  = () => import('./ios-checkbox.vue')
-let IosCheckmarkCircleOutlineIcon  = () => import('./ios-checkmark-circle-outline.vue')
-let IosCheckmarkCircleIcon  = () => import('./ios-checkmark-circle.vue')
-let IosCheckmarkIcon  = () => import('./ios-checkmark.vue')
-let IosClipboardIcon  = () => import('./ios-clipboard.vue')
-let IosClockIcon  = () => import('./ios-clock.vue')
-let IosCloseCircleOutlineIcon  = () => import('./ios-close-circle-outline.vue')
-let IosCloseCircleIcon  = () => import('./ios-close-circle.vue')
-let IosCloseIcon  = () => import('./ios-close.vue')
-let IosCloudCircleIcon  = () => import('./ios-cloud-circle.vue')
-let IosCloudDoneIcon  = () => import('./ios-cloud-done.vue')
-let IosCloudDownloadIcon  = () => import('./ios-cloud-download.vue')
-let IosCloudOutlineIcon  = () => import('./ios-cloud-outline.vue')
-let IosCloudUploadIcon  = () => import('./ios-cloud-upload.vue')
-let IosCloudIcon  = () => import('./ios-cloud.vue')
-let IosCloudyNightIcon  = () => import('./ios-cloudy-night.vue')
-let IosCloudyIcon  = () => import('./ios-cloudy.vue')
-let IosCodeDownloadIcon  = () => import('./ios-code-download.vue')
-let IosCodeWorkingIcon  = () => import('./ios-code-working.vue')
-let IosCodeIcon  = () => import('./ios-code.vue')
-let IosCogIcon  = () => import('./ios-cog.vue')
-let IosColorFillIcon  = () => import('./ios-color-fill.vue')
-let IosColorFilterIcon  = () => import('./ios-color-filter.vue')
-let IosColorPaletteIcon  = () => import('./ios-color-palette.vue')
-let IosColorWandIcon  = () => import('./ios-color-wand.vue')
-let IosCompassIcon  = () => import('./ios-compass.vue')
-let IosConstructIcon  = () => import('./ios-construct.vue')
-let IosContactIcon  = () => import('./ios-contact.vue')
-let IosContactsIcon  = () => import('./ios-contacts.vue')
-let IosContractIcon  = () => import('./ios-contract.vue')
-let IosContrastIcon  = () => import('./ios-contrast.vue')
-let IosCopyIcon  = () => import('./ios-copy.vue')
-let IosCreateIcon  = () => import('./ios-create.vue')
-let IosCropIcon  = () => import('./ios-crop.vue')
-let IosCubeIcon  = () => import('./ios-cube.vue')
-let IosCutIcon  = () => import('./ios-cut.vue')
-let IosDesktopIcon  = () => import('./ios-desktop.vue')
-let IosDiscIcon  = () => import('./ios-disc.vue')
-let IosDocumentIcon  = () => import('./ios-document.vue')
-let IosDoneAllIcon  = () => import('./ios-done-all.vue')
-let IosDownloadIcon  = () => import('./ios-download.vue')
-let IosEaselIcon  = () => import('./ios-easel.vue')
-let IosEggIcon  = () => import('./ios-egg.vue')
-let IosExitIcon  = () => import('./ios-exit.vue')
-let IosExpandIcon  = () => import('./ios-expand.vue')
-let IosEyeOffIcon  = () => import('./ios-eye-off.vue')
-let IosEyeIcon  = () => import('./ios-eye.vue')
-let IosFastforwardIcon  = () => import('./ios-fastforward.vue')
-let IosFemaleIcon  = () => import('./ios-female.vue')
-let IosFilingIcon  = () => import('./ios-filing.vue')
-let IosFilmIcon  = () => import('./ios-film.vue')
-let IosFingerPrintIcon  = () => import('./ios-finger-print.vue')
-let IosFitnessIcon  = () => import('./ios-fitness.vue')
-let IosFlagIcon  = () => import('./ios-flag.vue')
-let IosFlameIcon  = () => import('./ios-flame.vue')
-let IosFlashOffIcon  = () => import('./ios-flash-off.vue')
-let IosFlashIcon  = () => import('./ios-flash.vue')
-let IosFlashlightIcon  = () => import('./ios-flashlight.vue')
-let IosFlaskIcon  = () => import('./ios-flask.vue')
-let IosFlowerIcon  = () => import('./ios-flower.vue')
-let IosFolderOpenIcon  = () => import('./ios-folder-open.vue')
-let IosFolderIcon  = () => import('./ios-folder.vue')
-let IosFootballIcon  = () => import('./ios-football.vue')
-let IosFunnelIcon  = () => import('./ios-funnel.vue')
-let IosGiftIcon  = () => import('./ios-gift.vue')
-let IosGitBranchIcon  = () => import('./ios-git-branch.vue')
-let IosGitCommitIcon  = () => import('./ios-git-commit.vue')
-let IosGitCompareIcon  = () => import('./ios-git-compare.vue')
-let IosGitMergeIcon  = () => import('./ios-git-merge.vue')
-let IosGitNetworkIcon  = () => import('./ios-git-network.vue')
-let IosGitPullRequestIcon  = () => import('./ios-git-pull-request.vue')
-let IosGlassesIcon  = () => import('./ios-glasses.vue')
-let IosGlobeIcon  = () => import('./ios-globe.vue')
-let IosGridIcon  = () => import('./ios-grid.vue')
-let IosHammerIcon  = () => import('./ios-hammer.vue')
-let IosHandIcon  = () => import('./ios-hand.vue')
-let IosHappyIcon  = () => import('./ios-happy.vue')
-let IosHeadsetIcon  = () => import('./ios-headset.vue')
-let IosHeartDislikeIcon  = () => import('./ios-heart-dislike.vue')
-let IosHeartEmptyIcon  = () => import('./ios-heart-empty.vue')
-let IosHeartHalfIcon  = () => import('./ios-heart-half.vue')
-let IosHeartIcon  = () => import('./ios-heart.vue')
-let IosHelpBuoyIcon  = () => import('./ios-help-buoy.vue')
-let IosHelpCircleOutlineIcon  = () => import('./ios-help-circle-outline.vue')
-let IosHelpCircleIcon  = () => import('./ios-help-circle.vue')
-let IosHelpIcon  = () => import('./ios-help.vue')
-let IosHomeIcon  = () => import('./ios-home.vue')
-let IosHourglassIcon  = () => import('./ios-hourglass.vue')
-let IosIceCreamIcon  = () => import('./ios-ice-cream.vue')
-let IosImageIcon  = () => import('./ios-image.vue')
-let IosImagesIcon  = () => import('./ios-images.vue')
-let IosInfiniteIcon  = () => import('./ios-infinite.vue')
-let IosInformationCircleOutlineIcon  = () => import('./ios-information-circle-outline.vue')
-let IosInformationCircleIcon  = () => import('./ios-information-circle.vue')
-let IosInformationIcon  = () => import('./ios-information.vue')
-let IosJetIcon  = () => import('./ios-jet.vue')
-let IosJournalIcon  = () => import('./ios-journal.vue')
-let IosKeyIcon  = () => import('./ios-key.vue')
-let IosKeypadIcon  = () => import('./ios-keypad.vue')
-let IosLaptopIcon  = () => import('./ios-laptop.vue')
-let IosLeafIcon  = () => import('./ios-leaf.vue')
-let IosLinkIcon  = () => import('./ios-link.vue')
-let IosListBoxIcon  = () => import('./ios-list-box.vue')
-let IosListIcon  = () => import('./ios-list.vue')
-let IosLocateIcon  = () => import('./ios-locate.vue')
-let IosLockIcon  = () => import('./ios-lock.vue')
-let IosLogInIcon  = () => import('./ios-log-in.vue')
-let IosLogOutIcon  = () => import('./ios-log-out.vue')
-let IosMagnetIcon  = () => import('./ios-magnet.vue')
-let IosMailOpenIcon  = () => import('./ios-mail-open.vue')
-let IosMailUnreadIcon  = () => import('./ios-mail-unread.vue')
-let IosMailIcon  = () => import('./ios-mail.vue')
-let IosMaleIcon  = () => import('./ios-male.vue')
-let IosManIcon  = () => import('./ios-man.vue')
-let IosMapIcon  = () => import('./ios-map.vue')
-let IosMedalIcon  = () => import('./ios-medal.vue')
-let IosMedicalIcon  = () => import('./ios-medical.vue')
-let IosMedkitIcon  = () => import('./ios-medkit.vue')
-let IosMegaphoneIcon  = () => import('./ios-megaphone.vue')
-let IosMenuIcon  = () => import('./ios-menu.vue')
-let IosMicOffIcon  = () => import('./ios-mic-off.vue')
-let IosMicIcon  = () => import('./ios-mic.vue')
-let IosMicrophoneIcon  = () => import('./ios-microphone.vue')
-let IosMoonIcon  = () => import('./ios-moon.vue')
-let IosMoreIcon  = () => import('./ios-more.vue')
-let IosMoveIcon  = () => import('./ios-move.vue')
-let IosMusicalNoteIcon  = () => import('./ios-musical-note.vue')
-let IosMusicalNotesIcon  = () => import('./ios-musical-notes.vue')
-let IosNavigateIcon  = () => import('./ios-navigate.vue')
-let IosNotificationsOffIcon  = () => import('./ios-notifications-off.vue')
-let IosNotificationsOutlineIcon  = () => import('./ios-notifications-outline.vue')
-let IosNotificationsIcon  = () => import('./ios-notifications.vue')
-let IosNuclearIcon  = () => import('./ios-nuclear.vue')
-let IosNutritionIcon  = () => import('./ios-nutrition.vue')
-let IosOpenIcon  = () => import('./ios-open.vue')
-let IosOptionsIcon  = () => import('./ios-options.vue')
-let IosOutletIcon  = () => import('./ios-outlet.vue')
-let IosPaperPlaneIcon  = () => import('./ios-paper-plane.vue')
-let IosPaperIcon  = () => import('./ios-paper.vue')
-let IosPartlySunnyIcon  = () => import('./ios-partly-sunny.vue')
-let IosPauseIcon  = () => import('./ios-pause.vue')
-let IosPawIcon  = () => import('./ios-paw.vue')
-let IosPeopleIcon  = () => import('./ios-people.vue')
-let IosPersonAddIcon  = () => import('./ios-person-add.vue')
-let IosPersonIcon  = () => import('./ios-person.vue')
-let IosPhoneLandscapeIcon  = () => import('./ios-phone-landscape.vue')
-let IosPhonePortraitIcon  = () => import('./ios-phone-portrait.vue')
-let IosPhotosIcon  = () => import('./ios-photos.vue')
-let IosPieIcon  = () => import('./ios-pie.vue')
-let IosPinIcon  = () => import('./ios-pin.vue')
-let IosPintIcon  = () => import('./ios-pint.vue')
-let IosPizzaIcon  = () => import('./ios-pizza.vue')
-let IosPlaneIcon  = () => import('./ios-plane.vue')
-let IosPlanetIcon  = () => import('./ios-planet.vue')
-let IosPlayCircleIcon  = () => import('./ios-play-circle.vue')
-let IosPlayIcon  = () => import('./ios-play.vue')
-let IosPodiumIcon  = () => import('./ios-podium.vue')
-let IosPowerIcon  = () => import('./ios-power.vue')
-let IosPricetagIcon  = () => import('./ios-pricetag.vue')
-let IosPricetagsIcon  = () => import('./ios-pricetags.vue')
-let IosPrintIcon  = () => import('./ios-print.vue')
-let IosPulseIcon  = () => import('./ios-pulse.vue')
-let IosQrScannerIcon  = () => import('./ios-qr-scanner.vue')
-let IosQuoteIcon  = () => import('./ios-quote.vue')
-let IosRadioButtonOffIcon  = () => import('./ios-radio-button-off.vue')
-let IosRadioButtonOnIcon  = () => import('./ios-radio-button-on.vue')
-let IosRadioIcon  = () => import('./ios-radio.vue')
-let IosRainyIcon  = () => import('./ios-rainy.vue')
-let IosRecordingIcon  = () => import('./ios-recording.vue')
-let IosRedoIcon  = () => import('./ios-redo.vue')
-let IosRefreshCircleIcon  = () => import('./ios-refresh-circle.vue')
-let IosRefreshIcon  = () => import('./ios-refresh.vue')
-let IosRemoveCircleOutlineIcon  = () => import('./ios-remove-circle-outline.vue')
-let IosRemoveCircleIcon  = () => import('./ios-remove-circle.vue')
-let IosRemoveIcon  = () => import('./ios-remove.vue')
-let IosReorderIcon  = () => import('./ios-reorder.vue')
-let IosRepeatIcon  = () => import('./ios-repeat.vue')
-let IosResizeIcon  = () => import('./ios-resize.vue')
-let IosRestaurantIcon  = () => import('./ios-restaurant.vue')
-let IosReturnLeftIcon  = () => import('./ios-return-left.vue')
-let IosReturnRightIcon  = () => import('./ios-return-right.vue')
-let IosReverseCameraIcon  = () => import('./ios-reverse-camera.vue')
-let IosRewindIcon  = () => import('./ios-rewind.vue')
-let IosRibbonIcon  = () => import('./ios-ribbon.vue')
-let IosRocketIcon  = () => import('./ios-rocket.vue')
-let IosRoseIcon  = () => import('./ios-rose.vue')
-let IosSadIcon  = () => import('./ios-sad.vue')
-let IosSaveIcon  = () => import('./ios-save.vue')
-let IosSchoolIcon  = () => import('./ios-school.vue')
-let IosSearchIcon  = () => import('./ios-search.vue')
-let IosSendIcon  = () => import('./ios-send.vue')
-let IosSettingsIcon  = () => import('./ios-settings.vue')
-let IosShareAltIcon  = () => import('./ios-share-alt.vue')
-let IosShareIcon  = () => import('./ios-share.vue')
-let IosShirtIcon  = () => import('./ios-shirt.vue')
-let IosShuffleIcon  = () => import('./ios-shuffle.vue')
-let IosSkipBackwardIcon  = () => import('./ios-skip-backward.vue')
-let IosSkipForwardIcon  = () => import('./ios-skip-forward.vue')
-let IosSnowIcon  = () => import('./ios-snow.vue')
-let IosSpeedometerIcon  = () => import('./ios-speedometer.vue')
-let IosSquareOutlineIcon  = () => import('./ios-square-outline.vue')
-let IosSquareIcon  = () => import('./ios-square.vue')
-let IosStarHalfIcon  = () => import('./ios-star-half.vue')
-let IosStarOutlineIcon  = () => import('./ios-star-outline.vue')
-let IosStarIcon  = () => import('./ios-star.vue')
-let IosStatsIcon  = () => import('./ios-stats.vue')
-let IosStopwatchIcon  = () => import('./ios-stopwatch.vue')
-let IosSubwayIcon  = () => import('./ios-subway.vue')
-let IosSunnyIcon  = () => import('./ios-sunny.vue')
-let IosSwapIcon  = () => import('./ios-swap.vue')
-let IosSwitchIcon  = () => import('./ios-switch.vue')
-let IosSyncIcon  = () => import('./ios-sync.vue')
-let IosTabletLandscapeIcon  = () => import('./ios-tablet-landscape.vue')
-let IosTabletPortraitIcon  = () => import('./ios-tablet-portrait.vue')
-let IosTennisballIcon  = () => import('./ios-tennisball.vue')
-let IosTextIcon  = () => import('./ios-text.vue')
-let IosThermometerIcon  = () => import('./ios-thermometer.vue')
-let IosThumbsDownIcon  = () => import('./ios-thumbs-down.vue')
-let IosThumbsUpIcon  = () => import('./ios-thumbs-up.vue')
-let IosThunderstormIcon  = () => import('./ios-thunderstorm.vue')
-let IosTimeIcon  = () => import('./ios-time.vue')
-let IosTimerIcon  = () => import('./ios-timer.vue')
-let IosTodayIcon  = () => import('./ios-today.vue')
-let IosTrainIcon  = () => import('./ios-train.vue')
-let IosTransgenderIcon  = () => import('./ios-transgender.vue')
-let IosTrashIcon  = () => import('./ios-trash.vue')
-let IosTrendingDownIcon  = () => import('./ios-trending-down.vue')
-let IosTrendingUpIcon  = () => import('./ios-trending-up.vue')
-let IosTrophyIcon  = () => import('./ios-trophy.vue')
-let IosTvIcon  = () => import('./ios-tv.vue')
-let IosUmbrellaIcon  = () => import('./ios-umbrella.vue')
-let IosUndoIcon  = () => import('./ios-undo.vue')
-let IosUnlockIcon  = () => import('./ios-unlock.vue')
-let IosVideocamIcon  = () => import('./ios-videocam.vue')
-let IosVolumeHighIcon  = () => import('./ios-volume-high.vue')
-let IosVolumeLowIcon  = () => import('./ios-volume-low.vue')
-let IosVolumeMuteIcon  = () => import('./ios-volume-mute.vue')
-let IosVolumeOffIcon  = () => import('./ios-volume-off.vue')
-let IosWalkIcon  = () => import('./ios-walk.vue')
-let IosWalletIcon  = () => import('./ios-wallet.vue')
-let IosWarningIcon  = () => import('./ios-warning.vue')
-let IosWatchIcon  = () => import('./ios-watch.vue')
-let IosWaterIcon  = () => import('./ios-water.vue')
-let IosWifiIcon  = () => import('./ios-wifi.vue')
-let IosWineIcon  = () => import('./ios-wine.vue')
-let IosWomanIcon  = () => import('./ios-woman.vue')
-let LogoAndroidIcon  = () => import('./logo-android.vue')
-let LogoAngularIcon  = () => import('./logo-angular.vue')
-let LogoAppleIcon  = () => import('./logo-apple.vue')
-let LogoBitbucketIcon  = () => import('./logo-bitbucket.vue')
-let LogoBitcoinIcon  = () => import('./logo-bitcoin.vue')
-let LogoBufferIcon  = () => import('./logo-buffer.vue')
-let LogoChromeIcon  = () => import('./logo-chrome.vue')
-let LogoClosedCaptioningIcon  = () => import('./logo-closed-captioning.vue')
-let LogoCodepenIcon  = () => import('./logo-codepen.vue')
-let LogoCss3Icon  = () => import('./logo-css3.vue')
-let LogoDesignernewsIcon  = () => import('./logo-designernews.vue')
-let LogoDribbbleIcon  = () => import('./logo-dribbble.vue')
-let LogoDropboxIcon  = () => import('./logo-dropbox.vue')
-let LogoEuroIcon  = () => import('./logo-euro.vue')
-let LogoFacebookIcon  = () => import('./logo-facebook.vue')
-let LogoFlickrIcon  = () => import('./logo-flickr.vue')
-let LogoFoursquareIcon  = () => import('./logo-foursquare.vue')
-let LogoFreebsdDevilIcon  = () => import('./logo-freebsd-devil.vue')
-let LogoGameControllerAIcon  = () => import('./logo-game-controller-a.vue')
-let LogoGameControllerBIcon  = () => import('./logo-game-controller-b.vue')
-let LogoGithubIcon  = () => import('./logo-github.vue')
-let LogoGoogleIcon  = () => import('./logo-google.vue')
-let LogoGoogleplusIcon  = () => import('./logo-googleplus.vue')
-let LogoHackernewsIcon  = () => import('./logo-hackernews.vue')
-let LogoHtml5Icon  = () => import('./logo-html5.vue')
-let LogoInstagramIcon  = () => import('./logo-instagram.vue')
-let LogoIonicIcon  = () => import('./logo-ionic.vue')
-let LogoIonitronIcon  = () => import('./logo-ionitron.vue')
-let LogoJavascriptIcon  = () => import('./logo-javascript.vue')
-let LogoLinkedinIcon  = () => import('./logo-linkedin.vue')
-let LogoMarkdownIcon  = () => import('./logo-markdown.vue')
-let LogoModelSIcon  = () => import('./logo-model-s.vue')
-let LogoNoSmokingIcon  = () => import('./logo-no-smoking.vue')
-let LogoNodejsIcon  = () => import('./logo-nodejs.vue')
-let LogoNpmIcon  = () => import('./logo-npm.vue')
-let LogoOctocatIcon  = () => import('./logo-octocat.vue')
-let LogoPinterestIcon  = () => import('./logo-pinterest.vue')
-let LogoPlaystationIcon  = () => import('./logo-playstation.vue')
-let LogoPolymerIcon  = () => import('./logo-polymer.vue')
-let LogoPythonIcon  = () => import('./logo-python.vue')
-let LogoRedditIcon  = () => import('./logo-reddit.vue')
-let LogoRssIcon  = () => import('./logo-rss.vue')
-let LogoSassIcon  = () => import('./logo-sass.vue')
-let LogoSkypeIcon  = () => import('./logo-skype.vue')
-let LogoSlackIcon  = () => import('./logo-slack.vue')
-let LogoSnapchatIcon  = () => import('./logo-snapchat.vue')
-let LogoSteamIcon  = () => import('./logo-steam.vue')
-let LogoTumblrIcon  = () => import('./logo-tumblr.vue')
-let LogoTuxIcon  = () => import('./logo-tux.vue')
-let LogoTwitchIcon  = () => import('./logo-twitch.vue')
-let LogoTwitterIcon  = () => import('./logo-twitter.vue')
-let LogoUsdIcon  = () => import('./logo-usd.vue')
-let LogoVimeoIcon  = () => import('./logo-vimeo.vue')
-let LogoVkIcon  = () => import('./logo-vk.vue')
-let LogoWhatsappIcon  = () => import('./logo-whatsapp.vue')
-let LogoWindowsIcon  = () => import('./logo-windows.vue')
-let LogoWordpressIcon  = () => import('./logo-wordpress.vue')
-let LogoXboxIcon  = () => import('./logo-xbox.vue')
-let LogoXingIcon  = () => import('./logo-xing.vue')
-let LogoYahooIcon  = () => import('./logo-yahoo.vue')
-let LogoYenIcon  = () => import('./logo-yen.vue')
-let LogoYoutubeIcon  = () => import('./logo-youtube.vue')
-let MdAddCircleOutlineIcon  = () => import('./md-add-circle-outline.vue')
-let MdAddCircleIcon  = () => import('./md-add-circle.vue')
-let MdAddIcon  = () => import('./md-add.vue')
-let MdAirplaneIcon  = () => import('./md-airplane.vue')
-let MdAlarmIcon  = () => import('./md-alarm.vue')
-let MdAlbumsIcon  = () => import('./md-albums.vue')
-let MdAlertIcon  = () => import('./md-alert.vue')
-let MdAmericanFootballIcon  = () => import('./md-american-football.vue')
-let MdAnalyticsIcon  = () => import('./md-analytics.vue')
-let MdApertureIcon  = () => import('./md-aperture.vue')
-let MdAppsIcon  = () => import('./md-apps.vue')
-let MdAppstoreIcon  = () => import('./md-appstore.vue')
-let MdArchiveIcon  = () => import('./md-archive.vue')
-let MdArrowBackIcon  = () => import('./md-arrow-back.vue')
-let MdArrowDownIcon  = () => import('./md-arrow-down.vue')
-let MdArrowDropdownCircleIcon  = () => import('./md-arrow-dropdown-circle.vue')
-let MdArrowDropdownIcon  = () => import('./md-arrow-dropdown.vue')
-let MdArrowDropleftCircleIcon  = () => import('./md-arrow-dropleft-circle.vue')
-let MdArrowDropleftIcon  = () => import('./md-arrow-dropleft.vue')
-let MdArrowDroprightCircleIcon  = () => import('./md-arrow-dropright-circle.vue')
-let MdArrowDroprightIcon  = () => import('./md-arrow-dropright.vue')
-let MdArrowDropupCircleIcon  = () => import('./md-arrow-dropup-circle.vue')
-let MdArrowDropupIcon  = () => import('./md-arrow-dropup.vue')
-let MdArrowForwardIcon  = () => import('./md-arrow-forward.vue')
-let MdArrowRoundBackIcon  = () => import('./md-arrow-round-back.vue')
-let MdArrowRoundDownIcon  = () => import('./md-arrow-round-down.vue')
-let MdArrowRoundForwardIcon  = () => import('./md-arrow-round-forward.vue')
-let MdArrowRoundUpIcon  = () => import('./md-arrow-round-up.vue')
-let MdArrowUpIcon  = () => import('./md-arrow-up.vue')
-let MdAtIcon  = () => import('./md-at.vue')
-let MdAttachIcon  = () => import('./md-attach.vue')
-let MdBackspaceIcon  = () => import('./md-backspace.vue')
-let MdBarcodeIcon  = () => import('./md-barcode.vue')
-let MdBaseballIcon  = () => import('./md-baseball.vue')
-let MdBasketIcon  = () => import('./md-basket.vue')
-let MdBasketballIcon  = () => import('./md-basketball.vue')
-let MdBatteryChargingIcon  = () => import('./md-battery-charging.vue')
-let MdBatteryDeadIcon  = () => import('./md-battery-dead.vue')
-let MdBatteryFullIcon  = () => import('./md-battery-full.vue')
-let MdBeakerIcon  = () => import('./md-beaker.vue')
-let MdBedIcon  = () => import('./md-bed.vue')
-let MdBeerIcon  = () => import('./md-beer.vue')
-let MdBicycleIcon  = () => import('./md-bicycle.vue')
-let MdBluetoothIcon  = () => import('./md-bluetooth.vue')
-let MdBoatIcon  = () => import('./md-boat.vue')
-let MdBodyIcon  = () => import('./md-body.vue')
-let MdBonfireIcon  = () => import('./md-bonfire.vue')
-let MdBookIcon  = () => import('./md-book.vue')
-let MdBookmarkIcon  = () => import('./md-bookmark.vue')
-let MdBookmarksIcon  = () => import('./md-bookmarks.vue')
-let MdBowtieIcon  = () => import('./md-bowtie.vue')
-let MdBriefcaseIcon  = () => import('./md-briefcase.vue')
-let MdBrowsersIcon  = () => import('./md-browsers.vue')
-let MdBrushIcon  = () => import('./md-brush.vue')
-let MdBugIcon  = () => import('./md-bug.vue')
-let MdBuildIcon  = () => import('./md-build.vue')
-let MdBulbIcon  = () => import('./md-bulb.vue')
-let MdBusIcon  = () => import('./md-bus.vue')
-let MdBusinessIcon  = () => import('./md-business.vue')
-let MdCafeIcon  = () => import('./md-cafe.vue')
-let MdCalculatorIcon  = () => import('./md-calculator.vue')
-let MdCalendarIcon  = () => import('./md-calendar.vue')
-let MdCallIcon  = () => import('./md-call.vue')
-let MdCameraIcon  = () => import('./md-camera.vue')
-let MdCarIcon  = () => import('./md-car.vue')
-let MdCardIcon  = () => import('./md-card.vue')
-let MdCartIcon  = () => import('./md-cart.vue')
-let MdCashIcon  = () => import('./md-cash.vue')
-let MdCellularIcon  = () => import('./md-cellular.vue')
-let MdChatboxesIcon  = () => import('./md-chatboxes.vue')
-let MdChatbubblesIcon  = () => import('./md-chatbubbles.vue')
-let MdCheckboxOutlineIcon  = () => import('./md-checkbox-outline.vue')
-let MdCheckboxIcon  = () => import('./md-checkbox.vue')
-let MdCheckmarkCircleOutlineIcon  = () => import('./md-checkmark-circle-outline.vue')
-let MdCheckmarkCircleIcon  = () => import('./md-checkmark-circle.vue')
-let MdCheckmarkIcon  = () => import('./md-checkmark.vue')
-let MdClipboardIcon  = () => import('./md-clipboard.vue')
-let MdClockIcon  = () => import('./md-clock.vue')
-let MdCloseCircleOutlineIcon  = () => import('./md-close-circle-outline.vue')
-let MdCloseCircleIcon  = () => import('./md-close-circle.vue')
-let MdCloseIcon  = () => import('./md-close.vue')
-let MdCloudCircleIcon  = () => import('./md-cloud-circle.vue')
-let MdCloudDoneIcon  = () => import('./md-cloud-done.vue')
-let MdCloudDownloadIcon  = () => import('./md-cloud-download.vue')
-let MdCloudOutlineIcon  = () => import('./md-cloud-outline.vue')
-let MdCloudUploadIcon  = () => import('./md-cloud-upload.vue')
-let MdCloudIcon  = () => import('./md-cloud.vue')
-let MdCloudyNightIcon  = () => import('./md-cloudy-night.vue')
-let MdCloudyIcon  = () => import('./md-cloudy.vue')
-let MdCodeDownloadIcon  = () => import('./md-code-download.vue')
-let MdCodeWorkingIcon  = () => import('./md-code-working.vue')
-let MdCodeIcon  = () => import('./md-code.vue')
-let MdCogIcon  = () => import('./md-cog.vue')
-let MdColorFillIcon  = () => import('./md-color-fill.vue')
-let MdColorFilterIcon  = () => import('./md-color-filter.vue')
-let MdColorPaletteIcon  = () => import('./md-color-palette.vue')
-let MdColorWandIcon  = () => import('./md-color-wand.vue')
-let MdCompassIcon  = () => import('./md-compass.vue')
-let MdConstructIcon  = () => import('./md-construct.vue')
-let MdContactIcon  = () => import('./md-contact.vue')
-let MdContactsIcon  = () => import('./md-contacts.vue')
-let MdContractIcon  = () => import('./md-contract.vue')
-let MdContrastIcon  = () => import('./md-contrast.vue')
-let MdCopyIcon  = () => import('./md-copy.vue')
-let MdCreateIcon  = () => import('./md-create.vue')
-let MdCropIcon  = () => import('./md-crop.vue')
-let MdCubeIcon  = () => import('./md-cube.vue')
-let MdCutIcon  = () => import('./md-cut.vue')
-let MdDesktopIcon  = () => import('./md-desktop.vue')
-let MdDiscIcon  = () => import('./md-disc.vue')
-let MdDocumentIcon  = () => import('./md-document.vue')
-let MdDoneAllIcon  = () => import('./md-done-all.vue')
-let MdDownloadIcon  = () => import('./md-download.vue')
-let MdEaselIcon  = () => import('./md-easel.vue')
-let MdEggIcon  = () => import('./md-egg.vue')
-let MdExitIcon  = () => import('./md-exit.vue')
-let MdExpandIcon  = () => import('./md-expand.vue')
-let MdEyeOffIcon  = () => import('./md-eye-off.vue')
-let MdEyeIcon  = () => import('./md-eye.vue')
-let MdFastforwardIcon  = () => import('./md-fastforward.vue')
-let MdFemaleIcon  = () => import('./md-female.vue')
-let MdFilingIcon  = () => import('./md-filing.vue')
-let MdFilmIcon  = () => import('./md-film.vue')
-let MdFingerPrintIcon  = () => import('./md-finger-print.vue')
-let MdFitnessIcon  = () => import('./md-fitness.vue')
-let MdFlagIcon  = () => import('./md-flag.vue')
-let MdFlameIcon  = () => import('./md-flame.vue')
-let MdFlashOffIcon  = () => import('./md-flash-off.vue')
-let MdFlashIcon  = () => import('./md-flash.vue')
-let MdFlashlightIcon  = () => import('./md-flashlight.vue')
-let MdFlaskIcon  = () => import('./md-flask.vue')
-let MdFlowerIcon  = () => import('./md-flower.vue')
-let MdFolderOpenIcon  = () => import('./md-folder-open.vue')
-let MdFolderIcon  = () => import('./md-folder.vue')
-let MdFootballIcon  = () => import('./md-football.vue')
-let MdFunnelIcon  = () => import('./md-funnel.vue')
-let MdGiftIcon  = () => import('./md-gift.vue')
-let MdGitBranchIcon  = () => import('./md-git-branch.vue')
-let MdGitCommitIcon  = () => import('./md-git-commit.vue')
-let MdGitCompareIcon  = () => import('./md-git-compare.vue')
-let MdGitMergeIcon  = () => import('./md-git-merge.vue')
-let MdGitNetworkIcon  = () => import('./md-git-network.vue')
-let MdGitPullRequestIcon  = () => import('./md-git-pull-request.vue')
-let MdGlassesIcon  = () => import('./md-glasses.vue')
-let MdGlobeIcon  = () => import('./md-globe.vue')
-let MdGridIcon  = () => import('./md-grid.vue')
-let MdHammerIcon  = () => import('./md-hammer.vue')
-let MdHandIcon  = () => import('./md-hand.vue')
-let MdHappyIcon  = () => import('./md-happy.vue')
-let MdHeadsetIcon  = () => import('./md-headset.vue')
-let MdHeartDislikeIcon  = () => import('./md-heart-dislike.vue')
-let MdHeartEmptyIcon  = () => import('./md-heart-empty.vue')
-let MdHeartHalfIcon  = () => import('./md-heart-half.vue')
-let MdHeartIcon  = () => import('./md-heart.vue')
-let MdHelpBuoyIcon  = () => import('./md-help-buoy.vue')
-let MdHelpCircleOutlineIcon  = () => import('./md-help-circle-outline.vue')
-let MdHelpCircleIcon  = () => import('./md-help-circle.vue')
-let MdHelpIcon  = () => import('./md-help.vue')
-let MdHomeIcon  = () => import('./md-home.vue')
-let MdHourglassIcon  = () => import('./md-hourglass.vue')
-let MdIceCreamIcon  = () => import('./md-ice-cream.vue')
-let MdImageIcon  = () => import('./md-image.vue')
-let MdImagesIcon  = () => import('./md-images.vue')
-let MdInfiniteIcon  = () => import('./md-infinite.vue')
-let MdInformationCircleOutlineIcon  = () => import('./md-information-circle-outline.vue')
-let MdInformationCircleIcon  = () => import('./md-information-circle.vue')
-let MdInformationIcon  = () => import('./md-information.vue')
-let MdJetIcon  = () => import('./md-jet.vue')
-let MdJournalIcon  = () => import('./md-journal.vue')
-let MdKeyIcon  = () => import('./md-key.vue')
-let MdKeypadIcon  = () => import('./md-keypad.vue')
-let MdLaptopIcon  = () => import('./md-laptop.vue')
-let MdLeafIcon  = () => import('./md-leaf.vue')
-let MdLinkIcon  = () => import('./md-link.vue')
-let MdListBoxIcon  = () => import('./md-list-box.vue')
-let MdListIcon  = () => import('./md-list.vue')
-let MdLocateIcon  = () => import('./md-locate.vue')
-let MdLockIcon  = () => import('./md-lock.vue')
-let MdLogInIcon  = () => import('./md-log-in.vue')
-let MdLogOutIcon  = () => import('./md-log-out.vue')
-let MdMagnetIcon  = () => import('./md-magnet.vue')
-let MdMailOpenIcon  = () => import('./md-mail-open.vue')
-let MdMailUnreadIcon  = () => import('./md-mail-unread.vue')
-let MdMailIcon  = () => import('./md-mail.vue')
-let MdMaleIcon  = () => import('./md-male.vue')
-let MdManIcon  = () => import('./md-man.vue')
-let MdMapIcon  = () => import('./md-map.vue')
-let MdMedalIcon  = () => import('./md-medal.vue')
-let MdMedicalIcon  = () => import('./md-medical.vue')
-let MdMedkitIcon  = () => import('./md-medkit.vue')
-let MdMegaphoneIcon  = () => import('./md-megaphone.vue')
-let MdMenuIcon  = () => import('./md-menu.vue')
-let MdMicOffIcon  = () => import('./md-mic-off.vue')
-let MdMicIcon  = () => import('./md-mic.vue')
-let MdMicrophoneIcon  = () => import('./md-microphone.vue')
-let MdMoonIcon  = () => import('./md-moon.vue')
-let MdMoreIcon  = () => import('./md-more.vue')
-let MdMoveIcon  = () => import('./md-move.vue')
-let MdMusicalNoteIcon  = () => import('./md-musical-note.vue')
-let MdMusicalNotesIcon  = () => import('./md-musical-notes.vue')
-let MdNavigateIcon  = () => import('./md-navigate.vue')
-let MdNotificationsOffIcon  = () => import('./md-notifications-off.vue')
-let MdNotificationsOutlineIcon  = () => import('./md-notifications-outline.vue')
-let MdNotificationsIcon  = () => import('./md-notifications.vue')
-let MdNuclearIcon  = () => import('./md-nuclear.vue')
-let MdNutritionIcon  = () => import('./md-nutrition.vue')
-let MdOpenIcon  = () => import('./md-open.vue')
-let MdOptionsIcon  = () => import('./md-options.vue')
-let MdOutletIcon  = () => import('./md-outlet.vue')
-let MdPaperPlaneIcon  = () => import('./md-paper-plane.vue')
-let MdPaperIcon  = () => import('./md-paper.vue')
-let MdPartlySunnyIcon  = () => import('./md-partly-sunny.vue')
-let MdPauseIcon  = () => import('./md-pause.vue')
-let MdPawIcon  = () => import('./md-paw.vue')
-let MdPeopleIcon  = () => import('./md-people.vue')
-let MdPersonAddIcon  = () => import('./md-person-add.vue')
-let MdPersonIcon  = () => import('./md-person.vue')
-let MdPhoneLandscapeIcon  = () => import('./md-phone-landscape.vue')
-let MdPhonePortraitIcon  = () => import('./md-phone-portrait.vue')
-let MdPhotosIcon  = () => import('./md-photos.vue')
-let MdPieIcon  = () => import('./md-pie.vue')
-let MdPinIcon  = () => import('./md-pin.vue')
-let MdPintIcon  = () => import('./md-pint.vue')
-let MdPizzaIcon  = () => import('./md-pizza.vue')
-let MdPlaneIcon  = () => import('./md-plane.vue')
-let MdPlanetIcon  = () => import('./md-planet.vue')
-let MdPlayCircleIcon  = () => import('./md-play-circle.vue')
-let MdPlayIcon  = () => import('./md-play.vue')
-let MdPodiumIcon  = () => import('./md-podium.vue')
-let MdPowerIcon  = () => import('./md-power.vue')
-let MdPricetagIcon  = () => import('./md-pricetag.vue')
-let MdPricetagsIcon  = () => import('./md-pricetags.vue')
-let MdPrintIcon  = () => import('./md-print.vue')
-let MdPulseIcon  = () => import('./md-pulse.vue')
-let MdQrScannerIcon  = () => import('./md-qr-scanner.vue')
-let MdQuoteIcon  = () => import('./md-quote.vue')
-let MdRadioButtonOffIcon  = () => import('./md-radio-button-off.vue')
-let MdRadioButtonOnIcon  = () => import('./md-radio-button-on.vue')
-let MdRadioIcon  = () => import('./md-radio.vue')
-let MdRainyIcon  = () => import('./md-rainy.vue')
-let MdRecordingIcon  = () => import('./md-recording.vue')
-let MdRedoIcon  = () => import('./md-redo.vue')
-let MdRefreshCircleIcon  = () => import('./md-refresh-circle.vue')
-let MdRefreshIcon  = () => import('./md-refresh.vue')
-let MdRemoveCircleOutlineIcon  = () => import('./md-remove-circle-outline.vue')
-let MdRemoveCircleIcon  = () => import('./md-remove-circle.vue')
-let MdRemoveIcon  = () => import('./md-remove.vue')
-let MdReorderIcon  = () => import('./md-reorder.vue')
-let MdRepeatIcon  = () => import('./md-repeat.vue')
-let MdResizeIcon  = () => import('./md-resize.vue')
-let MdRestaurantIcon  = () => import('./md-restaurant.vue')
-let MdReturnLeftIcon  = () => import('./md-return-left.vue')
-let MdReturnRightIcon  = () => import('./md-return-right.vue')
-let MdReverseCameraIcon  = () => import('./md-reverse-camera.vue')
-let MdRewindIcon  = () => import('./md-rewind.vue')
-let MdRibbonIcon  = () => import('./md-ribbon.vue')
-let MdRocketIcon  = () => import('./md-rocket.vue')
-let MdRoseIcon  = () => import('./md-rose.vue')
-let MdSadIcon  = () => import('./md-sad.vue')
-let MdSaveIcon  = () => import('./md-save.vue')
-let MdSchoolIcon  = () => import('./md-school.vue')
-let MdSendIcon  = () => import('./md-send.vue')
-let MdSearchIcon  = () => import('./md-search.vue')
-let MdSettingsIcon  = () => import('./md-settings.vue')
-let MdShareAltIcon  = () => import('./md-share-alt.vue')
-let MdShareIcon  = () => import('./md-share.vue')
-let MdShirtIcon  = () => import('./md-shirt.vue')
-let MdShuffleIcon  = () => import('./md-shuffle.vue')
-let MdSkipBackwardIcon  = () => import('./md-skip-backward.vue')
-let MdSkipForwardIcon  = () => import('./md-skip-forward.vue')
-let MdSnowIcon  = () => import('./md-snow.vue')
-let MdSpeedometerIcon  = () => import('./md-speedometer.vue')
-let MdSquareOutlineIcon  = () => import('./md-square-outline.vue')
-let MdSquareIcon  = () => import('./md-square.vue')
-let MdStarHalfIcon  = () => import('./md-star-half.vue')
-let MdStarOutlineIcon  = () => import('./md-star-outline.vue')
-let MdStarIcon  = () => import('./md-star.vue')
-let MdStatsIcon  = () => import('./md-stats.vue')
-let MdStopwatchIcon  = () => import('./md-stopwatch.vue')
-let MdSubwayIcon  = () => import('./md-subway.vue')
-let MdSunnyIcon  = () => import('./md-sunny.vue')
-let MdSwapIcon  = () => import('./md-swap.vue')
-let MdSwitchIcon  = () => import('./md-switch.vue')
-let MdSyncIcon  = () => import('./md-sync.vue')
-let MdTabletLandscapeIcon  = () => import('./md-tablet-landscape.vue')
-let MdTabletPortraitIcon  = () => import('./md-tablet-portrait.vue')
-let MdTennisballIcon  = () => import('./md-tennisball.vue')
-let MdTextIcon  = () => import('./md-text.vue')
-let MdThermometerIcon  = () => import('./md-thermometer.vue')
-let MdThumbsDownIcon  = () => import('./md-thumbs-down.vue')
-let MdThumbsUpIcon  = () => import('./md-thumbs-up.vue')
-let MdThunderstormIcon  = () => import('./md-thunderstorm.vue')
-let MdTimeIcon  = () => import('./md-time.vue')
-let MdTimerIcon  = () => import('./md-timer.vue')
-let MdTodayIcon  = () => import('./md-today.vue')
-let MdTrainIcon  = () => import('./md-train.vue')
-let MdTransgenderIcon  = () => import('./md-transgender.vue')
-let MdTrashIcon  = () => import('./md-trash.vue')
-let MdTrendingDownIcon  = () => import('./md-trending-down.vue')
-let MdTrendingUpIcon  = () => import('./md-trending-up.vue')
-let MdTrophyIcon  = () => import('./md-trophy.vue')
-let MdTvIcon  = () => import('./md-tv.vue')
-let MdUmbrellaIcon  = () => import('./md-umbrella.vue')
-let MdUndoIcon  = () => import('./md-undo.vue')
-let MdUnlockIcon  = () => import('./md-unlock.vue')
-let MdVideocamIcon  = () => import('./md-videocam.vue')
-let MdVolumeHighIcon  = () => import('./md-volume-high.vue')
-let MdVolumeLowIcon  = () => import('./md-volume-low.vue')
-let MdVolumeMuteIcon  = () => import('./md-volume-mute.vue')
-let MdVolumeOffIcon  = () => import('./md-volume-off.vue')
-let MdWalkIcon  = () => import('./md-walk.vue')
-let MdWalletIcon  = () => import('./md-wallet.vue')
-let MdWarningIcon  = () => import('./md-warning.vue')
-let MdWatchIcon  = () => import('./md-watch.vue')
-let MdWaterIcon  = () => import('./md-water.vue')
-let MdWifiIcon  = () => import('./md-wifi.vue')
-let MdWineIcon  = () => import('./md-wine.vue')
+import IosAddCircleOutlineIcon from './ios-add-circle-outline.vue'
+import IosAddCircleIcon from './ios-add-circle.vue'
+import IosAddIcon from './ios-add.vue'
+import IosAirplaneIcon from './ios-airplane.vue'
+import IosAlarmIcon from './ios-alarm.vue'
+import IosAlbumsIcon from './ios-albums.vue'
+import IosAlertIcon from './ios-alert.vue'
+import IosAmericanFootballIcon from './ios-american-football.vue'
+import IosAnalyticsIcon from './ios-analytics.vue'
+import IosApertureIcon from './ios-aperture.vue'
+import IosAppsIcon from './ios-apps.vue'
+import IosAppstoreIcon from './ios-appstore.vue'
+import IosArchiveIcon from './ios-archive.vue'
+import IosArrowBackIcon from './ios-arrow-back.vue'
+import IosArrowDownIcon from './ios-arrow-down.vue'
+import IosArrowDropdownCircleIcon from './ios-arrow-dropdown-circle.vue'
+import IosArrowDropdownIcon from './ios-arrow-dropdown.vue'
+import IosArrowDropleftCircleIcon from './ios-arrow-dropleft-circle.vue'
+import IosArrowDropleftIcon from './ios-arrow-dropleft.vue'
+import IosArrowDroprightCircleIcon from './ios-arrow-dropright-circle.vue'
+import IosArrowDroprightIcon from './ios-arrow-dropright.vue'
+import IosArrowDropupCircleIcon from './ios-arrow-dropup-circle.vue'
+import IosArrowDropupIcon from './ios-arrow-dropup.vue'
+import IosArrowForwardIcon from './ios-arrow-forward.vue'
+import IosArrowRoundBackIcon from './ios-arrow-round-back.vue'
+import IosArrowRoundDownIcon from './ios-arrow-round-down.vue'
+import IosArrowRoundForwardIcon from './ios-arrow-round-forward.vue'
+import IosArrowRoundUpIcon from './ios-arrow-round-up.vue'
+import IosArrowUpIcon from './ios-arrow-up.vue'
+import IosAtIcon from './ios-at.vue'
+import IosAttachIcon from './ios-attach.vue'
+import IosBackspaceIcon from './ios-backspace.vue'
+import IosBarcodeIcon from './ios-barcode.vue'
+import IosBaseballIcon from './ios-baseball.vue'
+import IosBasketIcon from './ios-basket.vue'
+import IosBasketballIcon from './ios-basketball.vue'
+import IosBatteryChargingIcon from './ios-battery-charging.vue'
+import IosBatteryDeadIcon from './ios-battery-dead.vue'
+import IosBatteryFullIcon from './ios-battery-full.vue'
+import IosBeakerIcon from './ios-beaker.vue'
+import IosBedIcon from './ios-bed.vue'
+import IosBeerIcon from './ios-beer.vue'
+import IosBicycleIcon from './ios-bicycle.vue'
+import IosBluetoothIcon from './ios-bluetooth.vue'
+import IosBoatIcon from './ios-boat.vue'
+import IosBodyIcon from './ios-body.vue'
+import IosBonfireIcon from './ios-bonfire.vue'
+import IosBookIcon from './ios-book.vue'
+import IosBookmarkIcon from './ios-bookmark.vue'
+import IosBookmarksIcon from './ios-bookmarks.vue'
+import IosBowtieIcon from './ios-bowtie.vue'
+import IosBriefcaseIcon from './ios-briefcase.vue'
+import IosBrowsersIcon from './ios-browsers.vue'
+import IosBrushIcon from './ios-brush.vue'
+import IosBugIcon from './ios-bug.vue'
+import IosBuildIcon from './ios-build.vue'
+import IosBulbIcon from './ios-bulb.vue'
+import IosBusIcon from './ios-bus.vue'
+import IosBusinessIcon from './ios-business.vue'
+import IosCafeIcon from './ios-cafe.vue'
+import IosCalculatorIcon from './ios-calculator.vue'
+import IosCalendarIcon from './ios-calendar.vue'
+import IosCallIcon from './ios-call.vue'
+import IosCameraIcon from './ios-camera.vue'
+import IosCarIcon from './ios-car.vue'
+import IosCardIcon from './ios-card.vue'
+import IosCartIcon from './ios-cart.vue'
+import IosCashIcon from './ios-cash.vue'
+import IosCellularIcon from './ios-cellular.vue'
+import IosChatboxesIcon from './ios-chatboxes.vue'
+import IosChatbubblesIcon from './ios-chatbubbles.vue'
+import IosCheckboxOutlineIcon from './ios-checkbox-outline.vue'
+import IosCheckboxIcon from './ios-checkbox.vue'
+import IosCheckmarkCircleOutlineIcon from './ios-checkmark-circle-outline.vue'
+import IosCheckmarkCircleIcon from './ios-checkmark-circle.vue'
+import IosCheckmarkIcon from './ios-checkmark.vue'
+import IosClipboardIcon from './ios-clipboard.vue'
+import IosClockIcon from './ios-clock.vue'
+import IosCloseCircleOutlineIcon from './ios-close-circle-outline.vue'
+import IosCloseCircleIcon from './ios-close-circle.vue'
+import IosCloseIcon from './ios-close.vue'
+import IosCloudCircleIcon from './ios-cloud-circle.vue'
+import IosCloudDoneIcon from './ios-cloud-done.vue'
+import IosCloudDownloadIcon from './ios-cloud-download.vue'
+import IosCloudOutlineIcon from './ios-cloud-outline.vue'
+import IosCloudUploadIcon from './ios-cloud-upload.vue'
+import IosCloudIcon from './ios-cloud.vue'
+import IosCloudyNightIcon from './ios-cloudy-night.vue'
+import IosCloudyIcon from './ios-cloudy.vue'
+import IosCodeDownloadIcon from './ios-code-download.vue'
+import IosCodeWorkingIcon from './ios-code-working.vue'
+import IosCodeIcon from './ios-code.vue'
+import IosCogIcon from './ios-cog.vue'
+import IosColorFillIcon from './ios-color-fill.vue'
+import IosColorFilterIcon from './ios-color-filter.vue'
+import IosColorPaletteIcon from './ios-color-palette.vue'
+import IosColorWandIcon from './ios-color-wand.vue'
+import IosCompassIcon from './ios-compass.vue'
+import IosConstructIcon from './ios-construct.vue'
+import IosContactIcon from './ios-contact.vue'
+import IosContactsIcon from './ios-contacts.vue'
+import IosContractIcon from './ios-contract.vue'
+import IosContrastIcon from './ios-contrast.vue'
+import IosCopyIcon from './ios-copy.vue'
+import IosCreateIcon from './ios-create.vue'
+import IosCropIcon from './ios-crop.vue'
+import IosCubeIcon from './ios-cube.vue'
+import IosCutIcon from './ios-cut.vue'
+import IosDesktopIcon from './ios-desktop.vue'
+import IosDiscIcon from './ios-disc.vue'
+import IosDocumentIcon from './ios-document.vue'
+import IosDoneAllIcon from './ios-done-all.vue'
+import IosDownloadIcon from './ios-download.vue'
+import IosEaselIcon from './ios-easel.vue'
+import IosEggIcon from './ios-egg.vue'
+import IosExitIcon from './ios-exit.vue'
+import IosExpandIcon from './ios-expand.vue'
+import IosEyeOffIcon from './ios-eye-off.vue'
+import IosEyeIcon from './ios-eye.vue'
+import IosFastforwardIcon from './ios-fastforward.vue'
+import IosFemaleIcon from './ios-female.vue'
+import IosFilingIcon from './ios-filing.vue'
+import IosFilmIcon from './ios-film.vue'
+import IosFingerPrintIcon from './ios-finger-print.vue'
+import IosFitnessIcon from './ios-fitness.vue'
+import IosFlagIcon from './ios-flag.vue'
+import IosFlameIcon from './ios-flame.vue'
+import IosFlashOffIcon from './ios-flash-off.vue'
+import IosFlashIcon from './ios-flash.vue'
+import IosFlashlightIcon from './ios-flashlight.vue'
+import IosFlaskIcon from './ios-flask.vue'
+import IosFlowerIcon from './ios-flower.vue'
+import IosFolderOpenIcon from './ios-folder-open.vue'
+import IosFolderIcon from './ios-folder.vue'
+import IosFootballIcon from './ios-football.vue'
+import IosFunnelIcon from './ios-funnel.vue'
+import IosGiftIcon from './ios-gift.vue'
+import IosGitBranchIcon from './ios-git-branch.vue'
+import IosGitCommitIcon from './ios-git-commit.vue'
+import IosGitCompareIcon from './ios-git-compare.vue'
+import IosGitMergeIcon from './ios-git-merge.vue'
+import IosGitNetworkIcon from './ios-git-network.vue'
+import IosGitPullRequestIcon from './ios-git-pull-request.vue'
+import IosGlassesIcon from './ios-glasses.vue'
+import IosGlobeIcon from './ios-globe.vue'
+import IosGridIcon from './ios-grid.vue'
+import IosHammerIcon from './ios-hammer.vue'
+import IosHandIcon from './ios-hand.vue'
+import IosHappyIcon from './ios-happy.vue'
+import IosHeadsetIcon from './ios-headset.vue'
+import IosHeartDislikeIcon from './ios-heart-dislike.vue'
+import IosHeartEmptyIcon from './ios-heart-empty.vue'
+import IosHeartHalfIcon from './ios-heart-half.vue'
+import IosHeartIcon from './ios-heart.vue'
+import IosHelpBuoyIcon from './ios-help-buoy.vue'
+import IosHelpCircleOutlineIcon from './ios-help-circle-outline.vue'
+import IosHelpCircleIcon from './ios-help-circle.vue'
+import IosHelpIcon from './ios-help.vue'
+import IosHomeIcon from './ios-home.vue'
+import IosHourglassIcon from './ios-hourglass.vue'
+import IosIceCreamIcon from './ios-ice-cream.vue'
+import IosImageIcon from './ios-image.vue'
+import IosImagesIcon from './ios-images.vue'
+import IosInfiniteIcon from './ios-infinite.vue'
+import IosInformationCircleOutlineIcon from './ios-information-circle-outline.vue'
+import IosInformationCircleIcon from './ios-information-circle.vue'
+import IosInformationIcon from './ios-information.vue'
+import IosJetIcon from './ios-jet.vue'
+import IosJournalIcon from './ios-journal.vue'
+import IosKeyIcon from './ios-key.vue'
+import IosKeypadIcon from './ios-keypad.vue'
+import IosLaptopIcon from './ios-laptop.vue'
+import IosLeafIcon from './ios-leaf.vue'
+import IosLinkIcon from './ios-link.vue'
+import IosListBoxIcon from './ios-list-box.vue'
+import IosListIcon from './ios-list.vue'
+import IosLocateIcon from './ios-locate.vue'
+import IosLockIcon from './ios-lock.vue'
+import IosLogInIcon from './ios-log-in.vue'
+import IosLogOutIcon from './ios-log-out.vue'
+import IosMagnetIcon from './ios-magnet.vue'
+import IosMailOpenIcon from './ios-mail-open.vue'
+import IosMailUnreadIcon from './ios-mail-unread.vue'
+import IosMailIcon from './ios-mail.vue'
+import IosMaleIcon from './ios-male.vue'
+import IosManIcon from './ios-man.vue'
+import IosMapIcon from './ios-map.vue'
+import IosMedalIcon from './ios-medal.vue'
+import IosMedicalIcon from './ios-medical.vue'
+import IosMedkitIcon from './ios-medkit.vue'
+import IosMegaphoneIcon from './ios-megaphone.vue'
+import IosMenuIcon from './ios-menu.vue'
+import IosMicOffIcon from './ios-mic-off.vue'
+import IosMicIcon from './ios-mic.vue'
+import IosMicrophoneIcon from './ios-microphone.vue'
+import IosMoonIcon from './ios-moon.vue'
+import IosMoreIcon from './ios-more.vue'
+import IosMoveIcon from './ios-move.vue'
+import IosMusicalNoteIcon from './ios-musical-note.vue'
+import IosMusicalNotesIcon from './ios-musical-notes.vue'
+import IosNavigateIcon from './ios-navigate.vue'
+import IosNotificationsOffIcon from './ios-notifications-off.vue'
+import IosNotificationsOutlineIcon from './ios-notifications-outline.vue'
+import IosNotificationsIcon from './ios-notifications.vue'
+import IosNuclearIcon from './ios-nuclear.vue'
+import IosNutritionIcon from './ios-nutrition.vue'
+import IosOpenIcon from './ios-open.vue'
+import IosOptionsIcon from './ios-options.vue'
+import IosOutletIcon from './ios-outlet.vue'
+import IosPaperPlaneIcon from './ios-paper-plane.vue'
+import IosPaperIcon from './ios-paper.vue'
+import IosPartlySunnyIcon from './ios-partly-sunny.vue'
+import IosPauseIcon from './ios-pause.vue'
+import IosPawIcon from './ios-paw.vue'
+import IosPeopleIcon from './ios-people.vue'
+import IosPersonAddIcon from './ios-person-add.vue'
+import IosPersonIcon from './ios-person.vue'
+import IosPhoneLandscapeIcon from './ios-phone-landscape.vue'
+import IosPhonePortraitIcon from './ios-phone-portrait.vue'
+import IosPhotosIcon from './ios-photos.vue'
+import IosPieIcon from './ios-pie.vue'
+import IosPinIcon from './ios-pin.vue'
+import IosPintIcon from './ios-pint.vue'
+import IosPizzaIcon from './ios-pizza.vue'
+import IosPlanetIcon from './ios-planet.vue'
+import IosPlayCircleIcon from './ios-play-circle.vue'
+import IosPlayIcon from './ios-play.vue'
+import IosPodiumIcon from './ios-podium.vue'
+import IosPowerIcon from './ios-power.vue'
+import IosPricetagIcon from './ios-pricetag.vue'
+import IosPricetagsIcon from './ios-pricetags.vue'
+import IosPrintIcon from './ios-print.vue'
+import IosPulseIcon from './ios-pulse.vue'
+import IosQrScannerIcon from './ios-qr-scanner.vue'
+import IosQuoteIcon from './ios-quote.vue'
+import IosRadioButtonOffIcon from './ios-radio-button-off.vue'
+import IosRadioButtonOnIcon from './ios-radio-button-on.vue'
+import IosRadioIcon from './ios-radio.vue'
+import IosRainyIcon from './ios-rainy.vue'
+import IosRecordingIcon from './ios-recording.vue'
+import IosRedoIcon from './ios-redo.vue'
+import IosRefreshCircleIcon from './ios-refresh-circle.vue'
+import IosRefreshIcon from './ios-refresh.vue'
+import IosRemoveCircleOutlineIcon from './ios-remove-circle-outline.vue'
+import IosRemoveCircleIcon from './ios-remove-circle.vue'
+import IosRemoveIcon from './ios-remove.vue'
+import IosReorderIcon from './ios-reorder.vue'
+import IosRepeatIcon from './ios-repeat.vue'
+import IosResizeIcon from './ios-resize.vue'
+import IosRestaurantIcon from './ios-restaurant.vue'
+import IosReturnLeftIcon from './ios-return-left.vue'
+import IosReturnRightIcon from './ios-return-right.vue'
+import IosReverseCameraIcon from './ios-reverse-camera.vue'
+import IosRewindIcon from './ios-rewind.vue'
+import IosRibbonIcon from './ios-ribbon.vue'
+import IosRocketIcon from './ios-rocket.vue'
+import IosRoseIcon from './ios-rose.vue'
+import IosSadIcon from './ios-sad.vue'
+import IosSaveIcon from './ios-save.vue'
+import IosSchoolIcon from './ios-school.vue'
+import IosSearchIcon from './ios-search.vue'
+import IosSendIcon from './ios-send.vue'
+import IosSettingsIcon from './ios-settings.vue'
+import IosShareAltIcon from './ios-share-alt.vue'
+import IosShareIcon from './ios-share.vue'
+import IosShirtIcon from './ios-shirt.vue'
+import IosShuffleIcon from './ios-shuffle.vue'
+import IosSkipBackwardIcon from './ios-skip-backward.vue'
+import IosSkipForwardIcon from './ios-skip-forward.vue'
+import IosSnowIcon from './ios-snow.vue'
+import IosSpeedometerIcon from './ios-speedometer.vue'
+import IosSquareOutlineIcon from './ios-square-outline.vue'
+import IosSquareIcon from './ios-square.vue'
+import IosStarHalfIcon from './ios-star-half.vue'
+import IosStarOutlineIcon from './ios-star-outline.vue'
+import IosStarIcon from './ios-star.vue'
+import IosStatsIcon from './ios-stats.vue'
+import IosStopwatchIcon from './ios-stopwatch.vue'
+import IosSubwayIcon from './ios-subway.vue'
+import IosSunnyIcon from './ios-sunny.vue'
+import IosSwapIcon from './ios-swap.vue'
+import IosSwitchIcon from './ios-switch.vue'
+import IosSyncIcon from './ios-sync.vue'
+import IosTabletLandscapeIcon from './ios-tablet-landscape.vue'
+import IosTabletPortraitIcon from './ios-tablet-portrait.vue'
+import IosTennisballIcon from './ios-tennisball.vue'
+import IosTextIcon from './ios-text.vue'
+import IosThermometerIcon from './ios-thermometer.vue'
+import IosThumbsDownIcon from './ios-thumbs-down.vue'
+import IosThumbsUpIcon from './ios-thumbs-up.vue'
+import IosThunderstormIcon from './ios-thunderstorm.vue'
+import IosTimeIcon from './ios-time.vue'
+import IosTimerIcon from './ios-timer.vue'
+import IosTodayIcon from './ios-today.vue'
+import IosTrainIcon from './ios-train.vue'
+import IosTransgenderIcon from './ios-transgender.vue'
+import IosTrashIcon from './ios-trash.vue'
+import IosTrendingDownIcon from './ios-trending-down.vue'
+import IosTrendingUpIcon from './ios-trending-up.vue'
+import IosTrophyIcon from './ios-trophy.vue'
+import IosTvIcon from './ios-tv.vue'
+import IosUmbrellaIcon from './ios-umbrella.vue'
+import IosUndoIcon from './ios-undo.vue'
+import IosUnlockIcon from './ios-unlock.vue'
+import IosVideocamIcon from './ios-videocam.vue'
+import IosVolumeHighIcon from './ios-volume-high.vue'
+import IosVolumeLowIcon from './ios-volume-low.vue'
+import IosVolumeMuteIcon from './ios-volume-mute.vue'
+import IosVolumeOffIcon from './ios-volume-off.vue'
+import IosWalkIcon from './ios-walk.vue'
+import IosWalletIcon from './ios-wallet.vue'
+import IosWarningIcon from './ios-warning.vue'
+import IosWatchIcon from './ios-watch.vue'
+import IosWaterIcon from './ios-water.vue'
+import IosWifiIcon from './ios-wifi.vue'
+import IosWineIcon from './ios-wine.vue'
+import IosWomanIcon from './ios-woman.vue'
+import LogoAndroidIcon from './logo-android.vue'
+import LogoAngularIcon from './logo-angular.vue'
+import LogoAppleIcon from './logo-apple.vue'
+import LogoBitbucketIcon from './logo-bitbucket.vue'
+import LogoBitcoinIcon from './logo-bitcoin.vue'
+import LogoBufferIcon from './logo-buffer.vue'
+import LogoChromeIcon from './logo-chrome.vue'
+import LogoClosedCaptioningIcon from './logo-closed-captioning.vue'
+import LogoCodepenIcon from './logo-codepen.vue'
+import LogoCss3Icon from './logo-css3.vue'
+import LogoDesignernewsIcon from './logo-designernews.vue'
+import LogoDribbbleIcon from './logo-dribbble.vue'
+import LogoDropboxIcon from './logo-dropbox.vue'
+import LogoEuroIcon from './logo-euro.vue'
+import LogoFacebookIcon from './logo-facebook.vue'
+import LogoFlickrIcon from './logo-flickr.vue'
+import LogoFoursquareIcon from './logo-foursquare.vue'
+import LogoFreebsdDevilIcon from './logo-freebsd-devil.vue'
+import LogoGameControllerAIcon from './logo-game-controller-a.vue'
+import LogoGameControllerBIcon from './logo-game-controller-b.vue'
+import LogoGithubIcon from './logo-github.vue'
+import LogoGoogleIcon from './logo-google.vue'
+import LogoGoogleplusIcon from './logo-googleplus.vue'
+import LogoHackernewsIcon from './logo-hackernews.vue'
+import LogoHtml5Icon from './logo-html5.vue'
+import LogoInstagramIcon from './logo-instagram.vue'
+import LogoIonicIcon from './logo-ionic.vue'
+import LogoIonitronIcon from './logo-ionitron.vue'
+import LogoJavascriptIcon from './logo-javascript.vue'
+import LogoLinkedinIcon from './logo-linkedin.vue'
+import LogoMarkdownIcon from './logo-markdown.vue'
+import LogoModelSIcon from './logo-model-s.vue'
+import LogoNoSmokingIcon from './logo-no-smoking.vue'
+import LogoNodejsIcon from './logo-nodejs.vue'
+import LogoNpmIcon from './logo-npm.vue'
+import LogoOctocatIcon from './logo-octocat.vue'
+import LogoPlaystationIcon from './logo-playstation.vue'
+import LogoPolymerIcon from './logo-polymer.vue'
+import LogoPythonIcon from './logo-python.vue'
+import LogoRedditIcon from './logo-reddit.vue'
+import LogoRssIcon from './logo-rss.vue'
+import LogoSassIcon from './logo-sass.vue'
+import LogoSkypeIcon from './logo-skype.vue'
+import LogoSlackIcon from './logo-slack.vue'
+import LogoSnapchatIcon from './logo-snapchat.vue'
+import LogoSteamIcon from './logo-steam.vue'
+import LogoTumblrIcon from './logo-tumblr.vue'
+import LogoTuxIcon from './logo-tux.vue'
+import LogoTwitchIcon from './logo-twitch.vue'
+import LogoTwitterIcon from './logo-twitter.vue'
+import LogoUsdIcon from './logo-usd.vue'
+import LogoVimeoIcon from './logo-vimeo.vue'
+import LogoVkIcon from './logo-vk.vue'
+import LogoWhatsappIcon from './logo-whatsapp.vue'
+import LogoWindowsIcon from './logo-windows.vue'
+import LogoWordpressIcon from './logo-wordpress.vue'
+import LogoXboxIcon from './logo-xbox.vue'
+import LogoXingIcon from './logo-xing.vue'
+import LogoYahooIcon from './logo-yahoo.vue'
+import LogoYenIcon from './logo-yen.vue'
+import LogoYoutubeIcon from './logo-youtube.vue'
+import MdAddCircleOutlineIcon from './md-add-circle-outline.vue'
+import MdAddCircleIcon from './md-add-circle.vue'
+import MdAddIcon from './md-add.vue'
+import MdAirplaneIcon from './md-airplane.vue'
+import MdAlarmIcon from './md-alarm.vue'
+import MdAlbumsIcon from './md-albums.vue'
+import MdAlertIcon from './md-alert.vue'
+import MdAmericanFootballIcon from './md-american-football.vue'
+import MdAnalyticsIcon from './md-analytics.vue'
+import MdApertureIcon from './md-aperture.vue'
+import MdAppsIcon from './md-apps.vue'
+import MdAppstoreIcon from './md-appstore.vue'
+import MdArchiveIcon from './md-archive.vue'
+import MdArrowBackIcon from './md-arrow-back.vue'
+import MdArrowDownIcon from './md-arrow-down.vue'
+import MdArrowDropdownCircleIcon from './md-arrow-dropdown-circle.vue'
+import MdArrowDropdownIcon from './md-arrow-dropdown.vue'
+import MdArrowDropleftCircleIcon from './md-arrow-dropleft-circle.vue'
+import MdArrowDropleftIcon from './md-arrow-dropleft.vue'
+import MdArrowDroprightCircleIcon from './md-arrow-dropright-circle.vue'
+import MdArrowDroprightIcon from './md-arrow-dropright.vue'
+import MdArrowDropupCircleIcon from './md-arrow-dropup-circle.vue'
+import MdArrowDropupIcon from './md-arrow-dropup.vue'
+import MdArrowForwardIcon from './md-arrow-forward.vue'
+import MdArrowRoundBackIcon from './md-arrow-round-back.vue'
+import MdArrowRoundDownIcon from './md-arrow-round-down.vue'
+import MdArrowRoundForwardIcon from './md-arrow-round-forward.vue'
+import MdArrowRoundUpIcon from './md-arrow-round-up.vue'
+import MdArrowUpIcon from './md-arrow-up.vue'
+import MdAtIcon from './md-at.vue'
+import LogoPinterestIcon from './logo-pinterest.vue'
+import MdAttachIcon from './md-attach.vue'
+import MdBackspaceIcon from './md-backspace.vue'
+import MdBarcodeIcon from './md-barcode.vue'
+import MdBaseballIcon from './md-baseball.vue'
+import MdBasketIcon from './md-basket.vue'
+import MdBasketballIcon from './md-basketball.vue'
+import MdBatteryChargingIcon from './md-battery-charging.vue'
+import MdBatteryDeadIcon from './md-battery-dead.vue'
+import MdBatteryFullIcon from './md-battery-full.vue'
+import MdBeakerIcon from './md-beaker.vue'
+import MdBedIcon from './md-bed.vue'
+import MdBeerIcon from './md-beer.vue'
+import MdBicycleIcon from './md-bicycle.vue'
+import MdBluetoothIcon from './md-bluetooth.vue'
+import MdBoatIcon from './md-boat.vue'
+import MdBodyIcon from './md-body.vue'
+import MdBookIcon from './md-book.vue'
+import MdBonfireIcon from './md-bonfire.vue'
+import MdBookmarkIcon from './md-bookmark.vue'
+import MdBookmarksIcon from './md-bookmarks.vue'
+import MdBowtieIcon from './md-bowtie.vue'
+import MdBriefcaseIcon from './md-briefcase.vue'
+import MdBrowsersIcon from './md-browsers.vue'
+import MdBrushIcon from './md-brush.vue'
+import MdBugIcon from './md-bug.vue'
+import MdBuildIcon from './md-build.vue'
+import MdBulbIcon from './md-bulb.vue'
+import MdBusIcon from './md-bus.vue'
+import MdBusinessIcon from './md-business.vue'
+import MdCafeIcon from './md-cafe.vue'
+import MdCalculatorIcon from './md-calculator.vue'
+import MdCalendarIcon from './md-calendar.vue'
+import MdCallIcon from './md-call.vue'
+import MdCameraIcon from './md-camera.vue'
+import MdCarIcon from './md-car.vue'
+import MdCardIcon from './md-card.vue'
+import MdCartIcon from './md-cart.vue'
+import MdCashIcon from './md-cash.vue'
+import MdCellularIcon from './md-cellular.vue'
+import MdChatboxesIcon from './md-chatboxes.vue'
+import MdChatbubblesIcon from './md-chatbubbles.vue'
+import MdCheckboxOutlineIcon from './md-checkbox-outline.vue'
+import MdCheckboxIcon from './md-checkbox.vue'
+import MdCheckmarkCircleOutlineIcon from './md-checkmark-circle-outline.vue'
+import MdCheckmarkCircleIcon from './md-checkmark-circle.vue'
+import MdCheckmarkIcon from './md-checkmark.vue'
+import MdClipboardIcon from './md-clipboard.vue'
+import MdClockIcon from './md-clock.vue'
+import MdCloseCircleOutlineIcon from './md-close-circle-outline.vue'
+import MdCloseCircleIcon from './md-close-circle.vue'
+import MdCloseIcon from './md-close.vue'
+import MdCloudCircleIcon from './md-cloud-circle.vue'
+import MdCloudDoneIcon from './md-cloud-done.vue'
+import MdCloudDownloadIcon from './md-cloud-download.vue'
+import MdCloudOutlineIcon from './md-cloud-outline.vue'
+import MdCloudUploadIcon from './md-cloud-upload.vue'
+import MdCloudIcon from './md-cloud.vue'
+import MdCloudyNightIcon from './md-cloudy-night.vue'
+import MdCloudyIcon from './md-cloudy.vue'
+import MdCodeDownloadIcon from './md-code-download.vue'
+import MdCodeWorkingIcon from './md-code-working.vue'
+import MdCodeIcon from './md-code.vue'
+import MdCogIcon from './md-cog.vue'
+import MdColorFillIcon from './md-color-fill.vue'
+import MdColorFilterIcon from './md-color-filter.vue'
+import MdColorPaletteIcon from './md-color-palette.vue'
+import MdColorWandIcon from './md-color-wand.vue'
+import MdCompassIcon from './md-compass.vue'
+import MdConstructIcon from './md-construct.vue'
+import MdContactIcon from './md-contact.vue'
+import MdContactsIcon from './md-contacts.vue'
+import MdContractIcon from './md-contract.vue'
+import MdContrastIcon from './md-contrast.vue'
+import MdCopyIcon from './md-copy.vue'
+import MdCreateIcon from './md-create.vue'
+import MdCropIcon from './md-crop.vue'
+import MdCubeIcon from './md-cube.vue'
+import MdCutIcon from './md-cut.vue'
+import MdDesktopIcon from './md-desktop.vue'
+import MdDiscIcon from './md-disc.vue'
+import MdDocumentIcon from './md-document.vue'
+import MdDoneAllIcon from './md-done-all.vue'
+import MdDownloadIcon from './md-download.vue'
+import MdEaselIcon from './md-easel.vue'
+import MdEggIcon from './md-egg.vue'
+import MdExitIcon from './md-exit.vue'
+import MdExpandIcon from './md-expand.vue'
+import MdEyeOffIcon from './md-eye-off.vue'
+import MdEyeIcon from './md-eye.vue'
+import MdFastforwardIcon from './md-fastforward.vue'
+import MdFemaleIcon from './md-female.vue'
+import MdFilingIcon from './md-filing.vue'
+import MdFilmIcon from './md-film.vue'
+import MdFingerPrintIcon from './md-finger-print.vue'
+import MdFitnessIcon from './md-fitness.vue'
+import MdFlagIcon from './md-flag.vue'
+import MdFlameIcon from './md-flame.vue'
+import MdFlashOffIcon from './md-flash-off.vue'
+import MdFlashIcon from './md-flash.vue'
+import MdFlashlightIcon from './md-flashlight.vue'
+import MdFlaskIcon from './md-flask.vue'
+import MdFlowerIcon from './md-flower.vue'
+import MdFolderOpenIcon from './md-folder-open.vue'
+import MdFolderIcon from './md-folder.vue'
+import MdFootballIcon from './md-football.vue'
+import MdFunnelIcon from './md-funnel.vue'
+import MdGiftIcon from './md-gift.vue'
+import MdGitBranchIcon from './md-git-branch.vue'
+import MdGitCommitIcon from './md-git-commit.vue'
+import MdGitCompareIcon from './md-git-compare.vue'
+import MdGitMergeIcon from './md-git-merge.vue'
+import MdGitNetworkIcon from './md-git-network.vue'
+import MdGitPullRequestIcon from './md-git-pull-request.vue'
+import MdGlassesIcon from './md-glasses.vue'
+import MdGlobeIcon from './md-globe.vue'
+import MdGridIcon from './md-grid.vue'
+import MdHammerIcon from './md-hammer.vue'
+import MdHandIcon from './md-hand.vue'
+import MdHappyIcon from './md-happy.vue'
+import MdHeadsetIcon from './md-headset.vue'
+import MdHeartDislikeIcon from './md-heart-dislike.vue'
+import MdHeartEmptyIcon from './md-heart-empty.vue'
+import MdHeartHalfIcon from './md-heart-half.vue'
+import MdHeartIcon from './md-heart.vue'
+import MdHelpBuoyIcon from './md-help-buoy.vue'
+import MdHelpCircleOutlineIcon from './md-help-circle-outline.vue'
+import MdHelpCircleIcon from './md-help-circle.vue'
+import MdHelpIcon from './md-help.vue'
+import MdHomeIcon from './md-home.vue'
+import MdHourglassIcon from './md-hourglass.vue'
+import MdIceCreamIcon from './md-ice-cream.vue'
+import MdImageIcon from './md-image.vue'
+import MdImagesIcon from './md-images.vue'
+import MdInfiniteIcon from './md-infinite.vue'
+import MdInformationCircleOutlineIcon from './md-information-circle-outline.vue'
+import MdInformationCircleIcon from './md-information-circle.vue'
+import MdInformationIcon from './md-information.vue'
+import MdJetIcon from './md-jet.vue'
+import MdJournalIcon from './md-journal.vue'
+import MdKeyIcon from './md-key.vue'
+import MdKeypadIcon from './md-keypad.vue'
+import MdLaptopIcon from './md-laptop.vue'
+import MdLeafIcon from './md-leaf.vue'
+import MdLinkIcon from './md-link.vue'
+import MdListBoxIcon from './md-list-box.vue'
+import MdListIcon from './md-list.vue'
+import MdLocateIcon from './md-locate.vue'
+import MdLockIcon from './md-lock.vue'
+import MdLogInIcon from './md-log-in.vue'
+import MdLogOutIcon from './md-log-out.vue'
+import MdMagnetIcon from './md-magnet.vue'
+import MdMailOpenIcon from './md-mail-open.vue'
+import MdMailUnreadIcon from './md-mail-unread.vue'
+import MdMailIcon from './md-mail.vue'
+import MdMaleIcon from './md-male.vue'
+import MdManIcon from './md-man.vue'
+import MdMapIcon from './md-map.vue'
+import MdMedalIcon from './md-medal.vue'
+import MdMedicalIcon from './md-medical.vue'
+import MdMedkitIcon from './md-medkit.vue'
+import MdMegaphoneIcon from './md-megaphone.vue'
+import MdMenuIcon from './md-menu.vue'
+import MdMicOffIcon from './md-mic-off.vue'
+import MdMicIcon from './md-mic.vue'
+import MdMicrophoneIcon from './md-microphone.vue'
+import MdMoonIcon from './md-moon.vue'
+import MdMoreIcon from './md-more.vue'
+import MdMoveIcon from './md-move.vue'
+import MdMusicalNoteIcon from './md-musical-note.vue'
+import MdMusicalNotesIcon from './md-musical-notes.vue'
+import MdNavigateIcon from './md-navigate.vue'
+import MdNotificationsOffIcon from './md-notifications-off.vue'
+import MdNotificationsOutlineIcon from './md-notifications-outline.vue'
+import MdNotificationsIcon from './md-notifications.vue'
+import MdNuclearIcon from './md-nuclear.vue'
+import MdNutritionIcon from './md-nutrition.vue'
+import MdOpenIcon from './md-open.vue'
+import MdOptionsIcon from './md-options.vue'
+import MdOutletIcon from './md-outlet.vue'
+import MdPaperPlaneIcon from './md-paper-plane.vue'
+import MdPaperIcon from './md-paper.vue'
+import MdPartlySunnyIcon from './md-partly-sunny.vue'
+import MdPauseIcon from './md-pause.vue'
+import MdPawIcon from './md-paw.vue'
+import MdPeopleIcon from './md-people.vue'
+import MdPersonAddIcon from './md-person-add.vue'
+import MdPersonIcon from './md-person.vue'
+import MdPhoneLandscapeIcon from './md-phone-landscape.vue'
+import MdPhonePortraitIcon from './md-phone-portrait.vue'
+import MdPhotosIcon from './md-photos.vue'
+import MdPieIcon from './md-pie.vue'
+import MdPinIcon from './md-pin.vue'
+import MdPintIcon from './md-pint.vue'
+import MdPizzaIcon from './md-pizza.vue'
+import MdPlanetIcon from './md-planet.vue'
+import MdPlayCircleIcon from './md-play-circle.vue'
+import MdPlayIcon from './md-play.vue'
+import MdPodiumIcon from './md-podium.vue'
+import MdPowerIcon from './md-power.vue'
+import MdPricetagIcon from './md-pricetag.vue'
+import MdPricetagsIcon from './md-pricetags.vue'
+import MdPrintIcon from './md-print.vue'
+import MdPulseIcon from './md-pulse.vue'
+import MdQrScannerIcon from './md-qr-scanner.vue'
+import MdQuoteIcon from './md-quote.vue'
+import MdRadioButtonOffIcon from './md-radio-button-off.vue'
+import MdRadioButtonOnIcon from './md-radio-button-on.vue'
+import MdRadioIcon from './md-radio.vue'
+import MdRainyIcon from './md-rainy.vue'
+import MdRecordingIcon from './md-recording.vue'
+import MdRedoIcon from './md-redo.vue'
+import MdRefreshCircleIcon from './md-refresh-circle.vue'
+import MdRefreshIcon from './md-refresh.vue'
+import MdRemoveCircleOutlineIcon from './md-remove-circle-outline.vue'
+import MdRemoveCircleIcon from './md-remove-circle.vue'
+import MdRemoveIcon from './md-remove.vue'
+import MdReorderIcon from './md-reorder.vue'
+import MdRepeatIcon from './md-repeat.vue'
+import MdResizeIcon from './md-resize.vue'
+import MdRestaurantIcon from './md-restaurant.vue'
+import MdReturnLeftIcon from './md-return-left.vue'
+import MdReturnRightIcon from './md-return-right.vue'
+import MdReverseCameraIcon from './md-reverse-camera.vue'
+import MdRewindIcon from './md-rewind.vue'
+import MdRibbonIcon from './md-ribbon.vue'
+import MdRocketIcon from './md-rocket.vue'
+import MdRoseIcon from './md-rose.vue'
+import MdSadIcon from './md-sad.vue'
+import MdSaveIcon from './md-save.vue'
+import MdSchoolIcon from './md-school.vue'
+import MdSearchIcon from './md-search.vue'
+import MdSendIcon from './md-send.vue'
+import MdSettingsIcon from './md-settings.vue'
+import MdShareAltIcon from './md-share-alt.vue'
+import MdShareIcon from './md-share.vue'
+import MdShirtIcon from './md-shirt.vue'
+import MdShuffleIcon from './md-shuffle.vue'
+import MdSkipBackwardIcon from './md-skip-backward.vue'
+import MdSkipForwardIcon from './md-skip-forward.vue'
+import MdSnowIcon from './md-snow.vue'
+import MdSpeedometerIcon from './md-speedometer.vue'
+import MdSquareOutlineIcon from './md-square-outline.vue'
+import MdSquareIcon from './md-square.vue'
+import MdStarHalfIcon from './md-star-half.vue'
+import MdStarOutlineIcon from './md-star-outline.vue'
+import MdStarIcon from './md-star.vue'
+import MdStatsIcon from './md-stats.vue'
+import MdStopwatchIcon from './md-stopwatch.vue'
+import MdSubwayIcon from './md-subway.vue'
+import MdSunnyIcon from './md-sunny.vue'
+import MdSwapIcon from './md-swap.vue'
+import MdSwitchIcon from './md-switch.vue'
+import MdSyncIcon from './md-sync.vue'
+import MdTabletLandscapeIcon from './md-tablet-landscape.vue'
+import MdTabletPortraitIcon from './md-tablet-portrait.vue'
+import MdTennisballIcon from './md-tennisball.vue'
+import MdTextIcon from './md-text.vue'
+import MdThermometerIcon from './md-thermometer.vue'
+import MdThumbsDownIcon from './md-thumbs-down.vue'
+import MdThumbsUpIcon from './md-thumbs-up.vue'
+import MdThunderstormIcon from './md-thunderstorm.vue'
+import MdTimeIcon from './md-time.vue'
+import MdTimerIcon from './md-timer.vue'
+import MdTodayIcon from './md-today.vue'
+import MdTrainIcon from './md-train.vue'
+import MdTransgenderIcon from './md-transgender.vue'
+import MdTrashIcon from './md-trash.vue'
+import MdTrendingDownIcon from './md-trending-down.vue'
+import MdTrendingUpIcon from './md-trending-up.vue'
+import MdTrophyIcon from './md-trophy.vue'
+import MdTvIcon from './md-tv.vue'
+import MdUmbrellaIcon from './md-umbrella.vue'
+import MdUndoIcon from './md-undo.vue'
+import MdUnlockIcon from './md-unlock.vue'
+import MdVideocamIcon from './md-videocam.vue'
+import MdVolumeHighIcon from './md-volume-high.vue'
+import MdVolumeLowIcon from './md-volume-low.vue'
+import MdVolumeMuteIcon from './md-volume-mute.vue'
+import MdVolumeOffIcon from './md-volume-off.vue'
+import MdWalkIcon from './md-walk.vue'
+import MdWalletIcon from './md-wallet.vue'
+import MdWarningIcon from './md-warning.vue'
+import MdWatchIcon from './md-watch.vue'
+import MdWaterIcon from './md-water.vue'
+import MdWifiIcon from './md-wifi.vue'
+import MdWineIcon from './md-wine.vue'
+import MdWomanIcon from './md-woman.vue'
 
 const plugin = component => {
   install: Vue => {
@@ -928,7 +927,6 @@ IosPieIcon.install = plugin(IosPieIcon)
 IosPinIcon.install = plugin(IosPinIcon)
 IosPintIcon.install = plugin(IosPintIcon)
 IosPizzaIcon.install = plugin(IosPizzaIcon)
-IosPlaneIcon.install = plugin(IosPlaneIcon)
 IosPlanetIcon.install = plugin(IosPlanetIcon)
 IosPlayCircleIcon.install = plugin(IosPlayCircleIcon)
 IosPlayIcon.install = plugin(IosPlayIcon)
@@ -1058,7 +1056,6 @@ LogoNoSmokingIcon.install = plugin(LogoNoSmokingIcon)
 LogoNodejsIcon.install = plugin(LogoNodejsIcon)
 LogoNpmIcon.install = plugin(LogoNpmIcon)
 LogoOctocatIcon.install = plugin(LogoOctocatIcon)
-LogoPinterestIcon.install = plugin(LogoPinterestIcon)
 LogoPlaystationIcon.install = plugin(LogoPlaystationIcon)
 LogoPolymerIcon.install = plugin(LogoPolymerIcon)
 LogoPythonIcon.install = plugin(LogoPythonIcon)
@@ -1114,6 +1111,7 @@ MdArrowRoundForwardIcon.install = plugin(MdArrowRoundForwardIcon)
 MdArrowRoundUpIcon.install = plugin(MdArrowRoundUpIcon)
 MdArrowUpIcon.install = plugin(MdArrowUpIcon)
 MdAtIcon.install = plugin(MdAtIcon)
+LogoPinterestIcon.install = plugin(LogoPinterestIcon)
 MdAttachIcon.install = plugin(MdAttachIcon)
 MdBackspaceIcon.install = plugin(MdBackspaceIcon)
 MdBarcodeIcon.install = plugin(MdBarcodeIcon)
@@ -1130,8 +1128,8 @@ MdBicycleIcon.install = plugin(MdBicycleIcon)
 MdBluetoothIcon.install = plugin(MdBluetoothIcon)
 MdBoatIcon.install = plugin(MdBoatIcon)
 MdBodyIcon.install = plugin(MdBodyIcon)
-MdBonfireIcon.install = plugin(MdBonfireIcon)
 MdBookIcon.install = plugin(MdBookIcon)
+MdBonfireIcon.install = plugin(MdBonfireIcon)
 MdBookmarkIcon.install = plugin(MdBookmarkIcon)
 MdBookmarksIcon.install = plugin(MdBookmarksIcon)
 MdBowtieIcon.install = plugin(MdBowtieIcon)
@@ -1308,7 +1306,6 @@ MdPieIcon.install = plugin(MdPieIcon)
 MdPinIcon.install = plugin(MdPinIcon)
 MdPintIcon.install = plugin(MdPintIcon)
 MdPizzaIcon.install = plugin(MdPizzaIcon)
-MdPlaneIcon.install = plugin(MdPlaneIcon)
 MdPlanetIcon.install = plugin(MdPlanetIcon)
 MdPlayCircleIcon.install = plugin(MdPlayCircleIcon)
 MdPlayIcon.install = plugin(MdPlayIcon)
@@ -1345,8 +1342,8 @@ MdRoseIcon.install = plugin(MdRoseIcon)
 MdSadIcon.install = plugin(MdSadIcon)
 MdSaveIcon.install = plugin(MdSaveIcon)
 MdSchoolIcon.install = plugin(MdSchoolIcon)
-MdSendIcon.install = plugin(MdSendIcon)
 MdSearchIcon.install = plugin(MdSearchIcon)
+MdSendIcon.install = plugin(MdSendIcon)
 MdSettingsIcon.install = plugin(MdSettingsIcon)
 MdShareAltIcon.install = plugin(MdShareAltIcon)
 MdShareIcon.install = plugin(MdShareIcon)
@@ -1401,704 +1398,703 @@ MdWatchIcon.install = plugin(MdWatchIcon)
 MdWaterIcon.install = plugin(MdWaterIcon)
 MdWifiIcon.install = plugin(MdWifiIcon)
 MdWineIcon.install = plugin(MdWineIcon)
+MdWomanIcon.install = plugin(MdWomanIcon)
 
-let ioniconsPlugin = {}
-ioniconsPlugin.IosAddCircleOutlineIcon = IosAddCircleOutlineIcon
-ioniconsPlugin.IosAddCircleIcon = IosAddCircleIcon
-ioniconsPlugin.IosAddIcon = IosAddIcon
-ioniconsPlugin.IosAirplaneIcon = IosAirplaneIcon
-ioniconsPlugin.IosAlarmIcon = IosAlarmIcon
-ioniconsPlugin.IosAlbumsIcon = IosAlbumsIcon
-ioniconsPlugin.IosAlertIcon = IosAlertIcon
-ioniconsPlugin.IosAmericanFootballIcon = IosAmericanFootballIcon
-ioniconsPlugin.IosAnalyticsIcon = IosAnalyticsIcon
-ioniconsPlugin.IosApertureIcon = IosApertureIcon
-ioniconsPlugin.IosAppsIcon = IosAppsIcon
-ioniconsPlugin.IosAppstoreIcon = IosAppstoreIcon
-ioniconsPlugin.IosArchiveIcon = IosArchiveIcon
-ioniconsPlugin.IosArrowBackIcon = IosArrowBackIcon
-ioniconsPlugin.IosArrowDownIcon = IosArrowDownIcon
-ioniconsPlugin.IosArrowDropdownCircleIcon = IosArrowDropdownCircleIcon
-ioniconsPlugin.IosArrowDropdownIcon = IosArrowDropdownIcon
-ioniconsPlugin.IosArrowDropleftCircleIcon = IosArrowDropleftCircleIcon
-ioniconsPlugin.IosArrowDropleftIcon = IosArrowDropleftIcon
-ioniconsPlugin.IosArrowDroprightCircleIcon = IosArrowDroprightCircleIcon
-ioniconsPlugin.IosArrowDroprightIcon = IosArrowDroprightIcon
-ioniconsPlugin.IosArrowDropupCircleIcon = IosArrowDropupCircleIcon
-ioniconsPlugin.IosArrowDropupIcon = IosArrowDropupIcon
-ioniconsPlugin.IosArrowForwardIcon = IosArrowForwardIcon
-ioniconsPlugin.IosArrowRoundBackIcon = IosArrowRoundBackIcon
-ioniconsPlugin.IosArrowRoundDownIcon = IosArrowRoundDownIcon
-ioniconsPlugin.IosArrowRoundForwardIcon = IosArrowRoundForwardIcon
-ioniconsPlugin.IosArrowRoundUpIcon = IosArrowRoundUpIcon
-ioniconsPlugin.IosArrowUpIcon = IosArrowUpIcon
-ioniconsPlugin.IosAtIcon = IosAtIcon
-ioniconsPlugin.IosAttachIcon = IosAttachIcon
-ioniconsPlugin.IosBackspaceIcon = IosBackspaceIcon
-ioniconsPlugin.IosBarcodeIcon = IosBarcodeIcon
-ioniconsPlugin.IosBaseballIcon = IosBaseballIcon
-ioniconsPlugin.IosBasketIcon = IosBasketIcon
-ioniconsPlugin.IosBasketballIcon = IosBasketballIcon
-ioniconsPlugin.IosBatteryChargingIcon = IosBatteryChargingIcon
-ioniconsPlugin.IosBatteryDeadIcon = IosBatteryDeadIcon
-ioniconsPlugin.IosBatteryFullIcon = IosBatteryFullIcon
-ioniconsPlugin.IosBeakerIcon = IosBeakerIcon
-ioniconsPlugin.IosBedIcon = IosBedIcon
-ioniconsPlugin.IosBeerIcon = IosBeerIcon
-ioniconsPlugin.IosBicycleIcon = IosBicycleIcon
-ioniconsPlugin.IosBluetoothIcon = IosBluetoothIcon
-ioniconsPlugin.IosBoatIcon = IosBoatIcon
-ioniconsPlugin.IosBodyIcon = IosBodyIcon
-ioniconsPlugin.IosBonfireIcon = IosBonfireIcon
-ioniconsPlugin.IosBookIcon = IosBookIcon
-ioniconsPlugin.IosBookmarkIcon = IosBookmarkIcon
-ioniconsPlugin.IosBookmarksIcon = IosBookmarksIcon
-ioniconsPlugin.IosBowtieIcon = IosBowtieIcon
-ioniconsPlugin.IosBriefcaseIcon = IosBriefcaseIcon
-ioniconsPlugin.IosBrowsersIcon = IosBrowsersIcon
-ioniconsPlugin.IosBrushIcon = IosBrushIcon
-ioniconsPlugin.IosBugIcon = IosBugIcon
-ioniconsPlugin.IosBuildIcon = IosBuildIcon
-ioniconsPlugin.IosBulbIcon = IosBulbIcon
-ioniconsPlugin.IosBusIcon = IosBusIcon
-ioniconsPlugin.IosBusinessIcon = IosBusinessIcon
-ioniconsPlugin.IosCafeIcon = IosCafeIcon
-ioniconsPlugin.IosCalculatorIcon = IosCalculatorIcon
-ioniconsPlugin.IosCalendarIcon = IosCalendarIcon
-ioniconsPlugin.IosCallIcon = IosCallIcon
-ioniconsPlugin.IosCameraIcon = IosCameraIcon
-ioniconsPlugin.IosCarIcon = IosCarIcon
-ioniconsPlugin.IosCardIcon = IosCardIcon
-ioniconsPlugin.IosCartIcon = IosCartIcon
-ioniconsPlugin.IosCashIcon = IosCashIcon
-ioniconsPlugin.IosCellularIcon = IosCellularIcon
-ioniconsPlugin.IosChatboxesIcon = IosChatboxesIcon
-ioniconsPlugin.IosChatbubblesIcon = IosChatbubblesIcon
-ioniconsPlugin.IosCheckboxOutlineIcon = IosCheckboxOutlineIcon
-ioniconsPlugin.IosCheckboxIcon = IosCheckboxIcon
-ioniconsPlugin.IosCheckmarkCircleOutlineIcon = IosCheckmarkCircleOutlineIcon
-ioniconsPlugin.IosCheckmarkCircleIcon = IosCheckmarkCircleIcon
-ioniconsPlugin.IosCheckmarkIcon = IosCheckmarkIcon
-ioniconsPlugin.IosClipboardIcon = IosClipboardIcon
-ioniconsPlugin.IosClockIcon = IosClockIcon
-ioniconsPlugin.IosCloseCircleOutlineIcon = IosCloseCircleOutlineIcon
-ioniconsPlugin.IosCloseCircleIcon = IosCloseCircleIcon
-ioniconsPlugin.IosCloseIcon = IosCloseIcon
-ioniconsPlugin.IosCloudCircleIcon = IosCloudCircleIcon
-ioniconsPlugin.IosCloudDoneIcon = IosCloudDoneIcon
-ioniconsPlugin.IosCloudDownloadIcon = IosCloudDownloadIcon
-ioniconsPlugin.IosCloudOutlineIcon = IosCloudOutlineIcon
-ioniconsPlugin.IosCloudUploadIcon = IosCloudUploadIcon
-ioniconsPlugin.IosCloudIcon = IosCloudIcon
-ioniconsPlugin.IosCloudyNightIcon = IosCloudyNightIcon
-ioniconsPlugin.IosCloudyIcon = IosCloudyIcon
-ioniconsPlugin.IosCodeDownloadIcon = IosCodeDownloadIcon
-ioniconsPlugin.IosCodeWorkingIcon = IosCodeWorkingIcon
-ioniconsPlugin.IosCodeIcon = IosCodeIcon
-ioniconsPlugin.IosCogIcon = IosCogIcon
-ioniconsPlugin.IosColorFillIcon = IosColorFillIcon
-ioniconsPlugin.IosColorFilterIcon = IosColorFilterIcon
-ioniconsPlugin.IosColorPaletteIcon = IosColorPaletteIcon
-ioniconsPlugin.IosColorWandIcon = IosColorWandIcon
-ioniconsPlugin.IosCompassIcon = IosCompassIcon
-ioniconsPlugin.IosConstructIcon = IosConstructIcon
-ioniconsPlugin.IosContactIcon = IosContactIcon
-ioniconsPlugin.IosContactsIcon = IosContactsIcon
-ioniconsPlugin.IosContractIcon = IosContractIcon
-ioniconsPlugin.IosContrastIcon = IosContrastIcon
-ioniconsPlugin.IosCopyIcon = IosCopyIcon
-ioniconsPlugin.IosCreateIcon = IosCreateIcon
-ioniconsPlugin.IosCropIcon = IosCropIcon
-ioniconsPlugin.IosCubeIcon = IosCubeIcon
-ioniconsPlugin.IosCutIcon = IosCutIcon
-ioniconsPlugin.IosDesktopIcon = IosDesktopIcon
-ioniconsPlugin.IosDiscIcon = IosDiscIcon
-ioniconsPlugin.IosDocumentIcon = IosDocumentIcon
-ioniconsPlugin.IosDoneAllIcon = IosDoneAllIcon
-ioniconsPlugin.IosDownloadIcon = IosDownloadIcon
-ioniconsPlugin.IosEaselIcon = IosEaselIcon
-ioniconsPlugin.IosEggIcon = IosEggIcon
-ioniconsPlugin.IosExitIcon = IosExitIcon
-ioniconsPlugin.IosExpandIcon = IosExpandIcon
-ioniconsPlugin.IosEyeOffIcon = IosEyeOffIcon
-ioniconsPlugin.IosEyeIcon = IosEyeIcon
-ioniconsPlugin.IosFastforwardIcon = IosFastforwardIcon
-ioniconsPlugin.IosFemaleIcon = IosFemaleIcon
-ioniconsPlugin.IosFilingIcon = IosFilingIcon
-ioniconsPlugin.IosFilmIcon = IosFilmIcon
-ioniconsPlugin.IosFingerPrintIcon = IosFingerPrintIcon
-ioniconsPlugin.IosFitnessIcon = IosFitnessIcon
-ioniconsPlugin.IosFlagIcon = IosFlagIcon
-ioniconsPlugin.IosFlameIcon = IosFlameIcon
-ioniconsPlugin.IosFlashOffIcon = IosFlashOffIcon
-ioniconsPlugin.IosFlashIcon = IosFlashIcon
-ioniconsPlugin.IosFlashlightIcon = IosFlashlightIcon
-ioniconsPlugin.IosFlaskIcon = IosFlaskIcon
-ioniconsPlugin.IosFlowerIcon = IosFlowerIcon
-ioniconsPlugin.IosFolderOpenIcon = IosFolderOpenIcon
-ioniconsPlugin.IosFolderIcon = IosFolderIcon
-ioniconsPlugin.IosFootballIcon = IosFootballIcon
-ioniconsPlugin.IosFunnelIcon = IosFunnelIcon
-ioniconsPlugin.IosGiftIcon = IosGiftIcon
-ioniconsPlugin.IosGitBranchIcon = IosGitBranchIcon
-ioniconsPlugin.IosGitCommitIcon = IosGitCommitIcon
-ioniconsPlugin.IosGitCompareIcon = IosGitCompareIcon
-ioniconsPlugin.IosGitMergeIcon = IosGitMergeIcon
-ioniconsPlugin.IosGitNetworkIcon = IosGitNetworkIcon
-ioniconsPlugin.IosGitPullRequestIcon = IosGitPullRequestIcon
-ioniconsPlugin.IosGlassesIcon = IosGlassesIcon
-ioniconsPlugin.IosGlobeIcon = IosGlobeIcon
-ioniconsPlugin.IosGridIcon = IosGridIcon
-ioniconsPlugin.IosHammerIcon = IosHammerIcon
-ioniconsPlugin.IosHandIcon = IosHandIcon
-ioniconsPlugin.IosHappyIcon = IosHappyIcon
-ioniconsPlugin.IosHeadsetIcon = IosHeadsetIcon
-ioniconsPlugin.IosHeartDislikeIcon = IosHeartDislikeIcon
-ioniconsPlugin.IosHeartEmptyIcon = IosHeartEmptyIcon
-ioniconsPlugin.IosHeartHalfIcon = IosHeartHalfIcon
-ioniconsPlugin.IosHeartIcon = IosHeartIcon
-ioniconsPlugin.IosHelpBuoyIcon = IosHelpBuoyIcon
-ioniconsPlugin.IosHelpCircleOutlineIcon = IosHelpCircleOutlineIcon
-ioniconsPlugin.IosHelpCircleIcon = IosHelpCircleIcon
-ioniconsPlugin.IosHelpIcon = IosHelpIcon
-ioniconsPlugin.IosHomeIcon = IosHomeIcon
-ioniconsPlugin.IosHourglassIcon = IosHourglassIcon
-ioniconsPlugin.IosIceCreamIcon = IosIceCreamIcon
-ioniconsPlugin.IosImageIcon = IosImageIcon
-ioniconsPlugin.IosImagesIcon = IosImagesIcon
-ioniconsPlugin.IosInfiniteIcon = IosInfiniteIcon
-ioniconsPlugin.IosInformationCircleOutlineIcon = IosInformationCircleOutlineIcon
-ioniconsPlugin.IosInformationCircleIcon = IosInformationCircleIcon
-ioniconsPlugin.IosInformationIcon = IosInformationIcon
-ioniconsPlugin.IosJetIcon = IosJetIcon
-ioniconsPlugin.IosJournalIcon = IosJournalIcon
-ioniconsPlugin.IosKeyIcon = IosKeyIcon
-ioniconsPlugin.IosKeypadIcon = IosKeypadIcon
-ioniconsPlugin.IosLaptopIcon = IosLaptopIcon
-ioniconsPlugin.IosLeafIcon = IosLeafIcon
-ioniconsPlugin.IosLinkIcon = IosLinkIcon
-ioniconsPlugin.IosListBoxIcon = IosListBoxIcon
-ioniconsPlugin.IosListIcon = IosListIcon
-ioniconsPlugin.IosLocateIcon = IosLocateIcon
-ioniconsPlugin.IosLockIcon = IosLockIcon
-ioniconsPlugin.IosLogInIcon = IosLogInIcon
-ioniconsPlugin.IosLogOutIcon = IosLogOutIcon
-ioniconsPlugin.IosMagnetIcon = IosMagnetIcon
-ioniconsPlugin.IosMailOpenIcon = IosMailOpenIcon
-ioniconsPlugin.IosMailUnreadIcon = IosMailUnreadIcon
-ioniconsPlugin.IosMailIcon = IosMailIcon
-ioniconsPlugin.IosMaleIcon = IosMaleIcon
-ioniconsPlugin.IosManIcon = IosManIcon
-ioniconsPlugin.IosMapIcon = IosMapIcon
-ioniconsPlugin.IosMedalIcon = IosMedalIcon
-ioniconsPlugin.IosMedicalIcon = IosMedicalIcon
-ioniconsPlugin.IosMedkitIcon = IosMedkitIcon
-ioniconsPlugin.IosMegaphoneIcon = IosMegaphoneIcon
-ioniconsPlugin.IosMenuIcon = IosMenuIcon
-ioniconsPlugin.IosMicOffIcon = IosMicOffIcon
-ioniconsPlugin.IosMicIcon = IosMicIcon
-ioniconsPlugin.IosMicrophoneIcon = IosMicrophoneIcon
-ioniconsPlugin.IosMoonIcon = IosMoonIcon
-ioniconsPlugin.IosMoreIcon = IosMoreIcon
-ioniconsPlugin.IosMoveIcon = IosMoveIcon
-ioniconsPlugin.IosMusicalNoteIcon = IosMusicalNoteIcon
-ioniconsPlugin.IosMusicalNotesIcon = IosMusicalNotesIcon
-ioniconsPlugin.IosNavigateIcon = IosNavigateIcon
-ioniconsPlugin.IosNotificationsOffIcon = IosNotificationsOffIcon
-ioniconsPlugin.IosNotificationsOutlineIcon = IosNotificationsOutlineIcon
-ioniconsPlugin.IosNotificationsIcon = IosNotificationsIcon
-ioniconsPlugin.IosNuclearIcon = IosNuclearIcon
-ioniconsPlugin.IosNutritionIcon = IosNutritionIcon
-ioniconsPlugin.IosOpenIcon = IosOpenIcon
-ioniconsPlugin.IosOptionsIcon = IosOptionsIcon
-ioniconsPlugin.IosOutletIcon = IosOutletIcon
-ioniconsPlugin.IosPaperPlaneIcon = IosPaperPlaneIcon
-ioniconsPlugin.IosPaperIcon = IosPaperIcon
-ioniconsPlugin.IosPartlySunnyIcon = IosPartlySunnyIcon
-ioniconsPlugin.IosPauseIcon = IosPauseIcon
-ioniconsPlugin.IosPawIcon = IosPawIcon
-ioniconsPlugin.IosPeopleIcon = IosPeopleIcon
-ioniconsPlugin.IosPersonAddIcon = IosPersonAddIcon
-ioniconsPlugin.IosPersonIcon = IosPersonIcon
-ioniconsPlugin.IosPhoneLandscapeIcon = IosPhoneLandscapeIcon
-ioniconsPlugin.IosPhonePortraitIcon = IosPhonePortraitIcon
-ioniconsPlugin.IosPhotosIcon = IosPhotosIcon
-ioniconsPlugin.IosPieIcon = IosPieIcon
-ioniconsPlugin.IosPinIcon = IosPinIcon
-ioniconsPlugin.IosPintIcon = IosPintIcon
-ioniconsPlugin.IosPizzaIcon = IosPizzaIcon
-ioniconsPlugin.IosPlaneIcon = IosPlaneIcon
-ioniconsPlugin.IosPlanetIcon = IosPlanetIcon
-ioniconsPlugin.IosPlayCircleIcon = IosPlayCircleIcon
-ioniconsPlugin.IosPlayIcon = IosPlayIcon
-ioniconsPlugin.IosPodiumIcon = IosPodiumIcon
-ioniconsPlugin.IosPowerIcon = IosPowerIcon
-ioniconsPlugin.IosPricetagIcon = IosPricetagIcon
-ioniconsPlugin.IosPricetagsIcon = IosPricetagsIcon
-ioniconsPlugin.IosPrintIcon = IosPrintIcon
-ioniconsPlugin.IosPulseIcon = IosPulseIcon
-ioniconsPlugin.IosQrScannerIcon = IosQrScannerIcon
-ioniconsPlugin.IosQuoteIcon = IosQuoteIcon
-ioniconsPlugin.IosRadioButtonOffIcon = IosRadioButtonOffIcon
-ioniconsPlugin.IosRadioButtonOnIcon = IosRadioButtonOnIcon
-ioniconsPlugin.IosRadioIcon = IosRadioIcon
-ioniconsPlugin.IosRainyIcon = IosRainyIcon
-ioniconsPlugin.IosRecordingIcon = IosRecordingIcon
-ioniconsPlugin.IosRedoIcon = IosRedoIcon
-ioniconsPlugin.IosRefreshCircleIcon = IosRefreshCircleIcon
-ioniconsPlugin.IosRefreshIcon = IosRefreshIcon
-ioniconsPlugin.IosRemoveCircleOutlineIcon = IosRemoveCircleOutlineIcon
-ioniconsPlugin.IosRemoveCircleIcon = IosRemoveCircleIcon
-ioniconsPlugin.IosRemoveIcon = IosRemoveIcon
-ioniconsPlugin.IosReorderIcon = IosReorderIcon
-ioniconsPlugin.IosRepeatIcon = IosRepeatIcon
-ioniconsPlugin.IosResizeIcon = IosResizeIcon
-ioniconsPlugin.IosRestaurantIcon = IosRestaurantIcon
-ioniconsPlugin.IosReturnLeftIcon = IosReturnLeftIcon
-ioniconsPlugin.IosReturnRightIcon = IosReturnRightIcon
-ioniconsPlugin.IosReverseCameraIcon = IosReverseCameraIcon
-ioniconsPlugin.IosRewindIcon = IosRewindIcon
-ioniconsPlugin.IosRibbonIcon = IosRibbonIcon
-ioniconsPlugin.IosRocketIcon = IosRocketIcon
-ioniconsPlugin.IosRoseIcon = IosRoseIcon
-ioniconsPlugin.IosSadIcon = IosSadIcon
-ioniconsPlugin.IosSaveIcon = IosSaveIcon
-ioniconsPlugin.IosSchoolIcon = IosSchoolIcon
-ioniconsPlugin.IosSearchIcon = IosSearchIcon
-ioniconsPlugin.IosSendIcon = IosSendIcon
-ioniconsPlugin.IosSettingsIcon = IosSettingsIcon
-ioniconsPlugin.IosShareAltIcon = IosShareAltIcon
-ioniconsPlugin.IosShareIcon = IosShareIcon
-ioniconsPlugin.IosShirtIcon = IosShirtIcon
-ioniconsPlugin.IosShuffleIcon = IosShuffleIcon
-ioniconsPlugin.IosSkipBackwardIcon = IosSkipBackwardIcon
-ioniconsPlugin.IosSkipForwardIcon = IosSkipForwardIcon
-ioniconsPlugin.IosSnowIcon = IosSnowIcon
-ioniconsPlugin.IosSpeedometerIcon = IosSpeedometerIcon
-ioniconsPlugin.IosSquareOutlineIcon = IosSquareOutlineIcon
-ioniconsPlugin.IosSquareIcon = IosSquareIcon
-ioniconsPlugin.IosStarHalfIcon = IosStarHalfIcon
-ioniconsPlugin.IosStarOutlineIcon = IosStarOutlineIcon
-ioniconsPlugin.IosStarIcon = IosStarIcon
-ioniconsPlugin.IosStatsIcon = IosStatsIcon
-ioniconsPlugin.IosStopwatchIcon = IosStopwatchIcon
-ioniconsPlugin.IosSubwayIcon = IosSubwayIcon
-ioniconsPlugin.IosSunnyIcon = IosSunnyIcon
-ioniconsPlugin.IosSwapIcon = IosSwapIcon
-ioniconsPlugin.IosSwitchIcon = IosSwitchIcon
-ioniconsPlugin.IosSyncIcon = IosSyncIcon
-ioniconsPlugin.IosTabletLandscapeIcon = IosTabletLandscapeIcon
-ioniconsPlugin.IosTabletPortraitIcon = IosTabletPortraitIcon
-ioniconsPlugin.IosTennisballIcon = IosTennisballIcon
-ioniconsPlugin.IosTextIcon = IosTextIcon
-ioniconsPlugin.IosThermometerIcon = IosThermometerIcon
-ioniconsPlugin.IosThumbsDownIcon = IosThumbsDownIcon
-ioniconsPlugin.IosThumbsUpIcon = IosThumbsUpIcon
-ioniconsPlugin.IosThunderstormIcon = IosThunderstormIcon
-ioniconsPlugin.IosTimeIcon = IosTimeIcon
-ioniconsPlugin.IosTimerIcon = IosTimerIcon
-ioniconsPlugin.IosTodayIcon = IosTodayIcon
-ioniconsPlugin.IosTrainIcon = IosTrainIcon
-ioniconsPlugin.IosTransgenderIcon = IosTransgenderIcon
-ioniconsPlugin.IosTrashIcon = IosTrashIcon
-ioniconsPlugin.IosTrendingDownIcon = IosTrendingDownIcon
-ioniconsPlugin.IosTrendingUpIcon = IosTrendingUpIcon
-ioniconsPlugin.IosTrophyIcon = IosTrophyIcon
-ioniconsPlugin.IosTvIcon = IosTvIcon
-ioniconsPlugin.IosUmbrellaIcon = IosUmbrellaIcon
-ioniconsPlugin.IosUndoIcon = IosUndoIcon
-ioniconsPlugin.IosUnlockIcon = IosUnlockIcon
-ioniconsPlugin.IosVideocamIcon = IosVideocamIcon
-ioniconsPlugin.IosVolumeHighIcon = IosVolumeHighIcon
-ioniconsPlugin.IosVolumeLowIcon = IosVolumeLowIcon
-ioniconsPlugin.IosVolumeMuteIcon = IosVolumeMuteIcon
-ioniconsPlugin.IosVolumeOffIcon = IosVolumeOffIcon
-ioniconsPlugin.IosWalkIcon = IosWalkIcon
-ioniconsPlugin.IosWalletIcon = IosWalletIcon
-ioniconsPlugin.IosWarningIcon = IosWarningIcon
-ioniconsPlugin.IosWatchIcon = IosWatchIcon
-ioniconsPlugin.IosWaterIcon = IosWaterIcon
-ioniconsPlugin.IosWifiIcon = IosWifiIcon
-ioniconsPlugin.IosWineIcon = IosWineIcon
-ioniconsPlugin.IosWomanIcon = IosWomanIcon
-ioniconsPlugin.LogoAndroidIcon = LogoAndroidIcon
-ioniconsPlugin.LogoAngularIcon = LogoAngularIcon
-ioniconsPlugin.LogoAppleIcon = LogoAppleIcon
-ioniconsPlugin.LogoBitbucketIcon = LogoBitbucketIcon
-ioniconsPlugin.LogoBitcoinIcon = LogoBitcoinIcon
-ioniconsPlugin.LogoBufferIcon = LogoBufferIcon
-ioniconsPlugin.LogoChromeIcon = LogoChromeIcon
-ioniconsPlugin.LogoClosedCaptioningIcon = LogoClosedCaptioningIcon
-ioniconsPlugin.LogoCodepenIcon = LogoCodepenIcon
-ioniconsPlugin.LogoCss3Icon = LogoCss3Icon
-ioniconsPlugin.LogoDesignernewsIcon = LogoDesignernewsIcon
-ioniconsPlugin.LogoDribbbleIcon = LogoDribbbleIcon
-ioniconsPlugin.LogoDropboxIcon = LogoDropboxIcon
-ioniconsPlugin.LogoEuroIcon = LogoEuroIcon
-ioniconsPlugin.LogoFacebookIcon = LogoFacebookIcon
-ioniconsPlugin.LogoFlickrIcon = LogoFlickrIcon
-ioniconsPlugin.LogoFoursquareIcon = LogoFoursquareIcon
-ioniconsPlugin.LogoFreebsdDevilIcon = LogoFreebsdDevilIcon
-ioniconsPlugin.LogoGameControllerAIcon = LogoGameControllerAIcon
-ioniconsPlugin.LogoGameControllerBIcon = LogoGameControllerBIcon
-ioniconsPlugin.LogoGithubIcon = LogoGithubIcon
-ioniconsPlugin.LogoGoogleIcon = LogoGoogleIcon
-ioniconsPlugin.LogoGoogleplusIcon = LogoGoogleplusIcon
-ioniconsPlugin.LogoHackernewsIcon = LogoHackernewsIcon
-ioniconsPlugin.LogoHtml5Icon = LogoHtml5Icon
-ioniconsPlugin.LogoInstagramIcon = LogoInstagramIcon
-ioniconsPlugin.LogoIonicIcon = LogoIonicIcon
-ioniconsPlugin.LogoIonitronIcon = LogoIonitronIcon
-ioniconsPlugin.LogoJavascriptIcon = LogoJavascriptIcon
-ioniconsPlugin.LogoLinkedinIcon = LogoLinkedinIcon
-ioniconsPlugin.LogoMarkdownIcon = LogoMarkdownIcon
-ioniconsPlugin.LogoModelSIcon = LogoModelSIcon
-ioniconsPlugin.LogoNoSmokingIcon = LogoNoSmokingIcon
-ioniconsPlugin.LogoNodejsIcon = LogoNodejsIcon
-ioniconsPlugin.LogoNpmIcon = LogoNpmIcon
-ioniconsPlugin.LogoOctocatIcon = LogoOctocatIcon
-ioniconsPlugin.LogoPinterestIcon = LogoPinterestIcon
-ioniconsPlugin.LogoPlaystationIcon = LogoPlaystationIcon
-ioniconsPlugin.LogoPolymerIcon = LogoPolymerIcon
-ioniconsPlugin.LogoPythonIcon = LogoPythonIcon
-ioniconsPlugin.LogoRedditIcon = LogoRedditIcon
-ioniconsPlugin.LogoRssIcon = LogoRssIcon
-ioniconsPlugin.LogoSassIcon = LogoSassIcon
-ioniconsPlugin.LogoSkypeIcon = LogoSkypeIcon
-ioniconsPlugin.LogoSlackIcon = LogoSlackIcon
-ioniconsPlugin.LogoSnapchatIcon = LogoSnapchatIcon
-ioniconsPlugin.LogoSteamIcon = LogoSteamIcon
-ioniconsPlugin.LogoTumblrIcon = LogoTumblrIcon
-ioniconsPlugin.LogoTuxIcon = LogoTuxIcon
-ioniconsPlugin.LogoTwitchIcon = LogoTwitchIcon
-ioniconsPlugin.LogoTwitterIcon = LogoTwitterIcon
-ioniconsPlugin.LogoUsdIcon = LogoUsdIcon
-ioniconsPlugin.LogoVimeoIcon = LogoVimeoIcon
-ioniconsPlugin.LogoVkIcon = LogoVkIcon
-ioniconsPlugin.LogoWhatsappIcon = LogoWhatsappIcon
-ioniconsPlugin.LogoWindowsIcon = LogoWindowsIcon
-ioniconsPlugin.LogoWordpressIcon = LogoWordpressIcon
-ioniconsPlugin.LogoXboxIcon = LogoXboxIcon
-ioniconsPlugin.LogoXingIcon = LogoXingIcon
-ioniconsPlugin.LogoYahooIcon = LogoYahooIcon
-ioniconsPlugin.LogoYenIcon = LogoYenIcon
-ioniconsPlugin.LogoYoutubeIcon = LogoYoutubeIcon
-ioniconsPlugin.MdAddCircleOutlineIcon = MdAddCircleOutlineIcon
-ioniconsPlugin.MdAddCircleIcon = MdAddCircleIcon
-ioniconsPlugin.MdAddIcon = MdAddIcon
-ioniconsPlugin.MdAirplaneIcon = MdAirplaneIcon
-ioniconsPlugin.MdAlarmIcon = MdAlarmIcon
-ioniconsPlugin.MdAlbumsIcon = MdAlbumsIcon
-ioniconsPlugin.MdAlertIcon = MdAlertIcon
-ioniconsPlugin.MdAmericanFootballIcon = MdAmericanFootballIcon
-ioniconsPlugin.MdAnalyticsIcon = MdAnalyticsIcon
-ioniconsPlugin.MdApertureIcon = MdApertureIcon
-ioniconsPlugin.MdAppsIcon = MdAppsIcon
-ioniconsPlugin.MdAppstoreIcon = MdAppstoreIcon
-ioniconsPlugin.MdArchiveIcon = MdArchiveIcon
-ioniconsPlugin.MdArrowBackIcon = MdArrowBackIcon
-ioniconsPlugin.MdArrowDownIcon = MdArrowDownIcon
-ioniconsPlugin.MdArrowDropdownCircleIcon = MdArrowDropdownCircleIcon
-ioniconsPlugin.MdArrowDropdownIcon = MdArrowDropdownIcon
-ioniconsPlugin.MdArrowDropleftCircleIcon = MdArrowDropleftCircleIcon
-ioniconsPlugin.MdArrowDropleftIcon = MdArrowDropleftIcon
-ioniconsPlugin.MdArrowDroprightCircleIcon = MdArrowDroprightCircleIcon
-ioniconsPlugin.MdArrowDroprightIcon = MdArrowDroprightIcon
-ioniconsPlugin.MdArrowDropupCircleIcon = MdArrowDropupCircleIcon
-ioniconsPlugin.MdArrowDropupIcon = MdArrowDropupIcon
-ioniconsPlugin.MdArrowForwardIcon = MdArrowForwardIcon
-ioniconsPlugin.MdArrowRoundBackIcon = MdArrowRoundBackIcon
-ioniconsPlugin.MdArrowRoundDownIcon = MdArrowRoundDownIcon
-ioniconsPlugin.MdArrowRoundForwardIcon = MdArrowRoundForwardIcon
-ioniconsPlugin.MdArrowRoundUpIcon = MdArrowRoundUpIcon
-ioniconsPlugin.MdArrowUpIcon = MdArrowUpIcon
-ioniconsPlugin.MdAtIcon = MdAtIcon
-ioniconsPlugin.MdAttachIcon = MdAttachIcon
-ioniconsPlugin.MdBackspaceIcon = MdBackspaceIcon
-ioniconsPlugin.MdBarcodeIcon = MdBarcodeIcon
-ioniconsPlugin.MdBaseballIcon = MdBaseballIcon
-ioniconsPlugin.MdBasketIcon = MdBasketIcon
-ioniconsPlugin.MdBasketballIcon = MdBasketballIcon
-ioniconsPlugin.MdBatteryChargingIcon = MdBatteryChargingIcon
-ioniconsPlugin.MdBatteryDeadIcon = MdBatteryDeadIcon
-ioniconsPlugin.MdBatteryFullIcon = MdBatteryFullIcon
-ioniconsPlugin.MdBeakerIcon = MdBeakerIcon
-ioniconsPlugin.MdBedIcon = MdBedIcon
-ioniconsPlugin.MdBeerIcon = MdBeerIcon
-ioniconsPlugin.MdBicycleIcon = MdBicycleIcon
-ioniconsPlugin.MdBluetoothIcon = MdBluetoothIcon
-ioniconsPlugin.MdBoatIcon = MdBoatIcon
-ioniconsPlugin.MdBodyIcon = MdBodyIcon
-ioniconsPlugin.MdBonfireIcon = MdBonfireIcon
-ioniconsPlugin.MdBookIcon = MdBookIcon
-ioniconsPlugin.MdBookmarkIcon = MdBookmarkIcon
-ioniconsPlugin.MdBookmarksIcon = MdBookmarksIcon
-ioniconsPlugin.MdBowtieIcon = MdBowtieIcon
-ioniconsPlugin.MdBriefcaseIcon = MdBriefcaseIcon
-ioniconsPlugin.MdBrowsersIcon = MdBrowsersIcon
-ioniconsPlugin.MdBrushIcon = MdBrushIcon
-ioniconsPlugin.MdBugIcon = MdBugIcon
-ioniconsPlugin.MdBuildIcon = MdBuildIcon
-ioniconsPlugin.MdBulbIcon = MdBulbIcon
-ioniconsPlugin.MdBusIcon = MdBusIcon
-ioniconsPlugin.MdBusinessIcon = MdBusinessIcon
-ioniconsPlugin.MdCafeIcon = MdCafeIcon
-ioniconsPlugin.MdCalculatorIcon = MdCalculatorIcon
-ioniconsPlugin.MdCalendarIcon = MdCalendarIcon
-ioniconsPlugin.MdCallIcon = MdCallIcon
-ioniconsPlugin.MdCameraIcon = MdCameraIcon
-ioniconsPlugin.MdCarIcon = MdCarIcon
-ioniconsPlugin.MdCardIcon = MdCardIcon
-ioniconsPlugin.MdCartIcon = MdCartIcon
-ioniconsPlugin.MdCashIcon = MdCashIcon
-ioniconsPlugin.MdCellularIcon = MdCellularIcon
-ioniconsPlugin.MdChatboxesIcon = MdChatboxesIcon
-ioniconsPlugin.MdChatbubblesIcon = MdChatbubblesIcon
-ioniconsPlugin.MdCheckboxOutlineIcon = MdCheckboxOutlineIcon
-ioniconsPlugin.MdCheckboxIcon = MdCheckboxIcon
-ioniconsPlugin.MdCheckmarkCircleOutlineIcon = MdCheckmarkCircleOutlineIcon
-ioniconsPlugin.MdCheckmarkCircleIcon = MdCheckmarkCircleIcon
-ioniconsPlugin.MdCheckmarkIcon = MdCheckmarkIcon
-ioniconsPlugin.MdClipboardIcon = MdClipboardIcon
-ioniconsPlugin.MdClockIcon = MdClockIcon
-ioniconsPlugin.MdCloseCircleOutlineIcon = MdCloseCircleOutlineIcon
-ioniconsPlugin.MdCloseCircleIcon = MdCloseCircleIcon
-ioniconsPlugin.MdCloseIcon = MdCloseIcon
-ioniconsPlugin.MdCloudCircleIcon = MdCloudCircleIcon
-ioniconsPlugin.MdCloudDoneIcon = MdCloudDoneIcon
-ioniconsPlugin.MdCloudDownloadIcon = MdCloudDownloadIcon
-ioniconsPlugin.MdCloudOutlineIcon = MdCloudOutlineIcon
-ioniconsPlugin.MdCloudUploadIcon = MdCloudUploadIcon
-ioniconsPlugin.MdCloudIcon = MdCloudIcon
-ioniconsPlugin.MdCloudyNightIcon = MdCloudyNightIcon
-ioniconsPlugin.MdCloudyIcon = MdCloudyIcon
-ioniconsPlugin.MdCodeDownloadIcon = MdCodeDownloadIcon
-ioniconsPlugin.MdCodeWorkingIcon = MdCodeWorkingIcon
-ioniconsPlugin.MdCodeIcon = MdCodeIcon
-ioniconsPlugin.MdCogIcon = MdCogIcon
-ioniconsPlugin.MdColorFillIcon = MdColorFillIcon
-ioniconsPlugin.MdColorFilterIcon = MdColorFilterIcon
-ioniconsPlugin.MdColorPaletteIcon = MdColorPaletteIcon
-ioniconsPlugin.MdColorWandIcon = MdColorWandIcon
-ioniconsPlugin.MdCompassIcon = MdCompassIcon
-ioniconsPlugin.MdConstructIcon = MdConstructIcon
-ioniconsPlugin.MdContactIcon = MdContactIcon
-ioniconsPlugin.MdContactsIcon = MdContactsIcon
-ioniconsPlugin.MdContractIcon = MdContractIcon
-ioniconsPlugin.MdContrastIcon = MdContrastIcon
-ioniconsPlugin.MdCopyIcon = MdCopyIcon
-ioniconsPlugin.MdCreateIcon = MdCreateIcon
-ioniconsPlugin.MdCropIcon = MdCropIcon
-ioniconsPlugin.MdCubeIcon = MdCubeIcon
-ioniconsPlugin.MdCutIcon = MdCutIcon
-ioniconsPlugin.MdDesktopIcon = MdDesktopIcon
-ioniconsPlugin.MdDiscIcon = MdDiscIcon
-ioniconsPlugin.MdDocumentIcon = MdDocumentIcon
-ioniconsPlugin.MdDoneAllIcon = MdDoneAllIcon
-ioniconsPlugin.MdDownloadIcon = MdDownloadIcon
-ioniconsPlugin.MdEaselIcon = MdEaselIcon
-ioniconsPlugin.MdEggIcon = MdEggIcon
-ioniconsPlugin.MdExitIcon = MdExitIcon
-ioniconsPlugin.MdExpandIcon = MdExpandIcon
-ioniconsPlugin.MdEyeOffIcon = MdEyeOffIcon
-ioniconsPlugin.MdEyeIcon = MdEyeIcon
-ioniconsPlugin.MdFastforwardIcon = MdFastforwardIcon
-ioniconsPlugin.MdFemaleIcon = MdFemaleIcon
-ioniconsPlugin.MdFilingIcon = MdFilingIcon
-ioniconsPlugin.MdFilmIcon = MdFilmIcon
-ioniconsPlugin.MdFingerPrintIcon = MdFingerPrintIcon
-ioniconsPlugin.MdFitnessIcon = MdFitnessIcon
-ioniconsPlugin.MdFlagIcon = MdFlagIcon
-ioniconsPlugin.MdFlameIcon = MdFlameIcon
-ioniconsPlugin.MdFlashOffIcon = MdFlashOffIcon
-ioniconsPlugin.MdFlashIcon = MdFlashIcon
-ioniconsPlugin.MdFlashlightIcon = MdFlashlightIcon
-ioniconsPlugin.MdFlaskIcon = MdFlaskIcon
-ioniconsPlugin.MdFlowerIcon = MdFlowerIcon
-ioniconsPlugin.MdFolderOpenIcon = MdFolderOpenIcon
-ioniconsPlugin.MdFolderIcon = MdFolderIcon
-ioniconsPlugin.MdFootballIcon = MdFootballIcon
-ioniconsPlugin.MdFunnelIcon = MdFunnelIcon
-ioniconsPlugin.MdGiftIcon = MdGiftIcon
-ioniconsPlugin.MdGitBranchIcon = MdGitBranchIcon
-ioniconsPlugin.MdGitCommitIcon = MdGitCommitIcon
-ioniconsPlugin.MdGitCompareIcon = MdGitCompareIcon
-ioniconsPlugin.MdGitMergeIcon = MdGitMergeIcon
-ioniconsPlugin.MdGitNetworkIcon = MdGitNetworkIcon
-ioniconsPlugin.MdGitPullRequestIcon = MdGitPullRequestIcon
-ioniconsPlugin.MdGlassesIcon = MdGlassesIcon
-ioniconsPlugin.MdGlobeIcon = MdGlobeIcon
-ioniconsPlugin.MdGridIcon = MdGridIcon
-ioniconsPlugin.MdHammerIcon = MdHammerIcon
-ioniconsPlugin.MdHandIcon = MdHandIcon
-ioniconsPlugin.MdHappyIcon = MdHappyIcon
-ioniconsPlugin.MdHeadsetIcon = MdHeadsetIcon
-ioniconsPlugin.MdHeartDislikeIcon = MdHeartDislikeIcon
-ioniconsPlugin.MdHeartEmptyIcon = MdHeartEmptyIcon
-ioniconsPlugin.MdHeartHalfIcon = MdHeartHalfIcon
-ioniconsPlugin.MdHeartIcon = MdHeartIcon
-ioniconsPlugin.MdHelpBuoyIcon = MdHelpBuoyIcon
-ioniconsPlugin.MdHelpCircleOutlineIcon = MdHelpCircleOutlineIcon
-ioniconsPlugin.MdHelpCircleIcon = MdHelpCircleIcon
-ioniconsPlugin.MdHelpIcon = MdHelpIcon
-ioniconsPlugin.MdHomeIcon = MdHomeIcon
-ioniconsPlugin.MdHourglassIcon = MdHourglassIcon
-ioniconsPlugin.MdIceCreamIcon = MdIceCreamIcon
-ioniconsPlugin.MdImageIcon = MdImageIcon
-ioniconsPlugin.MdImagesIcon = MdImagesIcon
-ioniconsPlugin.MdInfiniteIcon = MdInfiniteIcon
-ioniconsPlugin.MdInformationCircleOutlineIcon = MdInformationCircleOutlineIcon
-ioniconsPlugin.MdInformationCircleIcon = MdInformationCircleIcon
-ioniconsPlugin.MdInformationIcon = MdInformationIcon
-ioniconsPlugin.MdJetIcon = MdJetIcon
-ioniconsPlugin.MdJournalIcon = MdJournalIcon
-ioniconsPlugin.MdKeyIcon = MdKeyIcon
-ioniconsPlugin.MdKeypadIcon = MdKeypadIcon
-ioniconsPlugin.MdLaptopIcon = MdLaptopIcon
-ioniconsPlugin.MdLeafIcon = MdLeafIcon
-ioniconsPlugin.MdLinkIcon = MdLinkIcon
-ioniconsPlugin.MdListBoxIcon = MdListBoxIcon
-ioniconsPlugin.MdListIcon = MdListIcon
-ioniconsPlugin.MdLocateIcon = MdLocateIcon
-ioniconsPlugin.MdLockIcon = MdLockIcon
-ioniconsPlugin.MdLogInIcon = MdLogInIcon
-ioniconsPlugin.MdLogOutIcon = MdLogOutIcon
-ioniconsPlugin.MdMagnetIcon = MdMagnetIcon
-ioniconsPlugin.MdMailOpenIcon = MdMailOpenIcon
-ioniconsPlugin.MdMailUnreadIcon = MdMailUnreadIcon
-ioniconsPlugin.MdMailIcon = MdMailIcon
-ioniconsPlugin.MdMaleIcon = MdMaleIcon
-ioniconsPlugin.MdManIcon = MdManIcon
-ioniconsPlugin.MdMapIcon = MdMapIcon
-ioniconsPlugin.MdMedalIcon = MdMedalIcon
-ioniconsPlugin.MdMedicalIcon = MdMedicalIcon
-ioniconsPlugin.MdMedkitIcon = MdMedkitIcon
-ioniconsPlugin.MdMegaphoneIcon = MdMegaphoneIcon
-ioniconsPlugin.MdMenuIcon = MdMenuIcon
-ioniconsPlugin.MdMicOffIcon = MdMicOffIcon
-ioniconsPlugin.MdMicIcon = MdMicIcon
-ioniconsPlugin.MdMicrophoneIcon = MdMicrophoneIcon
-ioniconsPlugin.MdMoonIcon = MdMoonIcon
-ioniconsPlugin.MdMoreIcon = MdMoreIcon
-ioniconsPlugin.MdMoveIcon = MdMoveIcon
-ioniconsPlugin.MdMusicalNoteIcon = MdMusicalNoteIcon
-ioniconsPlugin.MdMusicalNotesIcon = MdMusicalNotesIcon
-ioniconsPlugin.MdNavigateIcon = MdNavigateIcon
-ioniconsPlugin.MdNotificationsOffIcon = MdNotificationsOffIcon
-ioniconsPlugin.MdNotificationsOutlineIcon = MdNotificationsOutlineIcon
-ioniconsPlugin.MdNotificationsIcon = MdNotificationsIcon
-ioniconsPlugin.MdNuclearIcon = MdNuclearIcon
-ioniconsPlugin.MdNutritionIcon = MdNutritionIcon
-ioniconsPlugin.MdOpenIcon = MdOpenIcon
-ioniconsPlugin.MdOptionsIcon = MdOptionsIcon
-ioniconsPlugin.MdOutletIcon = MdOutletIcon
-ioniconsPlugin.MdPaperPlaneIcon = MdPaperPlaneIcon
-ioniconsPlugin.MdPaperIcon = MdPaperIcon
-ioniconsPlugin.MdPartlySunnyIcon = MdPartlySunnyIcon
-ioniconsPlugin.MdPauseIcon = MdPauseIcon
-ioniconsPlugin.MdPawIcon = MdPawIcon
-ioniconsPlugin.MdPeopleIcon = MdPeopleIcon
-ioniconsPlugin.MdPersonAddIcon = MdPersonAddIcon
-ioniconsPlugin.MdPersonIcon = MdPersonIcon
-ioniconsPlugin.MdPhoneLandscapeIcon = MdPhoneLandscapeIcon
-ioniconsPlugin.MdPhonePortraitIcon = MdPhonePortraitIcon
-ioniconsPlugin.MdPhotosIcon = MdPhotosIcon
-ioniconsPlugin.MdPieIcon = MdPieIcon
-ioniconsPlugin.MdPinIcon = MdPinIcon
-ioniconsPlugin.MdPintIcon = MdPintIcon
-ioniconsPlugin.MdPizzaIcon = MdPizzaIcon
-ioniconsPlugin.MdPlaneIcon = MdPlaneIcon
-ioniconsPlugin.MdPlanetIcon = MdPlanetIcon
-ioniconsPlugin.MdPlayCircleIcon = MdPlayCircleIcon
-ioniconsPlugin.MdPlayIcon = MdPlayIcon
-ioniconsPlugin.MdPodiumIcon = MdPodiumIcon
-ioniconsPlugin.MdPowerIcon = MdPowerIcon
-ioniconsPlugin.MdPricetagIcon = MdPricetagIcon
-ioniconsPlugin.MdPricetagsIcon = MdPricetagsIcon
-ioniconsPlugin.MdPrintIcon = MdPrintIcon
-ioniconsPlugin.MdPulseIcon = MdPulseIcon
-ioniconsPlugin.MdQrScannerIcon = MdQrScannerIcon
-ioniconsPlugin.MdQuoteIcon = MdQuoteIcon
-ioniconsPlugin.MdRadioButtonOffIcon = MdRadioButtonOffIcon
-ioniconsPlugin.MdRadioButtonOnIcon = MdRadioButtonOnIcon
-ioniconsPlugin.MdRadioIcon = MdRadioIcon
-ioniconsPlugin.MdRainyIcon = MdRainyIcon
-ioniconsPlugin.MdRecordingIcon = MdRecordingIcon
-ioniconsPlugin.MdRedoIcon = MdRedoIcon
-ioniconsPlugin.MdRefreshCircleIcon = MdRefreshCircleIcon
-ioniconsPlugin.MdRefreshIcon = MdRefreshIcon
-ioniconsPlugin.MdRemoveCircleOutlineIcon = MdRemoveCircleOutlineIcon
-ioniconsPlugin.MdRemoveCircleIcon = MdRemoveCircleIcon
-ioniconsPlugin.MdRemoveIcon = MdRemoveIcon
-ioniconsPlugin.MdReorderIcon = MdReorderIcon
-ioniconsPlugin.MdRepeatIcon = MdRepeatIcon
-ioniconsPlugin.MdResizeIcon = MdResizeIcon
-ioniconsPlugin.MdRestaurantIcon = MdRestaurantIcon
-ioniconsPlugin.MdReturnLeftIcon = MdReturnLeftIcon
-ioniconsPlugin.MdReturnRightIcon = MdReturnRightIcon
-ioniconsPlugin.MdReverseCameraIcon = MdReverseCameraIcon
-ioniconsPlugin.MdRewindIcon = MdRewindIcon
-ioniconsPlugin.MdRibbonIcon = MdRibbonIcon
-ioniconsPlugin.MdRocketIcon = MdRocketIcon
-ioniconsPlugin.MdRoseIcon = MdRoseIcon
-ioniconsPlugin.MdSadIcon = MdSadIcon
-ioniconsPlugin.MdSaveIcon = MdSaveIcon
-ioniconsPlugin.MdSchoolIcon = MdSchoolIcon
-ioniconsPlugin.MdSendIcon = MdSendIcon
-ioniconsPlugin.MdSearchIcon = MdSearchIcon
-ioniconsPlugin.MdSettingsIcon = MdSettingsIcon
-ioniconsPlugin.MdShareAltIcon = MdShareAltIcon
-ioniconsPlugin.MdShareIcon = MdShareIcon
-ioniconsPlugin.MdShirtIcon = MdShirtIcon
-ioniconsPlugin.MdShuffleIcon = MdShuffleIcon
-ioniconsPlugin.MdSkipBackwardIcon = MdSkipBackwardIcon
-ioniconsPlugin.MdSkipForwardIcon = MdSkipForwardIcon
-ioniconsPlugin.MdSnowIcon = MdSnowIcon
-ioniconsPlugin.MdSpeedometerIcon = MdSpeedometerIcon
-ioniconsPlugin.MdSquareOutlineIcon = MdSquareOutlineIcon
-ioniconsPlugin.MdSquareIcon = MdSquareIcon
-ioniconsPlugin.MdStarHalfIcon = MdStarHalfIcon
-ioniconsPlugin.MdStarOutlineIcon = MdStarOutlineIcon
-ioniconsPlugin.MdStarIcon = MdStarIcon
-ioniconsPlugin.MdStatsIcon = MdStatsIcon
-ioniconsPlugin.MdStopwatchIcon = MdStopwatchIcon
-ioniconsPlugin.MdSubwayIcon = MdSubwayIcon
-ioniconsPlugin.MdSunnyIcon = MdSunnyIcon
-ioniconsPlugin.MdSwapIcon = MdSwapIcon
-ioniconsPlugin.MdSwitchIcon = MdSwitchIcon
-ioniconsPlugin.MdSyncIcon = MdSyncIcon
-ioniconsPlugin.MdTabletLandscapeIcon = MdTabletLandscapeIcon
-ioniconsPlugin.MdTabletPortraitIcon = MdTabletPortraitIcon
-ioniconsPlugin.MdTennisballIcon = MdTennisballIcon
-ioniconsPlugin.MdTextIcon = MdTextIcon
-ioniconsPlugin.MdThermometerIcon = MdThermometerIcon
-ioniconsPlugin.MdThumbsDownIcon = MdThumbsDownIcon
-ioniconsPlugin.MdThumbsUpIcon = MdThumbsUpIcon
-ioniconsPlugin.MdThunderstormIcon = MdThunderstormIcon
-ioniconsPlugin.MdTimeIcon = MdTimeIcon
-ioniconsPlugin.MdTimerIcon = MdTimerIcon
-ioniconsPlugin.MdTodayIcon = MdTodayIcon
-ioniconsPlugin.MdTrainIcon = MdTrainIcon
-ioniconsPlugin.MdTransgenderIcon = MdTransgenderIcon
-ioniconsPlugin.MdTrashIcon = MdTrashIcon
-ioniconsPlugin.MdTrendingDownIcon = MdTrendingDownIcon
-ioniconsPlugin.MdTrendingUpIcon = MdTrendingUpIcon
-ioniconsPlugin.MdTrophyIcon = MdTrophyIcon
-ioniconsPlugin.MdTvIcon = MdTvIcon
-ioniconsPlugin.MdUmbrellaIcon = MdUmbrellaIcon
-ioniconsPlugin.MdUndoIcon = MdUndoIcon
-ioniconsPlugin.MdUnlockIcon = MdUnlockIcon
-ioniconsPlugin.MdVideocamIcon = MdVideocamIcon
-ioniconsPlugin.MdVolumeHighIcon = MdVolumeHighIcon
-ioniconsPlugin.MdVolumeLowIcon = MdVolumeLowIcon
-ioniconsPlugin.MdVolumeMuteIcon = MdVolumeMuteIcon
-ioniconsPlugin.MdVolumeOffIcon = MdVolumeOffIcon
-ioniconsPlugin.MdWalkIcon = MdWalkIcon
-ioniconsPlugin.MdWalletIcon = MdWalletIcon
-ioniconsPlugin.MdWarningIcon = MdWarningIcon
-ioniconsPlugin.MdWatchIcon = MdWatchIcon
-ioniconsPlugin.MdWaterIcon = MdWaterIcon
-ioniconsPlugin.MdWifiIcon = MdWifiIcon
-ioniconsPlugin.MdWineIcon = MdWineIcon
-
-export default ioniconsPlugin
+export default {
+  IosAddCircleOutlineIcon,
+  IosAddCircleIcon,
+  IosAddIcon,
+  IosAirplaneIcon,
+  IosAlarmIcon,
+  IosAlbumsIcon,
+  IosAlertIcon,
+  IosAmericanFootballIcon,
+  IosAnalyticsIcon,
+  IosApertureIcon,
+  IosAppsIcon,
+  IosAppstoreIcon,
+  IosArchiveIcon,
+  IosArrowBackIcon,
+  IosArrowDownIcon,
+  IosArrowDropdownCircleIcon,
+  IosArrowDropdownIcon,
+  IosArrowDropleftCircleIcon,
+  IosArrowDropleftIcon,
+  IosArrowDroprightCircleIcon,
+  IosArrowDroprightIcon,
+  IosArrowDropupCircleIcon,
+  IosArrowDropupIcon,
+  IosArrowForwardIcon,
+  IosArrowRoundBackIcon,
+  IosArrowRoundDownIcon,
+  IosArrowRoundForwardIcon,
+  IosArrowRoundUpIcon,
+  IosArrowUpIcon,
+  IosAtIcon,
+  IosAttachIcon,
+  IosBackspaceIcon,
+  IosBarcodeIcon,
+  IosBaseballIcon,
+  IosBasketIcon,
+  IosBasketballIcon,
+  IosBatteryChargingIcon,
+  IosBatteryDeadIcon,
+  IosBatteryFullIcon,
+  IosBeakerIcon,
+  IosBedIcon,
+  IosBeerIcon,
+  IosBicycleIcon,
+  IosBluetoothIcon,
+  IosBoatIcon,
+  IosBodyIcon,
+  IosBonfireIcon,
+  IosBookIcon,
+  IosBookmarkIcon,
+  IosBookmarksIcon,
+  IosBowtieIcon,
+  IosBriefcaseIcon,
+  IosBrowsersIcon,
+  IosBrushIcon,
+  IosBugIcon,
+  IosBuildIcon,
+  IosBulbIcon,
+  IosBusIcon,
+  IosBusinessIcon,
+  IosCafeIcon,
+  IosCalculatorIcon,
+  IosCalendarIcon,
+  IosCallIcon,
+  IosCameraIcon,
+  IosCarIcon,
+  IosCardIcon,
+  IosCartIcon,
+  IosCashIcon,
+  IosCellularIcon,
+  IosChatboxesIcon,
+  IosChatbubblesIcon,
+  IosCheckboxOutlineIcon,
+  IosCheckboxIcon,
+  IosCheckmarkCircleOutlineIcon,
+  IosCheckmarkCircleIcon,
+  IosCheckmarkIcon,
+  IosClipboardIcon,
+  IosClockIcon,
+  IosCloseCircleOutlineIcon,
+  IosCloseCircleIcon,
+  IosCloseIcon,
+  IosCloudCircleIcon,
+  IosCloudDoneIcon,
+  IosCloudDownloadIcon,
+  IosCloudOutlineIcon,
+  IosCloudUploadIcon,
+  IosCloudIcon,
+  IosCloudyNightIcon,
+  IosCloudyIcon,
+  IosCodeDownloadIcon,
+  IosCodeWorkingIcon,
+  IosCodeIcon,
+  IosCogIcon,
+  IosColorFillIcon,
+  IosColorFilterIcon,
+  IosColorPaletteIcon,
+  IosColorWandIcon,
+  IosCompassIcon,
+  IosConstructIcon,
+  IosContactIcon,
+  IosContactsIcon,
+  IosContractIcon,
+  IosContrastIcon,
+  IosCopyIcon,
+  IosCreateIcon,
+  IosCropIcon,
+  IosCubeIcon,
+  IosCutIcon,
+  IosDesktopIcon,
+  IosDiscIcon,
+  IosDocumentIcon,
+  IosDoneAllIcon,
+  IosDownloadIcon,
+  IosEaselIcon,
+  IosEggIcon,
+  IosExitIcon,
+  IosExpandIcon,
+  IosEyeOffIcon,
+  IosEyeIcon,
+  IosFastforwardIcon,
+  IosFemaleIcon,
+  IosFilingIcon,
+  IosFilmIcon,
+  IosFingerPrintIcon,
+  IosFitnessIcon,
+  IosFlagIcon,
+  IosFlameIcon,
+  IosFlashOffIcon,
+  IosFlashIcon,
+  IosFlashlightIcon,
+  IosFlaskIcon,
+  IosFlowerIcon,
+  IosFolderOpenIcon,
+  IosFolderIcon,
+  IosFootballIcon,
+  IosFunnelIcon,
+  IosGiftIcon,
+  IosGitBranchIcon,
+  IosGitCommitIcon,
+  IosGitCompareIcon,
+  IosGitMergeIcon,
+  IosGitNetworkIcon,
+  IosGitPullRequestIcon,
+  IosGlassesIcon,
+  IosGlobeIcon,
+  IosGridIcon,
+  IosHammerIcon,
+  IosHandIcon,
+  IosHappyIcon,
+  IosHeadsetIcon,
+  IosHeartDislikeIcon,
+  IosHeartEmptyIcon,
+  IosHeartHalfIcon,
+  IosHeartIcon,
+  IosHelpBuoyIcon,
+  IosHelpCircleOutlineIcon,
+  IosHelpCircleIcon,
+  IosHelpIcon,
+  IosHomeIcon,
+  IosHourglassIcon,
+  IosIceCreamIcon,
+  IosImageIcon,
+  IosImagesIcon,
+  IosInfiniteIcon,
+  IosInformationCircleOutlineIcon,
+  IosInformationCircleIcon,
+  IosInformationIcon,
+  IosJetIcon,
+  IosJournalIcon,
+  IosKeyIcon,
+  IosKeypadIcon,
+  IosLaptopIcon,
+  IosLeafIcon,
+  IosLinkIcon,
+  IosListBoxIcon,
+  IosListIcon,
+  IosLocateIcon,
+  IosLockIcon,
+  IosLogInIcon,
+  IosLogOutIcon,
+  IosMagnetIcon,
+  IosMailOpenIcon,
+  IosMailUnreadIcon,
+  IosMailIcon,
+  IosMaleIcon,
+  IosManIcon,
+  IosMapIcon,
+  IosMedalIcon,
+  IosMedicalIcon,
+  IosMedkitIcon,
+  IosMegaphoneIcon,
+  IosMenuIcon,
+  IosMicOffIcon,
+  IosMicIcon,
+  IosMicrophoneIcon,
+  IosMoonIcon,
+  IosMoreIcon,
+  IosMoveIcon,
+  IosMusicalNoteIcon,
+  IosMusicalNotesIcon,
+  IosNavigateIcon,
+  IosNotificationsOffIcon,
+  IosNotificationsOutlineIcon,
+  IosNotificationsIcon,
+  IosNuclearIcon,
+  IosNutritionIcon,
+  IosOpenIcon,
+  IosOptionsIcon,
+  IosOutletIcon,
+  IosPaperPlaneIcon,
+  IosPaperIcon,
+  IosPartlySunnyIcon,
+  IosPauseIcon,
+  IosPawIcon,
+  IosPeopleIcon,
+  IosPersonAddIcon,
+  IosPersonIcon,
+  IosPhoneLandscapeIcon,
+  IosPhonePortraitIcon,
+  IosPhotosIcon,
+  IosPieIcon,
+  IosPinIcon,
+  IosPintIcon,
+  IosPizzaIcon,
+  IosPlanetIcon,
+  IosPlayCircleIcon,
+  IosPlayIcon,
+  IosPodiumIcon,
+  IosPowerIcon,
+  IosPricetagIcon,
+  IosPricetagsIcon,
+  IosPrintIcon,
+  IosPulseIcon,
+  IosQrScannerIcon,
+  IosQuoteIcon,
+  IosRadioButtonOffIcon,
+  IosRadioButtonOnIcon,
+  IosRadioIcon,
+  IosRainyIcon,
+  IosRecordingIcon,
+  IosRedoIcon,
+  IosRefreshCircleIcon,
+  IosRefreshIcon,
+  IosRemoveCircleOutlineIcon,
+  IosRemoveCircleIcon,
+  IosRemoveIcon,
+  IosReorderIcon,
+  IosRepeatIcon,
+  IosResizeIcon,
+  IosRestaurantIcon,
+  IosReturnLeftIcon,
+  IosReturnRightIcon,
+  IosReverseCameraIcon,
+  IosRewindIcon,
+  IosRibbonIcon,
+  IosRocketIcon,
+  IosRoseIcon,
+  IosSadIcon,
+  IosSaveIcon,
+  IosSchoolIcon,
+  IosSearchIcon,
+  IosSendIcon,
+  IosSettingsIcon,
+  IosShareAltIcon,
+  IosShareIcon,
+  IosShirtIcon,
+  IosShuffleIcon,
+  IosSkipBackwardIcon,
+  IosSkipForwardIcon,
+  IosSnowIcon,
+  IosSpeedometerIcon,
+  IosSquareOutlineIcon,
+  IosSquareIcon,
+  IosStarHalfIcon,
+  IosStarOutlineIcon,
+  IosStarIcon,
+  IosStatsIcon,
+  IosStopwatchIcon,
+  IosSubwayIcon,
+  IosSunnyIcon,
+  IosSwapIcon,
+  IosSwitchIcon,
+  IosSyncIcon,
+  IosTabletLandscapeIcon,
+  IosTabletPortraitIcon,
+  IosTennisballIcon,
+  IosTextIcon,
+  IosThermometerIcon,
+  IosThumbsDownIcon,
+  IosThumbsUpIcon,
+  IosThunderstormIcon,
+  IosTimeIcon,
+  IosTimerIcon,
+  IosTodayIcon,
+  IosTrainIcon,
+  IosTransgenderIcon,
+  IosTrashIcon,
+  IosTrendingDownIcon,
+  IosTrendingUpIcon,
+  IosTrophyIcon,
+  IosTvIcon,
+  IosUmbrellaIcon,
+  IosUndoIcon,
+  IosUnlockIcon,
+  IosVideocamIcon,
+  IosVolumeHighIcon,
+  IosVolumeLowIcon,
+  IosVolumeMuteIcon,
+  IosVolumeOffIcon,
+  IosWalkIcon,
+  IosWalletIcon,
+  IosWarningIcon,
+  IosWatchIcon,
+  IosWaterIcon,
+  IosWifiIcon,
+  IosWineIcon,
+  IosWomanIcon,
+  LogoAndroidIcon,
+  LogoAngularIcon,
+  LogoAppleIcon,
+  LogoBitbucketIcon,
+  LogoBitcoinIcon,
+  LogoBufferIcon,
+  LogoChromeIcon,
+  LogoClosedCaptioningIcon,
+  LogoCodepenIcon,
+  LogoCss3Icon,
+  LogoDesignernewsIcon,
+  LogoDribbbleIcon,
+  LogoDropboxIcon,
+  LogoEuroIcon,
+  LogoFacebookIcon,
+  LogoFlickrIcon,
+  LogoFoursquareIcon,
+  LogoFreebsdDevilIcon,
+  LogoGameControllerAIcon,
+  LogoGameControllerBIcon,
+  LogoGithubIcon,
+  LogoGoogleIcon,
+  LogoGoogleplusIcon,
+  LogoHackernewsIcon,
+  LogoHtml5Icon,
+  LogoInstagramIcon,
+  LogoIonicIcon,
+  LogoIonitronIcon,
+  LogoJavascriptIcon,
+  LogoLinkedinIcon,
+  LogoMarkdownIcon,
+  LogoModelSIcon,
+  LogoNoSmokingIcon,
+  LogoNodejsIcon,
+  LogoNpmIcon,
+  LogoOctocatIcon,
+  LogoPlaystationIcon,
+  LogoPolymerIcon,
+  LogoPythonIcon,
+  LogoRedditIcon,
+  LogoRssIcon,
+  LogoSassIcon,
+  LogoSkypeIcon,
+  LogoSlackIcon,
+  LogoSnapchatIcon,
+  LogoSteamIcon,
+  LogoTumblrIcon,
+  LogoTuxIcon,
+  LogoTwitchIcon,
+  LogoTwitterIcon,
+  LogoUsdIcon,
+  LogoVimeoIcon,
+  LogoVkIcon,
+  LogoWhatsappIcon,
+  LogoWindowsIcon,
+  LogoWordpressIcon,
+  LogoXboxIcon,
+  LogoXingIcon,
+  LogoYahooIcon,
+  LogoYenIcon,
+  LogoYoutubeIcon,
+  MdAddCircleOutlineIcon,
+  MdAddCircleIcon,
+  MdAddIcon,
+  MdAirplaneIcon,
+  MdAlarmIcon,
+  MdAlbumsIcon,
+  MdAlertIcon,
+  MdAmericanFootballIcon,
+  MdAnalyticsIcon,
+  MdApertureIcon,
+  MdAppsIcon,
+  MdAppstoreIcon,
+  MdArchiveIcon,
+  MdArrowBackIcon,
+  MdArrowDownIcon,
+  MdArrowDropdownCircleIcon,
+  MdArrowDropdownIcon,
+  MdArrowDropleftCircleIcon,
+  MdArrowDropleftIcon,
+  MdArrowDroprightCircleIcon,
+  MdArrowDroprightIcon,
+  MdArrowDropupCircleIcon,
+  MdArrowDropupIcon,
+  MdArrowForwardIcon,
+  MdArrowRoundBackIcon,
+  MdArrowRoundDownIcon,
+  MdArrowRoundForwardIcon,
+  MdArrowRoundUpIcon,
+  MdArrowUpIcon,
+  MdAtIcon,
+  LogoPinterestIcon,
+  MdAttachIcon,
+  MdBackspaceIcon,
+  MdBarcodeIcon,
+  MdBaseballIcon,
+  MdBasketIcon,
+  MdBasketballIcon,
+  MdBatteryChargingIcon,
+  MdBatteryDeadIcon,
+  MdBatteryFullIcon,
+  MdBeakerIcon,
+  MdBedIcon,
+  MdBeerIcon,
+  MdBicycleIcon,
+  MdBluetoothIcon,
+  MdBoatIcon,
+  MdBodyIcon,
+  MdBookIcon,
+  MdBonfireIcon,
+  MdBookmarkIcon,
+  MdBookmarksIcon,
+  MdBowtieIcon,
+  MdBriefcaseIcon,
+  MdBrowsersIcon,
+  MdBrushIcon,
+  MdBugIcon,
+  MdBuildIcon,
+  MdBulbIcon,
+  MdBusIcon,
+  MdBusinessIcon,
+  MdCafeIcon,
+  MdCalculatorIcon,
+  MdCalendarIcon,
+  MdCallIcon,
+  MdCameraIcon,
+  MdCarIcon,
+  MdCardIcon,
+  MdCartIcon,
+  MdCashIcon,
+  MdCellularIcon,
+  MdChatboxesIcon,
+  MdChatbubblesIcon,
+  MdCheckboxOutlineIcon,
+  MdCheckboxIcon,
+  MdCheckmarkCircleOutlineIcon,
+  MdCheckmarkCircleIcon,
+  MdCheckmarkIcon,
+  MdClipboardIcon,
+  MdClockIcon,
+  MdCloseCircleOutlineIcon,
+  MdCloseCircleIcon,
+  MdCloseIcon,
+  MdCloudCircleIcon,
+  MdCloudDoneIcon,
+  MdCloudDownloadIcon,
+  MdCloudOutlineIcon,
+  MdCloudUploadIcon,
+  MdCloudIcon,
+  MdCloudyNightIcon,
+  MdCloudyIcon,
+  MdCodeDownloadIcon,
+  MdCodeWorkingIcon,
+  MdCodeIcon,
+  MdCogIcon,
+  MdColorFillIcon,
+  MdColorFilterIcon,
+  MdColorPaletteIcon,
+  MdColorWandIcon,
+  MdCompassIcon,
+  MdConstructIcon,
+  MdContactIcon,
+  MdContactsIcon,
+  MdContractIcon,
+  MdContrastIcon,
+  MdCopyIcon,
+  MdCreateIcon,
+  MdCropIcon,
+  MdCubeIcon,
+  MdCutIcon,
+  MdDesktopIcon,
+  MdDiscIcon,
+  MdDocumentIcon,
+  MdDoneAllIcon,
+  MdDownloadIcon,
+  MdEaselIcon,
+  MdEggIcon,
+  MdExitIcon,
+  MdExpandIcon,
+  MdEyeOffIcon,
+  MdEyeIcon,
+  MdFastforwardIcon,
+  MdFemaleIcon,
+  MdFilingIcon,
+  MdFilmIcon,
+  MdFingerPrintIcon,
+  MdFitnessIcon,
+  MdFlagIcon,
+  MdFlameIcon,
+  MdFlashOffIcon,
+  MdFlashIcon,
+  MdFlashlightIcon,
+  MdFlaskIcon,
+  MdFlowerIcon,
+  MdFolderOpenIcon,
+  MdFolderIcon,
+  MdFootballIcon,
+  MdFunnelIcon,
+  MdGiftIcon,
+  MdGitBranchIcon,
+  MdGitCommitIcon,
+  MdGitCompareIcon,
+  MdGitMergeIcon,
+  MdGitNetworkIcon,
+  MdGitPullRequestIcon,
+  MdGlassesIcon,
+  MdGlobeIcon,
+  MdGridIcon,
+  MdHammerIcon,
+  MdHandIcon,
+  MdHappyIcon,
+  MdHeadsetIcon,
+  MdHeartDislikeIcon,
+  MdHeartEmptyIcon,
+  MdHeartHalfIcon,
+  MdHeartIcon,
+  MdHelpBuoyIcon,
+  MdHelpCircleOutlineIcon,
+  MdHelpCircleIcon,
+  MdHelpIcon,
+  MdHomeIcon,
+  MdHourglassIcon,
+  MdIceCreamIcon,
+  MdImageIcon,
+  MdImagesIcon,
+  MdInfiniteIcon,
+  MdInformationCircleOutlineIcon,
+  MdInformationCircleIcon,
+  MdInformationIcon,
+  MdJetIcon,
+  MdJournalIcon,
+  MdKeyIcon,
+  MdKeypadIcon,
+  MdLaptopIcon,
+  MdLeafIcon,
+  MdLinkIcon,
+  MdListBoxIcon,
+  MdListIcon,
+  MdLocateIcon,
+  MdLockIcon,
+  MdLogInIcon,
+  MdLogOutIcon,
+  MdMagnetIcon,
+  MdMailOpenIcon,
+  MdMailUnreadIcon,
+  MdMailIcon,
+  MdMaleIcon,
+  MdManIcon,
+  MdMapIcon,
+  MdMedalIcon,
+  MdMedicalIcon,
+  MdMedkitIcon,
+  MdMegaphoneIcon,
+  MdMenuIcon,
+  MdMicOffIcon,
+  MdMicIcon,
+  MdMicrophoneIcon,
+  MdMoonIcon,
+  MdMoreIcon,
+  MdMoveIcon,
+  MdMusicalNoteIcon,
+  MdMusicalNotesIcon,
+  MdNavigateIcon,
+  MdNotificationsOffIcon,
+  MdNotificationsOutlineIcon,
+  MdNotificationsIcon,
+  MdNuclearIcon,
+  MdNutritionIcon,
+  MdOpenIcon,
+  MdOptionsIcon,
+  MdOutletIcon,
+  MdPaperPlaneIcon,
+  MdPaperIcon,
+  MdPartlySunnyIcon,
+  MdPauseIcon,
+  MdPawIcon,
+  MdPeopleIcon,
+  MdPersonAddIcon,
+  MdPersonIcon,
+  MdPhoneLandscapeIcon,
+  MdPhonePortraitIcon,
+  MdPhotosIcon,
+  MdPieIcon,
+  MdPinIcon,
+  MdPintIcon,
+  MdPizzaIcon,
+  MdPlanetIcon,
+  MdPlayCircleIcon,
+  MdPlayIcon,
+  MdPodiumIcon,
+  MdPowerIcon,
+  MdPricetagIcon,
+  MdPricetagsIcon,
+  MdPrintIcon,
+  MdPulseIcon,
+  MdQrScannerIcon,
+  MdQuoteIcon,
+  MdRadioButtonOffIcon,
+  MdRadioButtonOnIcon,
+  MdRadioIcon,
+  MdRainyIcon,
+  MdRecordingIcon,
+  MdRedoIcon,
+  MdRefreshCircleIcon,
+  MdRefreshIcon,
+  MdRemoveCircleOutlineIcon,
+  MdRemoveCircleIcon,
+  MdRemoveIcon,
+  MdReorderIcon,
+  MdRepeatIcon,
+  MdResizeIcon,
+  MdRestaurantIcon,
+  MdReturnLeftIcon,
+  MdReturnRightIcon,
+  MdReverseCameraIcon,
+  MdRewindIcon,
+  MdRibbonIcon,
+  MdRocketIcon,
+  MdRoseIcon,
+  MdSadIcon,
+  MdSaveIcon,
+  MdSchoolIcon,
+  MdSearchIcon,
+  MdSendIcon,
+  MdSettingsIcon,
+  MdShareAltIcon,
+  MdShareIcon,
+  MdShirtIcon,
+  MdShuffleIcon,
+  MdSkipBackwardIcon,
+  MdSkipForwardIcon,
+  MdSnowIcon,
+  MdSpeedometerIcon,
+  MdSquareOutlineIcon,
+  MdSquareIcon,
+  MdStarHalfIcon,
+  MdStarOutlineIcon,
+  MdStarIcon,
+  MdStatsIcon,
+  MdStopwatchIcon,
+  MdSubwayIcon,
+  MdSunnyIcon,
+  MdSwapIcon,
+  MdSwitchIcon,
+  MdSyncIcon,
+  MdTabletLandscapeIcon,
+  MdTabletPortraitIcon,
+  MdTennisballIcon,
+  MdTextIcon,
+  MdThermometerIcon,
+  MdThumbsDownIcon,
+  MdThumbsUpIcon,
+  MdThunderstormIcon,
+  MdTimeIcon,
+  MdTimerIcon,
+  MdTodayIcon,
+  MdTrainIcon,
+  MdTransgenderIcon,
+  MdTrashIcon,
+  MdTrendingDownIcon,
+  MdTrendingUpIcon,
+  MdTrophyIcon,
+  MdTvIcon,
+  MdUmbrellaIcon,
+  MdUndoIcon,
+  MdUnlockIcon,
+  MdVideocamIcon,
+  MdVolumeHighIcon,
+  MdVolumeLowIcon,
+  MdVolumeMuteIcon,
+  MdVolumeOffIcon,
+  MdWalkIcon,
+  MdWalletIcon,
+  MdWarningIcon,
+  MdWatchIcon,
+  MdWaterIcon,
+  MdWifiIcon,
+  MdWineIcon,
+  MdWomanIcon,
+}

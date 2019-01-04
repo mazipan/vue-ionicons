@@ -1,6 +1,6 @@
 {{=<% %>=}}
 <%#data%>
-import <%libraryName%>  from 'dist/<%name%>.vue'
+import <%libraryName%>  from '../dist/<%name%>.vue'
 <%/data%>
 
 export default {

@@ -27,7 +27,7 @@ const getSVGString = (svg) => {
   return new Promise((resolve, reject) => {
 
     let filepath = path.join(svgPath, svg)
-    console.log(chalk.yellow(`proccess ${svg}...`))
+    console.log(chalk.yellow(`Proccessing icon ${svg}...`))
     fs.readFile(filepath, { encoding: 'utf8' }, (err, stream) => {
       try {
         let newStream = sanitizeSVG(stream)
@@ -123,78 +123,26 @@ const generateVueFile = (templateData) => {
   });
 }
 
-const generateMixinFile = (templateData) => {
-  const template = path.resolve(__dirname, 'template-vue-mixin.mst')
+const commonGenerateFile = (templateData, templateFile, outputFilename) => {
+  const templateMustache = path.resolve(__dirname, templateFile)
 
   return new Promise((resolve, reject) => {
     spinner.stop()
-    console.log(chalk.yellow('Generating mixin file...'))
+    console.log(chalk.yellow('Start generating file...'))
     spinner.start()
-    fs.readFile(template, { encoding: 'utf8' }, (err, componentFile) => {
-      let component = mustache.render(componentFile, templateData)
-      let filename = "ionicons-mixin.js"
-      fs.writeFile(path.resolve(dist, filename), component, (err) => {
-        if (err) {
-          reject(err)
-        }
-        spinner.stop()
-        console.log(chalk.green('Mixin file generated, filename: ' + filename))
-        spinner.start()
-        resolve()
-      })
-    })
-  });
-}
-
-const generateVuePluginFile = (templateData) => {
-  const templateJS = path.resolve(__dirname, 'template-js.mst')
-
-  return new Promise((resolve, reject) => {
-    spinner.stop()
-    console.log(chalk.yellow('Generating plugin file...'))
-    spinner.start()
-    fs.readFile(templateJS, { encoding: 'utf8' }, (err, componentFile) => {
+    fs.readFile(templateMustache, { encoding: 'utf8' }, (err, componentFile) => {
       let data = {
         data: []
       };
       data.data = templateData
 
       let component = mustache.render(componentFile, data)
-      let filename = "ionicons.js"
-      fs.writeFile(path.resolve(dist, filename), component, (err) => {
+      fs.writeFile(path.resolve(__dirname, outputFilename), component, (err) => {
         if (err) {
           reject(err)
         }
         spinner.stop()
-        console.log(chalk.green('Plugin file generated, filename: ' + filename))
-        spinner.start()
-        resolve()
-      })
-    })
-  });
-}
-
-const generateDemoMixinFile = (templateData) => {
-  const templateAppVue = path.resolve(__dirname, 'template-app-mixin.mst')
-
-  return new Promise((resolve, reject) => {
-    const fileOutput = 'component-mixin.js'
-    spinner.stop()
-    console.log(chalk.yellow(`Generating demo ${fileOutput} file...`))
-    spinner.start()
-    fs.readFile(templateAppVue, { encoding: 'utf8' }, (err, componentFile) => {
-      let data = {
-        data: []
-      };
-      data.data = templateData
-
-      let component = mustache.render(componentFile, data)
-      fs.writeFile(path.resolve('demo', fileOutput), component, (err) => {
-        if (err) {
-          reject(err)
-        }
-        spinner.stop()
-        console.log(chalk.green(`${fileOutput} demo file generated`))
+        console.log(chalk.green('File generated with filename: ' + outputFilename))
         spinner.start()
         resolve()
       })
@@ -220,15 +168,23 @@ const generateVersionFile = () => {
 }
 
 generateTemplateData().then((templateData) => {
+  const iosTemplateData = templateData.filter(item => item.name.indexOf('ios-') >= 0)
+  const mdTemplateData = templateData.filter(item => item.name.indexOf('md-') >= 0)
+  const logoTemplateData = templateData.filter(item => item.name.indexOf('logo-') >= 0)
+
   if (fs.existsSync(dist)) {
     fs.rmdirSync(dist)
   }
   fs.mkdirSync(dist)
   Promise.all([
     generateVueFile(templateData),
-    generateMixinFile(templateData),
-    generateVuePluginFile(templateData),
-    generateDemoMixinFile(templateData),
+    commonGenerateFile(templateData, 'template-vue-mixin.mst', 'dist/ionicons-mixin.js'),
+    commonGenerateFile(templateData, 'template-js.mst', 'dist/ionicons.js'),
+    commonGenerateFile(iosTemplateData, 'template-js.mst', 'dist/ionicons-ios.js'),
+    commonGenerateFile(mdTemplateData, 'template-js.mst', 'dist/ionicons-md.js'),
+    commonGenerateFile(logoTemplateData, 'template-js.mst', 'dist/ionicons-logo.js'),
+    commonGenerateFile(templateData, 'template-rollup.mst', 'rollup.config.js'),
+    commonGenerateFile(templateData, 'template-app-mixin.mst', 'demo/component-mixin.js'),
     generateVersionFile()
   ]).then(() => {
     spinner.stop()

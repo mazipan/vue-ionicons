@@ -10,6 +10,5 @@ if (process.env.NODE_ENV === "production") {
 
 new Vue({
   el: '#app',
-  template: '<App/>',
-  components: {App}
+  render: h => h(App)
 })

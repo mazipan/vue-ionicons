@@ -25,12 +25,13 @@
           {{ title }}
           <small> {{ subtitle }} </small>
           <br>
-          <a href="https://github.com/mazipan/vue-ionicons" target="_blank">
+          <a href="https://github.com/mazipan/vue-ionicons" target="_blank" rel="noopener">
             <img src="https://img.shields.io/github/stars/mazipan/vue-ionicons.svg?style=social&label=Stars"/>
           </a>
+          <a href="https://www.npmjs.com/package/vue-ionicons" target="_blank" rel="noopener">
+            <img src="https://img.shields.io/npm/v/vue-ionicons.svg?maxAge=60"/>
+          </a>
         </h1>
-        <br>
-        <img src="http://ionicons.com/img/ionicons-logo.png"/>
       </div>
 
       <div class="grid__row centered sample">
@@ -60,37 +61,68 @@
       </div>
 
       <div class="grid__row centered search__box">
-
-        <select v-model="selectedFilter" class="search__select">
-          <option v-for="f in filterGroup"
-                  v-bind:value="f"
-                  v-bind:key="f">
-            {{ f }}
-          </option>
-        </select>
-
         <input type="text" class="search__input"
-                placeholder="Search Icon"
+                placeholder="Search icons..."
                 v-model="searchText"/>
-        <button class="search__btn">
-          <IosSearchIcon/> Search
-        </button>
       </div>
 
       <div class="grid__row icons__list">
-
-        <div class="box" v-for="icon in filteredIcon" :key="icon.name">
-
-          <component :is="icon.name"
-                    :w="w"
-                    :h="h">
-          </component>
-
-          <div class="box-content">
-            {{ icon.libraryName }}
+        
+        <section class="grid__row">
+          <div class="section__head">
+            <h2 class="icon__title-section">App Icon</h2>
+            <ul class="toggle">
+              <li @click="switchAppIcon('md')" :class="{'active': isMaterial}">Material</li>
+              <li @click="switchAppIcon('ios')" :class="{'active': isIos}">iOS</li>
+            </ul>
           </div>
-
-        </div>
+          <div class="appicon__wrapper" v-if="isMaterial">
+            <div class="box" 
+              v-for="icon in filteredMdIcons" 
+              :key="icon.name"
+              @click="activateIcon(icon)">
+              <component :is="icon.name"
+                        :w="w"
+                        :h="h">
+              </component>
+              <div class="box-content">
+                {{ icon.libraryName }}
+              </div>
+            </div>
+          </div>
+          <div class="appicon__wrapper" v-if="isIos">
+            <div class="box" 
+              v-for="icon in filteredIosIcons" 
+              :key="icon.name"
+              @click="activateIcon(icon)">
+              <component :is="icon.name"
+                        :w="w"
+                        :h="h">
+              </component>
+              <div class="box-content">
+                {{ icon.libraryName }}
+              </div>
+            </div>
+          </div>
+        </section>
+        
+        <section class="grid__row">
+          <div class="section__head">
+            <h2 class="icon__title-section">Logo Icon</h2>
+          </div>
+          <div class="box" 
+            v-for="icon in filteredLogoIcons" 
+            :key="icon.name"
+            @click="activateIcon(icon)">
+            <component :is="icon.name"
+                      :w="w"
+                      :h="h">
+            </component>
+            <div class="box-content">
+              {{ icon.libraryName }}
+            </div>
+          </div>
+        </section>
 
       </div>
 
@@ -122,6 +154,12 @@
       <p>Copyright © 2017 <a href="https://mazipanneh.com/blog/">Irfan Maulana</a>, All Rights Reserved.</p>
     </footer>
 
+    <section
+      :class="{ 'show' : visibleToast }"
+      class="toast">
+      <span>import {{ activeIcon.libraryName }} from 'vue-ionicons/dist/{{ activeIcon.name.replace('-icon', '') }}.vue'</span>
+    </section>
+
   </div>
 </template>
 
@@ -142,38 +180,78 @@ export default {
       rotateSampleCode: '<IosRefreshIcon w="60px" h="60px" animate="rotate"/>',
       beatSampleCode: '<IosHeartIcon w="60px" h="60px" animate="beat"/>',
       shakeSampleCode: '<IosBicycleIcon w="60px" h="60px" animate="shake"/>',
-      filteredIcon: [],
-      selectedFilter: 'all',
-      filterGroup: [ 'all', 'ios', 'md', 'logo']
+      logoIcons: [],
+      filteredLogoIcons: [],
+      iosIcons: [],
+      filteredIosIcons: [],
+      mdIcons: [],
+      filteredMdIcons: [],
+      activeAppIcon: 'md',
+      activeIcon: {
+        libraryName: '',
+        name: '',
+        readableName: ''
+      },
+      visibleToast: false
+    }
+  },
+  computed: {
+    isMaterial () {
+      return this.activeAppIcon === 'md'
+    },
+    isIos () {
+      return this.activeAppIcon === 'ios'
     }
   },
   watch: {
     searchText(val) {
       if (val) {
-        this.doFilterByKeyValue('readableName', val)
-      }
-    },
-    selectedFilter(val) {
-      if (val !== 'all') {
-        this.doFilterByKeyValue('name', val)
-      } else {
-        this.filteredIcon = this.icons
+        this.doFilterByKeyValue(val)
       }
     }
   },
   methods: {
-    doFilterByKeyValue(key, val) {
+    switchAppIcon (val) {
+      this.activeAppIcon = val
+    },
+    doFilterByKeyValue(val) {
       if (val) {
-        this.filteredIcon = this.icons.filter(
-          icon => icon[key].toLowerCase().indexOf(val.toLowerCase()) >= 0
-        )
+        const normalizeText = (text) => {
+          return text.toLowerCase().replace(/[\W_]+/g, '')
+        }
+
+        const predicate = (icon) => {
+          return (normalizeText(icon.readableName).indexOf(normalizeText(val)) >= 0)
+        }
+
+        this.filteredLogoIcons = this.logoIcons.filter(predicate)
+        this.filteredIosIcons = this.iosIcons.filter(predicate)
+        this.filteredMdIcons = this.mdIcons.filter(predicate)
       } else {
-        this.filteredIcon = this.icons
+        this.filteredLogoIcons = this.logoIcons
+        this.filteredIosIcons = this.iosIcons
+        this.filteredMdIcons = this.mdIcons
       }
+    },
+    activateIcon (icon) {
+      this.activeIcon = icon
+      this.visibleToast = true
+      setTimeout(() => {
+        this.visibleToast = false
+      }, 5000)
     }
   },
   mounted() {
-    this.filteredIcon = this.icons
+    const logo = this.icons.filter(item => item.name.indexOf('logo-') >= 0)
+    const ios = this.icons.filter(item => item.name.indexOf('ios-') >= 0)
+    const md = this.icons.filter(item => item.name.indexOf('md-') >= 0)
+
+    this.logoIcons = logo
+    this.filteredLogoIcons = logo
+    this.iosIcons = ios
+    this.filteredIosIcons = ios
+    this.mdIcons = md
+    this.filteredMdIcons = md
   }
 }
 </script>
@@ -263,14 +341,14 @@ a:focus {
 
 small {
   display: block;
-  color: #ddd;
+  color: #989494;
   font-size: 16px;
+  font-weight: 200;
 }
 
 .grid__row {
-  *zoom: 1;
   margin: 0 auto;
-  max-width: 92.308em;
+  max-width: 90%;
 }
 .grid__row:before,
 .grid__row:after {
@@ -293,14 +371,18 @@ small {
   float: left;
   width: 14%;
   cursor: pointer;
-  margin: 1px;
   padding: 7px 0 3px 0;
   text-align: center;
-  border: 1px solid #ddd;
-  color: #fff;
-
-  @include bg-gradient();
+  margin: .5rem;
+  color: #373737;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border-radius: 0.25em;
+
+  &:hover {
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+  }
 
   @media screen and (max-width: 480px) {
     width: 30%;
@@ -341,38 +423,30 @@ small {
       padding: 1em;
     }
   }
-  &__select {
-    padding: 1em 5em;
-    margin-right: 0.5em;
-    outline: 0;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    width: 100px;
-    @media screen and (max-width: 480px) {
-      padding: 1em;
-    }
-  }
   &__input {
-    padding: 1em 5em;
-    margin-right: 0.5em;
+    -webkit-transition: -webkit-box-shadow .3s;
+    transition: -webkit-box-shadow .3s;
+    transition: box-shadow .3s;
+    transition: box-shadow .3s,-webkit-box-shadow .3s;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: #fff;
+    -webkit-box-shadow: 0 3px 6px 0 rgba(0,0,0,.1), 0 1px 3px 0 rgba(0,0,0,.08);
+    box-shadow: 0 3px 6px 0 rgba(0,0,0,.1), 0 1px 3px 0 rgba(0,0,0,.08);
+
+    width: 90%;
+    font-weight: 400;
+    font-size: 16px;
+    border: 0;
     outline: 0;
-    border: 1px solid #ddd;
-    @media screen and (max-width: 480px) {
-      padding: 1em;
-    }
-  }
-  &__btn {
-    @include bg-gradient();
-    border-radius: 0.25em;
-    color: #fff;
-    padding: 1em 3em;
-    outline: 0;
-    border: 1px solid #4776e6;
-    cursor: pointer;
-    display: flex;
-    @media screen and (max-width: 480px) {
-      display: none;
-    }
+    border-radius: 6px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    display: block;
+    -webkit-appearance: none;
   }
 }
 
@@ -421,6 +495,81 @@ pre {
       margin-top: 0;
     }
   }
+}
+
+.section__head{
+
+  h2{
+    color: #a1aab8;
+  }
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  width: 90%;
+  margin-left: 1em;
+}
+.toggle{
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-right: 1em;
+  align-items: flex-end;
+
+  li{
+    padding-bottom: 2px;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 600;
+    color: #3880ff;
+    opacity: .5;
+    padding: 1.5em .5em;
+    margin: .5em;
+    width: 100px;
+    text-align: center;
+    cursor: pointer;
+
+    &.active{
+      border-bottom: 2px solid #3880ff;
+      opacity: 1;
+    }
+  }
+}
+
+.toast {
+  visibility: hidden;
+  min-width: 250px;
+  background-color: #333;
+  color: #fff;
+  text-align: left;
+  border-radius: .25em;
+  padding: 1em;
+  position: fixed;
+  z-index: 99;
+  left: 10px;
+  bottom: 1em;
+  &.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 5s;
+    animation: fadein 0.5s, fadeout 0.5s 5s;
+  }
+}
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 1em; opacity: 1;}
+}
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 1em; opacity: 1;}
+}
+@-webkit-keyframes fadeout {
+    from {bottom: 1em; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+@keyframes fadeout {
+    from {bottom: 1em; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
 }
 </style>
 

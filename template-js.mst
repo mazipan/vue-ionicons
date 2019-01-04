@@ -1,7 +1,7 @@
-// import libraryName from './name.vue'
+// let {{libraryName}}  = () => import('./{{name}}.vue')
 
 {{#data}}
-let {{libraryName}}  = () => import('./{{name}}.vue')
+import {{libraryName}} from './{{name}}.vue'
 {{/data}}
 
 const plugin = component => {
@@ -14,9 +14,8 @@ const plugin = component => {
 {{libraryName}}.install = plugin({{libraryName}})
 {{/data}}
 
-let ioniconsPlugin = {}
-{{#data}}
-ioniconsPlugin.{{libraryName}} = {{libraryName}}
-{{/data}}
-
-export default ioniconsPlugin
+export default {
+  {{#data}}
+  {{libraryName}},
+  {{/data}}
+}

@@ -7,11 +7,9 @@
 Design icons sourced from the
 [Ionicons](https://github.com/ionic-team/ionicons) project.
 
-> Warning!!! Vue-Ionicons v2.0.0 we will move to ionicons branch [4.0](https://github.com/ionic-team/ionicons/tree/4.0) for better icons naming
-
 ## 🎉 Demo
 
-https://mazipan.github.io/vue-ionicons
+[https://mazipan.github.io/vue-ionicons](https://mazipan.github.io/vue-ionicons)
 
 ## 🚀 Getting started
 
@@ -62,15 +60,32 @@ https://mazipan.github.io/vue-ionicons
     <AlertIcon />
     ```
 
+## Import some icon sets
+
+Sometimes we don't want import one by one, so from v2.3.0 we can include this groups icon: `ios`, `md`, `logo`.
+
+```javascript
+import AllIosIcon from 'vue-ionicons/dist/ionicons-ios.js'
+
+Vue.use(AllIosIcon)
+
+/*
+-- File available --
+Material: ionicons-md.js
+Logo: ionicons-logo.js
+All: ionicons.js
+*/
+
+```
+
 ## 🔥 API and Props
 
-| Name               	| Type                 | Default     | Description                          	|
-|--------------------	|----------------------|-------------|--------------------------------------	|
-| w         	        | String               | 14px        | Width of SVG                          	|
-| h         	        | String               | 14px        | Height of SVG                         	|
-| rootClass         	| String               | `empty`     | Class for wrapper SVG                  |
-| animate         	  | String               | `empty`     | Available: `rotate`, `shake`, `beat`   |
-
+| Name               | Type                 | Default     | Description                          |
+|--------------------|----------------------|-------------|--------------------------------------|
+| w                  | String               | 14px        | Width of SVG                         |
+| h                  | String               | 14px        | Height of SVG                        |
+| rootClass          | String               | `empty`     | Class for wrapper SVG                |
+| animate            | String               | `empty`     | Available: `rotate`, `shake`, `beat` |
 
 ## 🏃 Development
 
