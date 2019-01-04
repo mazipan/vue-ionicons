@@ -124,24 +124,24 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/ios-analytics.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/ios-analytics.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/ios-aperture.vue',
   output: {
     globals: { 
       vue: 'Vue' 
     },
     file: 'dist/js/ios-aperture.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/ios-analytics.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/ios-analytics.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -760,18 +760,6 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/ios-call.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/ios-call.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/ios-calendar.vue',
   output: {
     globals: { 
@@ -790,6 +778,18 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-camera.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/ios-call.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/ios-call.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -1024,24 +1024,24 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/ios-cloud-download.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/ios-cloud-download.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/ios-cloud-outline.vue',
   output: {
     globals: { 
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloud-outline.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/ios-cloud-download.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/ios-cloud-download.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -4288,24 +4288,24 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/logo-python.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/logo-python.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/logo-polymer.vue',
   output: {
     globals: { 
       vue: 'Vue' 
     },
     file: 'dist/js/logo-polymer.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/logo-python.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/logo-python.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -4408,18 +4408,6 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/logo-tux.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/logo-tux.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/logo-twitch.vue',
   output: {
     globals: { 
@@ -4438,6 +4426,18 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-twitter.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/logo-tux.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/logo-tux.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -4936,24 +4936,24 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/md-backspace.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-backspace.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/md-attach.vue',
   output: {
     globals: { 
       vue: 'Vue' 
     },
     file: 'dist/js/md-attach.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-backspace.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-backspace.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -5452,18 +5452,6 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/md-checkmark-circle-outline.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-checkmark-circle-outline.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/md-checkmark-circle.vue',
   output: {
     globals: { 
@@ -5482,6 +5470,18 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-checkmark.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-checkmark-circle-outline.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-checkmark-circle-outline.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -6292,6 +6292,18 @@ export default [
   plugins: generatePlugins()
 },
 {
+  input: 'dist/md-glasses.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-glasses.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
   input: 'dist/md-globe.vue',
   output: {
     globals: { 
@@ -6550,18 +6562,6 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-information-circle.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/md-glasses.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-glasses.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -7288,24 +7288,24 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/md-play.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-play.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/md-podium.vue',
   output: {
     globals: { 
       vue: 'Vue' 
     },
     file: 'dist/js/md-podium.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-play.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-play.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
@@ -8236,24 +8236,24 @@ export default [
   plugins: generatePlugins()
 },
 {
-  input: 'dist/md-volume-low.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-volume-low.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
   input: 'dist/md-volume-high.vue',
   output: {
     globals: { 
       vue: 'Vue' 
     },
     file: 'dist/js/md-volume-high.js',
+    format: 'cjs'
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-volume-low.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-volume-low.js',
     format: 'cjs'
   },
   external: Object.keys(pkg.dependencies),
