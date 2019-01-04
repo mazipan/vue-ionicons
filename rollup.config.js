@@ -1,6 +1,7 @@
 import vue from 'rollup-plugin-vue'
 import buble from 'rollup-plugin-buble'
 import bundleSize from 'rollup-plugin-filesize'
+import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
 import css from 'rollup-plugin-css-only'
 import multiEntry from "rollup-plugin-multi-entry"
@@ -11,6 +12,7 @@ const generatePlugins = () => {
   return [
     multiEntry(),
     resolve(),
+    commonjs(),
     css(),
     vue({
       css: false,
@@ -34,7 +36,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-add-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAddCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -46,7 +49,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-add-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAddCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -58,7 +62,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-add.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAddIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -70,7 +75,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-airplane.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAirplaneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -82,7 +88,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-alarm.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAlarmIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -94,7 +101,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-albums.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAlbumsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -106,7 +114,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-alert.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAlertIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -118,19 +127,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-american-football.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/ios-aperture.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/ios-aperture.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAmericanFootballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -142,7 +140,21 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-analytics.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAnalyticsIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/ios-aperture.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/ios-aperture.js',
+    format: 'umd',
+    name: 'IosApertureIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -154,7 +166,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-apps.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAppsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -166,7 +179,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-appstore.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAppstoreIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -178,7 +192,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-archive.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArchiveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -190,7 +205,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-back.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowBackIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -202,7 +218,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -214,7 +231,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropdown-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDropdownCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -226,7 +244,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropdown.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDropdownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -238,7 +257,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropleft-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDropleftCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -250,7 +270,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropleft.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDropleftIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -262,7 +283,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropright-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDroprightCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -274,7 +296,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropright.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDroprightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -286,7 +309,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropup-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDropupCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -298,7 +322,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-dropup.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowDropupIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -310,7 +335,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-forward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowForwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -322,7 +348,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-round-back.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowRoundBackIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -334,7 +361,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-round-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowRoundDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -346,7 +374,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-round-forward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowRoundForwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -358,7 +387,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-round-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowRoundUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -370,7 +400,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-arrow-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosArrowUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -382,7 +413,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-at.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAtIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -394,7 +426,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-attach.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosAttachIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -406,7 +439,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-backspace.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBackspaceIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -418,7 +452,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-barcode.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBarcodeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -430,7 +465,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-baseball.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBaseballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -442,7 +478,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-basket.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBasketIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -454,7 +491,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-basketball.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBasketballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -466,7 +504,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-battery-charging.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBatteryChargingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -478,7 +517,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-battery-dead.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBatteryDeadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -490,7 +530,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-battery-full.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBatteryFullIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -502,7 +543,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-beaker.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBeakerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -514,7 +556,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bed.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBedIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -526,7 +569,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-beer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBeerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -538,7 +582,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bicycle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBicycleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -550,7 +595,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bluetooth.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBluetoothIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -562,7 +608,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-boat.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBoatIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -574,7 +621,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-body.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBodyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -586,7 +634,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bonfire.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBonfireIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -598,7 +647,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-book.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBookIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -610,7 +660,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bookmark.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBookmarkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -622,7 +673,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bookmarks.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBookmarksIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -634,7 +686,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bowtie.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBowtieIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -646,7 +699,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-briefcase.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBriefcaseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -658,7 +712,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-browsers.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBrowsersIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -670,7 +725,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-brush.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBrushIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -682,7 +738,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bug.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBugIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -694,7 +751,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-build.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBuildIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -706,7 +764,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bulb.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBulbIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -718,7 +777,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-bus.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBusIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -730,7 +790,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-business.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosBusinessIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -742,7 +803,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cafe.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCafeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -754,7 +816,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-calculator.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCalculatorIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -766,19 +829,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-calendar.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/ios-camera.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/ios-camera.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCalendarIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -790,7 +842,21 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-call.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCallIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/ios-camera.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/ios-camera.js',
+    format: 'umd',
+    name: 'IosCameraIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -802,7 +868,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-car.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCarIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -814,7 +881,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-card.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -826,7 +894,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cart.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCartIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -838,7 +907,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cash.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCashIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -850,7 +920,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cellular.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCellularIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -862,7 +933,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-chatboxes.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosChatboxesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -874,7 +946,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-chatbubbles.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosChatbubblesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -886,7 +959,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-checkbox-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCheckboxOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -898,7 +972,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-checkbox.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCheckboxIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -910,7 +985,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-checkmark-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCheckmarkCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -922,7 +998,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-checkmark-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCheckmarkCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -934,7 +1011,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-checkmark.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCheckmarkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -946,7 +1024,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-clipboard.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosClipboardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -958,7 +1037,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-clock.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosClockIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -970,7 +1050,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-close-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloseCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -982,7 +1063,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-close-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloseCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -994,7 +1076,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-close.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1006,7 +1089,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloud-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1018,19 +1102,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloud-done.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/ios-cloud-outline.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/ios-cloud-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudDoneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1042,7 +1115,21 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloud-download.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudDownloadIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/ios-cloud-outline.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/ios-cloud-outline.js',
+    format: 'umd',
+    name: 'IosCloudOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1054,7 +1141,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloud-upload.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudUploadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1066,7 +1154,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloud.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1078,7 +1167,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloudy-night.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudyNightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1090,7 +1180,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cloudy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCloudyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1102,7 +1193,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-code-download.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCodeDownloadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1114,7 +1206,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-code-working.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCodeWorkingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1126,7 +1219,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-code.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCodeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1138,7 +1232,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cog.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCogIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1150,7 +1245,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-color-fill.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosColorFillIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1162,7 +1258,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-color-filter.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosColorFilterIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1174,7 +1271,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-color-palette.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosColorPaletteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1186,7 +1284,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-color-wand.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosColorWandIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1198,7 +1297,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-compass.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCompassIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1210,7 +1310,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-construct.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosConstructIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1222,7 +1323,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-contact.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosContactIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1234,7 +1336,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-contacts.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosContactsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1246,7 +1349,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-contract.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosContractIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1258,7 +1362,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-contrast.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosContrastIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1270,7 +1375,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-copy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCopyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1282,7 +1388,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-create.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCreateIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1294,7 +1401,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-crop.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCropIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1306,7 +1414,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cube.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCubeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1318,7 +1427,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-cut.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosCutIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1330,7 +1440,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-desktop.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosDesktopIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1342,7 +1453,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-disc.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosDiscIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1354,7 +1466,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-document.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosDocumentIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1366,7 +1479,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-done-all.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosDoneAllIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1378,7 +1492,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-download.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosDownloadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1390,7 +1505,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-easel.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosEaselIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1402,7 +1518,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-egg.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosEggIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1414,7 +1531,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-exit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosExitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1426,7 +1544,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-expand.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosExpandIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1438,7 +1557,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-eye-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosEyeOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1450,7 +1570,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-eye.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosEyeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1462,7 +1583,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-fastforward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFastforwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1474,7 +1596,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-female.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFemaleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1486,7 +1609,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-filing.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFilingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1498,7 +1622,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-film.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFilmIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1510,7 +1635,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-finger-print.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFingerPrintIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1522,7 +1648,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-fitness.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFitnessIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1534,7 +1661,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flag.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlagIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1546,7 +1674,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flame.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlameIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1558,7 +1687,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flash-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlashOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1570,7 +1700,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flash.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlashIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1582,7 +1713,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flashlight.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlashlightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1594,7 +1726,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flask.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlaskIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1606,7 +1739,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-flower.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFlowerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1618,7 +1752,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-folder-open.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFolderOpenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1630,7 +1765,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-folder.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFolderIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1642,7 +1778,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-football.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFootballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1654,7 +1791,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-funnel.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosFunnelIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1666,7 +1804,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-gift.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGiftIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1678,7 +1817,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-git-branch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGitBranchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1690,7 +1830,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-git-commit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGitCommitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1702,7 +1843,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-git-compare.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGitCompareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1714,7 +1856,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-git-merge.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGitMergeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1726,7 +1869,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-git-network.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGitNetworkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1738,7 +1882,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-git-pull-request.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGitPullRequestIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1750,7 +1895,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-glasses.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGlassesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1762,7 +1908,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-globe.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGlobeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1774,7 +1921,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-grid.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosGridIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1786,7 +1934,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-hammer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHammerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1798,7 +1947,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-hand.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHandIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1810,7 +1960,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-happy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHappyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1822,7 +1973,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-headset.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHeadsetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1834,7 +1986,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-heart-dislike.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHeartDislikeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1846,7 +1999,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-heart-empty.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHeartEmptyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1858,7 +2012,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-heart-half.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHeartHalfIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1870,7 +2025,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-heart.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHeartIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1882,7 +2038,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-help-buoy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHelpBuoyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1894,7 +2051,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-help-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHelpCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1906,7 +2064,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-help-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHelpCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1918,7 +2077,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-help.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHelpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1930,7 +2090,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-home.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHomeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1942,7 +2103,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-hourglass.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosHourglassIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1954,7 +2116,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-ice-cream.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosIceCreamIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1966,7 +2129,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-image.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosImageIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1978,7 +2142,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-images.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosImagesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -1990,7 +2155,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-infinite.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosInfiniteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2002,7 +2168,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-information-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosInformationCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2014,7 +2181,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-information-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosInformationCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2026,7 +2194,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-information.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosInformationIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2038,7 +2207,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-jet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosJetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2050,7 +2220,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-journal.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosJournalIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2062,7 +2233,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-key.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosKeyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2074,7 +2246,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-keypad.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosKeypadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2086,7 +2259,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-laptop.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLaptopIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2098,7 +2272,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-leaf.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLeafIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2110,7 +2285,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-link.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLinkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2122,7 +2298,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-list-box.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosListBoxIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2134,7 +2311,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-list.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosListIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2146,7 +2324,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-locate.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLocateIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2158,7 +2337,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-lock.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLockIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2170,7 +2350,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-log-in.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLogInIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2182,7 +2363,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-log-out.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosLogOutIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2194,7 +2376,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-magnet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMagnetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2206,7 +2389,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-mail-open.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMailOpenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2218,7 +2402,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-mail-unread.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMailUnreadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2230,7 +2415,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-mail.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMailIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2242,7 +2428,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-male.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMaleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2254,7 +2441,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-man.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosManIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2266,7 +2454,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-map.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMapIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2278,7 +2467,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-medal.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMedalIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2290,7 +2480,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-medical.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMedicalIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2302,7 +2493,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-medkit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMedkitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2314,7 +2506,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-megaphone.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMegaphoneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2326,7 +2519,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-menu.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMenuIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2338,7 +2532,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-mic-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMicOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2350,7 +2545,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-mic.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMicIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2362,7 +2558,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-microphone.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMicrophoneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2374,7 +2571,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-moon.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMoonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2386,7 +2584,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-more.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMoreIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2398,7 +2597,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-move.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMoveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2410,7 +2610,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-musical-note.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMusicalNoteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2422,7 +2623,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-musical-notes.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosMusicalNotesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2434,7 +2636,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-navigate.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosNavigateIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2446,7 +2649,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-notifications-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosNotificationsOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2458,7 +2662,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-notifications-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosNotificationsOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2470,7 +2675,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-notifications.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosNotificationsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2482,7 +2688,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-nuclear.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosNuclearIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2494,7 +2701,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-nutrition.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosNutritionIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2506,7 +2714,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-open.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosOpenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2518,7 +2727,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-options.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosOptionsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2530,7 +2740,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-outlet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosOutletIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2542,7 +2753,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-paper-plane.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPaperPlaneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2554,7 +2766,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-paper.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPaperIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2566,7 +2779,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-partly-sunny.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPartlySunnyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2578,7 +2792,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pause.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPauseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2590,7 +2805,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-paw.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPawIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2602,7 +2818,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-people.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPeopleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2614,7 +2831,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-person-add.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPersonAddIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2626,7 +2844,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-person.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPersonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2638,7 +2857,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-phone-landscape.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPhoneLandscapeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2650,7 +2870,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-phone-portrait.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPhonePortraitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2662,7 +2883,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-photos.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPhotosIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2674,7 +2896,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pie.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPieIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2686,7 +2909,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pin.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPinIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2698,7 +2922,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pint.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPintIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2710,7 +2935,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pizza.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPizzaIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2722,7 +2948,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-planet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPlanetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2734,7 +2961,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-play-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPlayCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2746,7 +2974,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-play.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPlayIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2758,7 +2987,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-podium.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPodiumIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2770,7 +3000,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-power.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPowerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2782,7 +3013,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pricetag.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPricetagIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2794,7 +3026,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pricetags.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPricetagsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2806,7 +3039,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-print.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPrintIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2818,7 +3052,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-pulse.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosPulseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2830,7 +3065,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-qr-scanner.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosQrScannerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2842,7 +3078,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-quote.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosQuoteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2854,7 +3091,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-radio-button-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRadioButtonOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2866,7 +3104,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-radio-button-on.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRadioButtonOnIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2878,7 +3117,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-radio.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRadioIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2890,7 +3130,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-rainy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRainyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2902,7 +3143,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-recording.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRecordingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2914,7 +3156,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-redo.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRedoIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2926,7 +3169,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-refresh-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRefreshCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2938,7 +3182,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-refresh.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRefreshIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2950,7 +3195,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-remove-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRemoveCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2962,7 +3208,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-remove-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRemoveCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2974,7 +3221,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-remove.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRemoveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2986,7 +3234,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-reorder.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosReorderIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -2998,7 +3247,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-repeat.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRepeatIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3010,7 +3260,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-resize.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosResizeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3022,7 +3273,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-restaurant.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRestaurantIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3034,7 +3286,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-return-left.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosReturnLeftIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3046,7 +3299,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-return-right.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosReturnRightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3058,7 +3312,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-reverse-camera.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosReverseCameraIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3070,7 +3325,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-rewind.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRewindIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3082,7 +3338,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-ribbon.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRibbonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3094,7 +3351,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-rocket.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRocketIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3106,7 +3364,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-rose.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosRoseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3118,7 +3377,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-sad.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3130,7 +3390,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-save.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSaveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3142,7 +3403,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-school.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSchoolIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3154,7 +3416,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-search.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSearchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3166,7 +3429,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-send.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSendIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3178,7 +3442,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-settings.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSettingsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3190,7 +3455,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-share-alt.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosShareAltIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3202,7 +3468,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-share.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosShareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3214,7 +3481,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-shirt.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosShirtIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3226,7 +3494,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-shuffle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosShuffleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3238,7 +3507,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-skip-backward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSkipBackwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3250,7 +3520,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-skip-forward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSkipForwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3262,7 +3533,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-snow.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSnowIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3274,7 +3546,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-speedometer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSpeedometerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3286,7 +3559,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-square-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSquareOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3298,7 +3572,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-square.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSquareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3310,7 +3585,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-star-half.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosStarHalfIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3322,7 +3598,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-star-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosStarOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3334,7 +3611,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-star.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosStarIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3346,7 +3624,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-stats.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosStatsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3358,7 +3637,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-stopwatch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosStopwatchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3370,7 +3650,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-subway.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSubwayIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3382,7 +3663,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-sunny.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSunnyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3394,7 +3676,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-swap.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSwapIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3406,7 +3689,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-switch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSwitchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3418,7 +3702,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-sync.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosSyncIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3430,7 +3715,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-tablet-landscape.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTabletLandscapeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3442,7 +3728,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-tablet-portrait.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTabletPortraitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3454,7 +3741,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-tennisball.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTennisballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3466,7 +3754,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-text.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTextIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3478,7 +3767,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-thermometer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosThermometerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3490,7 +3780,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-thumbs-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosThumbsDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3502,7 +3793,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-thumbs-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosThumbsUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3514,7 +3806,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-thunderstorm.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosThunderstormIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3526,7 +3819,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-time.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTimeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3538,7 +3832,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-timer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTimerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3550,7 +3845,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-today.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTodayIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3562,7 +3858,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-train.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTrainIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3574,7 +3871,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-transgender.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTransgenderIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3586,7 +3884,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-trash.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTrashIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3598,7 +3897,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-trending-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTrendingDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3610,7 +3910,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-trending-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTrendingUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3622,7 +3923,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-trophy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTrophyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3634,7 +3936,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-tv.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosTvIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3646,7 +3949,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-umbrella.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosUmbrellaIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3658,7 +3962,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-undo.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosUndoIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3670,7 +3975,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-unlock.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosUnlockIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3682,7 +3988,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-videocam.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosVideocamIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3694,7 +4001,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-volume-high.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosVolumeHighIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3706,7 +4014,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-volume-low.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosVolumeLowIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3718,7 +4027,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-volume-mute.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosVolumeMuteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3730,7 +4040,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-volume-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosVolumeOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3742,7 +4053,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-walk.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWalkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3754,7 +4066,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-wallet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWalletIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3766,7 +4079,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-warning.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWarningIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3778,7 +4092,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-watch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWatchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3790,7 +4105,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-water.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWaterIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3802,7 +4118,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-wifi.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWifiIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3814,7 +4131,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-wine.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3826,7 +4144,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/ios-woman.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'IosWomanIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3838,7 +4157,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-android.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoAndroidIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3850,7 +4170,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-angular.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoAngularIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3862,7 +4183,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-apple.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoAppleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3874,7 +4196,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-bitbucket.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoBitbucketIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3886,7 +4209,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-bitcoin.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoBitcoinIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3898,7 +4222,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-buffer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoBufferIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3910,7 +4235,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-chrome.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoChromeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3922,7 +4248,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-closed-captioning.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoClosedCaptioningIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3934,7 +4261,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-codepen.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoCodepenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3946,7 +4274,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-css3.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoCss3Icon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3958,7 +4287,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-designernews.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoDesignernewsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3970,7 +4300,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-dribbble.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoDribbbleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3982,7 +4313,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-dropbox.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoDropboxIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -3994,7 +4326,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-euro.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoEuroIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4006,7 +4339,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-facebook.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoFacebookIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4018,7 +4352,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-flickr.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoFlickrIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4030,7 +4365,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-foursquare.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoFoursquareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4042,7 +4378,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-freebsd-devil.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoFreebsdDevilIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4054,7 +4391,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-game-controller-a.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoGameControllerAIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4066,7 +4404,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-game-controller-b.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoGameControllerBIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4078,7 +4417,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-github.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoGithubIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4090,7 +4430,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-google.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoGoogleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4102,7 +4443,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-googleplus.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoGoogleplusIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4114,7 +4456,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-hackernews.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoHackernewsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4126,7 +4469,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-html5.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoHtml5Icon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4138,7 +4482,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-instagram.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoInstagramIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4150,7 +4495,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-ionic.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoIonicIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4162,7 +4508,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-ionitron.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoIonitronIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4174,7 +4521,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-javascript.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoJavascriptIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4186,7 +4534,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-linkedin.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoLinkedinIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4198,7 +4547,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-markdown.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoMarkdownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4210,7 +4560,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-model-s.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoModelSIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4222,7 +4573,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-no-smoking.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoNoSmokingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4234,7 +4586,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-nodejs.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoNodejsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4246,7 +4599,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-npm.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoNpmIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4258,7 +4612,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-octocat.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoOctocatIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4270,7 +4625,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-pinterest.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoPinterestIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4282,7 +4638,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-playstation.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoPlaystationIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4294,7 +4651,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-polymer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoPolymerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4306,7 +4664,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-python.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoPythonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4318,7 +4677,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-reddit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoRedditIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4330,7 +4690,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-rss.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoRssIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4342,7 +4703,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-sass.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoSassIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4354,7 +4716,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-skype.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoSkypeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4366,7 +4729,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-slack.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoSlackIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4378,7 +4742,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-snapchat.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoSnapchatIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4390,7 +4755,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-steam.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoSteamIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4402,31 +4768,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-tumblr.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/logo-twitch.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/logo-twitch.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/logo-twitter.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/logo-twitter.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoTumblrIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4438,7 +4781,34 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-tux.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoTuxIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/logo-twitter.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/logo-twitter.js',
+    format: 'umd',
+    name: 'LogoTwitterIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/logo-twitch.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/logo-twitch.js',
+    format: 'umd',
+    name: 'LogoTwitchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4450,7 +4820,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-usd.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoUsdIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4462,7 +4833,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-vimeo.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoVimeoIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4474,7 +4846,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-vk.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoVkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4486,7 +4859,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-whatsapp.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoWhatsappIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4498,7 +4872,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-windows.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoWindowsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4510,7 +4885,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-wordpress.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoWordpressIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4522,7 +4898,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-xbox.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoXboxIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4534,7 +4911,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-xing.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoXingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4546,7 +4924,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-yahoo.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoYahooIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4558,7 +4937,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-yen.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoYenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4570,7 +4950,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/logo-youtube.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'LogoYoutubeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4582,7 +4963,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-add-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAddCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4594,7 +4976,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-add-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAddCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4606,7 +4989,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-add.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAddIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4618,7 +5002,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-airplane.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAirplaneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4630,7 +5015,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-alarm.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAlarmIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4642,7 +5028,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-albums.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAlbumsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4654,7 +5041,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-alert.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAlertIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4666,7 +5054,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-american-football.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAmericanFootballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4678,7 +5067,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-analytics.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAnalyticsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4690,7 +5080,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-aperture.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdApertureIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4702,7 +5093,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-apps.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAppsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4714,7 +5106,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-appstore.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAppstoreIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4726,7 +5119,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-archive.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArchiveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4738,7 +5132,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-back.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowBackIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4750,7 +5145,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4762,7 +5158,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropdown-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDropdownCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4774,7 +5171,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropdown.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDropdownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4786,7 +5184,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropleft-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDropleftCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4798,7 +5197,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropleft.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDropleftIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4810,7 +5210,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropright-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDroprightCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4822,7 +5223,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropright.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDroprightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4834,7 +5236,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropup-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDropupCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4846,7 +5249,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-dropup.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowDropupIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4858,7 +5262,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-forward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowForwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4870,7 +5275,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-round-back.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowRoundBackIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4882,7 +5288,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-round-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowRoundDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4894,7 +5301,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-round-forward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowRoundForwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4906,7 +5314,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-round-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowRoundUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4918,7 +5327,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-arrow-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdArrowUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4930,7 +5340,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-at.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAtIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4942,7 +5353,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-attach.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdAttachIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4954,7 +5366,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-backspace.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBackspaceIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4966,7 +5379,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-barcode.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBarcodeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4978,7 +5392,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-baseball.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBaseballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -4990,7 +5405,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-basket.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBasketIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5002,7 +5418,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-basketball.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBasketballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5014,7 +5431,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-battery-charging.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBatteryChargingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5026,7 +5444,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-battery-dead.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBatteryDeadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5038,7 +5457,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-battery-full.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBatteryFullIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5050,7 +5470,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-beaker.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBeakerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5062,7 +5483,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bed.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBedIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5074,7 +5496,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-beer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBeerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5086,7 +5509,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bicycle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBicycleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5098,7 +5522,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bluetooth.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBluetoothIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5110,7 +5535,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-boat.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBoatIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5122,7 +5548,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-body.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBodyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5134,7 +5561,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bonfire.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBonfireIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5146,7 +5574,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-book.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBookIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5158,7 +5587,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bookmark.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBookmarkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5170,7 +5600,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bookmarks.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBookmarksIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5182,7 +5613,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bowtie.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBowtieIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5194,7 +5626,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-briefcase.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBriefcaseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5206,7 +5639,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-browsers.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBrowsersIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5218,7 +5652,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-brush.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBrushIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5230,7 +5665,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bug.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBugIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5242,7 +5678,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-build.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBuildIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5254,7 +5691,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bulb.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBulbIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5266,7 +5704,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-bus.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBusIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5278,7 +5717,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-business.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdBusinessIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5290,7 +5730,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cafe.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCafeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5302,7 +5743,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-calculator.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCalculatorIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5314,7 +5756,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-calendar.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCalendarIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5326,7 +5769,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-call.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCallIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5338,7 +5782,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-camera.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCameraIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5350,7 +5795,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-car.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCarIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5362,7 +5808,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-card.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5374,7 +5821,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cart.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCartIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5386,7 +5834,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cash.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCashIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5398,7 +5847,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cellular.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCellularIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5410,7 +5860,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-chatboxes.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdChatboxesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5422,7 +5873,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-chatbubbles.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdChatbubblesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5434,7 +5886,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-checkbox-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCheckboxOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5446,31 +5899,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-checkbox.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/md-checkmark-circle.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-checkmark-circle.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/md-checkmark.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-checkmark.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCheckboxIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5482,7 +5912,34 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-checkmark-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCheckmarkCircleOutlineIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-checkmark-circle.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-checkmark-circle.js',
+    format: 'umd',
+    name: 'MdCheckmarkCircleIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-checkmark.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-checkmark.js',
+    format: 'umd',
+    name: 'MdCheckmarkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5494,7 +5951,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-clipboard.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdClipboardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5506,7 +5964,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-clock.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdClockIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5518,7 +5977,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-close-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloseCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5530,7 +5990,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-close-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloseCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5542,7 +6003,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-close.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5554,7 +6016,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloud-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5566,7 +6029,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloud-done.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudDoneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5578,7 +6042,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloud-download.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudDownloadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5590,7 +6055,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloud-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5602,7 +6068,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloud-upload.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudUploadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5614,7 +6081,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloud.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5626,7 +6094,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloudy-night.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudyNightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5638,7 +6107,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cloudy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCloudyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5650,7 +6120,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-code-download.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCodeDownloadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5662,7 +6133,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-code-working.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCodeWorkingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5674,7 +6146,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-code.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCodeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5686,7 +6159,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cog.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCogIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5698,7 +6172,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-color-fill.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdColorFillIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5710,7 +6185,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-color-filter.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdColorFilterIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5722,7 +6198,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-color-palette.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdColorPaletteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5734,7 +6211,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-color-wand.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdColorWandIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5746,7 +6224,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-compass.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCompassIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5758,7 +6237,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-construct.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdConstructIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5770,7 +6250,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-contact.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdContactIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5782,7 +6263,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-contacts.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdContactsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5794,7 +6276,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-contract.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdContractIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5806,7 +6289,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-contrast.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdContrastIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5818,7 +6302,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-copy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCopyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5830,7 +6315,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-create.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCreateIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5842,7 +6328,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-crop.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCropIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5854,7 +6341,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cube.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCubeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5866,7 +6354,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-cut.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdCutIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5878,7 +6367,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-desktop.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdDesktopIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5890,7 +6380,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-disc.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdDiscIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5902,7 +6393,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-document.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdDocumentIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5914,7 +6406,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-done-all.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdDoneAllIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5926,7 +6419,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-download.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdDownloadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5938,7 +6432,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-easel.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdEaselIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5950,7 +6445,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-egg.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdEggIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5962,7 +6458,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-exit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdExitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5974,7 +6471,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-expand.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdExpandIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5986,7 +6484,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-eye-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdEyeOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -5998,7 +6497,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-eye.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdEyeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6010,7 +6510,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-fastforward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFastforwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6022,7 +6523,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-female.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFemaleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6034,7 +6536,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-filing.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFilingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6046,7 +6549,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-film.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFilmIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6058,7 +6562,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-finger-print.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFingerPrintIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6070,7 +6575,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-fitness.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFitnessIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6082,7 +6588,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flag.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlagIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6094,7 +6601,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flame.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlameIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6106,7 +6614,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flash-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlashOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6118,7 +6627,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flash.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlashIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6130,7 +6640,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flashlight.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlashlightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6142,7 +6653,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flask.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlaskIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6154,7 +6666,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-flower.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFlowerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6166,7 +6679,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-folder-open.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFolderOpenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6178,7 +6692,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-folder.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFolderIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6190,7 +6705,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-football.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFootballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6202,7 +6718,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-funnel.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdFunnelIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6214,7 +6731,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-gift.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGiftIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6226,7 +6744,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-git-branch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGitBranchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6238,7 +6757,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-git-commit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGitCommitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6250,7 +6770,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-git-compare.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGitCompareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6262,7 +6783,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-git-merge.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGitMergeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6274,7 +6796,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-git-network.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGitNetworkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6286,7 +6809,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-git-pull-request.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGitPullRequestIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6298,7 +6822,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-glasses.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGlassesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6310,7 +6835,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-globe.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGlobeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6322,7 +6848,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-grid.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdGridIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6334,7 +6861,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-hammer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHammerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6346,7 +6874,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-hand.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHandIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6358,7 +6887,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-happy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHappyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6370,7 +6900,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-headset.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHeadsetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6382,7 +6913,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-heart-dislike.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHeartDislikeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6394,7 +6926,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-heart-empty.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHeartEmptyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6406,7 +6939,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-heart-half.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHeartHalfIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6418,7 +6952,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-heart.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHeartIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6430,7 +6965,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-help-buoy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHelpBuoyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6442,7 +6978,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-help-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHelpCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6454,7 +6991,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-help-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHelpCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6466,7 +7004,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-help.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHelpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6478,7 +7017,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-home.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHomeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6490,7 +7030,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-hourglass.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdHourglassIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6502,7 +7043,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-ice-cream.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdIceCreamIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6514,7 +7056,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-image.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdImageIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6526,7 +7069,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-images.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdImagesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6538,7 +7082,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-infinite.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdInfiniteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6550,7 +7095,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-information-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdInformationCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6562,7 +7108,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-information-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdInformationCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6574,7 +7121,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-information.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdInformationIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6586,7 +7134,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-jet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdJetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6598,7 +7147,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-journal.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdJournalIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6610,7 +7160,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-key.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdKeyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6622,7 +7173,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-keypad.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdKeypadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6634,7 +7186,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-laptop.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLaptopIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6646,7 +7199,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-leaf.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLeafIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6658,7 +7212,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-link.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLinkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6670,7 +7225,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-list-box.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdListBoxIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6682,7 +7238,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-list.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdListIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6694,7 +7251,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-locate.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLocateIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6706,7 +7264,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-lock.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLockIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6718,7 +7277,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-log-in.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLogInIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6730,7 +7290,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-log-out.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdLogOutIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6742,7 +7303,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-magnet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMagnetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6754,7 +7316,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-mail-open.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMailOpenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6766,7 +7329,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-mail-unread.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMailUnreadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6778,7 +7342,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-mail.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMailIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6790,7 +7355,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-male.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMaleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6802,7 +7368,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-man.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdManIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6814,7 +7381,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-map.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMapIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6826,7 +7394,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-medal.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMedalIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6838,7 +7407,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-medical.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMedicalIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6850,7 +7420,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-medkit.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMedkitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6862,7 +7433,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-megaphone.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMegaphoneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6874,7 +7446,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-menu.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMenuIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6886,7 +7459,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-mic-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMicOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6898,7 +7472,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-mic.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMicIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6910,7 +7485,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-microphone.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMicrophoneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6922,7 +7498,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-moon.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMoonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6934,7 +7511,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-more.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMoreIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6946,7 +7524,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-move.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMoveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6958,7 +7537,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-musical-note.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMusicalNoteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6970,7 +7550,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-musical-notes.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdMusicalNotesIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6982,7 +7563,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-navigate.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdNavigateIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -6994,7 +7576,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-notifications-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdNotificationsOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7006,7 +7589,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-notifications-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdNotificationsOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7018,7 +7602,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-notifications.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdNotificationsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7030,7 +7615,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-nuclear.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdNuclearIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7042,7 +7628,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-nutrition.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdNutritionIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7054,7 +7641,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-open.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdOpenIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7066,7 +7654,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-options.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdOptionsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7078,7 +7667,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-outlet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdOutletIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7090,7 +7680,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-paper-plane.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPaperPlaneIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7102,7 +7693,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-paper.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPaperIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7114,7 +7706,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-partly-sunny.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPartlySunnyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7126,7 +7719,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pause.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPauseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7138,7 +7732,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-paw.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPawIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7150,7 +7745,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-people.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPeopleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7162,7 +7758,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-person-add.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPersonAddIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7174,7 +7771,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-person.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPersonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7186,7 +7784,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-phone-landscape.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPhoneLandscapeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7198,7 +7797,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-phone-portrait.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPhonePortraitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7210,7 +7810,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-photos.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPhotosIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7222,7 +7823,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pie.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPieIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7234,7 +7836,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pin.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPinIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7246,7 +7849,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pint.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPintIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7258,7 +7862,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pizza.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPizzaIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7270,7 +7875,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-planet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPlanetIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7282,19 +7888,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-play-circle.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/md-podium.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-podium.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPlayCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7306,7 +7901,21 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-play.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPlayIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-podium.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-podium.js',
+    format: 'umd',
+    name: 'MdPodiumIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7318,7 +7927,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-power.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPowerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7330,7 +7940,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pricetag.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPricetagIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7342,7 +7953,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pricetags.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPricetagsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7354,7 +7966,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-print.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPrintIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7366,7 +7979,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-pulse.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdPulseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7378,7 +7992,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-qr-scanner.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdQrScannerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7390,7 +8005,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-quote.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdQuoteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7402,7 +8018,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-radio-button-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRadioButtonOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7414,7 +8031,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-radio-button-on.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRadioButtonOnIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7426,7 +8044,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-radio.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRadioIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7438,7 +8057,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-rainy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRainyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7450,7 +8070,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-recording.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRecordingIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7462,7 +8083,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-redo.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRedoIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7474,7 +8096,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-refresh-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRefreshCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7486,7 +8109,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-refresh.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRefreshIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7498,7 +8122,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-remove-circle-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRemoveCircleOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7510,7 +8135,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-remove-circle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRemoveCircleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7522,7 +8148,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-remove.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRemoveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7534,7 +8161,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-reorder.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdReorderIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7546,7 +8174,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-repeat.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRepeatIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7558,7 +8187,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-resize.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdResizeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7570,7 +8200,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-restaurant.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRestaurantIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7582,7 +8213,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-return-left.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdReturnLeftIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7594,7 +8226,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-return-right.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdReturnRightIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7606,7 +8239,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-reverse-camera.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdReverseCameraIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7618,7 +8252,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-rewind.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRewindIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7630,7 +8265,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-ribbon.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRibbonIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7642,7 +8278,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-rocket.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRocketIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7654,7 +8291,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-rose.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdRoseIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7666,7 +8304,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-sad.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSadIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7678,7 +8317,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-save.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSaveIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7690,7 +8330,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-school.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSchoolIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7702,7 +8343,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-search.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSearchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7714,7 +8356,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-send.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSendIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7726,7 +8369,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-settings.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSettingsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7738,7 +8382,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-share-alt.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdShareAltIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7750,7 +8395,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-share.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdShareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7762,7 +8408,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-shirt.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdShirtIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7774,7 +8421,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-shuffle.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdShuffleIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7786,7 +8434,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-skip-backward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSkipBackwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7798,7 +8447,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-skip-forward.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSkipForwardIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7810,7 +8460,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-snow.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSnowIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7822,7 +8473,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-speedometer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSpeedometerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7834,7 +8486,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-square-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSquareOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7846,7 +8499,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-square.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSquareIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7858,7 +8512,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-star-half.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdStarHalfIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7870,7 +8525,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-star-outline.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdStarOutlineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7882,7 +8538,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-star.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdStarIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7894,7 +8551,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-stats.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdStatsIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7906,7 +8564,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-stopwatch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdStopwatchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7918,19 +8577,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-subway.js',
-    format: 'cjs'
-  },
-  external: Object.keys(pkg.dependencies),
-  plugins: generatePlugins()
-},
-{
-  input: 'dist/md-sunny.vue',
-  output: {
-    globals: { 
-      vue: 'Vue' 
-    },
-    file: 'dist/js/md-sunny.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSubwayIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7942,7 +8590,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-swap.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSwapIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7954,7 +8603,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-switch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSwitchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7966,7 +8616,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-sync.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdSyncIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7978,7 +8629,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-tablet-landscape.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTabletLandscapeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -7990,7 +8642,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-tablet-portrait.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTabletPortraitIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8002,7 +8655,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-tennisball.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTennisballIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8014,7 +8668,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-text.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTextIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8026,7 +8681,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-thermometer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdThermometerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8038,7 +8694,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-thumbs-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdThumbsDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8050,7 +8707,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-thumbs-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdThumbsUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8062,7 +8720,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-thunderstorm.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdThunderstormIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8074,7 +8733,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-time.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTimeIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8086,7 +8746,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-timer.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTimerIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8098,7 +8759,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-today.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTodayIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8110,7 +8772,21 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-train.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTrainIcon',
+  },
+  external: Object.keys(pkg.dependencies),
+  plugins: generatePlugins()
+},
+{
+  input: 'dist/md-sunny.vue',
+  output: {
+    globals: { 
+      vue: 'Vue' 
+    },
+    file: 'dist/js/md-sunny.js',
+    format: 'umd',
+    name: 'MdSunnyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8122,7 +8798,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-transgender.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTransgenderIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8134,7 +8811,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-trash.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTrashIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8146,7 +8824,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-trending-down.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTrendingDownIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8158,7 +8837,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-trending-up.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTrendingUpIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8170,7 +8850,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-trophy.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTrophyIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8182,7 +8863,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-tv.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdTvIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8194,7 +8876,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-umbrella.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdUmbrellaIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8206,7 +8889,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-undo.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdUndoIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8218,7 +8902,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-unlock.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdUnlockIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8230,7 +8915,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-videocam.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdVideocamIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8242,7 +8928,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-volume-high.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdVolumeHighIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8254,7 +8941,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-volume-low.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdVolumeLowIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8266,7 +8954,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-volume-mute.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdVolumeMuteIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8278,7 +8967,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-volume-off.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdVolumeOffIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8290,7 +8980,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-walk.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWalkIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8302,7 +8993,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-wallet.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWalletIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8314,7 +9006,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-warning.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWarningIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8326,7 +9019,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-watch.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWatchIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8338,7 +9032,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-water.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWaterIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8350,7 +9045,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-wifi.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWifiIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8362,7 +9058,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-wine.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWineIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
@@ -8374,7 +9071,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/md-woman.js',
-    format: 'cjs'
+    format: 'umd',
+    name: 'MdWomanIcon',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()

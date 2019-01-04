@@ -1,6 +1,7 @@
 import vue from 'rollup-plugin-vue'
 import buble from 'rollup-plugin-buble'
 import bundleSize from 'rollup-plugin-filesize'
+import commonjs from 'rollup-plugin-commonjs'
 import resolve from 'rollup-plugin-node-resolve'
 import css from 'rollup-plugin-css-only'
 import multiEntry from "rollup-plugin-multi-entry"
@@ -11,6 +12,7 @@ const generatePlugins = () => {
   return [
     multiEntry(),
     resolve(),
+    commonjs(),
     css(),
     vue({
       css: false,
@@ -35,7 +37,8 @@ export default [
       vue: 'Vue' 
     },
     file: 'dist/js/{{name}}.js',
-    format: 'cjs'
+    format: 'umd',
+    name: '{{libraryName}}',
   },
   external: Object.keys(pkg.dependencies),
   plugins: generatePlugins()
