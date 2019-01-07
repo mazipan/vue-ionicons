@@ -29,11 +29,11 @@ export default {
     },
     w: {
       type: String,
-      default: '14px'
+      default: '1em'
     },
     h: {
       type: String,
-      default: '14px'
+      default: '1em'
     },
     animate: {
       type: String,

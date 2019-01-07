@@ -182,7 +182,6 @@ generateTemplateData().then((templateData) => {
     commonGenerateFile(iosTemplateData, 'template-js.mst', 'dist/ionicons-ios.js'),
     commonGenerateFile(mdTemplateData, 'template-js.mst', 'dist/ionicons-md.js'),
     commonGenerateFile(logoTemplateData, 'template-js.mst', 'dist/ionicons-logo.js'),
-    commonGenerateFile(templateData, 'template-rollup.mst', 'rollup.config.js'),
     commonGenerateFile(templateData, 'template-app-mixin.mst', 'demo/component-mixin.js'),
     generateVersionFile()
   ]).then(() => {

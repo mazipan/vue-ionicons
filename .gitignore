@@ -59,3 +59,4 @@ typings/
 demo/component-mixin.js
 demo/dist/
 dist/
+rollup.config.bak.js
