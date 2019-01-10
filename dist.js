@@ -178,10 +178,10 @@ generateTemplateData().then((templateData) => {
   Promise.all([
     generateVueFile(templateData),
     commonGenerateFile(templateData, 'template-vue-mixin.mst', 'dist/ionicons-mixin.js'),
-    commonGenerateFile(templateData, 'template-js.mst', 'dist/ionicons.js'),
-    commonGenerateFile(iosTemplateData, 'template-js.mst', 'dist/ionicons-ios.js'),
-    commonGenerateFile(mdTemplateData, 'template-js.mst', 'dist/ionicons-md.js'),
-    commonGenerateFile(logoTemplateData, 'template-js.mst', 'dist/ionicons-logo.js'),
+    commonGenerateFile(templateData, 'template-js-plugin.mst', 'dist/ionicons.js'),
+    commonGenerateFile(iosTemplateData, 'template-js-plugin.mst', 'dist/ionicons-ios.js'),
+    commonGenerateFile(mdTemplateData, 'template-js-plugin.mst', 'dist/ionicons-md.js'),
+    commonGenerateFile(logoTemplateData, 'template-js-plugin.mst', 'dist/ionicons-logo.js'),
     commonGenerateFile(templateData, 'template-app-mixin.mst', 'demo/component-mixin.js'),
     generateVersionFile()
   ]).then(() => {

@@ -1,0 +1,13 @@
+// let libraryName = () => import('./name.vue')
+
+{{#data}}
+import {{libraryName}} from './{{name}}.vue'
+{{/data}}
+
+export default {
+  install: Vue => {
+    {{#data}}
+    Vue.component('{{name}}-icon', {{libraryName}})
+    {{/data}}
+  }
+}

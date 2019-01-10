@@ -79,7 +79,18 @@ Material: ionicons-md.js
 Logo: ionicons-logo.js
 All: ionicons.js
 */
+```
 
+Then you already can use component in your template, component tag is same with filename with adding `-icon` in postfix.
+
+Example:
+
+```html
+<ios-add-circle-outline-icon />
+<ios-add-circle-icon />
+
+<md-add-circle-outline-icon />
+<md-add-circle-icon />
 ```
 
 ## 🔥 API and Props
