@@ -1,6 +1,6 @@
 self.__precacheManifest = [
   {
-    "revision": "69762bd8a58fb18d54dfb2780effb915",
+    "revision": "e3efc9e16f657826e1f28626980416dc",
     "url": "/vue-ionicons/index.html"
   },
   {
@@ -8,15 +8,15 @@ self.__precacheManifest = [
     "url": "/vue-ionicons/assets/js/runtime~index.47353f41.js"
   },
   {
-    "revision": "3c52c142447bb2fca1e5",
-    "url": "/vue-ionicons/assets/js/index.3c52c142.chunk.js"
+    "revision": "e4e3f5cd7e966844b82f",
+    "url": "/vue-ionicons/assets/js/index.e4e3f5cd.chunk.js"
   },
   {
     "revision": "3770092d681e9f792f8f",
     "url": "/vue-ionicons/assets/js/chunk-vendors.3770092d.chunk.js"
   },
   {
-    "revision": "3c52c142447bb2fca1e5",
-    "url": "/vue-ionicons/assets/css/index.3c52c142.chunk.css"
+    "revision": "e4e3f5cd7e966844b82f",
+    "url": "/vue-ionicons/assets/css/index.e4e3f5cd.chunk.css"
   }
 ];
