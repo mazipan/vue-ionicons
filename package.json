@@ -45,7 +45,7 @@
     "poi": "12.7.3",
     "rimraf": "^2.6.3",
     "rollup-plugin-vue": "^4.3.2",
-    "sass-loader": "^7.1.0",
+    "sass-loader": "^8.0.0",
     "shelljs": "^0.8.3",
     "style-loader": "0.23.1",
     "svgo": "^1.1.1",
