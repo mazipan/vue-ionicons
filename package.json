@@ -42,7 +42,7 @@
     "mustache": "^3.0.1",
     "node-sass": "^4.11.0",
     "ora": "^3.0.0",
-    "poi": "12.2.14",
+    "poi": "12.7.3",
     "rimraf": "^2.6.3",
     "rollup-plugin-vue": "^4.3.2",
     "sass-loader": "^7.1.0",
