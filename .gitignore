@@ -58,5 +58,6 @@ typings/
 .env
 # demo/component-mixin.js
 # demo/dist/
-demo
+demo/
+
 rollup.config.bak.js
