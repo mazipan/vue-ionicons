@@ -9,8 +9,7 @@
     "build-demo": "rimraf demo/dist && cross-env NODE_ENV=production ./node_modules/.bin/poi --prod",
     "build-lib": "rimraf dist/js && ./node_modules/.bin/bili --config bili.config.js",
     "dist": "node dist.js && npm run build-lib && npm run build-demo",
-    "deploy": "node ./gh-publish.js",
-    "postinstall": "node ./dist.js"
+    "deploy": "node ./gh-publish.js"
   },
   "files": [
     "dist/**",
