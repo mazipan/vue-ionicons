@@ -38,7 +38,7 @@
     "eslint-plugin-html": "^5.0.0",
     "eslint-plugin-vue": "5.1.0",
     "file-loader": "^3.0.1",
-    "gh-pages": "2.0.1",
+    "gh-pages": "2.1.1",
     "mustache": "^3.0.1",
     "node-sass": "^4.11.0",
     "ora": "^3.0.0",
