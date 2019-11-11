@@ -1,8 +1,16 @@
 <template>
   <div
+    v-if="iconTitle"
     class="ion"
     :class="ionClass"
     :title="iconTitle"
+    name="md-swap-icon">
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M131.3 231.1L32 330.6l99.3 99.4v-74.6h174.5v-49.7H131.3v-74.6zM480 181.4L380.7 82v74.6H206.2v49.7h174.5v74.6l99.3-99.5z"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
     name="md-swap-icon">
     <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M131.3 231.1L32 330.6l99.3 99.4v-74.6h174.5v-49.7H131.3v-74.6zM480 181.4L380.7 82v74.6H206.2v49.7h174.5v74.6l99.3-99.5z"/></svg>
   </div>
@@ -17,7 +25,7 @@ export default {
     IoniconsMixin
   ],
   data () {
-    let iconTitle = this.title ? this.title : "Md Swap Icon"
+    let iconTitle = this.title ? this.title : null
     return {
       iconTitle: iconTitle
     }

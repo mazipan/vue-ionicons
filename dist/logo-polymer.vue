@@ -1,8 +1,16 @@
 <template>
   <div
+    v-if="iconTitle"
     class="ion"
     :class="ionClass"
     :title="iconTitle"
+    name="logo-polymer-icon">
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M392.3 96h-77.9L160.8 348.6 109.9 256l87.7-160h-77.9L32 256l87.7 160h77.9l153.7-252.6 50.8 92.6-87.7 160h77.9L480 256 392.3 96z"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
     name="logo-polymer-icon">
     <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M392.3 96h-77.9L160.8 348.6 109.9 256l87.7-160h-77.9L32 256l87.7 160h77.9l153.7-252.6 50.8 92.6-87.7 160h77.9L480 256 392.3 96z"/></svg>
   </div>
@@ -17,7 +25,7 @@ export default {
     IoniconsMixin
   ],
   data () {
-    let iconTitle = this.title ? this.title : "Logo Polymer Icon"
+    let iconTitle = this.title ? this.title : null
     return {
       iconTitle: iconTitle
     }

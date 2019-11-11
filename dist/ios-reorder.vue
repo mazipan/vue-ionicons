@@ -1,8 +1,16 @@
 <template>
   <div
+    v-if="iconTitle"
     class="ion"
     :class="ionClass"
     :title="iconTitle"
+    name="ios-reorder-icon">
+    <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M80 304h352v16H80zM80 248h352v16H80zM80 192h352v16H80z"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
     name="ios-reorder-icon">
     <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M80 304h352v16H80zM80 248h352v16H80zM80 192h352v16H80z"/></svg>
   </div>
@@ -17,7 +25,7 @@ export default {
     IoniconsMixin
   ],
   data () {
-    let iconTitle = this.title ? this.title : "Ios Reorder Icon"
+    let iconTitle = this.title ? this.title : null
     return {
       iconTitle: iconTitle
     }

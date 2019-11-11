@@ -1,8 +1,16 @@
 <template>
   <div
+    v-if="iconTitle"
     class="ion"
     :class="ionClass"
     :title="iconTitle"
+    name="md-send-icon">
+    <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M48 448l416-192L48 64v149.333L346 256 48 298.667z"/></svg>
+  </div>
+  <div
+    v-else
+    class="ion"
+    :class="ionClass"
     name="md-send-icon">
     <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M48 448l416-192L48 64v149.333L346 256 48 298.667z"/></svg>
   </div>
@@ -17,7 +25,7 @@ export default {
     IoniconsMixin
   ],
   data () {
-    let iconTitle = this.title ? this.title : "Md Send Icon"
+    let iconTitle = this.title ? this.title : null
     return {
       iconTitle: iconTitle
     }
