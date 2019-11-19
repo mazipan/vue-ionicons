@@ -1,0 +1,175 @@
+.ion {
+  display: inline-flex;
+}
+
+.ion__svg {
+  fill: currentColor;
+}
+
+@-webkit-keyframes ionShake {
+	10%,
+	90% {
+		-webkit-transform: translate3d(-1px, 0, 0);
+		-ms-transform: translate3d(-1px, 0, 0);
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%,
+	80% {
+		-webkit-transform: translate3d(2px, 0, 0);
+		-ms-transform: translate3d(2px, 0, 0);
+		transform: translate3d(2px, 0, 0);
+	}
+	30%,
+	50%,
+	70% {
+		-webkit-transform: translate3d(-4px, 0, 0);
+		-ms-transform: translate3d(-4px, 0, 0);
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%,
+	60% {
+		-webkit-transform: translate3d(4px, 0, 0);
+		-ms-transform: translate3d(4px, 0, 0);
+		transform: translate3d(4px, 0, 0);
+	}
+}
+@keyframes ionShake {
+	10%,
+	90% {
+		-webkit-transform: translate3d(-1px, 0, 0);
+		-ms-transform: translate3d(-1px, 0, 0);
+		transform: translate3d(-1px, 0, 0);
+	}
+	20%,
+	80% {
+		-webkit-transform: translate3d(2px, 0, 0);
+		-ms-transform: translate3d(2px, 0, 0);
+		transform: translate3d(2px, 0, 0);
+	}
+	30%,
+	50%,
+	70% {
+		-webkit-transform: translate3d(-4px, 0, 0);
+		-ms-transform: translate3d(-4px, 0, 0);
+		transform: translate3d(-4px, 0, 0);
+	}
+	40%,
+	60% {
+		-webkit-transform: translate3d(4px, 0, 0);
+		-ms-transform: translate3d(4px, 0, 0);
+		transform: translate3d(4px, 0, 0);
+	}
+}
+
+@-webkit-keyframes ionRotate {
+	100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+  }
+}
+@keyframes ionRotate{
+  100% {
+		-webkit-transform: rotate(360deg);
+		-ms-transform: rotate(360deg);
+		transform: rotate(360deg);
+  }
+}
+
+@-webkit-keyframes ionBeat {
+	0% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+	20% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	40% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+	60% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	80% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+	100% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+}
+
+@keyframes ionBeat {
+	0% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+	20% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	40% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+	60% {
+		-webkit-transform: scale(1);
+		-ms-transform: scale(1);
+		transform: scale(1);
+	}
+	80% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+	100% {
+		-webkit-transform: scale(.75);
+		-ms-transform: scale(.75);
+		transform: scale(.75);
+	}
+}
+
+.ion-beat{
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ionBeat;
+  animation-name: ionBeat;
+  -webkit-animation-duration: 0.82s;
+  animation-duration: 0.82s;
+}
+.ion-shake{
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ionShake;
+  animation-name: ionShake;
+  -webkit-animation-duration: 0.82s;
+  animation-duration: 0.82s;
+}
+
+.ion-rotate{
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-name: ionRotate;
+  animation-name: ionRotate;
+  -webkit-animation-duration: 2s;
+  animation-duration: 2s;
+}

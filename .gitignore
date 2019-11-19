@@ -56,7 +56,8 @@ typings/
 
 # dotenv environment variables file
 .env
-demo/component-mixin.js
-demo/dist/
-dist/
+# demo/component-mixin.js
+# demo/dist/
+demo/
+
 rollup.config.bak.js
