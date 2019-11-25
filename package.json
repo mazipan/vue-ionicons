@@ -41,7 +41,7 @@
     "gh-pages": "2.1.1",
     "mustache": "^3.0.1",
     "node-sass": "^4.11.0",
-    "ora": "^3.0.0",
+    "ora": "^4.0.3",
     "poi": "12.7.3",
     "rimraf": "^2.6.3",
     "rollup-plugin-vue": "^4.3.2",
