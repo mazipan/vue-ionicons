@@ -43,7 +43,7 @@
     "node-sass": "^4.11.0",
     "ora": "^3.0.0",
     "poi": "12.7.3",
-    "rimraf": "^2.6.3",
+    "rimraf": "^3.0.1",
     "rollup-plugin-vue": "^4.3.2",
     "sass-loader": "^7.1.0",
     "shelljs": "^0.8.3",
