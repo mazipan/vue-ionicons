@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vue-ionicons/precache-manifest.373ee2cb663eedb664f8d0c83db89a1f.js"
+  "/vue-ionicons/precache-manifest.9bc8978de923c13030542a33667a99ef.js"
 );
 
 /**
