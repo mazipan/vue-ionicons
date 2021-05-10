@@ -3,8 +3,8 @@
     v-if="iconTitle"
     class="ion"
     :class="ionClass"
-    :title="iconTitle"
-    name="md-skip-backward-icon">
+    :data-title="iconTitle"
+    data-name="md-skip-backward-icon">
     <svg :width="w" :height="h" class="ion__svg" viewBox="0 0 512 512"><path d="M170.7 256L448 448V64L170.7 256zM64 64h64v384H64z"/></svg>
   </div>
   <div

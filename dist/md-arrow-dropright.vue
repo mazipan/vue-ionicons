@@ -3,8 +3,8 @@
     v-if="iconTitle"
     class="ion"
     :class="ionClass"
-    :title="iconTitle"
-    name="md-arrow-dropright-icon">
+    :data-title="iconTitle"
+    data-name="md-arrow-dropright-icon">
     <svg viewBox="0 0 512 512"  :width="w" :height="h" class="ion__svg" ><path d="M192 128l128 128-128 128z"/></svg>
   </div>
   <div
