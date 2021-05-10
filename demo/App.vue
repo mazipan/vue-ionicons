@@ -67,7 +67,7 @@
       </div>
 
       <div class="grid__row icons__list">
-        
+
         <section class="grid__row">
           <div class="section__head">
             <h2 class="icon__title-section">App Icon</h2>
@@ -77,8 +77,8 @@
             </ul>
           </div>
           <div class="appicon__wrapper" v-if="isMaterial">
-            <div class="box" 
-              v-for="icon in filteredMdIcons" 
+            <div class="box"
+              v-for="icon in filteredMdIcons"
               :key="icon.name"
               @click="activateIcon(icon)">
               <component :is="icon.name"
@@ -91,8 +91,8 @@
             </div>
           </div>
           <div class="appicon__wrapper" v-if="isIos">
-            <div class="box" 
-              v-for="icon in filteredIosIcons" 
+            <div class="box"
+              v-for="icon in filteredIosIcons"
               :key="icon.name"
               @click="activateIcon(icon)">
               <component :is="icon.name"
@@ -105,14 +105,14 @@
             </div>
           </div>
         </section>
-        
+
         <section class="grid__row">
           <div class="section__head">
             <h2 class="icon__title-section">Logo Icon</h2>
           </div>
           <div class="appicon__wrapper">
-            <div class="box" 
-              v-for="icon in filteredLogoIcons" 
+            <div class="box"
+              v-for="icon in filteredLogoIcons"
               :key="icon.name"
               @click="activateIcon(icon)">
               <component :is="icon.name"
@@ -134,32 +134,13 @@
       <h2>Contribute</h2>
       <p>Feel free to fork <i class="fa fa-code-fork"></i> on <a href="https://github.com/mazipan/vue-ionicons" target="_blank">GitHub <i class="fa fa-github"></i></a> if you have any features <i class="fa fa-cart-plus"></i> or bugs <i class="fa fa-bug"></i>!</p>
 
-      <h2>Contact Developer</h2>
-      <p>
-        <a href="https://github.com/mazipan">
-          <LogoGithubIcon w="30px" h="30px" />
-        </a>
-        <a href="mailto:mazipanneh@gmail.com">
-          <IosMailIcon w="30px" h="30px" />
-        </a>
-        <a href="https://facebook.com/mazipanneh">
-          <LogoFacebookIcon w="30px" h="30px" />
-        </a>
-        <a href="https://twitter.com/Maz_Ipan">
-          <LogoTwitterIcon w="30px" h="30px" />
-        </a>
-        <a href="https://id.linkedin.com/in/irfanmaulanamazipan">
-          <LogoLinkedinIcon w="30px" h="30px" />
-        </a>
-      </p>
-
-      <p>Copyright © 2017 <a href="https://mazipanneh.com/blog/">Irfan Maulana</a>, All Rights Reserved.</p>
+      <p>Copyright © 2017 <a href="https://mazipan.space/">Irfan Maulana</a>, All Rights Reserved.</p>
     </footer>
 
     <section
       :class="{ 'show' : visibleToast }"
       class="toast">
-      <span>import {{ activeIcon.libraryName }} from 'vue-ionicons/dist/{{ activeIcon.name.replace('-icon', '') }}.vue'</span>
+      <input :id="`txt-${activeIcon.libraryName}`" type="text" :value="activeIcon.inputValue" />
     </section>
 
   </div>
@@ -192,7 +173,8 @@ export default {
       activeIcon: {
         libraryName: '',
         name: '',
-        readableName: ''
+				readableName: '',
+				inputValue: ''
       },
       visibleToast: false
     }
@@ -236,8 +218,19 @@ export default {
       }
     },
     activateIcon (icon) {
-      this.activeIcon = icon
-      this.visibleToast = true
+      this.activeIcon = {
+				...icon,
+				inputValue: `import ${icon.libraryName} from 'vue-ionicons/dist/${icon.name.replace('-icon', '')}.vue'`
+			}
+			this.visibleToast = true
+
+      setTimeout(() => {
+					var copyText = document.getElementById(`txt-${icon.libraryName}`);
+					copyText.select();
+					copyText.setSelectionRange(0, 99999);
+					document.execCommand("copy");
+			}, 1000)
+
       setTimeout(() => {
         this.visibleToast = false
       }, 5000)

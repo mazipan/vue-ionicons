@@ -4,8 +4,8 @@
     v-if="iconTitle"
     class="ion"
     :class="ionClass"
-    :title="iconTitle"
-    name="<%name%>-icon">
+    :data-title="iconTitle"
+    data-name="<%name%>-icon">
     <%{svg}%>
   </div>
   <div
